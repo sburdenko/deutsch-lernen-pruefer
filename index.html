@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deutsch Lernen - Lesen Teil 1</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+
+    <div class="app-container">
+        <header>
+            <div class="header-titles">
+                <h1>Deutsch Lernen</h1>
+                <p>Dein Premium-Begleiter für die B1/B2 Prüfung</p>
+            </div>
+            <nav class="top-nav">
+                <button class="nav-tab active" data-module="lesen">Lesen</button>
+                <button class="nav-tab" data-module="hoeren">Hören</button>
+            </nav>
+        </header>
+
+        <main id="main-menu" class="view active">
+            <div class="menu-card glass-panel">
+                <h2>Wähle einen Test</h2>
+                <div id="test-list" class="test-list-container">
+                    <!-- Test buttons will be injected here dynamically -->
+                </div>
+            </div>
+        </main>
+
+        <main id="test-view" class="view">
+            <div class="test-header">
+                <button id="btn-back" class="secondary-btn">← Zurück</button>
+                <h2 id="test-title">Lesen Teil 1</h2>
+            </div>
+
+            <div class="test-content">
+                <!-- Dynamically injected layout depending on Teil 1 or Teil 2 -->
+                <div id="dynamic-test-container"></div>
+
+                <div class="test-controls glass-panel">
+                    <div class="score-display" id="score-display">Punkte: - / 5</div>
+                    <button id="btn-submit" class="primary-btn">Test Auswerten</button>
+                    <div class="hint-wrapper">
+                        <button id="btn-hint" class="secondary-btn">💡 Antworten-Tipp</button>
+                        <div id="hint-tooltip" class="hint-tooltip hidden">
+                            <!-- Hints will be injected here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <div id="tooltip" class="word-tooltip hidden">
+        <div class="tooltip-translation"></div>
+        <div class="tooltip-grammar"></div>
+        <div class="tooltip-beispiel-label">Beispiel:</div>
+        <div class="tooltip-beispiel"></div>
+        <div class="tooltip-synonyms-label hidden">Synonyme:</div>
+        <div class="tooltip-synonyms"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
