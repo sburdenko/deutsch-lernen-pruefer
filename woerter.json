@@ -1,0 +1,4130 @@
+[
+  {
+    "de": "die Anreise",
+    "ru": "поездка",
+    "example_de": "Die Anreise zum Flughafen verlief reibungslos und wir waren pünktlich für unseren Flug.",
+    "example_ru": "Дорога в аэропорт прошла гладко и мы успели на рейс."
+  },
+  {
+    "de": "die Abreise",
+    "ru": "отъезд",
+    "example_de": "Die Abreise aus dem Urlaub war sehr traurig, aber wir haben viele schöne Erinnerungen mitgenommen.",
+    "example_ru": "Уезд из отпуска был очень грустным, но мы унесли с собой много красивых воспоминаний."
+  },
+  {
+    "de": "der Besprechungsraum",
+    "ru": "переговорная комната",
+    "example_de": "Ich habe den Besprechungsraum für unser nächstes Teammeeting reserviert.",
+    "example_ru": "Я зарезервировал переговорную комнату для нашего следующего собрания команды."
+  },
+  {
+    "de": "die Buchungsbestätigung",
+    "ru": "подтверждение бронирования",
+    "example_de": "Nach der Buchung erhalten Sie eine Buchungsbestätigung per E-Mail.",
+    "example_ru": "После бронирования вы получите подтверждение бронирования по электронной почте."
+  },
+  {
+    "de": "das Doppelzimmer",
+    "ru": "двухместный номер",
+    "example_de": "Wir haben ein Doppelzimmer für zwei Nächte im Hotel gebucht.",
+    "example_ru": "Мы забронировали двухместный номер на две ночи в отеле."
+  },
+  {
+    "de": "das Einzelzimmer",
+    "ru": "одноместный номер",
+    "example_de": "Ich habe ein Einzelzimmer für meine Geschäftsreise gebucht.",
+    "example_ru": "Я забронировал одноместный номер для своей командировки."
+  },
+  {
+    "de": "die Fahrgemeinschaft",
+    "ru": "совместная эксплуатация автомобиля",
+    "example_de": "Wir haben eine Fahrgemeinschaft gebildet, um gemeinsam zur Arbeit zu fahren und die Umwelt zu schonen.",
+    "example_ru": "Мы организовали совместную поездку на работу, чтобы защитить окружающую среду."
+  },
+  {
+    "de": "die Flugverbindung",
+    "ru": "авиасообщение",
+    "example_de": "Die Flugverbindung zwischen Berlin und München ist sehr gut.",
+    "example_ru": "Соединение авиалиний между Берлином и Мюнхеном очень хорошее."
+  },
+  {
+    "de": "das Gewerbegebiet",
+    "ru": "промышленная зона",
+    "example_de": "In das Gewerbegebiet werden in den nächsten Jahren viele neue Unternehmen ziehen.",
+    "example_ru": "В ближайшие годы в промышленной зоне появятся множество новых компаний."
+  },
+  {
+    "de": "das Meeting",
+    "ru": "встреча",
+    "example_de": "Das Meeting mit den Geschäftspartnern findet nächste Woche in Frankfurt statt.",
+    "example_ru": "Встреча с деловыми партнерами состоится на следующей неделе во Франкфурте."
+  },
+  {
+    "de": "das Mietauto",
+    "ru": "арендованный автомобиль",
+    "example_de": "Wir haben uns für den Urlaub ein Mietauto reserviert.",
+    "example_ru": "Мы арендовали машину на время отпуска."
+  },
+  {
+    "de": "die Parkmöglichkeit",
+    "ru": "место для парковки",
+    "example_de": "Die Parkmöglichkeiten in der Innenstadt sind begrenzt.",
+    "example_ru": "Возможности для парковки в центре города ограничены."
+  },
+  {
+    "de": "das Tagungshotel",
+    "ru": "конференц-отель",
+    "example_de": "Das Tagungshotel bietet moderne Konferenzräume und einen ausgezeichneten Service.",
+    "example_ru": "Конференц-отель предлагает современные конференц-залы и отличный сервис."
+  },
+  {
+    "de": "die Tiefgarage",
+    "ru": "подземный гараж",
+    "example_de": "Das Hotel verfügt über eine Tiefgarage, in der Gäste ihr Auto sicher abstellen können.",
+    "example_ru": "В отеле есть подземный паркинг, где гости могут безопасно оставить свой автомобиль."
+  },
+  {
+    "de": "die Zimmerkategorie",
+    "ru": "категория номера",
+    "example_de": "Das Hotel bietet verschiedene Zimmerkategorien an, von Standard- bis hin zu Luxus-Zimmern.",
+    "example_ru": "В отеле предлагаются различные категории номеров, от стандартных до роскошных."
+  },
+  {
+    "de": "die Hotelkategorie",
+    "ru": "категория отеля",
+    "example_de": "Die Hotelkategorie wird anhand der Ausstattung und Serviceleistungen des Hotels bestimmt.",
+    "example_ru": "Категория отеля определяется по оборудованию и сервисным услугам, предоставляемым в отеле."
+  },
+  {
+    "de": "auf Montage fahren",
+    "ru": "ехать в командировку",
+    "example_de": "Mein Vater muss nächste Woche auf Montage fahren und wird für drei Wochen nicht zu Hause sein.",
+    "example_ru": "Мой отец должен поехать в командировку на следующей неделе и не будет дома в течение трех недель. Arbeitsabläufe"
+  },
+  {
+    "de": "die Arbeitsplatzbeschreibung",
+    "ru": "описание рабочего места",
+    "example_de": "In der Arbeitsplatzbeschreibung sind die Aufgaben und Anforderungen für die Stelle detailliert aufgeführt.",
+    "example_ru": "В должностной инструкции подробно описаны задачи и требования к должности."
+  },
+  {
+    "de": "die Qualitätssicherung",
+    "ru": "контроль качества",
+    "example_de": "Die Qualitätssicherung ist ein wichtiger Bestandteil des Produktionsprozesses.",
+    "example_ru": "Контроль качества является важной частью производственного процесса."
+  },
+  {
+    "de": "die Richtlinien",
+    "ru": "директивы",
+    "example_de": "Die Richtlinien müssen strikt eingehalten werden, um eine hohe Qualität zu gewährleisten.",
+    "example_ru": "Необходимо строго соблюдать правила, чтобы обеспечить высокое качество."
+  },
+  {
+    "de": "der Vorarbeiter",
+    "ru": "рабочий",
+    "example_de": "Der Vorarbeiter ist für die Koordination der Arbeitsschritte zuständig.",
+    "example_ru": "Рабочий отвечает за координацию рабочих процессов."
+  },
+  {
+    "de": "das Vorgehen",
+    "ru": "образ действий",
+    "example_de": "Das Vorgehen bei der Fehlerbehebung muss sorgfältig geplant werden.",
+    "example_ru": "Подход к устранению ошибок должен быть тщательно спланирован."
+  },
+  {
+    "de": "Arbeitsabläufe regeln",
+    "ru": "регулировать рабочие процессы",
+    "example_de": "Es ist wichtig, klare Regeln für die Arbeitsabläufe zu definieren.",
+    "example_ru": "Важно определить четкие правила для регулирования рабочих процессов."
+  },
+  {
+    "de": "Anweisungen verstehen",
+    "ru": "понимать инструкции",
+    "example_de": "Um die Arbeit richtig ausführen zu können, ist es wichtig, Anweisungen zu verstehen.",
+    "example_ru": "Чтобы правильно выполнить работу, важно понимать инструкции."
+  },
+  {
+    "de": "Arbeitsabschnitte kleinschrittig festhalten",
+    "ru": "записывать рабочие шаги поэтапно",
+    "example_de": "Um den Überblick über den Arbeitsprozess zu behalten, sollten die Arbeitsabschnitte kleinschrittig festgehalten werden.",
+    "example_ru": "Чтобы сохранить обзорность процесса работы, необходимо детально фиксировать этапы работы."
+  },
+  {
+    "de": "auf einem Stick speichern",
+    "ru": "сохранить на флэшку",
+    "example_de": "Um die Daten zu sichern, sollten Sie sie auf einem Stick speichern.",
+    "example_ru": "Чтобы сохранить данные, следует сохранить их на флеш-накопитель."
+  },
+  {
+    "de": "einen Bericht vorlegen",
+    "ru": "предоставить отчет",
+    "example_de": "Ich muss morgen einen Bericht vorlegen, deshalb arbeite ich heute Überstunden.",
+    "example_ru": "Я должен представить отчет завтра, поэтому сегодня работаю сверхурочно."
+  },
+  {
+    "de": "Ergebnisse präsentieren",
+    "ru": "представить результаты",
+    "example_de": "Wir müssen unsere Ergebnisse präsentieren, um unsere Arbeit zu rechtfertigen.",
+    "example_ru": "Мы должны представить наши результаты, чтобы обосновать нашу работу."
+  },
+  {
+    "de": "gemeinsam durchgehen",
+    "ru": "преодолевать что- либо вместе",
+    "example_de": "Lass uns das Projekt gemeinsam durchgehen und sehen, was verbessert werden kann.",
+    "example_ru": "Давайте вместе пройдемся по проекту и посмотрим, что можно улучшить."
+  },
+  {
+    "de": "eine Grafik einpflegen",
+    "ru": "заполнять график",
+    "example_de": "Ich muss in meine Präsentation eine Grafik einpflegen.",
+    "example_ru": "Я должен вставить график в свою презентацию."
+  },
+  {
+    "de": "den Laptop herunterfahren",
+    "ru": "выключать ноутбук",
+    "example_de": "Ich werde den Laptop herunterfahren, bevor ich gehe.",
+    "example_ru": "Я выключу ноутбук, прежде чем уйти."
+  },
+  {
+    "de": "einen Probedurchlauf machen",
+    "ru": "осуществлять пробный запуск",
+    "example_de": "Bevor wir mit der eigentlichen Produktion beginnen, müssen wir einen Probedurchlauf machen.",
+    "example_ru": "Прежде чем начать фактическое производство, нам нужно провести тестовый запуск."
+  },
+  {
+    "de": "eine Sicherungskopie machen",
+    "ru": "делать резервную копию",
+    "example_de": "Ich werde vor der Installation eine Sicherungskopie machen.",
+    "example_ru": "Я сделаю резервную копию перед установкой."
+  },
+  {
+    "de": "eine Tätigkeit schriftlich dokumentieren",
+    "ru": "письменно документировать деятельность",
+    "example_de": "Es ist wichtig, jede Tätigkeit schriftlich zu dokumentieren.",
+    "example_ru": "Важно письменно документировать каждую деятельность."
+  },
+  {
+    "de": "Unterlagen zusammenstellen",
+    "ru": "составлять документы",
+    "example_de": "Ich werde die Unterlagen für die Präsentation zusammenstellen.",
+    "example_ru": "Я соберу документы для презентации."
+  },
+  {
+    "de": "Vorbereitungen treffen",
+    "ru": "совершать приготовления",
+    "example_de": "Wir müssen Vorbereitungen treffen, bevor wir mit dem Projekt beginnen können.",
+    "example_ru": "Мы должны подготовиться, прежде чем начать проект. Situationen und Reaktionen"
+  },
+  {
+    "de": "absagen",
+    "ru": "отказать",
+    "example_de": "Ich muss das Treffen absagen, da ich krank geworden bin.",
+    "example_ru": "Я должен отменить встречу, так как заболел."
+  },
+  {
+    "de": "um etwas bitten",
+    "ru": "попросить о чем-либо",
+    "example_de": "Kann ich Sie um ein paar Minuten Ihrer Zeit bitten?",
+    "example_ru": "Могу я попросить у вас несколько минут вашего времени?"
+  },
+  {
+    "de": "einen Gegenvorschlag machen",
+    "ru": "делать контрпредложение",
+    "example_de": "Ich kann Ihren Vorschlag nicht akzeptieren, aber ich kann einen Gegenvorschlag machen.",
+    "example_ru": "Я не могу принять ваше предложение, но могу сделать встречное предложение."
+  },
+  {
+    "de": "seine Meinung ausdrücken",
+    "ru": "высказывать свое мнение",
+    "example_de": "Es ist wichtig, dass jeder seine Meinung ausdrücken kann.",
+    "example_ru": "Важно, чтобы каждый мог высказать свое мнение."
+  },
+  {
+    "de": "nachfragen",
+    "ru": "переспрашивать",
+    "example_de": "Ich werde beim Chef nachfragen, ob das möglich ist.",
+    "example_ru": "Я спрошу у начальника, возможно ли это."
+  },
+  {
+    "de": "zustimmen",
+    "ru": "согласиться",
+    "example_de": "Ich stimme Ihrem Vorschlag zu.",
+    "example_ru": "Я согласен с вашим предложением."
+  },
+  {
+    "de": "einverstanden sein",
+    "ru": "соглашаться",
+    "example_de": "Ich bin mit deinem Vorschlag einverstanden.",
+    "example_ru": "Я согласен с твоим предложением. Auf der Messe"
+  },
+  {
+    "de": "der Aufkleber",
+    "ru": "наклейка",
+    "example_de": "Kannst du mir bitte den Aufkleber geben?",
+    "example_ru": "Можешь ли ты дать мне наклейку?"
+  },
+  {
+    "de": "der Aussteller",
+    "ru": "участник выставки",
+    "example_de": "Der Aussteller der Messe hat uns viele Informationen über das Produkt gegeben.",
+    "example_ru": "Участник на выставке предоставил нам много информации о продукте."
+  },
+  {
+    "de": "die Broschüre",
+    "ru": "брошюра",
+    "example_de": "Kannst du mir bitte die Broschüre geben?",
+    "example_ru": "Можешь ли ты дать мне брошюру?"
+  },
+  {
+    "de": "das Datenblatt",
+    "ru": "технический паспорт",
+    "example_de": "Ich brauche das Datenblatt, um mehr Informationen über das Produkt zu bekommen.",
+    "example_ru": "Мне нужен технический паспорт, чтобы получить больше информации о продукте."
+  },
+  {
+    "de": "das Detail",
+    "ru": "деталь",
+    "example_de": "Ich möchte gerne mehr Details über das Angebot erfahren.",
+    "example_ru": "Я хочу узнать больше деталей об этом предложении."
+  },
+  {
+    "de": "die Dienstleistung",
+    "ru": "услуга",
+    "example_de": "Unsere Firma bietet eine breite Palette von Dienstleistungen an.",
+    "example_ru": "Наша компания предлагает широкий спектр услуг."
+  },
+  {
+    "de": "der Flyer",
+    "ru": "флайер",
+    "example_de": "Kannst du mir bitte den Flyer geben?",
+    "example_ru": "Можешь ли ты дать мне листовку?"
+  },
+  {
+    "de": "das Give-away",
+    "ru": "раздаточный материал",
+    "example_de": "Auf der Messe gab es viele Give- aways wie Kugelschreiber, Notizblöcke und Schlüsselanhänger.",
+    "example_ru": "На выставке было много подарков, таких как ручки, блокноты и брелки."
+  },
+  {
+    "de": "der Großhändler",
+    "ru": "оптовик",
+    "example_de": "Unser Unternehmen arbeitet mit verschiedenen Großhändlern zusammen, um eine breitere Produktpalette anbieten zu können.",
+    "example_ru": "Наша компания сотрудничает с различными оптовиками, чтобы предложить более широкий ассортимент продукции."
+  },
+  {
+    "de": "der Katalog",
+    "ru": "каталог",
+    "example_de": "Ich habe den Katalog des Lieferanten durchgesehen und interessante Produkte gefunden.",
+    "example_ru": "Я просмотрел каталог поставщика и нашел интересные продукты."
+  },
+  {
+    "de": "die Leistungsschau",
+    "ru": "выставка достижений",
+    "example_de": "Die Leistungsschau war ein großartiger Erfolg, da viele Besucher die Produkte und Dienstleistungen unserer Firma kennenlernen konnten.",
+    "example_ru": "Выставка имела большой успех, так как многие посетители смогли ознакомиться с продукцией и услугами нашей компании."
+  },
+  {
+    "de": "das Logo",
+    "ru": "логотип",
+    "example_de": "Das Logo der Firma ist sehr ansprechend gestaltet.",
+    "example_ru": "Логотип компании очень привлекательно оформлен."
+  },
+  {
+    "de": "das Muster",
+    "ru": "образец",
+    "example_de": "Ich habe das Muster für das neue Kleid bereits ausgesucht.",
+    "example_ru": "Я уже выбрала образец для нового платья."
+  },
+  {
+    "de": "das Poster",
+    "ru": "постер",
+    "example_de": "Das Poster von meinem Lieblingsfilm hängt an der Wand.",
+    "example_ru": "Плакат моего любимого фильма висит на стене."
+  },
+  {
+    "de": "der Prospektständer",
+    "ru": "стенд с проспектами",
+    "example_de": "Der Prospektständer steht im Eingangsbereich des Ladens.",
+    "example_ru": "Стенд с проспектами стоит в зоне входа в магазин."
+  },
+  {
+    "de": "der Stand",
+    "ru": "стенд",
+    "example_de": "Auf der Messe haben wir einen Stand, um unsere Produkte zu präsentieren.",
+    "example_ru": "На выставке у нас есть стенд, чтобы представить нашу продукцию."
+  },
+  {
+    "de": "das Start-up-Unternehmen",
+    "ru": "стартап-компания",
+    "example_de": "Das Start-up-Unternehmen hat viel Potenzial, um erfolgreich zu sein.",
+    "example_ru": "Стартап-компания имеет большой потенциал, чтобы быть успешной."
+  },
+  {
+    "de": "die To-do-Liste",
+    "ru": "список дел",
+    "example_de": "Ich habe auf meiner To-do-Liste noch viele wichtige Aufgaben, die erledigt werden müssen.",
+    "example_ru": "У меня в списке дел еще много важных задач, которые нужно выполнить."
+  },
+  {
+    "de": "der Veranstalter",
+    "ru": "организатор",
+    "example_de": "Der Veranstalter des Konzerts hat alles perfekt organisiert.",
+    "example_ru": "Организатор концерта все идеально организовал."
+  },
+  {
+    "de": "die Visitenkarte",
+    "ru": "визитная карточка",
+    "example_de": "Ich habe meine Visitenkarten gestern neu gestaltet.",
+    "example_ru": "Вчера я переработал свои визитки."
+  },
+  {
+    "de": "das Werbegeschenk",
+    "ru": "рекламный сувенир",
+    "example_de": "Das Werbegeschenk hat den Kunden sehr gefallen und sie haben sich darüber gefreut.",
+    "example_ru": "Рекламный сувенир очень понравился клиентам и они обрадовались ему."
+  },
+  {
+    "de": "der Wettbewerber",
+    "ru": "конкурент",
+    "example_de": "Unser Unternehmen muss sich gegen starke Wettbewerber durchsetzen, um am Markt erfolgreich zu sein.",
+    "example_ru": "Нашей компании нужно противостоять сильным конкурентам, чтобы быть успешной на рынке."
+  },
+  {
+    "de": "die aktuelle Situation auf dem Markt",
+    "ru": "текущая ситуация на рынке",
+    "example_de": "Die aktuelle Situation auf dem Markt ist sehr unsicher und viele Unternehmen haben mit Umsatzrückgängen zu kämpfen.",
+    "example_ru": "Текущая ситуация на рынке очень нестабильна и многие компании сталкиваются с падением объемов продаж."
+  },
+  {
+    "de": "innovativ",
+    "ru": "инновационный",
+    "example_de": "Dieses Unternehmen ist sehr innovativ und bringt regelmäßig neue Produkte auf den Markt.",
+    "example_ru": "Эта компания очень инновационна и регулярно выпускает новые продукты на рынок."
+  },
+  {
+    "de": "einzigartig",
+    "ru": "уникальный",
+    "example_de": "Dieses Kunstwerk ist wirklich einzigartig und hat eine unglaubliche Ausstrahlung.",
+    "example_ru": "Это произведение искусства действительно уникально и обладает невероятным очарованием."
+  },
+  {
+    "de": "wettbewerbsfähig",
+    "ru": "конкурентоспособный",
+    "example_de": "Unser Unternehmen ist wettbewerbsfähig und kann mit anderen Marktteilnehmern erfolgreich konkurrieren.",
+    "example_ru": "Наша компания конкурентоспособна и может успешно конкурировать с другими участниками рынка."
+  },
+  {
+    "de": "Angebote vergleichen",
+    "ru": "сравнивать предложения",
+    "example_de": "Bevor Sie eine Kaufentscheidung treffen, sollten Sie immer die Angebote vergleichen, um das beste Angebot zu finden.",
+    "example_ru": "Прежде чем принимать решение о покупке, всегда следует сравнивать предложения, чтобы найти лучшее предложение."
+  },
+  {
+    "de": "keine Zeit verschwenden",
+    "ru": "не терять времени",
+    "example_de": "Wenn Sie Ihre Ziele erreichen möchten, sollten Sie keine Zeit verschwenden und sich auf das konzentrieren, was wirklich wichtig ist.",
+    "example_ru": "Если вы хотите достичь своих целей, то не следует тратить время на пустые занятия и сосредоточиться на том, что действительно важно."
+  },
+  {
+    "de": "Präsenz zeigen",
+    "ru": "быть представленным",
+    "example_de": "Um im Geschäft erfolgreich zu sein, ist es wichtig, Präsenz zu zeigen und bei wichtigen Ereignissen und Meetings anwesend zu sein.",
+    "example_ru": "Чтобы добиться успеха в бизнесе, важно проявлять присутствие и присутствовать на важных мероприятиях и встречах."
+  },
+  {
+    "de": "eine Preisliste beilegen",
+    "ru": "прилагать прайс-лист",
+    "example_de": "Wir haben Ihnen eine Preisliste beigefügt, damit Sie sich über unsere Produkte und deren Kosten informieren können.",
+    "example_ru": "Мы приложили к письму прайс-лист, чтобы вы могли ознакомиться с нашей продукцией и ее стоимостью."
+  },
+  {
+    "de": "Produkte präsentieren",
+    "ru": "представлять продукты",
+    "example_de": "Wir werden auf der Messe unsere neuesten Produkte präsentieren und den Besuchern die Gelegenheit geben, sie aus erster Hand kennenzulernen.",
+    "example_ru": "Мы будем представлять на выставке наши новейшие продукты и предоставим посетителям возможность познакомиться с ними из первых рук."
+  },
+  {
+    "de": "sich über Trends informieren",
+    "ru": "знакомиться с тенденциями",
+    "example_de": "Um wettbewerbsfähig zu bleiben, sollten Sie sich regelmäßig über die neuesten Trends in Ihrer Branche informieren.",
+    "example_ru": "Чтобы оставаться конкурентоспособным, следует регулярно информироваться о последних тенденциях в вашей отрасли."
+  },
+  {
+    "de": "Umsatz machen",
+    "ru": "обеспечивать оборот",
+    "example_de": "Unser Unternehmen konnte im letzten Quartal einen hohen Umsatz machen.",
+    "example_ru": "Наша компания смогла за последний квартал сделать высокий оборот. Verkaufsgespräche"
+  },
+  {
+    "de": "die Absage",
+    "ru": "отказ",
+    "example_de": "Leider haben wir heute die Absage von unserem wichtigsten Kunden erhalten.",
+    "example_ru": "К сожалению, сегодня мы получили отказ от нашего самого важного клиента."
+  },
+  {
+    "de": "die Zusage",
+    "ru": "согласие",
+    "example_de": "Ich freue mich sehr über die Zusage für den neuen Job.",
+    "example_ru": "Я очень рад полученному подтверждению на новую работу."
+  },
+  {
+    "de": "die Filiale",
+    "ru": "филиал",
+    "example_de": "Ich gehe heute in die Filiale unserer Bank, um meine Kontoauszüge abzuholen.",
+    "example_ru": "Сегодня я иду в филиал нашего банка, чтобы забрать выписки со счета."
+  },
+  {
+    "de": "die Qualität",
+    "ru": "качество",
+    "example_de": "Die Qualität unserer Produkte ist sehr hoch und wird von unseren Kunden geschätzt.",
+    "example_ru": "Качество наших продуктов очень высокое и оно оценивается нашими клиентами."
+  },
+  {
+    "de": "die Saison",
+    "ru": "сезон",
+    "example_de": "In der Saison kommen viele Touristen in die Stadt, um die Sehenswürdigkeiten zu besichtigen.",
+    "example_ru": "В сезон многие туристы приезжают в город, чтобы посмотреть достопримечательности."
+  },
+  {
+    "de": "die Wartung",
+    "ru": "техническое обслуживание",
+    "example_de": "Die regelmäßige Wartung der Maschinen ist wichtig, um einen reibungslosen Betrieb zu gewährleisten.",
+    "example_ru": "Регулярное обслуживание машин важно, чтобы обеспечить безупречную работу."
+  },
+  {
+    "de": "die Liefer- und Zahlungsbedingungen",
+    "ru": "условия поставки и оплаты",
+    "example_de": "Vor dem Kauf sollte man sich unbedingt über die Liefer- und Zahlungsbedingungen des Online- Shops informieren.",
+    "example_ru": "Перед покупкой обязательно нужно ознакомиться с условиями доставки и оплаты в интернет-магазине."
+  },
+  {
+    "de": "Einzelheiten besprechen",
+    "ru": "обсуждать подробности",
+    "example_de": "Wir sollten uns treffen, um die Einzelheiten des Projekts zu besprechen.",
+    "example_ru": "Мы должны встретиться, чтобы обсудить детали проекта."
+  },
+  {
+    "de": "gezielte Fragen stellen",
+    "ru": "задавать точные вопросы",
+    "example_de": "Um mehr Informationen zu erhalten, ist es wichtig, gezielte Fragen zu stellen.",
+    "example_ru": "Чтобы получить дополнительную информацию, важно задавать целевые вопросы."
+  },
+  {
+    "de": "Notizen machen",
+    "ru": "делать примечания",
+    "example_de": "Während des Meetings werde ich Notizen machen, um später alles zusammenzufassen.",
+    "example_ru": "Во время встречи я буду делать заметки, чтобы позже все свести вместе."
+  },
+  {
+    "de": "sich eine praktische Lösung ausdenken",
+    "ru": "придумывать практичное решение",
+    "example_de": "Ich muss mir eine praktische Lösung ausdenken, um dieses Problem zu lösen.",
+    "example_ru": "Мне нужно придумать практичное решение, чтобы решить эту проблему."
+  },
+  {
+    "de": "Rückfragen stellen",
+    "ru": "задавать уточняющие вопросы",
+    "example_de": "Wenn Sie Rückfragen haben, können Sie sich gerne an mich wenden.",
+    "example_ru": "Если у вас есть вопросы, вы можете обратиться ко мне."
+  },
+  {
+    "de": "sich auf das Gespräch konzentrieren",
+    "ru": "концентрироваться на разговоре",
+    "example_de": "Ich versuche, mich auf das Gespräch zu konzentrieren und nicht abgelenkt zu werden.",
+    "example_ru": "Я пытаюсь сосредоточиться на разговоре и не отвлекаться. Angebote"
+  },
+  {
+    "de": "die Anfrage",
+    "ru": "запрос",
+    "example_de": "Ich habe die Anfrage erhalten und werde diese schnellstmöglich bearbeiten.",
+    "example_ru": "Я получил запрос и как можно скорее его обработаю."
+  },
+  {
+    "de": "der Eilzuschlag",
+    "ru": "доплата",
+    "example_de": "Wenn Sie möchten, können Sie einen Eilzuschlag bezahlen, um die Lieferung schneller zu erhalten.",
+    "example_ru": "Если вы хотите, вы можете заплатить дополнительную плату за экспресс-доставку, чтобы получить доставку быстрее."
+  },
+  {
+    "de": "der Gesamtpreis",
+    "ru": "общая стоимость",
+    "example_de": "Der Gesamtpreis für die Bestellung beträgt 50 Euro, inklusive Versandkosten.",
+    "example_ru": "Общая стоимость заказа составляет 50 евро, включая стоимость доставки."
+  },
+  {
+    "de": "das Mailing",
+    "ru": "рассылка",
+    "example_de": "Wir haben das Mailing gestern verschickt und erwarten eine positive Rückmeldung von den Kunden.",
+    "example_ru": "Мы отправили рассылку вчера и ожидаем положительного ответа от клиентов."
+  },
+  {
+    "de": "der Nettopreis",
+    "ru": "цена нетто",
+    "example_de": "Der Nettopreis beträgt 100 Euro, ohne Mehrwertsteuer.",
+    "example_ru": "Цена без НДС составляет 100 евро."
+  },
+  {
+    "de": "der Bruttopreis",
+    "ru": "цена брутто",
+    "example_de": "Der Bruttopreis für dieses Produkt beträgt 120 Euro, inklusive Mehrwertsteuer.",
+    "example_ru": "Брутто-цена на этот продукт составляет 120 евро, включая НДС."
+  },
+  {
+    "de": "die Neukundengewinnung",
+    "ru": "привлечение новых клиентов",
+    "example_de": "Unser Unternehmen setzt auf die Neukundengewinnung durch gezieltes Marketing und eine ansprechende Produktpräsentation.",
+    "example_ru": "Наша компания ориентируется на привлечение новых клиентов через целенаправленный маркетинг и привлекательную презентацию продукта."
+  },
+  {
+    "de": "der Sonderwunsch",
+    "ru": "особое пожелание",
+    "example_de": "Für Sonderwünsche unserer Kunden haben wir immer ein offenes Ohr und versuchen, diese bestmöglich zu erfüllen.",
+    "example_ru": "Мы всегда открыты к особым пожеланиям наших клиентов и стараемся выполнить их наилучшим образом."
+  },
+  {
+    "de": "das unverbindliche Angebot",
+    "ru": "необязывающее предложение",
+    "example_de": "Ich habe ein unverbindliches Angebot für dich.",
+    "example_ru": "У меня есть для вас ни к чему не обязывающее предложение."
+  },
+  {
+    "de": "das Angebot ist gültig bis …",
+    "ru": "предложение действительно до …",
+    "example_de": "Das Angebot ist gültig bis zum",
+    "example_ru": ""
+  },
+  {
+    "de": "Dezember.",
+    "ru": "Предложение действительно до 31 декабря.",
+    "example_de": "",
+    "example_ru": ""
+  },
+  {
+    "de": "ein Angebot unterbreiten",
+    "ru": "представлять предложение",
+    "example_de": "Ich möchte Ihnen gerne ein Angebot unterbreiten.",
+    "example_ru": "Я хотел бы сделать вам предложение."
+  },
+  {
+    "de": "ein Angebot verhandeln",
+    "ru": "рассматривать предложение",
+    "example_de": "Wir müssen das Angebot noch verhandeln, um eine für beide Seiten akzeptable Lösung zu finden.",
+    "example_ru": "Нам нужно еще обсудить предложение, чтобы найти решение, которое будет приемлемо для обеих сторон."
+  },
+  {
+    "de": "zuzüglich der gesetzlich geltenden Mehrwertsteuer",
+    "ru": "плюс законодательно предусмотренный НДС",
+    "example_de": "Der Preis beträgt 100 Euro zuzüglich der gesetzlich geltenden Mehrwertsteuer.",
+    "example_ru": "Цена составляет 100 евро плюс налог на добавленную стоимость, установленный законом."
+  },
+  {
+    "de": "inklusive der gesetzlich geltenden Mehrwertsteuer",
+    "ru": "включая законодательно предусмотренный НДС",
+    "example_de": "Der Preis beträgt 120 Euro inklusive der gesetzlich geltenden Mehrwertsteuer.",
+    "example_ru": "Цена составляет 120 евро, включая налог на добавленную стоимость, установленный законом. Allgemeine Geschäftsbedingungen (AGB)"
+  },
+  {
+    "de": "die Lieferkosten",
+    "ru": "расходы на доставку",
+    "example_de": "Die Lieferkosten sind in diesem Angebot nicht enthalten.",
+    "example_ru": "Стоимость доставки не включена в это предложение."
+  },
+  {
+    "de": "der Preisnachlass",
+    "ru": "снижение цены",
+    "example_de": "Wir gewähren Ihnen einen Preisnachlass von 10% auf den ursprünglichen Preis.",
+    "example_ru": "Мы предоставляем вам скидку в 10% от первоначальной цены."
+  },
+  {
+    "de": "der Rabatt",
+    "ru": "скидка",
+    "example_de": "Wenn Sie jetzt bestellen, erhalten Sie einen Rabatt von 20%.",
+    "example_ru": "Если вы сделаете заказ сейчас, вы получите скидку в 20%."
+  },
+  {
+    "de": "die Ratenzahlung",
+    "ru": "рассрочка",
+    "example_de": "Wir bieten Ihnen die Möglichkeit der Ratenzahlung an.",
+    "example_ru": "Мы предлагаем вам возможность оплаты в рассрочку."
+  },
+  {
+    "de": "das Skonto",
+    "ru": "скидка",
+    "example_de": "Bei Zahlung innerhalb von 10 Tagen gewähren wir Ihnen 2% Skonto.",
+    "example_ru": "При оплате в течение 10 дней мы предоставляем вам скидку в 2%."
+  },
+  {
+    "de": "die Vorauszahlung",
+    "ru": "предоплата",
+    "example_de": "Wir bitten um eine Vorauszahlung in Höhe von 50% des Gesamtbetrags.",
+    "example_ru": "Мы просим предоплату в размере 50% от общей суммы."
+  },
+  {
+    "de": "der Werktag",
+    "ru": "рабочий день",
+    "example_de": "Ich arbeite an jedem Werktag.",
+    "example_ru": "Я работаю каждый рабочий день."
+  },
+  {
+    "de": "ab Werk",
+    "ru": "с завода",
+    "example_de": "Das Auto kann ab Werk konfiguriert werden.",
+    "example_ru": "Автомобиль может быть настроен с завода."
+  },
+  {
+    "de": "bei Erhalt der Ware",
+    "ru": "при получении товара",
+    "example_de": "Die Zahlung erfolgt bei Erhalt der Ware.",
+    "example_ru": "Оплата производится при получении товара."
+  },
+  {
+    "de": "die Ware umtauschen",
+    "ru": "заменить товар",
+    "example_de": "Ich möchte die Ware umtauschen, weil sie defekt ist.",
+    "example_ru": "Я хочу обменять товар, потому что он неисправен."
+  },
+  {
+    "de": "frei Grenze",
+    "ru": "свободная граница",
+    "example_de": "Die Ware wird frei Grenze geliefert.",
+    "example_ru": "Товар доставляется свободно до границы."
+  },
+  {
+    "de": "frei Haus",
+    "ru": "с доставкой на дом",
+    "example_de": "Die Lieferung erfolgt frei Haus.",
+    "example_ru": "Доставка осуществляется бесплатно до двери."
+  },
+  {
+    "de": "keine Garantie übernehmen",
+    "ru": "не брать на себя гарантий",
+    "example_de": "Wir können keine Garantie übernehmen, dass das Produkt Ihren Anforderungen entspricht.",
+    "example_ru": "Мы не можем гарантировать, что продукт соответствует вашим требованиям."
+  },
+  {
+    "de": "im Anhang",
+    "ru": "во вложении",
+    "example_de": "Ich habe Ihnen die benötigten Informationen im Anhang der E-Mail geschickt.",
+    "example_ru": "Я отправил вам необходимую информацию в приложении к письму. Aufträge und Bestellungen"
+  },
+  {
+    "de": "der Versand",
+    "ru": "отправка",
+    "example_de": "Der Versand der Bestellung erfolgt innerhalb von 2 Werktagen.",
+    "example_ru": "Отправка заказа производится в течение 2 рабочих дней."
+  },
+  {
+    "de": "frühestens",
+    "ru": "самое раннее",
+    "example_de": "Das Paket kann frühestens am nächsten Werktag geliefert werden.",
+    "example_ru": "Посылка может быть доставлена не раньше следующего рабочего дня."
+  },
+  {
+    "de": "höchstens",
+    "ru": "самое позднее",
+    "example_de": "Die Lieferung dauert höchstens 5 Werktage.",
+    "example_ru": "Доставка займет не более 5 рабочих дней."
+  },
+  {
+    "de": "mindestens",
+    "ru": "не менее",
+    "example_de": "Die Bestellung muss mindestens einen Tag im Voraus aufgegeben werden.",
+    "example_ru": "Заказ должен быть оформлен минимум за день до выполнения."
+  },
+  {
+    "de": "spätestens",
+    "ru": "не позднее чем",
+    "example_de": "Die Zahlung muss spätestens innerhalb von 14 Tagen erfolgen.",
+    "example_ru": "Оплата должна быть произведена не позднее чем в течение 14 дней."
+  },
+  {
+    "de": "bankrott sein",
+    "ru": "быть банкротом",
+    "example_de": "Das Unternehmen ist bankrott und wird liquidiert.",
+    "example_ru": "Компания обанкротилась и будет ликвидирована."
+  },
+  {
+    "de": "zahlbar innerhalb von … Tagen",
+    "ru": "подлежит оплате в течение … дней",
+    "example_de": "Die Rechnung ist zahlbar innerhalb von 14 Tagen.",
+    "example_ru": "Счет должен быть оплачен в течение 14 дней. Fortbildungsangebote"
+  },
+  {
+    "de": "die Bürokommunikation",
+    "ru": "офисная связь",
+    "example_de": "Die Bürokommunikation hat sich in den letzten Jahren stark verändert.",
+    "example_ru": "Коммуникация в офисе сильно изменилась в последние годы."
+  },
+  {
+    "de": "die Vertriebskenntnisse",
+    "ru": "знания в сфере продаж",
+    "example_de": "Die Vertriebskenntnisse sind für den Erfolg eines Unternehmens von großer Bedeutung.",
+    "example_ru": "Знание продаж является важным фактором успеха компании."
+  },
+  {
+    "de": "zukunftsorientiert",
+    "ru": "ориентированный на будущее",
+    "example_de": "Unser Unternehmen legt großen Wert auf zukunftsorientierte Lösungen.",
+    "example_ru": "Наша компания уделяет большое значение перспективным решениям."
+  },
+  {
+    "de": "gängige Computerprogramme",
+    "ru": "популярные компьютерные программы",
+    "example_de": "Für diese Stelle sind Kenntnisse in gängigen Computerprogrammen wie Microsoft Office erforderlich.",
+    "example_ru": "Для этой вакансии требуются знания популярных компьютерных программ, таких как Microsoft Office. Bestellen"
+  },
+  {
+    "de": "die Artikelnummer",
+    "ru": "номер товара",
+    "example_de": "Bitte geben Sie bei Ihrer Bestellung die Artikelnummer an.",
+    "example_ru": "Пожалуйста, укажите номер товара при заказе."
+  },
+  {
+    "de": "die Bestellnummer",
+    "ru": "номер заказа",
+    "example_de": "Für Rückfragen zu Ihrer Bestellung benötigen wir die Bestellnummer.",
+    "example_ru": "Для уточнения информации о вашем заказе нам необходим номер заказа."
+  },
+  {
+    "de": "die Artikelbezeichnung",
+    "ru": "название товара",
+    "example_de": "Bitte geben Sie uns die genaue Artikelbezeichnung an, damit wir Ihre Bestellung bearbeiten können.",
+    "example_ru": "Пожалуйста, укажите точное название товара, чтобы мы могли обработать ваш заказ."
+  },
+  {
+    "de": "der Bestandskunde",
+    "ru": "постоянный клиент",
+    "example_de": "Als Bestandskunde erhalten Sie einen Rabatt.",
+    "example_ru": "Как постоянный клиент, вы получаете скидку."
+  },
+  {
+    "de": "die Kundennummer",
+    "ru": "клиентский номер",
+    "example_de": "Die Kundennummer ist eine eindeutige Identifikationsnummer für jeden Kunden.",
+    "example_ru": "Номер клиента является уникальным идентификационным номером для каждого клиента."
+  },
+  {
+    "de": "der Neukunde",
+    "ru": "новый клиент",
+    "example_de": "Der Neukunde erhält einen Willkommensrabatt bei seinem ersten Einkauf.",
+    "example_ru": "Новый клиент получает скидку на приветствие при своей первой покупке."
+  },
+  {
+    "de": "der Onlineshop",
+    "ru": "интернет-магазин",
+    "example_de": "Ich habe das Produkt im Onlineshop bestellt und es wurde schnell geliefert.",
+    "example_ru": "Я заказал товар в интернет-магазине и он был быстро доставлен."
+  },
+  {
+    "de": "der Versandhandel",
+    "ru": "посылочная торговля",
+    "example_de": "Der Versandhandel bietet eine große Auswahl an Produkten, die bequem von zu Hause aus bestellt werden können.",
+    "example_ru": "Заказ товаров через почту предлагает большой выбор продуктов, которые можно удобно заказать из дома."
+  },
+  {
+    "de": "erhältlich sein",
+    "ru": "быть в продаже",
+    "example_de": "Das Produkt ist ab sofort wieder erhältlich.",
+    "example_ru": "Продукт теперь снова доступен для покупки."
+  },
+  {
+    "de": "eine Nachricht hinterlassen",
+    "ru": "оставить сообщение",
+    "example_de": "Ich konnte den Anruf nicht entgegennehmen, aber ich habe eine Nachricht auf dem Anrufbeantworter hinterlassen.",
+    "example_ru": "Я не смог ответить на звонок, но я оставил сообщение на автоответчике."
+  },
+  {
+    "de": "verfügbar sein",
+    "ru": "быть доступным",
+    "example_de": "Das Produkt ist derzeit nicht verfügbar, wird aber in Kürze wieder auf Lager sein.",
+    "example_ru": "Продукт в настоящее время недоступен, но скоро будет снова в наличии. Bezahlen"
+  },
+  {
+    "de": "die Barzahlung",
+    "ru": "оплата наличными",
+    "example_de": "Die Barzahlung ist eine Zahlungsmethode, bei der der Käufer den Kaufpreis direkt in bar bezahlt.",
+    "example_ru": "Оплата наличными является способом оплаты, при котором покупатель оплачивает покупку непосредственно наличными."
+  },
+  {
+    "de": "die Mahnung",
+    "ru": "напоминание об оплате",
+    "example_de": "Ich habe eine Mahnung erhalten, weil ich die Rechnung nicht rechtzeitig bezahlt habe.",
+    "example_ru": "Я получил напоминание, потому что не оплатил счет вовремя."
+  },
+  {
+    "de": "das Onlinebanking",
+    "ru": "онлайн-банкинг",
+    "example_de": "Das Onlinebanking ermöglicht es Kunden, ihre Bankgeschäfte bequem von zu Hause aus über das Internet zu erledigen.",
+    "example_ru": "Интернет-банкинг позволяет клиентам удобно проводить банковские операции из дома через Интернет."
+  },
+  {
+    "de": "der Online-Bezahldienst",
+    "ru": "онлайн-сервис оплаты",
+    "example_de": "Der Online-Bezahldienst ist eine bequeme Möglichkeit, um online Einkäufe zu bezahlen, ohne sensible Bankdaten preiszugeben.",
+    "example_ru": "Онлайн-сервис оплаты является удобным способом оплаты покупок в Интернете, не раскрывая чувствительные банковские данные."
+  },
+  {
+    "de": "die Sicherheitsbedenken",
+    "ru": "соображения безопасности",
+    "example_de": "Die Sicherheitsbedenken bezüglich des neuen Projekts sind groß.",
+    "example_ru": "Относительно нового проекта есть большие опасения в области безопасности."
+  },
+  {
+    "de": "der Zahlungsempfänger",
+    "ru": "получатель платежа",
+    "example_de": "Der Zahlungsempfänger hat das Geld noch nicht erhalten.",
+    "example_ru": "Получатель платежа еще не получил деньги."
+  },
+  {
+    "de": "der Betrag ist fällig zum",
+    "ru": "сумма подлежит уплате …",
+    "example_de": "Der Betrag ist fällig zum",
+    "example_ru": ""
+  },
+  {
+    "de": "des Monats.",
+    "ru": "Сумма должна быть оплачена до 15-го числа месяца.",
+    "example_de": "",
+    "example_ru": ""
+  },
+  {
+    "de": "… Euro ausgeben",
+    "ru": "тратить ... евро",
+    "example_de": "Ich möchte heute nicht mehr als 50 Euro ausgeben.",
+    "example_ru": "Я не хочу потратить сегодня больше 50 евро."
+  },
+  {
+    "de": "einen Betrag in Höhe von …",
+    "ru": "сумма в размере …",
+    "example_de": "Ich habe gestern einen Betrag in Höhe von 100 Euro überwiesen.",
+    "example_ru": "Вчера я перевел сумму в размере 100 евро."
+  },
+  {
+    "de": "einen Betrag überweisen",
+    "ru": "переводить сумму",
+    "example_de": "Ich werde morgen den vereinbarten Betrag überweisen.",
+    "example_ru": "Завтра я переведу согласованную сумму."
+  },
+  {
+    "de": "einen Betrag vom Konto abbuchen",
+    "ru": "списывать сумму со счета",
+    "example_de": "Können Sie bitte den monatlichen Betrag vom Konto abbuchen?",
+    "example_ru": "Не могли бы вы снять ежемесячную сумму со счета?"
+  },
+  {
+    "de": "in bar bezahlen",
+    "ru": "платить наличными",
+    "example_de": "Ich möchte das Kleidungsstück in bar bezahlen.",
+    "example_ru": "Я хочу оплатить предмет одежды наличными."
+  },
+  {
+    "de": "per Lastschrift",
+    "ru": "путем прямого дебетования",
+    "example_de": "Ich bezahle meine Miete per Lastschrift.",
+    "example_ru": "Я оплачиваю свою аренду посредством автоматического списания."
+  },
+  {
+    "de": "per Überweisung",
+    "ru": "денежным переводом",
+    "example_de": "Die Rechnung kann per Überweisung beglichen werden.",
+    "example_ru": "Счет может быть оплачен посредством банковского перевода."
+  },
+  {
+    "de": "eine Rechnung begleichen",
+    "ru": "оплатить счет",
+    "example_de": "Ich werde die Rechnung heute begleichen.",
+    "example_ru": "Я оплачу счет сегодня."
+  },
+  {
+    "de": "die Zahlung ist eingegangen",
+    "ru": "платеж поступил",
+    "example_de": "Die Zahlung ist gestern eingegangen.",
+    "example_ru": "Оплата поступила вчера."
+  },
+  {
+    "de": "die Zahlungserinnerung",
+    "ru": "напоминание о платеже",
+    "example_de": "Ich habe eine Zahlungserinnerung per E-Mail erhalten.",
+    "example_ru": "Я получил напоминание об оплате по электронной почте. Kalkulationen"
+  },
+  {
+    "de": "das Budget",
+    "ru": "бюджет",
+    "example_de": "Ich muss mein Budget für diesen Monat überprüfen.",
+    "example_ru": "Я должен проверить свой бюджет на этот месяц."
+  },
+  {
+    "de": "das Komma",
+    "ru": "запятая",
+    "example_de": "Das Komma ist ein wichtiger Bestandteil der deutschen Grammatik.",
+    "example_ru": "Запятая является важной составляющей немецкой грамматики."
+  },
+  {
+    "de": "das Drittel",
+    "ru": "треть",
+    "example_de": "Ein Drittel der Schüler hat die Prüfung bestanden.",
+    "example_ru": "Одна треть учеников сдала экзамен."
+  },
+  {
+    "de": "das Achtel",
+    "ru": "восьмая часть",
+    "example_de": "Ein Achtel Liter Milch reicht für das Rezept aus.",
+    "example_ru": "Одна восьмой литра молока достаточно для этого рецепта."
+  },
+  {
+    "de": "das Viertel",
+    "ru": "четверть",
+    "example_de": "Ich habe nur ein Viertel des Kuchens gegessen.",
+    "example_ru": "Я съел только четверть торта."
+  },
+  {
+    "de": "geteilt durch",
+    "ru": "деленное на",
+    "example_de": "Zehn geteilt durch zwei ergibt fünf.",
+    "example_ru": "Десять разделить на два равно пяти."
+  },
+  {
+    "de": "gleich",
+    "ru": "равный",
+    "example_de": "Zwei plus zwei ist gleich vier.",
+    "example_ru": "Два плюс два равно четыре."
+  },
+  {
+    "de": "mal",
+    "ru": "раз",
+    "example_de": "Ich muss drei mal pro Woche zum Sport gehen.",
+    "example_ru": "Я должен ходить на тренировку три раза в неделю."
+  },
+  {
+    "de": "minus",
+    "ru": "минус",
+    "example_de": "Zehn minus drei ergibt sieben.",
+    "example_ru": "Десять минус три равно семи."
+  },
+  {
+    "de": "plus",
+    "ru": "плюс",
+    "example_de": "Fünf plus fünf ergibt zehn.",
+    "example_ru": "Пять плюс пять равно десяти."
+  },
+  {
+    "de": "gut wirtschaften",
+    "ru": "вести дела хорошо",
+    "example_de": "Um erfolgreich zu sein, muss man gut wirtschaften können.",
+    "example_ru": "Чтобы быть успешным, нужно уметь хорошо хозяйствовать."
+  },
+  {
+    "de": "schlecht wirtschaften",
+    "ru": "вести дела плохо",
+    "example_de": "Wenn man schlecht wirtschaftet, kann man schnell in finanzielle Schwierigkeiten geraten.",
+    "example_ru": "Если плохо управлять своими финансами, можно быстро попасть в финансовые трудности."
+  },
+  {
+    "de": "übrig sein",
+    "ru": "быть лишним",
+    "example_de": "Nach dem Essen war noch etwas Kuchen übrig.",
+    "example_ru": "После еды остался кусочек торта. Mündliche und schriftliche Beschwerden"
+  },
+  {
+    "de": "die Bewertung",
+    "ru": "оценка",
+    "example_de": "Die Bewertung der Arbeitsergebnisse erfolgt regelmäßig durch den Vorgesetzten.",
+    "example_ru": "Оценка результатов работы регулярно осуществляется начальником."
+  },
+  {
+    "de": "die Enttäuschung",
+    "ru": "разочарование",
+    "example_de": "Die Enttäuschung war groß, als ich erfuhr, dass ich die Prüfung nicht bestanden hatte.",
+    "example_ru": "Разочарование было большим, когда я узнал, что не сдал экзамен."
+  },
+  {
+    "de": "die Konsequenzen",
+    "ru": "последствия",
+    "example_de": "Wenn du diese Entscheidung triffst, musst du dir über die Konsequenzen im Klaren sein.",
+    "example_ru": "Если ты принимаешь такое решение, тебе нужно понимать последствия."
+  },
+  {
+    "de": "das Streitgespräch",
+    "ru": "спор",
+    "example_de": "Das Streitgespräch sollte konstruktiv sein, um eine Lösung zu finden.",
+    "example_ru": "Спор должен быть конструктивным, чтобы найти решение."
+  },
+  {
+    "de": "der Vorfall",
+    "ru": "инцидент",
+    "example_de": "Der Vorfall hat zu Verzögerungen geführt.",
+    "example_ru": "Этот инцидент привел к задержкам."
+  },
+  {
+    "de": "der Vorwurf",
+    "ru": "упрёк",
+    "example_de": "Der Vorwurf ist unbegründet.",
+    "example_ru": "Обвинение необоснованно."
+  },
+  {
+    "de": "fehlerhaft",
+    "ru": "ошибочный",
+    "example_de": "Das System ist fehlerhaft und muss überprüft werden.",
+    "example_ru": "Система содержит ошибки и должна быть проверена."
+  },
+  {
+    "de": "ungerecht",
+    "ru": "несправедливый",
+    "example_de": "Es ist ungerecht, dass er mehr verdient als ich.",
+    "example_ru": "Это несправедливо, что он зарабатывает больше меня."
+  },
+  {
+    "de": "bis an die Grenzen arbeiten",
+    "ru": "довести до пределов",
+    "example_de": "Wir müssen bis an die Grenzen arbeiten, um das Projekt rechtzeitig abzuschließen.",
+    "example_ru": "Мы должны работать до предела, чтобы завершить проект вовремя."
+  },
+  {
+    "de": "nicht den Angaben entsprechen",
+    "ru": "не соответствовать характеристикам",
+    "example_de": "Das Produkt entspricht nicht den Angaben.",
+    "example_ru": "Продукт не соответствует заявленным характеристикам."
+  },
+  {
+    "de": "nicht weiterempfehlen",
+    "ru": "не рекомендовать кому-либо",
+    "example_de": "Ich kann es nicht weiterempfehlen.",
+    "example_ru": "Я не могу рекомендовать это."
+  },
+  {
+    "de": "recht bekommen",
+    "ru": "оказаться правым",
+    "example_de": "Ich will mein Recht bekommen.",
+    "example_ru": "Я хочу оказаться правым."
+  },
+  {
+    "de": "sich gestört fühlen",
+    "ru": "чувствовать обеспокоенность",
+    "example_de": "Ich fühle mich gestört.",
+    "example_ru": "Я чувствую себя беспокоящимся. Konflikte lösen"
+  },
+  {
+    "de": "das konstruktive Streitgespräch",
+    "ru": "конструктивный спор",
+    "example_de": "Das konstruktive Streitgespräch ist wichtig, um Probleme zu lösen.",
+    "example_ru": "Конструктивный спор - важен, чтобы решить проблемы."
+  },
+  {
+    "de": "Beschwerden beantworten",
+    "ru": "отвечать на жалобы",
+    "example_de": "Wir müssen Beschwerden beantworten.",
+    "example_ru": "Мы должны ответить на жалобы."
+  },
+  {
+    "de": "einen einmaligen Vorfall beseitigen",
+    "ru": "ликвидировать единичный инцидент",
+    "example_de": "Wir müssen einen einmaligen Vorfall beseitigen.",
+    "example_ru": "Мы должны устранить единичный случай."
+  },
+  {
+    "de": "etwas wird nicht wieder vorkommen",
+    "ru": "что-либо больше не повторится",
+    "example_de": "Etwas wird nicht wieder vorkommen.",
+    "example_ru": "Что-то не повторится."
+  },
+  {
+    "de": "einen Gutschein anbieten",
+    "ru": "предлагать ваучер",
+    "example_de": "Als Entschuldigung für die Unannehmlichkeiten möchten wir Ihnen einen Gutschein anbieten.",
+    "example_ru": "В качестве извинения за неудобства мы хотели бы предложить вам купон."
+  },
+  {
+    "de": "eine Lösung finden",
+    "ru": "находить решение",
+    "example_de": "Wir müssen eine Lösung finden, um das Problem zu lösen.",
+    "example_ru": "Мы должны найти решение, чтобы решить проблему."
+  },
+  {
+    "de": "einen Fehler beheben",
+    "ru": "исправлять ошибку",
+    "example_de": "Wir müssen den Fehler schnellstmöglich beheben, um weitere Probleme zu vermeiden.",
+    "example_ru": "Мы должны как можно скорее исправить ошибку, чтобы избежать дальнейших проблем."
+  },
+  {
+    "de": "einen Fehler zugeben",
+    "ru": "признавать ошибку",
+    "example_de": "Es ist mutig, einen Fehler zuzugeben und Verantwortung zu übernehmen.",
+    "example_ru": "Смело признавать свою ошибку и брать на себя ответственность."
+  },
+  {
+    "de": "sich in die Situation des anderen versetzen",
+    "ru": "ставить себя на место другого",
+    "example_de": "Es ist wichtig, sich in die Situation des anderen zu versetzen, um Empathie zu zeigen.",
+    "example_ru": "Важно поставить себя на место другого, чтобы проявить эмпатию."
+  },
+  {
+    "de": "um Verständnis bitten",
+    "ru": "просить отнестись с пониманием",
+    "example_de": "Ich möchte um Verständnis bitten, dass die Lieferung sich aufgrund von unvorhergesehenen Umständen verzögert hat.",
+    "example_ru": "Я хочу попросить понимания за то, что доставка задерживается из-за непредвиденных обстоятельств."
+  },
+  {
+    "de": "Verständnis zeigen",
+    "ru": "демонстрировать понимание",
+    "example_de": "Es ist wichtig, Verständnis zu zeigen, wenn Mitarbeiter Probleme haben.",
+    "example_ru": "Важно показывать понимание, когда у сотрудников возникают проблемы. Qualitätsmanagement"
+  },
+  {
+    "de": "die Anforderung",
+    "ru": "требование",
+    "example_de": "Die Anforderungen an das Produkt müssen klar definiert sein, um eine hohe Qualität zu gewährleisten.",
+    "example_ru": "Требования к продукту должны быть четко определены, чтобы гарантировать высокое качество."
+  },
+  {
+    "de": "die Norm",
+    "ru": "стандарт",
+    "example_de": "Die Einhaltung der Normen ist für die Qualitätssicherung sehr wichtig.",
+    "example_ru": "Соблюдение норм является очень важным для обеспечения качества."
+  },
+  {
+    "de": "das Qualitätsmanagementsyste m",
+    "ru": "система управления качеством",
+    "example_de": "Wir müssen das Qualitätsmanagementsystem verbessern, um die Kundenzufriedenheit zu erhöhen.",
+    "example_ru": "Мы должны улучшить систему управления качеством, чтобы повысить удовлетворенность клиентов."
+  },
+  {
+    "de": "die Arbeitsweisen überprüfen",
+    "ru": "пересмотреть методы работы",
+    "example_de": "Wir müssen die Arbeitsweisen überprüfen, um effizienter zu arbeiten.",
+    "example_ru": "Мы должны проверить способы работы, чтобы работать более эффективно."
+  },
+  {
+    "de": "die Motivation steigern",
+    "ru": "повышать мотивацию",
+    "example_de": "Eine angenehme Arbeitsumgebung und gezielte Anerkennung können die Motivation der Mitarbeiter steigern.",
+    "example_ru": "Приятная рабочая обстановка и целенаправленное признание могут повысить мотивацию сотрудников."
+  },
+  {
+    "de": "die Produkte kontinuierlich verbessern",
+    "ru": "постоянно улучшать продукты",
+    "example_de": "Unser Ziel ist es, unsere Produkte kontinuierlich zu verbessern, um den Bedürfnissen unserer Kunden gerecht zu werden.",
+    "example_ru": "Наша цель - непрерывно улучшать наши продукты, чтобы удовлетворять потребности наших клиентов."
+  },
+  {
+    "de": "die einzelnen Produktionsschritte planen",
+    "ru": "планировать отдельные производственные шаги",
+    "example_de": "Um eine effiziente Produktion zu gewährleisten, müssen wir die einzelnen Produktionsschritte sorgfältig planen.",
+    "example_ru": "Чтобы обеспечить эффективное производство, мы должны тщательно спланировать каждый производственный этап."
+  },
+  {
+    "de": "Prozesse definieren",
+    "ru": "определять процессы",
+    "example_de": "Bevor wir mit der Arbeit beginnen, müssen wir die Prozesse klar definieren.",
+    "example_ru": "Прежде чем мы начнем работу, мы должны четко определить процессы."
+  },
+  {
+    "de": "Prozesse schriftlich festhalten",
+    "ru": "письменно зафиксировать процессы",
+    "example_de": "Es ist wichtig, alle Prozesse schriftlich festzuhalten, um eine klare und einheitliche Arbeitsweise zu gewährleisten.",
+    "example_ru": "Важно письменно фиксировать все процессы, чтобы обеспечить ясность и единообразие в работе."
+  },
+  {
+    "de": "die Qualität sicherstellen",
+    "ru": "обеспечить качество",
+    "example_de": "Unser Unternehmen legt großen Wert darauf, die Qualität unserer Produkte zu sichern.",
+    "example_ru": "Наша компания уделяет большое внимание обеспечению качества наших продуктов."
+  },
+  {
+    "de": "sich nach den Bedürfnissen der Kunden richten",
+    "ru": "ориентироваться на потребности клиентов",
+    "example_de": "Erfolgreiche Unternehmen richten sich immer nach den Bedürfnissen ihrer Kunden.",
+    "example_ru": "Успешные компании всегда ориентируются на потребности своих клиентов."
+  },
+  {
+    "de": "die wirtschaftliche Situation verbessern",
+    "ru": "улучшать экономическую ситуацию",
+    "example_de": "Die Regierung plant Maßnahmen, um die wirtschaftliche Situation zu verbessern.",
+    "example_ru": "Правительство планирует меры для улучшения экономической ситуации. Besprechungen"
+  },
+  {
+    "de": "die Agenda",
+    "ru": "повестка дня",
+    "example_de": "Wir müssen noch die Agenda für das Meeting erstellen.",
+    "example_ru": "Мы еще должны составить повестку дня для встречи."
+  },
+  {
+    "de": "die Ankündigung",
+    "ru": "объявление",
+    "example_de": "Die Ankündigung der Veranstaltung hat viele Besucher angezogen.",
+    "example_ru": "Объявление о мероприятии привлекло множество посетителей."
+  },
+  {
+    "de": "der Antrag",
+    "ru": "заявка",
+    "example_de": "Ich habe einen Antrag auf Urlaub für nächste Woche gestellt.",
+    "example_ru": "Я подал заявку на отпуск на следующую неделю."
+  },
+  {
+    "de": "der Bericht",
+    "ru": "доклад, отчет",
+    "example_de": "Der Bericht über das letzte Quartal ist noch nicht fertiggestellt.",
+    "example_ru": "Отчет о последнем квартале еще не готов."
+  },
+  {
+    "de": "das Besprechungsprotokoll",
+    "ru": "протокол совещания",
+    "example_de": "Das Besprechungsprotokoll wurde bereits an alle Teilnehmer verschickt.",
+    "example_ru": "Протокол совещания уже был отправлен всем участникам."
+  },
+  {
+    "de": "das Ergebnisprotokoll",
+    "ru": "итоговый протокол",
+    "example_de": "Das Ergebnisprotokoll der letzten Sitzung wird noch überarbeitet.",
+    "example_ru": "Протокол результата последнего заседания еще дорабатывается."
+  },
+  {
+    "de": "die Mitarbeiterbesprechung",
+    "ru": "совещание с персоналом",
+    "example_de": "Die Mitarbeiterbesprechung wurde auf nächste Woche verschoben.",
+    "example_ru": "Совещание с сотрудниками было перенесено на следующую неделю."
+  },
+  {
+    "de": "die Projektvorstellung",
+    "ru": "презентация проекта",
+    "example_de": "Die Projektvorstellung findet nächste Woche statt.",
+    "example_ru": "Презентация проекта состоится на следующей неделе."
+  },
+  {
+    "de": "der Rückblick",
+    "ru": "обзор",
+    "example_de": "Der Rückblick auf das vergangene Jahr war sehr positiv.",
+    "example_ru": "Обзор прошедшего года был очень позитивным."
+  },
+  {
+    "de": "die Sitzung",
+    "ru": "заседание",
+    "example_de": "Die Sitzung beginnt um 14 Uhr im Konferenzraum.",
+    "example_ru": "Заседание начинается в 14:00 в конференц-зале."
+  },
+  {
+    "de": "der Tagesordnungspunkt",
+    "ru": "пункт повестки дня",
+    "example_de": "Der Tagesordnungspunkt \"Budgetplanung\" wird als nächstes besprochen.",
+    "example_ru": "Следующим будет обсуждаться пункт повестки дня \"Планирование бюджета\"."
+  },
+  {
+    "de": "die Teambesprechung",
+    "ru": "совещание команды",
+    "example_de": "Die Teambesprechung findet jeden Montag um 10 Uhr statt.",
+    "example_ru": "Совещание команды проводится каждый понедельник в 10 часов."
+  },
+  {
+    "de": "das Verlaufsprotokoll",
+    "ru": "протокол заседания",
+    "example_de": "Das Verlaufsprotokoll der Sitzung ist bereits fertiggestellt.",
+    "example_ru": "Протокол заседания уже готов."
+  },
+  {
+    "de": "die Vorbesprechung",
+    "ru": "предварительное совещание",
+    "example_de": "Die Vorbesprechung für das Projekt findet morgen statt.",
+    "example_ru": "Совещание по проекту состоится завтра."
+  },
+  {
+    "de": "mailen",
+    "ru": "отправлять по электронной почте",
+    "example_de": "Ich werde dir eine E-Mail schreiben.",
+    "example_ru": "Я напишу тебе письмо на электронную почту."
+  },
+  {
+    "de": "nachfragen",
+    "ru": "переспрашивать",
+    "example_de": "Ich werde bei meinem Kollegen nachfragen, ob er Zeit für ein Meeting hat.",
+    "example_ru": "Я спрошу у своего коллеги, есть ли у него время на встречу."
+  },
+  {
+    "de": "nachvollziehen",
+    "ru": "отслеживать",
+    "example_de": "Ich kann deine Argumentation nachvollziehen, aber ich denke trotzdem, dass wir eine andere Lösung finden sollten.",
+    "example_ru": "Я могу понять твою аргументацию, но я все же думаю, что мы должны найти другое решение."
+  },
+  {
+    "de": "protokollieren",
+    "ru": "вести протокол",
+    "example_de": "Wir müssen alle Entscheidungen und Ergebnisse des Meetings protokollieren.",
+    "example_ru": "Мы должны протоколировать все решения и результаты встречи."
+  },
+  {
+    "de": "widersprechen",
+    "ru": "возразить",
+    "example_de": "Ich muss dir widersprechen, denn ich denke, dass es anders ist.",
+    "example_ru": "Я должен возразить тебе, потому что я думаю, что это не так."
+  },
+  {
+    "de": "der Ansicht sein, dass …",
+    "ru": "считать, что …",
+    "example_de": "Ich bin der Ansicht, dass wir mehr Zeit für die Vorbereitung benötigen.",
+    "example_ru": "Я считаю, что нам нужно больше времени на подготовку."
+  },
+  {
+    "de": "ein Meeting abhalten",
+    "ru": "проводить совещание",
+    "example_de": "Wir müssen ein Meeting abhalten, um die nächsten Schritte zu besprechen.",
+    "example_ru": "Нам нужно провести встречу, чтобы обсудить следующие шаги."
+  },
+  {
+    "de": "einen Termin vorziehen",
+    "ru": "переносить встречу на более ранний срок",
+    "example_de": "Können wir den Termin vorziehen, da ich am ursprünglichen Datum nicht verfügbar bin?",
+    "example_ru": "Можем ли мы перенести встречу на более раннюю дату, так как я не буду доступен в изначально назначенный день? Veranstaltungstechnik"
+  },
+  {
+    "de": "der Beamer",
+    "ru": "проектор",
+    "example_de": "Wir brauchen einen Beamer für unsere Präsentation.",
+    "example_ru": "Нам нужен проектор для нашей презентации."
+  },
+  {
+    "de": "die Besprechungsunterlagen",
+    "ru": "документы к совещанию",
+    "example_de": "Ich habe die Besprechungsunterlagen für das Meeting vorbereitet.",
+    "example_ru": "Я подготовил материалы для совещания."
+  },
+  {
+    "de": "der Flipchart",
+    "ru": "флипчарт",
+    "example_de": "Wir haben einen neuen Flipchart für unsere Präsentationen gekauft.",
+    "example_ru": "Мы купили новую магнитную доску для наших презентаций."
+  },
+  {
+    "de": "der Internetzugang",
+    "ru": "доступ в интернет",
+    "example_de": "Ich brauche einen schnellen Internetzugang für meine Arbeit.",
+    "example_ru": "Мне нужен быстрый доступ в Интернет для работы."
+  },
+  {
+    "de": "die Leinwand",
+    "ru": "проекционный экран",
+    "example_de": "Ich habe die Leinwand für das Kunstprojekt gekauft.",
+    "example_ru": "Я купил холст для художественного проекта."
+  },
+  {
+    "de": "der Netzwerkanschluss",
+    "ru": "подключение к сети",
+    "example_de": "Für die Verbindung zum Internet benötigen Sie einen funktionierenden Netzwerkanschluss.",
+    "example_ru": "Для подключения к Интернету вам нужно иметь работающее сетевое соединение."
+  },
+  {
+    "de": "die Pinnwand",
+    "ru": "доска для заметок",
+    "example_de": "Auf der Pinnwand hängen wichtige Informationen und Notizen für das Team.",
+    "example_ru": "На информационной доске висят важные сведения и заметки для команды."
+  },
+  {
+    "de": "der Tagungsraum",
+    "ru": "конференц-зал",
+    "example_de": "Wir haben den Tagungsraum für die nächste Besprechung reserviert.",
+    "example_ru": "Мы зарезервировали конференц- зал на следующее совещание."
+  },
+  {
+    "de": "das Whiteboard",
+    "ru": "белая доска",
+    "example_de": "Auf dem Whiteboard können wir unsere Ideen und Pläne visualisieren.",
+    "example_ru": "На белой доске мы можем визуализировать наши идеи и планы. Statistik"
+  },
+  {
+    "de": "der Ausblick",
+    "ru": "перспектива, прогноз",
+    "example_de": "Der Ausblick für die kommenden Monate ist vielversprechend.",
+    "example_ru": "Прогноз на следующие месяцы обещает быть многообещающим."
+  },
+  {
+    "de": "das Controlling",
+    "ru": "управленческий учет",
+    "example_de": "Das Controlling ist für die Überwachung der Finanzen und die Optimierung der Geschäftsprozesse zuständig.",
+    "example_ru": "Управленческий учет отвечает за контроль финансов и оптимизацию бизнес-процессов."
+  },
+  {
+    "de": "die Jahresbilanz",
+    "ru": "годовой баланс",
+    "example_de": "Die Jahresbilanz des Unternehmens zeigt, dass es im vergangenen Jahr einen Gewinn gemacht hat.",
+    "example_ru": "Годовой баланс компании показывает, что в прошлом году она получила прибыль."
+  },
+  {
+    "de": "die Prognose",
+    "ru": "прогноз",
+    "example_de": "Die Prognose für das Wirtschaftswachstum in diesem Jahr ist positiv.",
+    "example_ru": "Прогноз на рост экономики в этом году является положительным."
+  },
+  {
+    "de": "die Quartalsaufstellung",
+    "ru": "квартальный отчет",
+    "example_de": "Die Quartalsaufstellung zeigt uns die finanzielle Lage des Unternehmens im letzten Vierteljahr.",
+    "example_ru": "Квартальная отчетность показывает нам финансовое положение компании за последний квартал."
+  },
+  {
+    "de": "die Quote",
+    "ru": "уровень",
+    "example_de": "Die Quote der Arbeitslosigkeit ist in diesem Jahr gestiegen.",
+    "example_ru": "Уровень безработицы в этом году вырос."
+  },
+  {
+    "de": "knapp",
+    "ru": "почти",
+    "example_de": "Ich habe knapp genug Geld, um die Rechnungen zu bezahlen.",
+    "example_ru": "У меня едва хватает денег, чтобы оплатить счета."
+  },
+  {
+    "de": "ungefähr",
+    "ru": "приблизительно",
+    "example_de": "Ich brauche ungefähr eine Stunde, um zum Flughafen zu gelangen.",
+    "example_ru": "Мне нужно примерно час, чтобы добраться до аэропорта. Ein technisches Gerät erklären"
+  },
+  {
+    "de": "die Abdeckung",
+    "ru": "защитное покрытие",
+    "example_de": "Die Abdeckung des Motors muss entfernt werden, um das Problem zu beheben.",
+    "example_ru": "Крышка двигателя должна быть снята, чтобы устранить проблему."
+  },
+  {
+    "de": "der Anschlusskontakt",
+    "ru": "соединительный контакт",
+    "example_de": "Der Anschlusskontakt des Kabels muss gereinigt werden, damit es wieder funktioniert.",
+    "example_ru": "Контакт разъема кабеля должен быть очищен, чтобы он снова работал."
+  },
+  {
+    "de": "das Display",
+    "ru": "дисплей",
+    "example_de": "Das Display meines Handys ist kaputt und muss repariert werden.",
+    "example_ru": "Дисплей моего телефона сломался и нуждается в ремонте."
+  },
+  {
+    "de": "der Pfeil",
+    "ru": "стрелка",
+    "example_de": "Folgen Sie dem Pfeil, um zum Ausgang zu gelangen.",
+    "example_ru": "Следуйте за стрелкой, чтобы добраться до выхода."
+  },
+  {
+    "de": "der QR-Code QR-",
+    "ru": "код",
+    "example_de": "Scannen Sie den QR-Code, um weitere Informationen zu erhalten.",
+    "example_ru": "Отсканируйте QR-код, чтобы получить дополнительную информацию."
+  },
+  {
+    "de": "der Standort",
+    "ru": "местоположение",
+    "example_de": "Der Standort des neuen Büros ist sehr zentral gelegen.",
+    "example_ru": "Расположение нового офиса очень центральное."
+  },
+  {
+    "de": "der Touchscreen",
+    "ru": "сенсорный экран",
+    "example_de": "Der neue Laptop hat einen Touchscreen, der die Bedienung noch einfacher macht.",
+    "example_ru": "Новый ноутбук имеет сенсорный экран, который делает управление еще более простым."
+  },
+  {
+    "de": "der USB-Anschluss USB-",
+    "ru": "порт",
+    "example_de": "Ich habe meinen Drucker über den USB-Anschluss an meinen Laptop angeschlossen.",
+    "example_ru": "Я подключил свой принтер к моему ноутбуку через USB-порт."
+  },
+  {
+    "de": "aktualisieren",
+    "ru": "обновить",
+    "example_de": "Ich muss meine Software aktualisieren, um die neuesten Funktionen zu nutzen.",
+    "example_ru": "Мне нужно обновить мое программное обеспечение, чтобы использовать последние функции."
+  },
+  {
+    "de": "einrasten",
+    "ru": "вставить в пазы",
+    "example_de": "Ich höre ein Klicken, wenn die Tür einrastet.",
+    "example_ru": "Я слышу щелчок, когда дверь защелкивается."
+  },
+  {
+    "de": "einrichten",
+    "ru": "отрегулировать",
+    "example_de": "Ich möchte mein Zimmer neu einrichten.",
+    "example_ru": "Я хотел бы сделать ремонт в своей комнате."
+  },
+  {
+    "de": "herunterladen",
+    "ru": "загрузить с сервера",
+    "example_de": "Ich werde das Video von YouTube herunterladen, um es später anzuschauen.",
+    "example_ru": "Я загружу видео с YouTube, чтобы посмотреть его позже."
+  },
+  {
+    "de": "navigieren",
+    "ru": "осуществлять навигацию",
+    "example_de": "Ich benutze mein GPS, um durch die Stadt zu navigieren.",
+    "example_ru": "Я использую мой GPS для навигации по городу."
+  },
+  {
+    "de": "zoomen",
+    "ru": "изменять масштаб",
+    "example_de": "Ich kann das Bild auf meinem Computerbildschirm vergrößern, indem ich einfach darauf klicke und zoomen auswähle.",
+    "example_ru": "Я могу увеличить изображение на моем компьютерном экране, просто щелкнув по нему и выбрав опцию \"zoomen\". Betriebsvereinbarungen"
+  },
+  {
+    "de": "die Arbeitsunfähigkeit",
+    "ru": "нетрудоспособность",
+    "example_de": "Die Arbeitsunfähigkeit aufgrund einer Krankheit muss dem Arbeitgeber rechtzeitig mitgeteilt werden.",
+    "example_ru": "Необходимо своевременно уведомить работодателя о неработоспособности из-за заболевания."
+  },
+  {
+    "de": "die Bestimmungen",
+    "ru": "предписания",
+    "example_de": "Die Bestimmungen des Arbeitsvertrags müssen eingehalten werden.",
+    "example_ru": "Необходимо соблюдать условия трудового договора."
+  },
+  {
+    "de": "die Freistellung",
+    "ru": "освобождение",
+    "example_de": "Die Freistellung vom Arbeitsplatz wurde ihm gewährt, damit er sich um seine kranke Mutter kümmern kann.",
+    "example_ru": "Ему было предоставлено освобождение от работы, чтобы он мог заботиться о своей больной матери."
+  },
+  {
+    "de": "der Freizeitausgleich",
+    "ru": "отгул",
+    "example_de": "Ich habe noch nicht genug Freizeitausgleich bekommen und muss noch einige Tage frei nehmen.",
+    "example_ru": "Я еще не получил достаточно компенсации за свободное время и должен взять несколько дней отдыха."
+  },
+  {
+    "de": "das Kalenderjahr",
+    "ru": "календарный год",
+    "example_de": "Das Kalenderjahr hat 365 Tage.",
+    "example_ru": "Год состоит из 365 дней."
+  },
+  {
+    "de": "die betriebliche Notwendigkeit",
+    "ru": "производственная необходимость",
+    "example_de": "Die betriebliche Notwendigkeit erfordert eine Änderung der Arbeitsabläufe.",
+    "example_ru": "Корпоративная необходимость требует изменения рабочих процессов. Sicherheitsbestimmungen/Arbeitsunfälle"
+  },
+  {
+    "de": "die Arbeitsschutzschuhe",
+    "ru": "защитные рабочие ботинки",
+    "example_de": "Die Arbeitsschutzschuhe müssen immer getragen werden, um Verletzungen zu vermeiden.",
+    "example_ru": "Рабочие защитные ботинки всегда должны быть надеты, чтобы избежать травм."
+  },
+  {
+    "de": "die Berufsgruppe",
+    "ru": "группа профессий",
+    "example_de": "Die Berufsgruppe der Lehrer ist sehr wichtig für die Gesellschaft.",
+    "example_ru": "Профессиональная группа учителей очень важна для общества."
+  },
+  {
+    "de": "die Blutung",
+    "ru": "кровотечение",
+    "example_de": "Die Blutung muss gestoppt werden.",
+    "example_ru": "Кровотечение должно быть остановлено."
+  },
+  {
+    "de": "der Ersthelfer",
+    "ru": "специалист по оказанию первой помощи",
+    "example_de": "Der Ersthelfer leistete sofort Hilfe und verhinderte Schlimmeres.",
+    "example_ru": "Первый помощник немедленно оказал помощь и предотвратил более серьезные последствия."
+  },
+  {
+    "de": "die Evakuierung",
+    "ru": "эвакуация",
+    "example_de": "Aufgrund des Brandes musste eine Evakuierung des Gebäudes durchgeführt werden.",
+    "example_ru": "Из-за пожара была проведена эвакуация здания."
+  },
+  {
+    "de": "der Fluchtweg",
+    "ru": "запасной выход",
+    "example_de": "Jeder Arbeitsplatz muss mindestens einen deutlich gekennzeichneten Fluchtweg haben.",
+    "example_ru": "На каждом рабочем месте должен быть как минимум один ясно обозначенный путь эвакуации."
+  },
+  {
+    "de": "der Gehörschutz",
+    "ru": "средство защиты органов слуха",
+    "example_de": "In lauten Umgebungen ist es wichtig, Gehörschutz zu tragen, um das Gehör zu schützen.",
+    "example_ru": "В шумных условиях важно носить защиту для слуха, чтобы защитить его."
+  },
+  {
+    "de": "der Notausgang",
+    "ru": "аварийный выход",
+    "example_de": "Bitte beachten Sie den Notausgang und folgen Sie den Anweisungen im Falle eines Notfalls.",
+    "example_ru": "Пожалуйста, обратите внимание на аварийный выход и следуйте инструкциям в случае чрезвычайной ситуации."
+  },
+  {
+    "de": "die Platzwunde",
+    "ru": "рваная рана",
+    "example_de": "Nach dem Sturz hatte er eine Platzwunde am Kopf und musste genäht werden.",
+    "example_ru": "После падения у него была рана на голове, которую пришлось зашить."
+  },
+  {
+    "de": "der Rettungswagen",
+    "ru": "машина скорой помощи",
+    "example_de": "Der Rettungswagen brachte den Verletzten schnell ins Krankenhaus.",
+    "example_ru": "Скорая помощь быстро доставила пострадавшего в больницу."
+  },
+  {
+    "de": "die Rutschgefahr",
+    "ru": "опасность поскальзывания",
+    "example_de": "Aufgrund der Rutschgefahr durch den Regen wurden Warnschilder aufgestellt.",
+    "example_ru": "Из-за опасности скольжения на дороге из-за дождя были установлены предупреждающие знаки."
+  },
+  {
+    "de": "die Sammelstelle",
+    "ru": "пункт сбора",
+    "example_de": "Im Falle eines Brandes treffen wir uns alle an der Sammelstelle vor dem Gebäude.",
+    "example_ru": "В случае пожара мы все встречаемся на месте сбора перед зданием."
+  },
+  {
+    "de": "der Sanitäter",
+    "ru": "санитар",
+    "example_de": "Der Sanitäter eilte zur Unfallstelle, um den Verletzten zu helfen.",
+    "example_ru": "Санитар побежал на место происшествия, чтобы помочь пострадавшему."
+  },
+  {
+    "de": "die Schutzausrüstung",
+    "ru": "защитное снаряжение",
+    "example_de": "Die Schutzausrüstung ist für Arbeiter in gefährlichen Berufen unerlässlich.",
+    "example_ru": "Защитное снаряжение необходимо для работников в опасных профессиях."
+  },
+  {
+    "de": "die Schutzbrille",
+    "ru": "защитные очки",
+    "example_de": "Beim Arbeiten mit gefährlichen Chemikalien ist das Tragen einer Schutzbrille unerlässlich.",
+    "example_ru": "При работе с опасными химическими веществами ношение защитных очков является обязательным."
+  },
+  {
+    "de": "der Schutzhelm",
+    "ru": "защитный шлем",
+    "example_de": "In der Baustelle ist das Tragen eines Schutzhelms obligatorisch.",
+    "example_ru": "На стройке ношение защитного шлема обязательно."
+  },
+  {
+    "de": "das Gleichgewicht verlieren",
+    "ru": "терять равновесие",
+    "example_de": "Er ist auf der Treppe gestolpert und hat das Gleichgewicht verloren.",
+    "example_ru": "Он споткнулся на лестнице и потерял равновесие."
+  },
+  {
+    "de": "Erste Hilfe leisten",
+    "ru": "оказывать первую помощь",
+    "example_de": "Es ist wichtig, dass jeder in der Lage ist, im Notfall Erste Hilfe zu leisten.",
+    "example_ru": "Важно, чтобы каждый был в состоянии оказать первую помощь в случае необходимости."
+  },
+  {
+    "de": "in Gefahr bringen",
+    "ru": "подвергать опасности",
+    "example_de": "Durch sein unvorsichtiges Verhalten hat er nicht nur sich selbst, sondern auch andere in Gefahr gebracht.",
+    "example_ru": "Своим неосторожным поведением он поставил не только себя, но и других в опасность."
+  },
+  {
+    "de": "Sicherheitsvorschriften befolgen",
+    "ru": "соблюдать правила техники безопасности",
+    "example_de": "Es ist wichtig, dass alle Mitarbeiter die Sicherheitsvorschriften befolgen, um Unfälle zu vermeiden.",
+    "example_ru": "Важно, чтобы все сотрудники соблюдали правила безопасности, чтобы избежать несчастных случаев. Arbeitsvertrag und Kündigung"
+  },
+  {
+    "de": "die Abmahnung",
+    "ru": "предупреждение",
+    "example_de": "Er hat eine Abmahnung vom Chef bekommen, weil er ständig zu spät zur Arbeit kam.",
+    "example_ru": "Он получил предупреждение от начальника, потому что постоянно опаздывал на работу."
+  },
+  {
+    "de": "die Ausnahmegenehmigung",
+    "ru": "согласие в порядке исключения",
+    "example_de": "Ohne eine Ausnahmegenehmigung ist es nicht erlaubt, in der Fußgängerzone zu parken.",
+    "example_ru": "Без разрешения на исключение нельзя парковаться на пешеходной зоне."
+  },
+  {
+    "de": "die Beförderung",
+    "ru": "повышение",
+    "example_de": "Ich habe gestern eine Beförderung zum Abteilungsleiter erhalten.",
+    "example_ru": "Вчера мне было предложено повышение до руководителя отдела."
+  },
+  {
+    "de": "die Führungsqualitäten",
+    "ru": "лидерские качества",
+    "example_de": "Die Führungsqualitäten sind für eine erfolgreiche Karriere von großer Bedeutung.",
+    "example_ru": "Лидерские качества имеют большое значение для успешной карьеры."
+  },
+  {
+    "de": "die Honorartätigkeit",
+    "ru": "оплачиваемая работа",
+    "example_de": "Die Honorartätigkeit ist eine Möglichkeit, zusätzliches Geld zu verdienen.",
+    "example_ru": "Работа по гонорару - это возможность заработать дополнительные деньги."
+  },
+  {
+    "de": "der Minijob",
+    "ru": "минимальная занятость",
+    "example_de": "Der Minijob ist eine geringfügige Beschäftigung, bei der der Arbeitnehmer maximal 450 Euro im Monat verdient.",
+    "example_ru": "Мини-работа - это незначительное занятие, при котором работник зарабатывает не более 450 евро в месяц."
+  },
+  {
+    "de": "die Nebentätigkeit",
+    "ru": "работа по совместительству",
+    "example_de": "Die Nebentätigkeit ist eine zusätzliche Arbeit, die ein Arbeitnehmer neben seiner Haupttätigkeit ausübt.",
+    "example_ru": "Работа по совместительству - это дополнительная работа, которую работник выполняет помимо своей основной деятельности."
+  },
+  {
+    "de": "die Sperrzeit",
+    "ru": "срок блокировки",
+    "example_de": "Die Sperrzeit ist eine Zeit, in der Arbeitslosengeld nicht ausgezahlt wird, weil der Arbeitslose sich selbst arbeitslos gemacht hat.",
+    "example_ru": "Срок блокировки - это период, в течение которого не выплачивается пособие по безработице, потому что безработный самостоятельно уволился."
+  },
+  {
+    "de": "der Werkvertrag",
+    "ru": "рабочий договор",
+    "example_de": "Der Werkvertrag ist eine Vereinbarung zwischen Auftraggeber und Auftragnehmer, in der die Erbringung eines bestimmten Werks geregelt wird.",
+    "example_ru": "Договор подряда - это соглашение между заказчиком и исполнителем, в котором регулируется выполнение определенной работы."
+  },
+  {
+    "de": "die Zeitarbeit",
+    "ru": "временная занятость",
+    "example_de": "Die Zeitarbeit ist eine Form der Beschäftigung, bei der Arbeitnehmer vorübergehend bei einem Unternehmen eingesetzt werden.",
+    "example_ru": "Временная работа - это форма занятости, при которой работники временно нанимаются в компании."
+  },
+  {
+    "de": "der Ablauf der Kündigungsfrist",
+    "ru": "истечение срока для увольнения",
+    "example_de": "Der Ablauf der Kündigungsfrist bedeutet für den Arbeitnehmer, dass das Arbeitsverhältnis endet.",
+    "example_ru": "Истечение срока уведомления об увольнении означает для работника окончание трудового договора."
+  },
+  {
+    "de": "die ärztliche Bescheinigung",
+    "ru": "справка от врача",
+    "example_de": "Die ärztliche Bescheinigung ist notwendig, um sich bei Krankheit vom Arbeitgeber abmelden zu können.",
+    "example_ru": "Медицинское свидетельство необходимо для того, чтобы уведомить работодателя о болезни."
+  },
+  {
+    "de": "die betriebsbedingte Kündigung",
+    "ru": "увольнение по производственной необходимости",
+    "example_de": "Die betriebsbedingte Kündigung ist für viele Arbeitnehmer eine große Belastung.",
+    "example_ru": "Увольнение по причине сокращения штата является большим испытанием для многих работников."
+  },
+  {
+    "de": "die interne Angelegenheit",
+    "ru": "внутреннее дело",
+    "example_de": "Die interne Angelegenheit des Unternehmens darf nicht an die Öffentlichkeit gelangen.",
+    "example_ru": "Внутренние дела компании не должны становиться известными широкой публике."
+  },
+  {
+    "de": "die regelmäßige wöchentliche Arbeitszeit",
+    "ru": "регулярное рабочее время на неделе",
+    "example_de": "Die regelmäßige wöchentliche Arbeitszeit beträgt bei uns 40 Stunden.",
+    "example_ru": "Регулярная рабочая неделя у нас составляет 40 часов."
+  },
+  {
+    "de": "befristet",
+    "ru": "ограниченный сроком",
+    "example_de": "Mein Arbeitsvertrag ist befristet und läuft in sechs Monaten aus.",
+    "example_ru": "Мой трудовой договор заключен на определенный срок и истекает через шесть месяцев."
+  },
+  {
+    "de": "beiderseits",
+    "ru": "взаимный",
+    "example_de": "Eine Kündigung des Arbeitsvertrags ist beiderseits möglich.",
+    "example_ru": "Расторжение трудового договора возможно по обоюдному согласию."
+  },
+  {
+    "de": "aus betrieblichen Gründen",
+    "ru": "по производственным причинам",
+    "example_de": "Leider müssen wir aus betrieblichen Gründen einige Mitarbeiter entlassen.",
+    "example_ru": "К сожалению, мы вынуждены уволить нескольких сотрудников по причине нехватки рабочих мест в компании."
+  },
+  {
+    "de": "etwas bedarf der Schriftform",
+    "ru": "необходимость оформления в письменном виде",
+    "example_de": "Für die Kündigung des Arbeitsvertrags bedarf es der Schriftform.",
+    "example_ru": "Для расторжения трудового договора требуется форма в письменном виде."
+  },
+  {
+    "de": "im Homeoffice arbeiten",
+    "ru": "работать из дома",
+    "example_de": "Seit der Pandemie arbeiten viele Menschen im Homeoffice.",
+    "example_ru": "С момента пандемии многие люди работают на дому."
+  },
+  {
+    "de": "sich arbeitssuchend melden",
+    "ru": "зарегистрироваться как соискатель",
+    "example_de": "Ich muss mich arbeitssuchend melden und die Meldung alle drei Monate verlängern, um weiterhin Arbeitslosengeld zu erhalten.",
+    "example_ru": "Я должен зарегистрироваться как ищущий работу и продлевать регистрацию каждые три месяца, чтобы продолжать получать пособие по безработице."
+  },
+  {
+    "de": "den Vertrag verlängern",
+    "ru": "продлить договор",
+    "example_de": "Wir müssen den Vertrag verlängern, um die Zusammenarbeit fortzusetzen.",
+    "example_ru": "Мы должны продлить контракт, чтобы продолжить сотрудничество. Steuern und Sozialabgaben"
+  },
+  {
+    "de": "die Arbeitslosenversicherung",
+    "ru": "страхование от безработицы",
+    "example_de": "Die Arbeitslosenversicherung ist eine staatliche Versicherung, die Arbeitnehmern im Falle von Arbeitslosigkeit finanzielle Unterstützung bietet.",
+    "example_ru": "Страхование от безработицы - это государственная страховка, которая предоставляет финансовую поддержку работникам в случае потери работы."
+  },
+  {
+    "de": "die Bruttovergütung",
+    "ru": "заработная плата брутто",
+    "example_de": "Die Bruttovergütung ist das Gehalt, das ein Arbeitnehmer vor Abzug von Steuern und Sozialversicherungsbeiträgen erhält.",
+    "example_ru": "Брутто-вознаграждение - это зарплата, которую работник получает до вычета налогов и взносов в социальные фонды."
+  },
+  {
+    "de": "die Kirchensteuer",
+    "ru": "церковный налог",
+    "example_de": "Die Kirchensteuer ist eine Abgabe, die von Mitgliedern einer Kirche gezahlt wird und zur Finanzierung der Kirche dient.",
+    "example_ru": "Церковный налог - это сбор, который уплачивают члены церкви и который служит для финансирования церкви."
+  },
+  {
+    "de": "die Konfession",
+    "ru": "конфессия",
+    "example_de": "Die Konfession ist die religiöse Zugehörigkeit einer Person.",
+    "example_ru": "Конфессия - это религиозная принадлежность человека."
+  },
+  {
+    "de": "die Lohnsteuer",
+    "ru": "подоходный налог",
+    "example_de": "Die Lohnsteuer wird vom Arbeitgeber direkt vom Bruttogehalt abgezogen und an das Finanzamt abgeführt.",
+    "example_ru": "Налог на доходы с работы удерживается непосредственно работодателем из брутто- заработной платы и перечисляется в налоговую инспекцию."
+  },
+  {
+    "de": "der Nettoverdienst",
+    "ru": "чистый заработок",
+    "example_de": "Der Nettoverdienst ist das Gehalt, das man nach Abzug aller Steuern und Sozialversicherungsbeiträge erhält.",
+    "example_ru": "Чистый заработок - это зарплата, которую человек получает после вычета всех налогов и взносов в социальные фонды."
+  },
+  {
+    "de": "die Pflegeversicherung",
+    "ru": "страхование на случай потребности в уходе",
+    "example_de": "Die Pflegeversicherung ist eine Versicherung, die die Kosten für Pflegebedürftigkeit abdeckt.",
+    "example_ru": "Страхование по уходу - это страхование, которое покрывает расходы на уход."
+  },
+  {
+    "de": "die Rentenversicherung",
+    "ru": "пенсионное страхование",
+    "example_de": "Die Rentenversicherung ist eine staatliche Absicherung für das Alter.",
+    "example_ru": "Пенсионное страхование является государственной защитой на старость."
+  },
+  {
+    "de": "die Steuerklasse",
+    "ru": "налоговый класс",
+    "example_de": "In Deutschland gibt es sechs verschiedene Steuerklassen, je nach Familienstand und Einkommen.",
+    "example_ru": "В Германии есть шесть различных налоговых классов, в зависимости от семейного положения и дохода."
+  },
+  {
+    "de": "abziehen",
+    "ru": "вычесть",
+    "example_de": "Ich werde die Kosten für das Essen von deinem Gehalt abziehen.",
+    "example_ru": "Я буду вычитать стоимость еды из твоей зарплаты."
+  },
+  {
+    "de": "einbehalten",
+    "ru": "удержать",
+    "example_de": "Ich werde einen Teil deines Gehalts einbehalten, bis du deine Aufgaben erledigt hast.",
+    "example_ru": "Я буду удерживать часть твоей зарплаты, пока ты не выполнить свои задачи. Betriebsrat"
+  },
+  {
+    "de": "die Belegschaft",
+    "ru": "коллектив",
+    "example_de": "Die Belegschaft unseres Unternehmens setzt sich aus Mitarbeitern unterschiedlicher Abteilungen zusammen.",
+    "example_ru": "Коллектив нашей компании состоит из сотрудников разных отделов."
+  },
+  {
+    "de": "die Gleichberechtigung",
+    "ru": "равноправие",
+    "example_de": "In unserer Firma legen wir großen Wert auf Gleichberechtigung und Chancengleichheit.",
+    "example_ru": "В нашей компании мы уделяем большое значение равноправию и равенству возможностей."
+  },
+  {
+    "de": "die Integration",
+    "ru": "интеграция",
+    "example_de": "Die Integration von Flüchtlingen ist eine wichtige gesellschaftliche Aufgabe.",
+    "example_ru": "Интеграция беженцев является важной социальной задачей."
+  },
+  {
+    "de": "der Schwerbehinderte",
+    "ru": "лицо с тяжелой формой инвалидности",
+    "example_de": "Der Schwerbehinderte hat Anspruch auf bestimmte Vergünstigungen und Hilfen.",
+    "example_ru": "Человек с тяжелой инвалидностью имеет право на определенные льготы и помощь. Branchen"
+  },
+  {
+    "de": "die Gastronomie",
+    "ru": "гастрономия",
+    "example_de": "Die Gastronomie in dieser Stadt ist sehr vielfältig und bietet für jeden Geschmack etwas.",
+    "example_ru": "Гастрономия в этом городе очень разнообразна и предлагает что-то для каждого вкуса."
+  },
+  {
+    "de": "der Großhandel",
+    "ru": "оптовая торговля",
+    "example_de": "Unser Unternehmen ist im Großhandel tätig und beliefert Kunden in ganz Europa.",
+    "example_ru": "Наша компания занимается оптовой торговлей и поставляет товары клиентам по всей Европе."
+  },
+  {
+    "de": "der Einzelhandel",
+    "ru": "розничная торговля",
+    "example_de": "Der Einzelhandel hat in den letzten Jahren aufgrund des Online- Shoppings an Bedeutung verloren.",
+    "example_ru": "Розничная торговля потеряла в последние годы свое значение из-за онлайн-шопинга."
+  },
+  {
+    "de": "die Immobilienbranche",
+    "ru": "сфера недвижимости",
+    "example_de": "Die Immobilienbranche boomt derzeit in vielen Ländern, insbesondere in den Metropolen.",
+    "example_ru": "На данный момент индустрия недвижимости процветает во многих странах, особенно в мегаполисах."
+  },
+  {
+    "de": "die IT-Branche IT-",
+    "ru": "сфера",
+    "example_de": "Die IT-Branche ist eine der am schnellsten wachsenden Branchen weltweit und bietet viele Karrieremöglichkeiten.",
+    "example_ru": "Индустрия информационных технологий является одной из наиболее быстрорастущих отраслей в мире и предлагает множество возможностей для карьерного роста."
+  },
+  {
+    "de": "der Maschinenbau",
+    "ru": "машиностроение",
+    "example_de": "Der Maschinenbau ist eine wichtige Branche in Deutschland und hat eine lange Tradition.",
+    "example_ru": "Машиностроение является важной отраслью в Германии и имеет долгую традицию."
+  },
+  {
+    "de": "die Medien",
+    "ru": "средства массовой информации",
+    "example_de": "Die Medien haben einen großen Einfluss auf die öffentliche Meinungsbildung und sind daher ein wichtiger Bestandteil unserer Gesellschaft.",
+    "example_ru": "СМИ оказывают большое влияние на формирование общественного мнения и являются важной частью нашего общества."
+  },
+  {
+    "de": "die Metallindustrie",
+    "ru": "металлургическая промышленность",
+    "example_de": "Die Metallindustrie ist eine bedeutende Branche in vielen Ländern und spielt eine wichtige Rolle in der Wirtschaft.",
+    "example_ru": "Металлургическая промышленность является значимой отраслью во многих странах и играет важную роль в экономике."
+  },
+  {
+    "de": "der Öffentliche Dienst",
+    "ru": "государственная служба",
+    "example_de": "Der Öffentliche Dienst ist ein wichtiger Bestandteil des Staates.",
+    "example_ru": "Государственная служба является важной составляющей государства."
+  },
+  {
+    "de": "die Pharmaindustrie",
+    "ru": "фармакология",
+    "example_de": "Die Pharmaindustrie entwickelt und produziert Medikamente für die Behandlung von Krankheiten.",
+    "example_ru": "Фармацевтическая индустрия разрабатывает и производит лекарства для лечения заболеваний."
+  },
+  {
+    "de": "Transport und Logistik",
+    "ru": "транспорт и логистика",
+    "example_de": "Transport und Logistik spielen eine wichtige Rolle in der globalen Wirtschaft.",
+    "example_ru": "Транспорт и логистика играют важную роль в глобальной экономике. Abteilungen"
+  },
+  {
+    "de": "der Einkauf",
+    "ru": "закупки",
+    "example_de": "Der Einkauf von Waren und Dienstleistungen ist für Unternehmen ein wichtiger Teil des Geschäftsprozesses.",
+    "example_ru": "Закупка товаров и услуг является важной частью бизнес-процесса для компаний."
+  },
+  {
+    "de": "die Finanzabteilung",
+    "ru": "финансовый отдел",
+    "example_de": "Die Finanzabteilung ist für die Verwaltung der finanziellen Angelegenheiten eines Unternehmens zuständig.",
+    "example_ru": "Финансовый отдел отвечает за управление финансовыми вопросами компании."
+  },
+  {
+    "de": "die Geschäftsleitung",
+    "ru": "руководство",
+    "example_de": "Die Geschäftsleitung ist für die strategische Führung und die Entscheidungsfindung in einem Unternehmen verantwortlich.",
+    "example_ru": "Руководство компании отвечает за стратегическое управление и принятие решений."
+  },
+  {
+    "de": "die Geschäftsführung",
+    "ru": "управление",
+    "example_de": "Die Geschäftsführung ist für die operative Führung und die Umsetzung der Unternehmensstrategie verantwortlich.",
+    "example_ru": "Управление компании отвечает за оперативное управление и реализацию стратегии компании."
+  },
+  {
+    "de": "die Kundenbetreuung",
+    "ru": "обслуживание клиентов",
+    "example_de": "Die Kundenbetreuung ist ein wichtiger Bestandteil des Kundenservice und umfasst die Beratung und Unterstützung von Kunden bei Fragen und Problemen.",
+    "example_ru": "Обслуживание клиентов является важной частью обслуживания клиентов и включает консультацию и поддержку клиентов при вопросах и проблемах."
+  },
+  {
+    "de": "das Lager",
+    "ru": "склад",
+    "example_de": "Das Lager ist ein Ort, an dem Waren und Produkte gelagert und verwaltet werden.",
+    "example_ru": "Склад - это место, где хранятся и управляются товарами и продуктами."
+  },
+  {
+    "de": "die Marketingabteilung",
+    "ru": "отдел маркетинга",
+    "example_de": "Die Marketingabteilung ist für die Planung und Umsetzung von Marketingstrategien und - kampagnen eines Unternehmens verantwortlich.",
+    "example_ru": "Отдел маркетинга отвечает за планирование и реализацию маркетинговых стратегий и кампаний компании."
+  },
+  {
+    "de": "die Personalabteilung",
+    "ru": "отдел кадров",
+    "example_de": "Die Personalabteilung sucht nach neuen Mitarbeitern.",
+    "example_ru": "Отдел кадров ищет новых сотрудников."
+  },
+  {
+    "de": "die Produktion",
+    "ru": "производство",
+    "example_de": "Die Produktion läuft auf Hochtouren, um die Nachfrage zu erfüllen.",
+    "example_ru": "Производство работает на полную мощность, чтобы удовлетворить спрос. Im Betrieb"
+  },
+  {
+    "de": "die Berufschancen",
+    "ru": "возможности трудоустройства",
+    "example_de": "Die Berufschancen in diesem Unternehmen sind sehr gut.",
+    "example_ru": "Возможности трудоустройства в этой компании очень хорошие."
+  },
+  {
+    "de": "der Einsatzplan",
+    "ru": "график работы",
+    "example_de": "Der Einsatzplan für die kommende Woche ist bereits erstellt.",
+    "example_ru": "График работ на следующую неделю уже составлен."
+  },
+  {
+    "de": "die Konkurrenz",
+    "ru": "конкуренция",
+    "example_de": "Die Konkurrenz auf dem Markt ist sehr groß.",
+    "example_ru": "Конкуренция на рынке очень большая."
+  },
+  {
+    "de": "der Vorgesetzte",
+    "ru": "начальник",
+    "example_de": "Mein Vorgesetzter hat mir eine neue Aufgabe zugewiesen.",
+    "example_ru": "Мой начальник поручил мне новое задание."
+  },
+  {
+    "de": "die Ware",
+    "ru": "товар",
+    "example_de": "Die Ware wird morgen geliefert.",
+    "example_ru": "Товар будет доставлен завтра. Arbeitsatmosphäre"
+  },
+  {
+    "de": "die Anredeform",
+    "ru": "форма обращения",
+    "example_de": "Die Anredeform in diesem Unternehmen ist sehr förmlich.",
+    "example_ru": "Форма обращения в этой компании очень формальная."
+  },
+  {
+    "de": "die Firmenphilosophie",
+    "ru": "философия фирмы",
+    "example_de": "Die Firmenphilosophie legt großen Wert auf Nachhaltigkeit und Umweltschutz.",
+    "example_ru": "Философия компании уделяет большое внимание устойчивому развитию и охране окружающей среды."
+  },
+  {
+    "de": "das Image",
+    "ru": "образ",
+    "example_de": "Das Image dieses Produkts ist sehr gut.",
+    "example_ru": "Образ этого продукта очень хороший."
+  },
+  {
+    "de": "duzen",
+    "ru": "обращаться на «ты»",
+    "example_de": "In dieser Firma ist es üblich, sich zu duzen.",
+    "example_ru": "В этой компании принято обращаться на \"ты\"."
+  },
+  {
+    "de": "siezen",
+    "ru": "обращаться на «вы»",
+    "example_de": "In diesem Geschäft werden die Kunden gesiezt.",
+    "example_ru": "В этом магазине обращаются к клиентам на \"вы\"."
+  },
+  {
+    "de": "angemessen",
+    "ru": "соответствующий",
+    "example_de": "Es ist wichtig, dass die Kleidung angemessen zum Anlass gewählt wird.",
+    "example_ru": "Важно, чтобы одежда была соответствующей для данного случая."
+  },
+  {
+    "de": "förmlich",
+    "ru": "формальный",
+    "example_de": "Bei offiziellen Anlässen ist eine förmliche Kleidung angemessen.",
+    "example_ru": "На официальных мероприятиях подходит формальная одежда."
+  },
+  {
+    "de": "konservativ",
+    "ru": "консервативный",
+    "example_de": "Ich bin politisch konservativ und glaube an traditionelle Werte.",
+    "example_ru": "Я политически консервативен и верю в традиционные ценности."
+  },
+  {
+    "de": "locker",
+    "ru": "непринужденный",
+    "example_de": "Wir haben eine lockerere Arbeitsatmosphäre seitdem der neue Chef da ist.",
+    "example_ru": "У нас более свободная рабочая атмосфера, с тех пор как появился новый начальник."
+  },
+  {
+    "de": "respektlos",
+    "ru": "неуважительно",
+    "example_de": "Es ist respektlos, jemanden öffentlich zu beleidigen.",
+    "example_ru": "Это неуважительно общественно оскорблять кого-то."
+  },
+  {
+    "de": "traditionsreich",
+    "ru": "богатый традициями",
+    "example_de": "Die Stadt ist traditionsreich und hat eine lange Geschichte.",
+    "example_ru": "Город богат традициями и имеет долгую историю."
+  },
+  {
+    "de": "das Du anbieten",
+    "ru": "предложить перейти на «ты»",
+    "example_de": "Es ist üblich, in Deutschland das Du anzubieten, wenn man jemanden besser kennenlernt.",
+    "example_ru": "В Германии обычно предлагают перейти на \"ты\" , когда лучше узнаешь кого-то."
+  },
+  {
+    "de": "den ersten Schritt machen",
+    "ru": "сделать первый шаг",
+    "example_de": "Wenn du jemandem näherkommen willst, musst du oft den ersten Schritt machen.",
+    "example_ru": "Если ты хочешь приблизиться к кому-то, часто нужно сделать первый шаг."
+  },
+  {
+    "de": "per Du sein",
+    "ru": "быть на «ты»",
+    "example_de": "Wir sind per Du und haben eine freundschaftliche Beziehung.",
+    "example_ru": "Мы на \"ты\" и имеем дружеские отношения."
+  },
+  {
+    "de": "per Sie sein",
+    "ru": "быть на «вы»",
+    "example_de": "In diesem Unternehmen sind wir per Sie und sprechen uns mit Nachnamen an.",
+    "example_ru": "В этой компании мы на \"вы\" и обращаемся друг к другу по фамилии."
+  },
+  {
+    "de": "tabu sein",
+    "ru": "быть под запретом",
+    "example_de": "In vielen Kulturen ist es immer noch ein Tabu, über sexuelle Themen zu sprechen.",
+    "example_ru": "Во многих культурах до сих пор табу говорить о сексуальных темах. Qualifikationen"
+  },
+  {
+    "de": "die Ausbildung",
+    "ru": "образование",
+    "example_de": "Eine gute Ausbildung ist heutzutage sehr wichtig für eine erfolgreiche Karriere.",
+    "example_ru": "Хорошее образование сегодня очень важно для успешной карьеры."
+  },
+  {
+    "de": "der Ausbildungsberuf",
+    "ru": "квалифицированная работа",
+    "example_de": "Mein Traum ist es, einen Ausbildungsberuf als Elektroniker zu erlernen.",
+    "example_ru": "Моя мечта - получить профессию электронщика в рамках обучения."
+  },
+  {
+    "de": "die Berufsfachschule",
+    "ru": "специальное учебное заведение",
+    "example_de": "Nach dem Schulabschluss habe ich mich für eine zweijährige Ausbildung an einer Berufsfachschule entschieden.",
+    "example_ru": "После окончания школы я выбрал двухлетнее обучение в профессиональной школе."
+  },
+  {
+    "de": "das Berufsinformationszentrum",
+    "ru": "центр информации по выбору профессии",
+    "example_de": "Im Berufsinformationszentrum erhält man Informationen zu verschiedenen Berufen und Ausbildungsmöglichkeiten.",
+    "example_ru": "В Центре профессиональной информации можно получить информацию о различных профессиях и возможностях обучения."
+  },
+  {
+    "de": "das Berufskolleg",
+    "ru": "профессиональный колледж",
+    "example_de": "Ich besuche das Berufskolleg, um eine Ausbildung als Industriekaufmann zu absolvieren.",
+    "example_ru": "Я посещаю профессиональный колледж, чтобы получить образование в качестве промышленного менеджера."
+  },
+  {
+    "de": "das Berufsvorbereitungsjahr",
+    "ru": "годовая подготовка к профессиональному обучению",
+    "example_de": "Das Berufsvorbereitungsjahr bietet Schülern die Möglichkeit, sich auf eine spätere Ausbildung vorzubereiten.",
+    "example_ru": "Год подготовки к профессии предоставляет ученикам возможность подготовиться к будущему обучению."
+  },
+  {
+    "de": "die Fortbildungsakademie",
+    "ru": "академия повышения квалификации",
+    "example_de": "Die Fortbildungsakademie bietet verschiedene Kurse und Seminare zur beruflichen Weiterbildung an.",
+    "example_ru": "Академия повышения квалификации предлагает различные курсы и семинары для профессионального обучения."
+  },
+  {
+    "de": "die Handelssprache",
+    "ru": "профессиональный язык",
+    "example_de": "Englisch gilt als die wichtigste Handelssprache weltweit.",
+    "example_ru": "Английский язык считается самым важным языком для делового общения в мире."
+  },
+  {
+    "de": "die Sprachkenntnisse",
+    "ru": "языковые знания",
+    "example_de": "Gute Sprachkenntnisse sind in vielen Berufen eine wichtige Voraussetzung.",
+    "example_ru": "Хорошие языковые знания являются важным требованием во многих профессиях."
+  },
+  {
+    "de": "absolvieren",
+    "ru": "окончить",
+    "example_de": "Ich werde nächstes Jahr mein Studium absolvieren und hoffe, danach eine gute Arbeit zu finden.",
+    "example_ru": "Я закончу свое обучение в следующем году и надеюсь найти хорошую работу после этого."
+  },
+  {
+    "de": "Erfahrungen sammeln",
+    "ru": "получать практические знания",
+    "example_de": "Es ist wichtig, im Berufsleben Erfahrungen zu sammeln, um sich weiterzuentwickeln.",
+    "example_ru": "Важно накапливать опыт в профессиональной жизни, чтобы развиваться дальше."
+  },
+  {
+    "de": "der erlernte Beruf",
+    "ru": "приобретенная профессия",
+    "example_de": "Der erlernte Beruf kann ein wichtiger Teil der Identität einer Person sein.",
+    "example_ru": "Изученная профессия может быть важной частью личности человека."
+  },
+  {
+    "de": "die fundierte Ausbildung",
+    "ru": "фундаментальное образование",
+    "example_de": "Die fundierte Ausbildung ist ein wichtiger Faktor für eine erfolgreiche Karriere.",
+    "example_ru": "Фундаментальное образование является важным фактором успешной карьеры. Bewerbungen und Vorstellungsgespräch"
+  },
+  {
+    "de": "die Altersbegrenzung",
+    "ru": "возрастное ограничение",
+    "example_de": "Die Altersbegrenzung für den Eintritt in den Club beträgt 18 Jahre.",
+    "example_ru": "Возрастное ограничение для входа в клуб составляет 18 лет."
+  },
+  {
+    "de": "das Anliegen",
+    "ru": "просьба",
+    "example_de": "Ich möchte gerne Ihr Anliegen hören und Ihnen helfen, falls ich kann.",
+    "example_ru": "Я хотел бы выслушать вашу просьбу и помочь вам, если смогу."
+  },
+  {
+    "de": "der Aushilfsjob",
+    "ru": "подработка",
+    "example_de": "Ich suche einen Aushilfsjob, um mein Einkommen aufzubessern.",
+    "example_ru": "Я ищу подработку, чтобы увеличить свой доход."
+  },
+  {
+    "de": "die Ausschreibung",
+    "ru": "конкурс",
+    "example_de": "Die Ausschreibung für die Stelle des Geschäftsführers endet nächste Woche.",
+    "example_ru": "Конкурс о вакансии на должность директора заканчивается на следующей неделе."
+  },
+  {
+    "de": "die Bewerbungsunterlagen",
+    "ru": "документы к заявлению соискателя",
+    "example_de": "Bitte senden Sie uns Ihre Bewerbungsunterlagen per E-Mail oder Post zu.",
+    "example_ru": "Пожалуйста, отправьте нам свои документы для подачи заявления на работу по электронной почте или почтой."
+  },
+  {
+    "de": "die Jobbörse",
+    "ru": "биржа труда",
+    "example_de": "Ich habe meine Traumstelle in der Jobbörse gefunden.",
+    "example_ru": "Я нашел свою работу мечты на бирже труда."
+  },
+  {
+    "de": "der Personalchef",
+    "ru": "начальник отдела кадров",
+    "example_de": "Der Personalchef ist für die Einstellung neuer Mitarbeiter zuständig.",
+    "example_ru": "Начальник отдела кадров отвечает за найм новых сотрудников."
+  },
+  {
+    "de": "beeindrucken",
+    "ru": "производить впечатление",
+    "example_de": "Seine Leistungen im letzten Jahr haben mich sehr beeindruckt.",
+    "example_ru": "Его достижения в прошлом году меня очень впечатлили."
+  },
+  {
+    "de": "jobben",
+    "ru": "подрабатывать",
+    "example_de": "Während der Semesterferien möchte ich jobben, um mein Studium zu finanzieren.",
+    "example_ru": "Во время каникул я хочу подработать, чтобы заработать на учебу."
+  },
+  {
+    "de": "derzeitig",
+    "ru": "в настоящее время",
+    "example_de": "Der derzeitige Stand der Dinge ist noch unklar.",
+    "example_ru": "Текущая ситуация пока неясна."
+  },
+  {
+    "de": "gelegentlich",
+    "ru": "периодически",
+    "example_de": "Ich treffe mich gelegentlich mit Freunden zum Essen.",
+    "example_ru": "Иногда я встречаюсь с друзьями, чтобы поесть."
+  },
+  {
+    "de": "gewissenhaft",
+    "ru": "добросовестный",
+    "example_de": "Ich arbeite gewissenhaft und sorgfältig, um beste Ergebnisse zu erzielen.",
+    "example_ru": "Я работаю добросовестно и тщательно, чтобы достичь лучших результатов."
+  },
+  {
+    "de": "reibungslos",
+    "ru": "безупречный",
+    "example_de": "Die Zusammenarbeit verlief reibungslos und ohne Probleme.",
+    "example_ru": "Сотрудничество прошло гладко и без проблем."
+  },
+  {
+    "de": "zuverlässig",
+    "ru": "надежный",
+    "example_de": "Mein Kollege ist sehr zuverlässig und erledigt seine Aufgaben immer pünktlich.",
+    "example_ru": "Мой коллега очень надежный и всегда выполняет свои задачи вовремя."
+  },
+  {
+    "de": "ab und zu",
+    "ru": "время от времени",
+    "example_de": "Ab und zu gehe ich gerne ins Kino, um mir einen Film anzusehen.",
+    "example_ru": "Время от времени я люблю ходить в кино, чтобы посмотреть фильм."
+  },
+  {
+    "de": "die Ausbildung verkürzen",
+    "ru": "сократить обучение",
+    "example_de": "Wenn man gute Noten hat, kann man die Ausbildung verkürzen.",
+    "example_ru": "Если у вас хорошие оценки, вы можете сократить продолжительность обучения."
+  },
+  {
+    "de": "beruflich vorwärtskommen",
+    "ru": "подниматься по карьерной лестнице",
+    "example_de": "Ich möchte beruflich vorwärtskommen und strebe deshalb eine Weiterbildung an.",
+    "example_ru": "Я хочу продвигаться по карьерной лестнице и поэтому стремлюсь к дополнительному образованию."
+  },
+  {
+    "de": "die feste Arbeit",
+    "ru": "постоянная работа",
+    "example_de": "Ich suche eine feste Arbeit, um meine finanzielle Situation zu verbessern.",
+    "example_ru": "Я ищу постоянную работу, чтобы улучшить свою финансовую ситуацию."
+  },
+  {
+    "de": "rund um die Uhr",
+    "ru": "круглосуточно",
+    "example_de": "Unser Kundenservice ist rund um die Uhr für Sie erreichbar.",
+    "example_ru": "Наша служба поддержки доступна для вас круглосуточно. Berufe"
+  },
+  {
+    "de": "der Anlagenmechaniker",
+    "ru": "аппаратчик",
+    "example_de": "Der Anlagenmechaniker ist für die Installation und Wartung von Heizungs- und Sanitäranlagen zuständig.",
+    "example_ru": "Аппаратчик по установке отвечает за установку и обслуживание систем отопления и сантехники."
+  },
+  {
+    "de": "der Bilanzbuchhalter",
+    "ru": "бухгалтер по балансу",
+    "example_de": "Der Bilanzbuchhalter erstellt die Jahresabschlüsse und überwacht die Buchhaltung eines Unternehmens.",
+    "example_ru": "Бухгалтер по балансу составляет годовые отчеты и контролирует бухгалтерский учет компании."
+  },
+  {
+    "de": "der Bürokaufmann",
+    "ru": "офисный менеджер",
+    "example_de": "Der Bürokaufmann ist für die Organisation und Verwaltung von Büroabläufen verantwortlich.",
+    "example_ru": "Офисный менеджер отвечает за организацию и управление офисной деятельностью."
+  },
+  {
+    "de": "der Gärtner",
+    "ru": "садовник",
+    "example_de": "Der Gärtner pflegt den Garten sehr sorgfältig.",
+    "example_ru": "Садовник очень бережно ухаживает за садом."
+  },
+  {
+    "de": "der Gesundheits- und Krankenpfleger",
+    "ru": "специалист по гигиене и уходу за больными",
+    "example_de": "Der Gesundheits- und Krankenpfleger kümmert sich um das Wohl der Patienten.",
+    "example_ru": "Медицинская сестра заботится о благополучии пациентов."
+  },
+  {
+    "de": "der Näher",
+    "ru": "портной",
+    "example_de": "Der Näher fertigt Kleidung nach Maß an.",
+    "example_ru": "Портной шьет одежду на заказ."
+  },
+  {
+    "de": "die Servicekraft",
+    "ru": "персонал по обслуживанию",
+    "example_de": "Die Servicekraft bedient die Gäste im Restaurant.",
+    "example_ru": "Персонал обслуживает гостей в ресторане."
+  },
+  {
+    "de": "der Zimmerservice",
+    "ru": "обслуживание в номерах",
+    "example_de": "Der Zimmerservice bringt das Frühstück direkt ins Hotelzimmer.",
+    "example_ru": "Сервис номеров доставляет завтрак прямо в номер отеля. Am Arbeitsplatz"
+  },
+  {
+    "de": "die Aufstiegschancen",
+    "ru": "возможности для карьерного роста",
+    "example_de": "Die Aufstiegschancen in diesem Unternehmen sind sehr gut.",
+    "example_ru": "Возможности продвижения в этой компании очень хорошие."
+  },
+  {
+    "de": "der Außentermin",
+    "ru": "встреча вне офиса",
+    "example_de": "Ich habe heute einen wichtigen Außentermin bei einem Kunden.",
+    "example_ru": "Сегодня у меня важная встреча с клиентом за пределами офиса."
+  },
+  {
+    "de": "die Besprechung",
+    "ru": "совещание",
+    "example_de": "Die Besprechung wurde auf nächste Woche verschoben.",
+    "example_ru": "Совещание было перенесено на следующую неделю."
+  },
+  {
+    "de": "die Kantine",
+    "ru": "столовая",
+    "example_de": "In der Kantine gibt es heute Hähnchencurry mit Reis.",
+    "example_ru": "В столовой сегодня куриное карри с рисом."
+  },
+  {
+    "de": "die Sozialleistungen",
+    "ru": "социальные льготы",
+    "example_de": "Das Unternehmen bietet seinen Mitarbeitern attraktive Sozialleistungen.",
+    "example_ru": "Компания предлагает своим сотрудникам привлекательные социальные льготы."
+  },
+  {
+    "de": "einen Gefallen tun",
+    "ru": "сделать кому-либо услугу",
+    "example_de": "Kannst du mir bitte einen Gefallen tun und mein Handy aufladen?",
+    "example_ru": "Ты можешь сделать мне одолжение и зарядить мой телефон?"
+  },
+  {
+    "de": "das Gehalt verhandeln",
+    "ru": "оговаривать оклад",
+    "example_de": "Ich werde nächste Woche mit meinem Chef über mein Gehalt verhandeln.",
+    "example_ru": "Я буду вести переговоры с моим начальником на следующей неделе относительно моей зарплаты."
+  },
+  {
+    "de": "Karriere machen",
+    "ru": "делать карьеру",
+    "example_de": "Er möchte in diesem Unternehmen Karriere machen und wird deshalb über seine Zukunft verhandeln.",
+    "example_ru": "Он хочет продвигаться в этой компании и будет вести переговоры о своем будущем."
+  },
+  {
+    "de": "Priorität haben",
+    "ru": "иметь приоритет",
+    "example_de": "Ich habe momentan viele Aufgaben, aber die Arbeit an diesem Projekt hat Priorität.",
+    "example_ru": "У меня сейчас много задач, но работа над этим проектом имеет приоритет."
+  },
+  {
+    "de": "Sachen abarbeiten",
+    "ru": "выполнять работу",
+    "example_de": "Ich muss heute noch viele Sachen abarbeiten, bevor ich Feierabend machen kann.",
+    "example_ru": "Я должен сегодня еще много дел выполнить, прежде чем я смогу закончить работу."
+  },
+  {
+    "de": "sachlich bleiben",
+    "ru": "сохранять объективность",
+    "example_de": "Lass uns sachlich bleiben und versuchen, eine Lösung zu finden.",
+    "example_ru": "Давайте останемся объективными и попытаемся найти решение. Arbeitsbedingungen"
+  },
+  {
+    "de": "die monotone Aufgabe",
+    "ru": "монотонное задание",
+    "example_de": "Die monotone Aufgabe des Dateneingabes hat mich fast in den Wahnsinn getrieben.",
+    "example_ru": "Монотонная задача ввода данных почти свела меня с ума."
+  },
+  {
+    "de": "angemessen bezahlt werden",
+    "ru": "получать справедливую оплату",
+    "example_de": "Ich denke, dass meine Arbeit angemessen bezahlt werden sollte, da ich viel Erfahrung und Qualifikationen mitbringe.",
+    "example_ru": "Я считаю, что моя работа должна быть оплачена соответствующим образом, так как у меня есть много опыта и квалификаций."
+  },
+  {
+    "de": "auf Dauer unzufrieden sein",
+    "ru": "быть постоянно недовольным",
+    "example_de": "Wenn du in deinem Job nicht glücklich bist, wirst du auf Dauer unzufrieden sein und es wird sich auf dein Leben auswirken.",
+    "example_ru": "Если вы не счастливы на своей работе, вы будете неудовлетворены в долгосрочной перспективе, и это повлияет на вашу жизнь."
+  },
+  {
+    "de": "Bedenken äußern",
+    "ru": "выражать сомнения",
+    "example_de": "Ich möchte meine Bedenken bezüglich dieses Projekts äußern, da ich denke, dass es nicht realistisch ist.",
+    "example_ru": "Я хочу высказать свои опасения относительно этого проекта, так как я считаю, что он не реалистичен."
+  },
+  {
+    "de": "die Chemie stimmt",
+    "ru": "испытывать симпатию",
+    "example_de": "Ich denke, dass wir gut zusammenarbeiten können, da die Chemie zwischen uns stimmt.",
+    "example_ru": "Я думаю, что мы можем хорошо работать вместе, так как между нами есть хорошая симпатия."
+  },
+  {
+    "de": "die Chemie stimmt nicht",
+    "ru": "не испытывать симпатию",
+    "example_de": "Leider kann ich mit meinem Kollegen nicht gut zusammenarbeiten, da die Chemie zwischen uns nicht stimmt.",
+    "example_ru": "К сожалению, я не могу хорошо работать с моим коллегой, так как между нами нет симпатии."
+  },
+  {
+    "de": "fix und fertig sein",
+    "ru": "вымотаться",
+    "example_de": "Nach einem langen Arbeitstag bin ich fix und fertig und möchte nur noch nach Hause gehen.",
+    "example_ru": "После долгого рабочего дня я устал и хочу только домой."
+  },
+  {
+    "de": "die Geduld bewahren",
+    "ru": "сохранять терпение",
+    "example_de": "Man muss in schwierigen Situationen die Geduld bewahren.",
+    "example_ru": "В сложных ситуациях нужно сохранять терпение."
+  },
+  {
+    "de": "gesellschaftlich anerkannt sein",
+    "ru": "пользоваться общественным признанием",
+    "example_de": "Es ist wichtig, gesellschaftlich anerkannt zu sein, um erfolgreich zu sein.",
+    "example_ru": "Важно быть общественно признанным, чтобы быть успешным."
+  },
+  {
+    "de": "gesellschaftlich nicht anerkannt sein",
+    "ru": "не пользоваться общественным признанием",
+    "example_de": "Leider sind bestimmte Verhaltensweisen in unserer Gesellschaft immer noch gesellschaftlich nicht anerkannt.",
+    "example_ru": "К сожалению, определенные поведенческие модели все еще не признаются в нашем обществе."
+  },
+  {
+    "de": "ein hohes Arbeitspensum haben",
+    "ru": "иметь большой объем работы",
+    "example_de": "Ich habe momentan ein hohes Arbeitspensum und komme kaum dazu, meine Freizeit zu genießen.",
+    "example_ru": "У меня в данный момент высокая рабочая нагрузка и я едва успеваю наслаждаться своим свободным временем."
+  },
+  {
+    "de": "nichts Unüberlegtes tun",
+    "ru": "не совершать опрометчивых поступков",
+    "example_de": "Es ist wichtig, nichts Unüberlegtes zu tun, um spätere Probleme zu vermeiden.",
+    "example_ru": "Важно не делать ничего необдуманного, чтобы избежать проблем в будущем."
+  },
+  {
+    "de": "nichts zu verschenken haben",
+    "ru": "быть ограниченным в средствах",
+    "example_de": "In der heutigen Wirtschaftslage kann man es sich nicht leisten, nichts zu verschenken zu haben.",
+    "example_ru": "В текущей экономической обстановке нельзя позволить себе не иметь ничего лишнего."
+  },
+  {
+    "de": "schlecht gelaunt sein",
+    "ru": "быть не в духе",
+    "example_de": "Heute bin ich schlecht gelaunt, weil ich nicht genug geschlafen habe.",
+    "example_ru": "Сегодня я в плохом настроении, потому что не выспался достаточно."
+  },
+  {
+    "de": "sich überfordert fühlen",
+    "ru": "чувствовать чрезмерную нагрузку",
+    "example_de": "Ich fühle mich oft überfordert mit meinen Aufgaben im Studium.",
+    "example_ru": "Я часто чувствую себя перегруженным своими заданиями в университете."
+  },
+  {
+    "de": "sich unterfordert fühlen",
+    "ru": "чувствовать недостаточную нагрузку",
+    "example_de": "Manche Schüler fühlen sich im Unterricht unterfordert und langweilen sich deshalb.",
+    "example_ru": "Некоторые ученики чувствуют себя недостаточно занятыми в классе и скучают из-за этого."
+  },
+  {
+    "de": "sich zu Tode langweilen",
+    "ru": "смертельно скучать",
+    "example_de": "Ich habe mich gestern zu Tode gelangweilt, weil es den ganzen Tag geregnet hat und ich nicht rausgehen konnte.",
+    "example_ru": "Вчера я умер от скуки, потому что весь день шел дождь и я не мог выйти на улицу. Arbeitszeiten"
+  },
+  {
+    "de": "die 40-Stunden-Woche 40-",
+    "ru": "часовая неделя",
+    "example_de": "Die 40-Stunden-Woche ist in Deutschland gesetzlich festgelegt. 40-",
+    "example_ru": "часовая рабочая неделя законодательно установлена в Германии."
+  },
+  {
+    "de": "das Entgegenkommen",
+    "ru": "отзывчивость",
+    "example_de": "Das Entgegenkommen des Chefs hat die Mitarbeiter sehr erfreut.",
+    "example_ru": "Отзывчивость начальника очень обрадовала сотрудников."
+  },
+  {
+    "de": "die Gleitzeit",
+    "ru": "гибкий график работы",
+    "example_de": "In vielen Unternehmen gibt es die Gleitzeit, die den Mitarbeitern eine flexible Arbeitszeitgestaltung ermöglicht.",
+    "example_ru": "Во многих компаниях есть гибкий график, который позволяет сотрудникам гибко планировать свое рабочее время."
+  },
+  {
+    "de": "die Kernzeit",
+    "ru": "фиксированный график",
+    "example_de": "Während der Kernzeit müssen alle Mitarbeiter im Büro anwesend sein.",
+    "example_ru": "Во время основного рабочего времени все сотрудники должны быть присутствовать в офисе."
+  },
+  {
+    "de": "die Wechselschicht",
+    "ru": "сменный график",
+    "example_de": "In einigen Fabriken arbeiten die Mitarbeiter in Wechselschichten, um eine rund um die Uhr Produktion sicherzustellen.",
+    "example_ru": "В некоторых фабриках сотрудники работают в смены, чтобы обеспечить круглосуточное производство."
+  },
+  {
+    "de": "flexible Arbeitszeiten",
+    "ru": "гибкое рабочее время",
+    "example_de": "Flexible Arbeitszeiten sind für viele Arbeitnehmer ein wichtiger Faktor bei der Wahl ihres Arbeitgebers.",
+    "example_ru": "Гибкий график работы является важным фактором для многих работников при выборе своего работодателя."
+  },
+  {
+    "de": "Überstunden machen",
+    "ru": "работать сверхурочно",
+    "example_de": "Manchmal müssen Arbeitnehmer Überstunden machen, um wichtige Projekte rechtzeitig abzuschließen.",
+    "example_ru": "Иногда работники вынуждены работать сверхурочно, чтобы завершить важные проекты вовремя."
+  },
+  {
+    "de": "vertraglich vereinbaren",
+    "ru": "закрепить в договоре",
+    "example_de": "Die Arbeitszeit und das Gehalt werden vertraglich vereinbart, bevor der Arbeitnehmer seinen Job antritt.",
+    "example_ru": "Рабочее время и зарплата согласуются по договору, прежде чем работник приступит к своей работе. Kinderbetreuung"
+  },
+  {
+    "de": "das Betreuungsangebot",
+    "ru": "услуги по уходу",
+    "example_de": "Viele Unternehmen bieten ihren Mitarbeitern ein Betreuungsangebot für ihre Kinder an, um die Vereinbarkeit von Familie und Beruf zu erleichtern.",
+    "example_ru": "Многие компании предлагают своим сотрудникам услуги по уходу за детьми, чтобы облегчить совмещение семейной жизни и работы."
+  },
+  {
+    "de": "die Tagesmutter",
+    "ru": "няня",
+    "example_de": "Die Tagesmutter kümmert sich um die Kinder, während die Eltern arbeiten.",
+    "example_ru": "Няня заботится о детях, пока родители находятся на работе."
+  },
+  {
+    "de": "alleinerziehend",
+    "ru": "воспитывающий в одиночку",
+    "example_de": "Ich bin alleinerziehend und kümmere mich alleine um meine Kinder.",
+    "example_ru": "Я воспитываю детей одна и заботлюсь о них сама."
+  },
+  {
+    "de": "familienfreundlich",
+    "ru": "ориентированный на семью",
+    "example_de": "Dieses Hotel ist besonders familienfreundlich und bietet viele Aktivitäten für Kinder an.",
+    "example_ru": "Этот отель особенно дружелюбен к семьям и предлагает множество развлечений для детей."
+  },
+  {
+    "de": "angewiesen sein auf",
+    "ru": "быть вынужденным",
+    "example_de": "Ich bin angewiesen auf die Unterstützung meiner Familie, um meine Ausbildung zu finanzieren.",
+    "example_ru": "Я зависим от поддержки моей семьи, чтобы финансировать свое образование."
+  },
+  {
+    "de": "Beruf und Familie miteinander vereinbaren",
+    "ru": "найти баланс между работой и семьей",
+    "example_de": "Es ist wichtig, dass Arbeitgeber ihren Mitarbeitern die Möglichkeit geben, Beruf und Familie miteinander zu vereinbaren.",
+    "example_ru": "Важно, чтобы работодатели предоставляли своим сотрудникам возможность совмещать работу и семью. Krankmeldung und Arbeitsunfall"
+  },
+  {
+    "de": "der Krankenschein",
+    "ru": "больничный лист",
+    "example_de": "Ich brauche einen Krankenschein vom Arzt, um mich von der Arbeit krankmelden zu können.",
+    "example_ru": "Мне нужен больничный лист от врача, чтобы я мог сообщить на работе о своей болезни."
+  },
+  {
+    "de": "die Krankmeldung",
+    "ru": "сообщение о заболевании",
+    "example_de": "Ich muss meine Krankmeldung an meinen Arbeitgeber schicken, um ihn darüber zu informieren, dass ich krank bin.",
+    "example_ru": "Мне нужно отправить мое уведомление о болезни моему работодателю, чтобы сообщить ему, что я болен."
+  },
+  {
+    "de": "der Schwindel",
+    "ru": "головокружение",
+    "example_de": "Der Schwindel hat mich fast umgehauen.",
+    "example_ru": "Головокружение почти меня опрокинуло."
+  },
+  {
+    "de": "der Stromschlag",
+    "ru": "поражение электрическим током",
+    "example_de": "Ich habe einen Stromschlag bekommen, als ich die Steckdose berührt habe.",
+    "example_ru": "Я получил удар током, когда коснулся розетки."
+  },
+  {
+    "de": "die Übelkeit",
+    "ru": "тошнота",
+    "example_de": "Mir ist schlecht, ich habe Übelkeit und muss mich übergeben.",
+    "example_ru": "Мне плохо, у меня тошнит и я должен рвать."
+  },
+  {
+    "de": "einen Arzt rufen",
+    "ru": "вызывать врача",
+    "example_de": "Ich denke, wir sollten einen Arzt rufen, wenn es dir nicht besser geht.",
+    "example_ru": "Я думаю, мы должны вызвать врача, если тебе не станет лучше."
+  },
+  {
+    "de": "gesundheitliche Probleme haben",
+    "ru": "иметь проблемы со здоровьем",
+    "example_de": "Mein Onkel hat gesundheitliche Probleme und muss regelmäßig zum Arzt gehen.",
+    "example_ru": "Мой дядя имеет проблемы со здоровьем и должен регулярно ходить к врачу."
+  },
+  {
+    "de": "die Haut kühlen",
+    "ru": "охлаждать кожу",
+    "example_de": "Wenn du einen Sonnenbrand hast, solltest du die Haut kühlen, um Schmerzen zu lindern.",
+    "example_ru": "Если у вас солнечный ожог, вы должны охладить кожу, чтобы уменьшить боль."
+  },
+  {
+    "de": "den Rettungsdienst anrufen",
+    "ru": "звонить в службу спасения",
+    "example_de": "Bei einem medizinischen Notfall sollten Sie sofort den Rettungsdienst anrufen.",
+    "example_ru": "В случае медицинской экстренной ситуации вы должны немедленно вызвать скорую помощь."
+  },
+  {
+    "de": "sich krankmelden",
+    "ru": "сообщить о болезни",
+    "example_de": "Ich muss mich heute krankmelden, da ich Fieber und Kopfschmerzen habe.",
+    "example_ru": "Я должен сегодня заболеть, потому что у меня есть лихорадка и головная боль."
+  },
+  {
+    "de": "die Stromquelle abschalten",
+    "ru": "отключить источник питания",
+    "example_de": "Bevor Sie mit der Reparatur beginnen, müssen Sie unbedingt die Stromquelle abschalten.",
+    "example_ru": "Прежде чем начать ремонт, необходимо обязательно отключить источник питания."
+  },
+  {
+    "de": "die Vertretung organisieren",
+    "ru": "организовывать замену",
+    "example_de": "Ich muss die Vertretung organisieren, damit ich nächste Woche in den Urlaub fahren kann.",
+    "example_ru": "Мне нужно организовать замещение, чтобы я мог поехать в отпуск на следующей неделе."
+  },
+  {
+    "de": "den Unfallbericht schreiben",
+    "ru": "писать отчет о несчастном случае",
+    "example_de": "Nach einem Unfall müssen Sie den Unfallbericht schreiben und an Ihre Versicherung senden.",
+    "example_ru": "После аварии вам необходимо написать отчет об аварии и отправить его вашей страховой компании. Im Putzraum"
+  },
+  {
+    "de": "die antibakterielle Seife",
+    "ru": "антибактериальное мыло",
+    "example_de": "Ich benutze die antibakterielle Seife, um meine Hände gründlich zu reinigen.",
+    "example_ru": "Я использую антибактериальное мыло, чтобы тщательно очистить свои руки."
+  },
+  {
+    "de": "die Ordnung",
+    "ru": "порядок",
+    "example_de": "Es ist wichtig, die Ordnung im Haus zu halten, um ein angenehmes Wohnklima zu schaffen.",
+    "example_ru": "Важно поддерживать порядок в доме, чтобы создать приятную обстановку для жизни."
+  },
+  {
+    "de": "der Putzlappen",
+    "ru": "тряпка",
+    "example_de": "Ich reinige meine Küche mit einem Putzlappen und einem Allzweckreiniger.",
+    "example_ru": "Я очищаю свою кухню с помощью тряпки и универсального чистящего средства."
+  },
+  {
+    "de": "der Staubsauger",
+    "ru": "пылесос",
+    "example_de": "Ich sauge den Teppich mit dem Staubsauger, um ihn von Staub und Schmutz zu befreien.",
+    "example_ru": "Я пылесошу ковер с помощью пылесоса, чтобы очистить его от пыли и грязи."
+  },
+  {
+    "de": "das Waschbecken",
+    "ru": "раковина",
+    "example_de": "Ich wasche mir regelmäßig die Hände im Waschbecken, um Keime und Bakterien abzuwaschen.",
+    "example_ru": "Я регулярно мою руки в раковине, чтобы смыть бактерии и микробы. Arbeitsmaterialien bestellen und liefern"
+  },
+  {
+    "de": "der Mengenrabatt",
+    "ru": "оптовая скидка",
+    "example_de": "Wenn Sie eine größere Menge kaufen, erhalten Sie einen Mengenrabatt.",
+    "example_ru": "Если вы покупаете большое количество, вы получаете скидку на количество."
+  },
+  {
+    "de": "die Preisangabe",
+    "ru": "указание цены",
+    "example_de": "Die Preisangabe ist auf dem Etikett deutlich sichtbar.",
+    "example_ru": "Цена указана на этикетке ярко и четко."
+  },
+  {
+    "de": "der Preisnachlass",
+    "ru": "снижение цены",
+    "example_de": "Ich habe einen Preisnachlass von 10% erhalten, weil ich ein treuer Kunde bin.",
+    "example_ru": "Я получил скидку в 10%, потому что я постоянный клиент."
+  },
+  {
+    "de": "eine Bestellung aufgeben",
+    "ru": "сделать заказ",
+    "example_de": "Ich möchte gerne eine Bestellung aufgeben und benötige dafür Ihre Kontaktdaten.",
+    "example_ru": "Я бы хотел разместить заказ и для этого мне нужны ваши контактные данные."
+  },
+  {
+    "de": "eine Bestellung durchgeben",
+    "ru": "разместить заказ",
+    "example_de": "Ich werde Ihre Bestellung an den Lieferanten durchgeben und Sie über den voraussichtlichen Liefertermin informieren.",
+    "example_ru": "Я передам ваш заказ поставщику и сообщу вам о предполагаемой дате доставки."
+  },
+  {
+    "de": "die Buchung bestätigen",
+    "ru": "подтвердить бронирование",
+    "example_de": "Ich werde Ihre Buchung bestätigen und Ihnen eine Bestätigungs-E-Mail senden.",
+    "example_ru": "Я подтвержу вашу бронь и отправлю вам письмо-подтверждение."
+  },
+  {
+    "de": "einen Liefertermin abklären",
+    "ru": "уточнить дату доставки",
+    "example_de": "Ich muss mit dem Kunden einen Liefertermin abklären.",
+    "example_ru": "Мне нужно с клиентом уточнить дату доставки."
+  },
+  {
+    "de": "eine offene Frage klären",
+    "ru": "уточнить открытый вопрос",
+    "example_de": "Ich möchte gerne meine offene Frage klären.",
+    "example_ru": "Я хотел бы уточнить свой открытый вопрос."
+  },
+  {
+    "de": "der vereinbarte Termin",
+    "ru": "согласованный прием",
+    "example_de": "Ich kann meinen der vereinbarte Termin leider nicht einhalten.",
+    "example_ru": "К сожалению, я не могу соблюсти мой согласованный срок. Telefonate und Terminvereinbarung"
+  },
+  {
+    "de": "nachfragen",
+    "ru": "переспрашивать",
+    "example_de": "Ich werde bei meinem Kollegen nachfragen und Ihnen dann Bescheid geben.",
+    "example_ru": "Я уточню у своего коллеги и тогда сообщу вам."
+  },
+  {
+    "de": "vorbeikommen",
+    "ru": "проходить мимо",
+    "example_de": "Kann ich bitte bei Ihnen vorbeikommen, um das Problem zu besprechen?",
+    "example_ru": "Могу ли я прийти к вам, чтобы обсудить проблему?"
+  },
+  {
+    "de": "am Apparat",
+    "ru": "у аппарата",
+    "example_de": "Kann ich bitte Herrn Müller sprechen? - Ja, er ist am Apparat.",
+    "example_ru": "Могу я поговорить с господином Мюллером? - Да, он на линии."
+  },
+  {
+    "de": "auf den Anrufbeantworter sprechen",
+    "ru": "говорить на автоответчик",
+    "example_de": "Ich kann Ihnen gerade nicht persönlich antworten, aber Sie können auf den Anrufbeantworter sprechen und ich rufe Sie später zurück.",
+    "example_ru": "Я не могу ответить вам лично, но вы можете записать сообщение на автоответчик и я перезвоню вам позже."
+  },
+  {
+    "de": "Auskunft geben",
+    "ru": "давать справку",
+    "example_de": "Können Sie mir bitte Auskunft über die Verfügbarkeit des Produkts geben?",
+    "example_ru": "Можете ли вы дать мне информацию о наличии продукта?"
+  },
+  {
+    "de": "außerhalb der Sprechzeit anrufen",
+    "ru": "звонить вне времени приема",
+    "example_de": "Wenn Sie außerhalb der Sprechzeit anrufen, können Sie eine Nachricht auf dem Anrufbeantworter hinterlassen.",
+    "example_ru": "Если вы звоните вне рабочего времени, вы можете оставить сообщение на автоответчике."
+  },
+  {
+    "de": "Bezug nehmen auf",
+    "ru": "ссылаться на",
+    "example_de": "Ich möchte mich auf unsere vorherige E-Mail beziehen und weitere Details besprechen.",
+    "example_ru": "Я хотел бы сослаться на наше предыдущее электронное письмо и обсудить дополнительные детали."
+  },
+  {
+    "de": "in dringenden Fällen",
+    "ru": "в экстренных случаях",
+    "example_de": "In dringenden Fällen können Sie mich auch außerhalb der Geschäftszeiten telefonisch erreichen.",
+    "example_ru": "В случае чрезвычайной ситуации вы можете связаться со мной по телефону вне рабочего времени."
+  },
+  {
+    "de": "eine kurze Rückmeldung geben",
+    "ru": "дать короткий отзыв",
+    "example_de": "Ich werde Ihnen gerne eine kurze Rückmeldung geben, sobald ich die Informationen habe.",
+    "example_ru": "Я с удовольствием дам вам краткий ответ, как только получу информацию."
+  },
+  {
+    "de": "ohne Voranmeldung",
+    "ru": "без предварительной регистрации",
+    "example_de": "Der Besuch ist ohne Voranmeldung nicht möglich.",
+    "example_ru": "Посещение без предварительной записи невозможно."
+  },
+  {
+    "de": "sich wenden an",
+    "ru": "обращаться к",
+    "example_de": "Wenn Sie Fragen haben, können Sie sich gerne an unseren Kundenservice wenden.",
+    "example_ru": "Если у вас есть вопросы, вы можете обратиться к нашей службе поддержки. Beschwerden und Konflikte"
+  },
+  {
+    "de": "das Missverständnis",
+    "ru": "недопонимание",
+    "example_de": "Leider gab es ein Missverständnis und ich habe Ihre Anfrage falsch verstanden.",
+    "example_ru": "К сожалению, произошло недопонимание, и я неправильно понял ваш запрос."
+  },
+  {
+    "de": "auf Beschwerden reagieren",
+    "ru": "реагировать на жалобы",
+    "example_de": "Es ist wichtig, schnell und angemessen auf Beschwerden zu reagieren, um die Kundenzufriedenheit zu gewährleisten.",
+    "example_ru": "Важно быстро и адекватно реагировать на жалобы, чтобы обеспечить удовлетворенность клиентов."
+  },
+  {
+    "de": "auf Nachfrage",
+    "ru": "по запросу",
+    "example_de": "Auf Nachfrage können wir Ihnen gerne weitere Informationen zur Verfügung stellen.",
+    "example_ru": "По запросу мы с удовольствием предоставим вам дополнительную информацию."
+  },
+  {
+    "de": "Bescheid geben",
+    "ru": "сообщать",
+    "example_de": "Sobald ich mehr Informationen habe, werde ich Ihnen Bescheid geben.",
+    "example_ru": "Как только у меня будут дополнительные сведения, я сообщу вам."
+  },
+  {
+    "de": "Einweisung in das Programm bekommen",
+    "ru": "получать инструктаж по программе",
+    "example_de": "Bevor Sie das Programm nutzen können, werden Sie eine Einweisung in das Programm bekommen.",
+    "example_ru": "Прежде чем вы сможете использовать программу, вам будет предоставлена инструкция по использованию программы."
+  },
+  {
+    "de": "einen Konflikt lösen",
+    "ru": "решать конфликт",
+    "example_de": "Es ist wichtig, Konflikte schnell und professionell zu lösen, um eine positive Arbeitsumgebung aufrechtzuerhalten.",
+    "example_ru": "Важно быстро и профессионально решать конфликты, чтобы поддерживать положительную рабочую обстановку."
+  },
+  {
+    "de": "sich beschweren",
+    "ru": "жаловаться",
+    "example_de": "Wenn Sie mit unserem Service unzufrieden sind, können Sie sich gerne bei uns beschweren.",
+    "example_ru": "Если вы недовольны нашим сервисом, вы можете обратиться к нам с жалобой."
+  },
+  {
+    "de": "nicht zufrieden sein mit",
+    "ru": "быть недовольным чем-либо",
+    "example_de": "Ich bin nicht zufrieden mit dem Ergebnis und würde gerne eine Lösung finden.",
+    "example_ru": "Я не удовлетворен результатом и хотел бы найти решение."
+  },
+  {
+    "de": "zufrieden sein mit",
+    "ru": "быть довольным чем- либо",
+    "example_de": "Ich bin zufrieden mit meinem neuen Job.",
+    "example_ru": "Я доволен своей новой работой. Behandlung beim Zahnarzt"
+  },
+  {
+    "de": "der Abdruck",
+    "ru": "оттиск",
+    "example_de": "Der Abdruck des Schuhs war auf dem Boden zu sehen.",
+    "example_ru": "Отпечаток обуви был виден на полу."
+  },
+  {
+    "de": "die Betäubungsspritze",
+    "ru": "обезболивающий укол",
+    "example_de": "Vor der Operation bekam ich eine Betäubungsspritze.",
+    "example_ru": "Перед операцией мне сделали укол обезболивающего."
+  },
+  {
+    "de": "die provisorische Füllung",
+    "ru": "временная пломба",
+    "example_de": "Die provisorische Füllung muss in ein paar Wochen durch eine dauerhafte ersetzt werden.",
+    "example_ru": "Временная пломба должна быть заменена на постоянную через несколько недель."
+  },
+  {
+    "de": "die Haltbarkeit",
+    "ru": "срок годности",
+    "example_de": "Die Haltbarkeit des Produkts beträgt drei Jahre.",
+    "example_ru": "Срок годности продукта составляет три года."
+  },
+  {
+    "de": "das Inlay",
+    "ru": "инлей",
+    "example_de": "Mein Zahnarzt hat mir empfohlen, das beschädigte Zahnstück mit einem Inlay zu reparieren.",
+    "example_ru": "Мой стоматолог рекомендовал мне восстановить поврежденный зуб с помощью инлея."
+  },
+  {
+    "de": "die Karies",
+    "ru": "кариес",
+    "example_de": "Die Karies muss schnell behandelt werden, um weitere Schäden am Zahn zu vermeiden.",
+    "example_ru": "Кариес должен быть быстро вылечен, чтобы избежать дальнейшего повреждения зуба."
+  },
+  {
+    "de": "die Keramik",
+    "ru": "керамика",
+    "example_de": "Die Krone wurde aus Keramik hergestellt, um ein natürliches Aussehen zu gewährleisten.",
+    "example_ru": "Корона была изготовлена из керамики, чтобы обеспечить естественный вид."
+  },
+  {
+    "de": "das Labor",
+    "ru": "лаборатория",
+    "example_de": "Die Blutprobe wurde ins Labor geschickt, um weitere Untersuchungen durchzuführen.",
+    "example_ru": "Образец крови был отправлен в лабораторию для проведения дополнительных исследований."
+  },
+  {
+    "de": "der Notdienst",
+    "ru": "экстренная помощь",
+    "example_de": "Wenn Sie außerhalb der regulären Öffnungszeiten medizinische Hilfe benötigen, können Sie sich an den Notdienst wenden.",
+    "example_ru": "Если вам нужна медицинская помощь вне рабочего времени, вы можете обратиться в службу экстренной помощи."
+  },
+  {
+    "de": "gründlich Zähne putzen",
+    "ru": "тщательно чистить зубы",
+    "example_de": "Es ist wichtig, zweimal täglich gründlich die Zähne zu putzen, um Karies und Zahnfleischerkrankungen vorzubeugen.",
+    "example_ru": "Важно тщательно чистить зубы дважды в день, чтобы предотвратить кариес и заболевания десен."
+  },
+  {
+    "de": "Schmerzen aushalten",
+    "ru": "переносить боль",
+    "example_de": "Ich kann Schmerzen aushalten, aber ich bevorzuge es, sie zu vermeiden.",
+    "example_ru": "Я могу выдерживать боль, но предпочитаю ее избегать. Arbeitgeber und Branchen"
+  },
+  {
+    "de": "der Arbeitgeber, die Arbeitgeberin",
+    "ru": "работодатель, работодательница",
+    "example_de": "Der Arbeitgeber ist für die Einhaltung der Arbeitsgesetze verantwortlich.",
+    "example_ru": "Работодатель несет ответственность за соблюдение трудового законодательства."
+  },
+  {
+    "de": "der Architekt, die Architektin",
+    "ru": "архитектор",
+    "example_de": "Der Architekt entwirft Gebäude und plant ihre Konstruktion.",
+    "example_ru": "Архитектор проектирует здания и планирует их конструкцию."
+  },
+  {
+    "de": "der Automechaniker, die Automechanikerin",
+    "ru": "автомеханик",
+    "example_de": "Der Automechaniker repariert das Auto.",
+    "example_ru": "Автомеханик ремонтирует автомобиль."
+  },
+  {
+    "de": "der Autoproduzent",
+    "ru": "автопроизводитель",
+    "example_de": "Der Autoproduzent stellt Autos her.",
+    "example_ru": "Автопроизводитель производит автомобили."
+  },
+  {
+    "de": "die Beratung",
+    "ru": "консультация",
+    "example_de": "Die Beratung war sehr hilfreich.",
+    "example_ru": "Консультация была очень полезной."
+  },
+  {
+    "de": "die Betreuung",
+    "ru": "уход, присмотр",
+    "example_de": "Die Betreuung der Kinder war sehr gut.",
+    "example_ru": "Присмотр за детьми был очень хорошим."
+  },
+  {
+    "de": "die Branche",
+    "ru": "отрасль",
+    "example_de": "Die Branche der Informationstechnologie wächst schnell.",
+    "example_ru": "Отрасль информационных технологий быстро растет."
+  },
+  {
+    "de": "der Betrieb",
+    "ru": "предприятие",
+    "example_de": "Unser Betrieb produziert hochwertige Möbel.",
+    "example_ru": "Наше предприятие производит высококачественную мебель."
+  },
+  {
+    "de": "der Familienbetrieb",
+    "ru": "семейное предприятие",
+    "example_de": "Der Familienbetrieb wird seit drei Generationen geführt.",
+    "example_ru": "Семейное предприятие управляется уже тремя поколениями."
+  },
+  {
+    "de": "die Hilfsorganisation",
+    "ru": "гуманитарная организация",
+    "example_de": "Die Hilfsorganisation unterstützt Menschen in Not.",
+    "example_ru": "Гуманитарная организация оказывает поддержку людям в беде."
+  },
+  {
+    "de": "das internationale Unternehmen",
+    "ru": "международное предприятие",
+    "example_de": "Das internationale Unternehmen hat Niederlassungen in vielen Ländern.",
+    "example_ru": "Международная компания имеет филиалы во многих странах."
+  },
+  {
+    "de": "die Lebensmittelbranche",
+    "ru": "пищевая промышленность",
+    "example_de": "Die Lebensmittelbranche ist ein wichtiger Wirtschaftszweig.",
+    "example_ru": "Производство продуктов питания - важная отрасль экономики."
+  },
+  {
+    "de": "der Malerbetrieb",
+    "ru": "малярная компания",
+    "example_de": "Der Malerbetrieb hat unser Haus wunderschön gestrichen.",
+    "example_ru": "Художественная мастерская красиво покрасила наш дом."
+  },
+  {
+    "de": "der soziale Bereich",
+    "ru": "социальная сфера",
+    "example_de": "Im sozialen Bereich arbeiten viele Menschen mit Menschen.",
+    "example_ru": "В социальной сфере работает много людей с людьми."
+  },
+  {
+    "de": "beschäftigen",
+    "ru": "работать, заниматься",
+    "example_de": "Ich beschäftige mich gerne mit Musik und Kunst.",
+    "example_ru": "Я с удовольствием занимаюсь музыкой и искусством."
+  },
+  {
+    "de": "produzieren",
+    "ru": "производить",
+    "example_de": "Unser Unternehmen produziert hochwertige Lebensmittel.",
+    "example_ru": "Наша компания производит качественные продукты питания."
+  },
+  {
+    "de": "geistig",
+    "ru": "интеллектуальный",
+    "example_de": "Es ist wichtig, nicht nur körperlich, sondern auch geistig fit zu bleiben.",
+    "example_ru": "Важно не только поддерживать свое физическое здоровье, но и умственное."
+  },
+  {
+    "de": "handwerklich",
+    "ru": "ремесленный",
+    "example_de": "Er ist sehr begabt im handwerklichen Bereich und kann fast alles reparieren.",
+    "example_ru": "Он очень талантлив в области ремонтных работ и может починить почти все."
+  },
+  {
+    "de": "sozial",
+    "ru": "социальный",
+    "example_de": "Es ist wichtig, eine starke soziale Verantwortung zu haben und sich für die Bedürfnisse anderer einzusetzen.",
+    "example_ru": "Важно иметь сильную социальную ответственность и заботиться о потребностях других людей. Ausbildung und Studium"
+  },
+  {
+    "de": "die Grundschule",
+    "ru": "начальная школа",
+    "example_de": "Mein Kind geht in die Grundschule und lernt dort lesen, schreiben und rechnen.",
+    "example_ru": "Мой ребенок ходит в начальную школу и там учится читать, писать и считать."
+  },
+  {
+    "de": "die weiterführende Schule",
+    "ru": "общеобразовательна я школа",
+    "example_de": "Nach der Grundschule wechselt mein Kind auf eine weiterführende Schule, wo es dann verschiedene Fächer wie Mathematik, Deutsch und Englisch lernt.",
+    "example_ru": "После начальной школы мое ребенок перейдет в среднюю школу, где он будет учить различные предметы, такие как математика, немецкий и английский языки."
+  },
+  {
+    "de": "die Hauptschule",
+    "ru": "основная школа",
+    "example_de": "Die Hauptschule ist eine Schulform in Deutschland, die Schülerinnen und Schüler auf eine berufliche Ausbildung vorbereitet.",
+    "example_ru": "Основная школа - это форма образования в Германии, которая готовит учеников к профессиональному обучению."
+  },
+  {
+    "de": "die Mittelschule",
+    "ru": "средняя школа",
+    "example_de": "In einigen Bundesländern Deutschlands gibt es die Mittelschule als Schulform, die Schülerinnen und Schüler auf eine berufliche Ausbildung oder den Besuch einer weiterführenden Schule vorbereitet.",
+    "example_ru": "В некоторых землях Германии есть средняя школа как форма образования, которая готовит учеников к профессиональному обучению или поступлению в продвинутую школу."
+  },
+  {
+    "de": "die Realschule",
+    "ru": "реальная школа",
+    "example_de": "Die Realschule ist eine Schulform in Deutschland, die Schülerinnen und Schüler auf eine mittlere oder gehobene berufliche Ausbildung oder den Besuch einer weiterführenden Schule vorbereitet.",
+    "example_ru": "Реальная школа - это форма образования в Германии, которая готовит учеников к среднему или высшему профессиональному обучению или поступлению в продвинутую школу."
+  },
+  {
+    "de": "die Gesamtschule",
+    "ru": "единая школа",
+    "example_de": "Die Gesamtschule ist eine Schulform, die alle Schülerinnen und Schüler unabhängig von ihren Begabungen und Fähigkeiten gemeinsam unterrichtet.",
+    "example_ru": "Единая школа - это форма обучения, в которой все ученики, независимо от их способностей и возможностей, обучаются вместе."
+  },
+  {
+    "de": "das Gymnasium",
+    "ru": "гимназия",
+    "example_de": "Das Gymnasium ist eine weiterführende Schule, die auf das Abitur vorbereitet.",
+    "example_ru": "Гимназия - это школа продолжительного обучения, которая готовит к сдаче экзаменов на абитуриентском уровне."
+  },
+  {
+    "de": "der Realschulabschluss",
+    "ru": "среднее образование",
+    "example_de": "Der Realschulabschluss ist ein mittlerer Schulabschluss, der nach dem Besuch einer Realschule erworben werden kann.",
+    "example_ru": "Реальная школьная аттестация - это среднее образование, которое можно получить после посещения средней школы."
+  },
+  {
+    "de": "das Abitur",
+    "ru": "выпускные экзамены",
+    "example_de": "Das Abitur ist die höchste Schulbildung in Deutschland und berechtigt zum Studium an einer Universität oder Fachhochschule.",
+    "example_ru": "Абитуриентская аттестация (Abitur) - это высшее образование в Германии, которое дает право на поступление в университет или высшую школу."
+  },
+  {
+    "de": "die Mittlere Reife",
+    "ru": "среднее общее образование",
+    "example_de": "Die Mittlere Reife ist ein Schulabschluss, der nach dem Besuch einer Realschule oder einer anderen mittleren Schule erworben werden kann.",
+    "example_ru": "Среднее образование (Mittlere Reife) - это школьная аттестация, которую можно получить после посещения средней школы или другой средней школы."
+  },
+  {
+    "de": "die Berufsausbildung",
+    "ru": "профессиональное обучение",
+    "example_de": "Die Berufsausbildung ist eine Möglichkeit, nach der Schule eine praktische Ausbildung in einem bestimmten Beruf zu absolvieren.",
+    "example_ru": "Профессиональное обучение - это возможность получить практическое обучение в определенной профессии после окончания школы."
+  },
+  {
+    "de": "der Berufsabschluss",
+    "ru": "профессиональная аттестация",
+    "example_de": "Der Berufsabschluss ist eine Bestätigung, dass eine Person eine Berufsausbildung abgeschlossen hat und in einem bestimmten Beruf arbeiten kann.",
+    "example_ru": "Профессиональная аттестация - это подтверждение того, что человек завершил профессиональное обучение и может работать в определенной профессии."
+  },
+  {
+    "de": "der Bachelor",
+    "ru": "бакалавр",
+    "example_de": "Der Bachelor ist ein akademischer Grad, der nach einem erfolgreich abgeschlossenen BachelorStudium verliehen wird.",
+    "example_ru": "Бакалавр - это академическая степень, которая присваивается после успешного завершения бакалавриата."
+  },
+  {
+    "de": "der Master",
+    "ru": "магистр",
+    "example_de": "Der Master ist ein akademischer Grad, der nach einem erfolgreich abgeschlossenen Studium verliehen wird.",
+    "example_ru": "Магистр - это академическая степень, которая присваивается после успешного окончания учебы."
+  },
+  {
+    "de": "das Zertifikat",
+    "ru": "сертификат",
+    "example_de": "Ich habe mein Sprachzertifikat bestanden und bin jetzt offiziell B2- Niveau.",
+    "example_ru": "Я успешно сдал экзамен по языку и теперь официально на уровне В2. Statistiken"
+  },
+  {
+    "de": "die Hälfte",
+    "ru": "половина",
+    "example_de": "Die Hälfte der Pizza ist noch übrig.",
+    "example_ru": "Половина пиццы еще осталась."
+  },
+  {
+    "de": "mehr als",
+    "ru": "больше чем",
+    "example_de": "Ich habe mehr als genug Zeit, um meine Arbeit zu erledigen.",
+    "example_ru": "У меня достаточно времени, чтобы выполнить свою работу."
+  },
+  {
+    "de": "weniger als",
+    "ru": "меньше чем",
+    "example_de": "Ich habe weniger als 50 Euro in meiner Tasche.",
+    "example_ru": "У меня меньше чем 50 евро в кошельке."
+  },
+  {
+    "de": "fast alle",
+    "ru": "почти все",
+    "example_de": "Fast alle meiner Freunde sind in den Urlaub gefahren.",
+    "example_ru": "Почти все мои друзья уехали в отпуск."
+  },
+  {
+    "de": "ein Viertel",
+    "ru": "четверть",
+    "example_de": "Ich habe nur noch ein Viertel meines Kaffees übrig.",
+    "example_ru": "У меня осталось только четверть моего кофе."
+  },
+  {
+    "de": "ein Drittel",
+    "ru": "треть",
+    "example_de": "Ein Drittel der Schülerinnen und Schüler kommt aus dem Ausland.",
+    "example_ru": "Одна треть учеников приезжает из- за границы."
+  },
+  {
+    "de": "jeder Zehnte",
+    "ru": "десятая часть",
+    "example_de": "Jeder Zehnte in der Gruppe spricht fließend Spanisch.",
+    "example_ru": "Каждый десятый в группе свободно говорит по-испански. Beruf und Ausbildung"
+  },
+  {
+    "de": "der Ansprechpartner, die Ansprechpartnerin",
+    "ru": "контактное лицо",
+    "example_de": "Bei Fragen zum Projekt ist Herr Müller der Ansprechpartner.",
+    "example_ru": "Если у вас есть вопросы по проекту, то г-н Мюллер является контактным лицом."
+  },
+  {
+    "de": "die Beratungsstelle",
+    "ru": "консультационный центр",
+    "example_de": "Die Beratungsstelle bietet kostenlose Hilfe für Menschen in schwierigen Lebenssituationen an.",
+    "example_ru": "Консультационный центр предоставляет бесплатную помощь людям в сложных жизненных ситуациях."
+  },
+  {
+    "de": "das Berufspraktikum",
+    "ru": "профессиональная практика",
+    "example_de": "Das Berufspraktikum ist ein wichtiger Bestandteil der Ausbildung vieler Berufe.",
+    "example_ru": "Профессиональная практика является важной частью обучения во многих профессиях."
+  },
+  {
+    "de": "die duale Ausbildung",
+    "ru": "дуальное образование",
+    "example_de": "Die duale Ausbildung ist ein wichtiger Bestandteil des deutschen Bildungssystems.",
+    "example_ru": "Дуальное образование является важной частью немецкой системы образования."
+  },
+  {
+    "de": "die Fachschule",
+    "ru": "техникум",
+    "example_de": "Die Fachschule bietet eine praxisnahe Ausbildung in verschiedenen Fachrichtungen.",
+    "example_ru": "Техникум предлагает практическое обучение в различных областях специализации."
+  },
+  {
+    "de": "die Fortbildung",
+    "ru": "повышение квалификации",
+    "example_de": "Die Fortbildung ist wichtig, um beruflich auf dem neuesten Stand zu bleiben und sich weiterzuentwickeln.",
+    "example_ru": "Повышение квалификации важно, чтобы быть в курсе последних тенденций в профессии и развиваться дальше."
+  },
+  {
+    "de": "die Meisterprüfung",
+    "ru": "экзамен на мастера",
+    "example_de": "Die Meisterprüfung ist eine anspruchsvolle Prüfung, die Handwerkerinnen und Handwerkern die Möglichkeit gibt, sich als Meister zu qualifizieren.",
+    "example_ru": "Экзамен на мастера - это сложный экзамен, который дает ремесленникам возможность получить квалификацию мастера."
+  },
+  {
+    "de": "der Schichtdienst",
+    "ru": "посменная работа",
+    "example_de": "Im Schichtdienst arbeiten bedeutet, dass man zu unterschiedlichen Uhrzeiten arbeitet und auch nachts arbeitet.",
+    "example_ru": "Работать в сменном графике означает, что вы работаете в разное время и работаете даже ночью."
+  },
+  {
+    "de": "die staatliche Ausbildung",
+    "ru": "государственное образование",
+    "example_de": "Die staatliche Ausbildung wird von öffentlichen Einrichtungen oder staatlich anerkannten Schulen durchgeführt und ist in der Regel kostenfrei.",
+    "example_ru": "Государственное образование проводится государственными учреждениями или государственно признанными школами и обычно является бесплатным."
+  },
+  {
+    "de": "die Weiterbildung",
+    "ru": "повышение квалификации",
+    "example_de": "Die Weiterbildung ist ein wichtiger Schritt, um im Beruf voranzukommen und sich neue Fähigkeiten anzueignen.",
+    "example_ru": "Повышение квалификации - это важный шаг для продвижения по карьерной лестнице и приобретения новых навыков."
+  },
+  {
+    "de": "der Wunschberuf",
+    "ru": "желаемая профессия",
+    "example_de": "Der Wunschberuf ist ein Beruf, den man gerne ausüben möchte und der den eigenen Interessen und Fähigkeiten entspricht.",
+    "example_ru": "Желаемая профессия - это профессия, которую вы хотели бы заниматься и которая соответствует вашим интересам и способностям."
+  },
+  {
+    "de": "die Zugangsvoraussetzungen",
+    "ru": "требования для поступления",
+    "example_de": "Die Zugangsvoraussetzungen für eine Ausbildung können je nach Beruf und Ausbildungsinstitution unterschiedlich sein.",
+    "example_ru": "Требования для поступления на обучение могут различаться в зависимости от профессии и учебного заведения."
+  },
+  {
+    "de": "einen Beruf ausüben",
+    "ru": "заниматься профессией",
+    "example_de": "Ich möchte später einen Beruf ausüben, der mir Freude bereitet.",
+    "example_ru": "Я хочу в будущем заниматься профессией, которая доставляет мне удовольствие."
+  },
+  {
+    "de": "den Berufsabschluss anerkennen lassen",
+    "ru": "подтверждать диплом о профессиональном образовании",
+    "example_de": "Ich möchte meinen ausländischen Berufsabschluss in Deutschland anerkennen lassen.",
+    "example_ru": "Я хочу признать свой иностранный профессиональный диплом в Германии."
+  },
+  {
+    "de": "finanzielle Unterstützung beantragen",
+    "ru": "подать заявку на финансовую поддержку",
+    "example_de": "Ich muss finanzielle Unterstützung beantragen, um meine Studiengebühren bezahlen zu können.",
+    "example_ru": "Мне нужно подать заявку на финансовую поддержку, чтобы оплатить свои учебные сборы."
+  },
+  {
+    "de": "jobben",
+    "ru": "подрабатывать",
+    "example_de": "Ich muss jobben, um mir mein Studium finanzieren zu können.",
+    "example_ru": "Мне нужно подработать, чтобы смочь финансировать свои учебные расходы."
+  },
+  {
+    "de": "Pflicht sein",
+    "ru": "обязательно",
+    "example_de": "Es ist Pflicht, eine Maske in öffentlichen Verkehrsmitteln zu tragen.",
+    "example_ru": "Обязательно носить маску в общественном транспорте."
+  },
+  {
+    "de": "in der Verwaltung arbeiten",
+    "ru": "работать в управлении",
+    "example_de": "Ich möchte in der Verwaltung arbeiten, um meine organisatorischen Fähigkeiten zu nutzen.",
+    "example_ru": "Я хочу работать в администрации, чтобы использовать свои организационные навыки."
+  },
+  {
+    "de": "sich selbstständig machen",
+    "ru": "быть самозанятым",
+    "example_de": "Mein Freund möchte sich selbstständig machen und ein eigenes Geschäft eröffnen.",
+    "example_ru": "Мой друг хочет начать свой бизнес и открыть свой магазин."
+  },
+  {
+    "de": "zuständig sein",
+    "ru": "быть компетентным",
+    "example_de": "Ich bin für die Koordination des Projekts zuständig.",
+    "example_ru": "Я отвечаю за координацию проекта. Soft Skills und Eigenschaften"
+  },
+  {
+    "de": "die Schwäche",
+    "ru": "недостаток",
+    "example_de": "Eine meiner Schwächen ist, dass ich manchmal zu ungeduldig bin.",
+    "example_ru": "Одним из моих недостатков является то, что иногда я слишком нетерпелив."
+  },
+  {
+    "de": "die Stärke",
+    "ru": "сильная сторона",
+    "example_de": "Eine meiner Stärken ist meine Fähigkeit, schnell neue Dinge zu lernen.",
+    "example_ru": "Одним из моих сильных качеств является моя способность быстро учиться новым вещам."
+  },
+  {
+    "de": "belastbar",
+    "ru": "стрессоустойчивый",
+    "example_de": "Ich bin sehr belastbar und kann auch unter Druck gut arbeiten.",
+    "example_ru": "Я очень стойкий и могу хорошо работать даже под давлением."
+  },
+  {
+    "de": "eigeninitiativ",
+    "ru": "собственная инициатива",
+    "example_de": "Ich handele gerne eigeninitiativ, um meine Ziele zu erreichen.",
+    "example_ru": "Я люблю действовать самостоятельно, чтобы достигать своих целей."
+  },
+  {
+    "de": "flexibel",
+    "ru": "гибкий",
+    "example_de": "Ich bin flexibel und kann mich schnell an neue Situationen anpassen.",
+    "example_ru": "Я гибкий и могу быстро адаптироваться к новым ситуациям."
+  },
+  {
+    "de": "hilfsbereit",
+    "ru": "готовый помочь",
+    "example_de": "Meine Nachbarin ist sehr hilfsbereit und unterstützt mich immer, wenn ich ihre Hilfe brauche.",
+    "example_ru": "Моя соседка очень отзывчива и всегда помогает мне, когда мне нужна ее помощь."
+  },
+  {
+    "de": "kreativ",
+    "ru": "креативный",
+    "example_de": "Die Designerin ist sehr kreativ und hat immer neue Ideen für ihre Projekte.",
+    "example_ru": "Дизайнер очень креативный и всегда имеет новые идеи для своих проектов."
+  },
+  {
+    "de": "lernbereit",
+    "ru": "готов учиться",
+    "example_de": "Mein Kollege ist sehr lernbereit und nimmt jede Gelegenheit wahr, um seine Kenntnisse und Fähigkeiten zu erweitern.",
+    "example_ru": "Мой коллега очень готов к обучению и использует каждый шанс, чтобы расширить свои знания и навыки."
+  },
+  {
+    "de": "unorganisiert",
+    "ru": "неорганизованный",
+    "example_de": "Mein Chef ist oft unorganisiert und vergisst wichtige Termine und Aufgaben.",
+    "example_ru": "Мой начальник часто бывает неорганизованным и забывает важные сроки и задачи."
+  },
+  {
+    "de": "organisiert",
+    "ru": "организованный",
+    "example_de": "Ich bin sehr organisiert und plane meine Arbeit immer im Voraus, um sicherzustellen, dass ich alle Aufgaben rechtzeitig erledige.",
+    "example_ru": "Я очень организованный и всегда планирую свою работу заранее, чтобы убедиться, что я выполняю все задачи вовремя."
+  },
+  {
+    "de": "selbstbewusst",
+    "ru": "уверенный в себе",
+    "example_de": "Sie ist sehr selbstbewusst und tritt immer selbstsicher auf, auch in schwierigen Situationen.",
+    "example_ru": "Она очень уверенная в себе и всегда выступает уверенно, даже в сложных ситуациях."
+  },
+  {
+    "de": "teamfähig",
+    "ru": "командный игрок",
+    "example_de": "Er ist sehr teamfähig und arbeitet gut mit anderen zusammen, um gemeinsame Ziele zu erreichen.",
+    "example_ru": "Он очень командный игрок и хорошо работает с другими, чтобы достигать общих целей."
+  },
+  {
+    "de": "tolerant",
+    "ru": "терпимый",
+    "example_de": "Als Lehrer sollte man tolerant gegenüber den Meinungen und Überzeugungen der Schüler sein.",
+    "example_ru": "Как учитель, нужно быть терпимым к мнениям и убеждениям учеников."
+  },
+  {
+    "de": "verantwortungsbewusst",
+    "ru": "ответственный",
+    "example_de": "Ich bin verantwortungsbewusst und kümmere mich um meine Aufgaben.",
+    "example_ru": "Я ответственный и заботливый, я занимаюсь своими делами. Dokumente und Papiere"
+  },
+  {
+    "de": "die Anerkennung",
+    "ru": "признание",
+    "example_de": "Die Anerkennung für meine Leistungen motiviert mich, weiterzumachen.",
+    "example_ru": "Признание моих достижений мотивирует меня продолжать."
+  },
+  {
+    "de": "der Antrag",
+    "ru": "заявка",
+    "example_de": "Ich habe den Antrag auf eine Kreditkarte gestellt.",
+    "example_ru": "Я подал заявку на кредитную карту."
+  },
+  {
+    "de": "der Berufsabschluss",
+    "ru": "диплом о профессиональном образовании",
+    "example_de": "Um in Deutschland arbeiten zu können, benötigt man oft einen anerkannten Berufsabschluss.",
+    "example_ru": "Чтобы работать в Германии, часто требуется признанный профессиональный диплом."
+  },
+  {
+    "de": "der Lebenslauf",
+    "ru": "автобиография, резюме",
+    "example_de": "Um sich erfolgreich für eine Stelle zu bewerben, muss man einen aussagekräftigen Lebenslauf haben.",
+    "example_ru": "Чтобы успешно подать заявление на работу, необходимо иметь информативное резюме."
+  },
+  {
+    "de": "die Unterlagen",
+    "ru": "документы",
+    "example_de": "Bitte senden Sie uns die Unterlagen per E-Mail zu.",
+    "example_ru": "Пожалуйста, отправьте нам документы по электронной почте."
+  },
+  {
+    "de": "das Zeugnis",
+    "ru": "свидетельство",
+    "example_de": "Ich habe mein Zeugnis für das letzte Semester erhalten.",
+    "example_ru": "Я получила свидетельство за прошлый семестр."
+  },
+  {
+    "de": "die Zulassung",
+    "ru": "допуск",
+    "example_de": "Ich habe endlich die Zulassung für das Masterstudium erhalten.",
+    "example_ru": "Я наконец получил допуск на магистерскую программу. Berufsbeschreibungen"
+  },
+  {
+    "de": "der Arbeitsablauf",
+    "ru": "рабочий процесс",
+    "example_de": "Der Arbeitsablauf in diesem Unternehmen ist sehr gut organisiert.",
+    "example_ru": "Рабочий процесс в этой компании очень хорошо организован."
+  },
+  {
+    "de": "das Berufsfeld",
+    "ru": "профессиональная сфера",
+    "example_de": "Ich interessiere mich für das Berufsfeld der Informatik.",
+    "example_ru": "Я интересуюсь профессиональной областью информатики."
+  },
+  {
+    "de": "das Fachdeutsch",
+    "ru": "немецкий язык по специальности",
+    "example_de": "Für viele Studiengänge ist das Beherrschen von Fachdeutsch eine wichtige Voraussetzung.",
+    "example_ru": "Для многих направлений обучения владение специальной терминологией является важным условием."
+  },
+  {
+    "de": "die Fachleute",
+    "ru": "специалисты",
+    "example_de": "Die Fachleute haben das Problem schnell gelöst.",
+    "example_ru": "Специалисты быстро решили проблему."
+  },
+  {
+    "de": "die Fachkräfte",
+    "ru": "квалифицированные специалисты",
+    "example_de": "Die Fachkräfte werden in Deutschland dringend benötigt.",
+    "example_ru": "Квалифицированные специалисты срочно нужны в Германии."
+  },
+  {
+    "de": "der Fachwortschatz",
+    "ru": "профессиональная лексика",
+    "example_de": "Um in diesem Beruf erfolgreich zu sein, benötigt man einen umfangreichen Fachwortschatz.",
+    "example_ru": "Чтобы быть успешным в этой профессии, необходим обширный специальный словарный запас."
+  },
+  {
+    "de": "der Handwerker",
+    "ru": "ремонтник",
+    "example_de": "Der Handwerker hat das Möbelstück perfekt restauriert.",
+    "example_ru": "Ремонтник идеально восстановил этот предмет мебели."
+  },
+  {
+    "de": "die Handwerkerin",
+    "ru": "ремонтница",
+    "example_de": "Die Handwerkerin hat die Reparatur des Daches sehr professionell durchgeführt.",
+    "example_ru": "Ремонтница очень профессионально выполнила ремонт крыши."
+  },
+  {
+    "de": "der MINT-Beruf",
+    "ru": "профессия в области науки",
+    "example_de": "Der MINT-Beruf ist in Deutschland sehr gefragt, da er gute Karrierechancen bietet.",
+    "example_ru": "Профессия в области науки, техники, инженерии и математики (MINT-профессия) в Германии очень востребована, так как обеспечивает хорошие карьерные возможности."
+  },
+  {
+    "de": "die Teilzeit",
+    "ru": "неполный рабочий день",
+    "example_de": "Viele Arbeitnehmerinnen und Arbeitnehmer bevorzugen eine Teilzeitstelle, um Familie und Beruf besser vereinbaren zu können.",
+    "example_ru": "Многие работники предпочитают работу на неполный рабочий день, чтобы лучше совмещать семейную жизнь и работу."
+  },
+  {
+    "de": "die Vollzeit",
+    "ru": "полный рабочий день",
+    "example_de": "Ich arbeite in Vollzeit und habe daher wenig Freizeit.",
+    "example_ru": "Я работаю на полный рабочий день и поэтому у меня мало свободного времени."
+  },
+  {
+    "de": "der gefragte Beruf",
+    "ru": "востребованная профессия",
+    "example_de": "Der gefragte Beruf bietet gute Verdienstmöglichkeiten und eine sichere Zukunftsperspektive.",
+    "example_ru": "Востребованная профессия предлагает хорошие возможности заработка и надежную перспективу на будущее."
+  },
+  {
+    "de": "der Umgang mit Kunden",
+    "ru": "общение с клиентами",
+    "example_de": "Ein freundlicher und professioneller Umgang mit Kunden ist in vielen Berufen sehr wichtig.",
+    "example_ru": "Дружелюбное и профессиональное общение с клиентами во многих профессиях очень важно. Anmeldung zu einer Fortbildung"
+  },
+  {
+    "de": "die Berechtigung",
+    "ru": "право, полномочие",
+    "example_de": "Ohne die Berechtigung darf man diese Software nicht installieren.",
+    "example_ru": "Без соответствующих разрешений данное программное обеспечение устанавливать нельзя."
+  },
+  {
+    "de": "die Förderung",
+    "ru": "способствование",
+    "example_de": "Die Förderung von jungen Talenten ist ein wichtiger Bestandteil der Bildungspolitik.",
+    "example_ru": "Поддержка молодых талантов является важной составляющей образовательной политики."
+  },
+  {
+    "de": "der Lehrgang",
+    "ru": "курс обучения",
+    "example_de": "Der Lehrgang beginnt nächste Woche und dauert drei Monate.",
+    "example_ru": "Курс начинается на следующей неделе и длится три месяца."
+  },
+  {
+    "de": "der Nachweis über Deutschkenntnisse",
+    "ru": "свидетельство о знаниях немецкого языка",
+    "example_de": "Für die Bewerbung benötigen Sie einen Nachweis über Ihre Deutschkenntnisse auf dem Niveau B2.",
+    "example_ru": "Для подачи заявки вам нужно предоставить подтверждение ваших знаний немецкого языка на уровне В2."
+  },
+  {
+    "de": "die Vorkenntnisse",
+    "ru": "предварительные знания",
+    "example_de": "Für diesen Kurs benötigen Sie keine Vorkenntnisse.",
+    "example_ru": "Для этого курса вам не требуются предварительные знания."
+  },
+  {
+    "de": "der Vermittler",
+    "ru": "посредник",
+    "example_de": "Der Vermittler hat uns einen guten Deal angeboten.",
+    "example_ru": "Посредник предложил нам хорошую сделку."
+  },
+  {
+    "de": "die Vermittlerin",
+    "ru": "посредница",
+    "example_de": "Die Vermittlerin hat uns erfolgreich bei der Wohnungssuche unterstützt.",
+    "example_ru": "Посредница успешно помогла нам найти жилье."
+  },
+  {
+    "de": "die Zugangsvoraussetzung",
+    "ru": "условие поступления",
+    "example_de": "Die Zugangsvoraussetzung für diesen Studiengang ist ein abgeschlossenes Bachelorstudium.",
+    "example_ru": "Для поступления на эту программу требуется завершенное бакалавриатское образование."
+  },
+  {
+    "de": "die Meisterprüfung machen",
+    "ru": "сдавать экзамен на мастера",
+    "example_de": "Er will die Meisterprüfung machen, um seinen Betrieb zu erweitern.",
+    "example_ru": "Он собирается сдать мастерский экзамен, чтобы расширить свой бизнес."
+  },
+  {
+    "de": "persönlich vorbeikommen",
+    "ru": "зайти лично",
+    "example_de": "Kann ich persönlich vorbeikommen, um das Problem zu besprechen?",
+    "example_ru": "Могу я лично зайти, чтобы обсудить проблему?"
+  },
+  {
+    "de": "sich beruflich neu orientieren",
+    "ru": "ознакомиться с новой профессией",
+    "example_de": "Sie möchte sich beruflich neu orientieren und eine Weiterbildung im Marketing machen.",
+    "example_ru": "Она хочет изменить свое профессиональное направление и пройти обучение в области маркетинга. Berufliche Anerkennung"
+  },
+  {
+    "de": "die beglaubigte Kopie",
+    "ru": "заверенная копия",
+    "example_de": "Für die Bewerbung benötigen Sie eine beglaubigte Kopie Ihres Abschlusszeugnisses.",
+    "example_ru": "Для подачи заявки вам потребуется заверенная копия вашего аттестата."
+  },
+  {
+    "de": "die beglaubigte Übersetzung",
+    "ru": "заверенный перевод",
+    "example_de": "Für die Anerkennung Ihres ausländischen Abschlusses benötigen Sie eine beglaubigte Übersetzung des Zeugnisses.",
+    "example_ru": "Для признания вашего зарубежного диплома вам потребуется заверенный перевод свидетельства."
+  },
+  {
+    "de": "die berufliche Anerkennung beantragen",
+    "ru": "подавать заявление на признание квалификации",
+    "example_de": "Ich möchte die berufliche Anerkennung beantragen, um in Deutschland arbeiten zu können.",
+    "example_ru": "Я хочу подать заявление на профессиональное признание, чтобы иметь возможность работать в Германии."
+  },
+  {
+    "de": "die Qualifikation",
+    "ru": "квалификация",
+    "example_de": "Meine Qualifikationen entsprechen den Anforderungen für diese Stelle.",
+    "example_ru": "Мои квалификации соответствуют требованиям для этой должности."
+  },
+  {
+    "de": "das Übersetzungsbüro",
+    "ru": "бюро переводов",
+    "example_de": "Ich habe das Übersetzungsbüro kontaktiert, um meine Dokumente übersetzen zu lassen.",
+    "example_ru": "Я связался с бюро переводов, чтобы перевести мои документы. Gründen"
+  },
+  {
+    "de": "der Einzelunternehmer",
+    "ru": "индивидуальный предприниматель",
+    "example_de": "Mein Bruder ist ein Einzelunternehmer und führt sein eigenes Geschäft.",
+    "example_ru": "Мой брат является индивидуальным предпринимателем и ведет свой собственный бизнес."
+  },
+  {
+    "de": "die Einzelunternehmerin",
+    "ru": "индивидуальная предпринимательниц а",
+    "example_de": "Die Einzelunternehmerin hat beschlossen, ihr Geschäft zu erweitern und neue Mitarbeiter einzustellen.",
+    "example_ru": "Индивидуальная предпринимательница решила расширить свой бизнес и нанять новых сотрудников."
+  },
+  {
+    "de": "der Geschäftspartner",
+    "ru": "деловой партнер",
+    "example_de": "Mein Geschäftspartner aus Deutschland wird nächste Woche zu uns kommen, um die Details unseres neuen Projekts zu besprechen.",
+    "example_ru": "Мой деловой партнер из Германии приедет к нам на следующей неделе, чтобы обсудить детали нашего нового проекта."
+  },
+  {
+    "de": "die Geschäftspartnerin",
+    "ru": "деловая партнерша",
+    "example_de": "Die Geschäftspartnerin hat eine wichtige Entscheidung getroffen, die sich positiv auf unser Unternehmen auswirken wird.",
+    "example_ru": "Деловая партнерша приняла важное решение, которое положительно повлияет на нашу компанию."
+  },
+  {
+    "de": "gut anlaufen",
+    "ru": "хороший старт",
+    "example_de": "Unser neues Projekt ist gut angelaufen und wir sind zuversichtlich, dass es ein großer Erfolg wird.",
+    "example_ru": "Наш новый проект хорошо стартовал и мы уверены, что он станет большим успехом."
+  },
+  {
+    "de": "schlecht anlaufen",
+    "ru": "плохой старт",
+    "example_de": "Leider ist das neue Geschäftsjahr schlecht angelaufen und wir müssen uns bemühen, die Verluste zu minimieren.",
+    "example_ru": "К сожалению, новый бизнес-год плохо стартовал и нам нужно приложить усилия, чтобы минимизировать убытки."
+  },
+  {
+    "de": "die freiberufliche Tätigkeit",
+    "ru": "внештатная работа",
+    "example_de": "Ich habe mich entschieden, eine freiberufliche Tätigkeit aufzunehmen, um meine Karriere voranzutreiben.",
+    "example_ru": "Я решил начать свободную профессиональную деятельность, чтобы продвинуть свою карьеру."
+  },
+  {
+    "de": "sich selbständig machen",
+    "ru": "быть самозанятым",
+    "example_de": "Ich möchte mich selbständig machen und mein eigenes Unternehmen gründen.",
+    "example_ru": "Я хочу стать самостоятельным и создать свою собственную компанию."
+  },
+  {
+    "de": "ein Unternehmen gründen",
+    "ru": "создавать компанию",
+    "example_de": "Mein Freund möchte ein Unternehmen gründen und sucht nach Investoren.",
+    "example_ru": "Мой друг хочет создать компанию и ищет инвесторов."
+  },
+  {
+    "de": "eine Firma gründen",
+    "ru": "создавать фирму",
+    "example_de": "Meine Schwester hat beschlossen, eine Firma zu gründen und hat bereits einen Businessplan erstellt.",
+    "example_ru": "Моя сестра решила создать фирму и уже составила бизнес-план. Stellensuche"
+  },
+  {
+    "de": "die Berufserfahrung",
+    "ru": "опыт работы",
+    "example_de": "Die Berufserfahrung ist ein wichtiger Faktor bei der Jobsuche.",
+    "example_ru": "Опыт работы является важным фактором при поиске работы."
+  },
+  {
+    "de": "das Bewerbungstraining",
+    "ru": "тренинг для соискателей",
+    "example_de": "Ich habe an einem Bewerbungstraining teilgenommen, um meine Chancen auf dem Arbeitsmarkt zu verbessern.",
+    "example_ru": "Я прошел тренинг по подготовке резюме, чтобы улучшить свои шансы на рынке труда."
+  },
+  {
+    "de": "die Spezialisierung",
+    "ru": "специализация",
+    "example_de": "Die Spezialisierung auf bestimmte Fachgebiete kann die Karrierechancen erhöhen.",
+    "example_ru": "Специализация на определенных областях может увеличить шансы на карьерный рост."
+  },
+  {
+    "de": "das Stellengesuch",
+    "ru": "заявление о приёме на работу",
+    "example_de": "Ich habe mein Stellengesuch an mehrere Unternehmen geschickt und warte jetzt auf eine Antwort.",
+    "example_ru": "Я отправил свое резюме нескольким компаниям и теперь жду ответа. Nachfragen zu einem Stellenangebot"
+  },
+  {
+    "de": "die Anforderung",
+    "ru": "требование",
+    "example_de": "Die Anforderungen an Bewerber werden in der Stellenanzeige genau beschrieben.",
+    "example_ru": "Требования к соискателям подробно описываются в объявлении о вакансии."
+  },
+  {
+    "de": "der Arbeitssuchende",
+    "ru": "соискатель",
+    "example_de": "Der Arbeitssuchende hat bereits viele Bewerbungen geschrieben, aber bisher noch keine passende Stelle gefunden.",
+    "example_ru": "Соискатель уже отправил много резюме, но пока не нашел подходящей работы."
+  },
+  {
+    "de": "das mittelständische Unternehmen",
+    "ru": "предприятие среднего бизнеса",
+    "example_de": "Das mittelständische Unternehmen beschäftigt etwa 250 Mitarbeiter und ist auf die Herstellung von Maschinen spezialisiert.",
+    "example_ru": "Среднее предприятие занимает около 250 сотрудников и специализируется на производстве машин."
+  },
+  {
+    "de": "nach dem aktuellen Stand fragen",
+    "ru": "запрашивать текущий статус",
+    "example_de": "Ich werde nach dem aktuellen Stand fragen.",
+    "example_ru": "Я спрошу о текущей ситуации."
+  },
+  {
+    "de": "sich an jmdn. wenden",
+    "ru": "обращаться к кому- либо",
+    "example_de": "Wenn du Fragen hast, kannst du dich an mich wenden.",
+    "example_ru": "Если у тебя есть вопросы, ты можешь обратиться ко мне."
+  },
+  {
+    "de": "sich auf eine Anzeige beziehen",
+    "ru": "откликнуться на объявление",
+    "example_de": "Ich möchte mich auf die Anzeige beziehen und mich um die Stelle bewerben.",
+    "example_ru": "Я хочу откликнуться на объявление и подать заявку на эту вакансию."
+  },
+  {
+    "de": "sich um eine Stelle bewerben",
+    "ru": "подать заявку на вакансию",
+    "example_de": "Ich möchte mich um eine Stelle als Verkäufer bewerben.",
+    "example_ru": "Я хочу подать заявку на вакансию продавца. Lebenslauf"
+  },
+  {
+    "de": "das Ehrenamt",
+    "ru": "общественная работа",
+    "example_de": "Ich engagiere mich gerne in einem Ehrenamt.",
+    "example_ru": "Я с удовольствием занимаюсь волонтерской деятельностью."
+  },
+  {
+    "de": "die Schulbildung",
+    "ru": "школьное образование",
+    "example_de": "Eine gute Schulbildung ist sehr wichtig für die Zukunft.",
+    "example_ru": "Хорошее образование в школе очень важно для будущего."
+  },
+  {
+    "de": "die besonderen Kenntnisse",
+    "ru": "особые знания",
+    "example_de": "Ich habe besondere Kenntnisse im Umgang mit Computerprogrammen.",
+    "example_ru": "У меня есть особые знания в работе с компьютерными программами."
+  },
+  {
+    "de": "die berufliche Station",
+    "ru": "рабочая станция",
+    "example_de": "Ich möchte meine berufliche Station wechseln und eine neue Herausforderung annehmen.",
+    "example_ru": "Я хочу изменить свою профессиональную траекторию и принять новое вызов."
+  },
+  {
+    "de": "die persönlichen Daten",
+    "ru": "личные данные",
+    "example_de": "Bitte geben Sie Ihre persönlichen Daten in das Formular ein.",
+    "example_ru": "Пожалуйста, введите свои личные данные в формуляр. Bewerbungs(an)schreiben"
+  },
+  {
+    "de": "verhandlungssicher",
+    "ru": "искусство переговоров",
+    "example_de": "Ich bin verhandlungssicher und kann meine Position gut vertreten.",
+    "example_ru": "Я владею искусством переговоров и могу хорошо защищать свою позицию."
+  },
+  {
+    "de": "die ausgeschriebene Stelle",
+    "ru": "предложенная вакансия",
+    "example_de": "Ich habe mich auf die ausgeschriebene Stelle beworben und hoffe auf eine positive Rückmeldung.",
+    "example_ru": "Я подал заявку на опубликованную вакансию и надеюсь на положительный ответ."
+  },
+  {
+    "de": "ein Bewerbungsschreiben verfassen",
+    "ru": "сопроводительное письмо",
+    "example_de": "Ich muss ein Bewerbungsschreiben verfassen, um mich für die Stelle zu bewerben.",
+    "example_ru": "Мне нужно написать письмо- заявление, чтобы подать заявку на эту вакансию."
+  },
+  {
+    "de": "für Fragen zur Verfügung stehen",
+    "ru": "отвечать на вопросы",
+    "example_de": "Ich stehe für Fragen zur Verfügung.",
+    "example_ru": "Я готов ответить на вопросы."
+  },
+  {
+    "de": "den Interessen und Qualifikationen entsprechen",
+    "ru": "соответствовать интересам и квалификации",
+    "example_de": "Meine Bewerbung entspricht den Interessen und Qualifikationen.",
+    "example_ru": "Моя заявка соответствует интересам и квалификации. Vorstellungsgespräch"
+  },
+  {
+    "de": "die Gehaltsvorstellung",
+    "ru": "желаемая зарплата",
+    "example_de": "Ich möchte gerne meine Gehaltsvorstellung mit Ihnen besprechen.",
+    "example_ru": "Я бы хотел обсудить со вами мои ожидания по зарплате."
+  },
+  {
+    "de": "die Herausforderung",
+    "ru": "вызов, задача",
+    "example_de": "Ich suche eine neue berufliche Herausforderung.",
+    "example_ru": "Я ищу новый профессиональный вызов."
+  },
+  {
+    "de": "einen guten Eindruck machen",
+    "ru": "производить хорошее впечатление",
+    "example_de": "Ich möchte bei meinem Vorstellungsgespräch einen guten Eindruck machen.",
+    "example_ru": "Я хочу произвести хорошее впечатление на моем собеседовании."
+  },
+  {
+    "de": "eine schwierige Situation meistern",
+    "ru": "справляться со сложной ситуацией",
+    "example_de": "Ich bin sicher, dass wir gemeinsam diese schwierige Situation meistern können.",
+    "example_ru": "Я уверен, что мы вместе сможем справиться с этой трудной ситуацией."
+  },
+  {
+    "de": "sich nach dem Stand der Dinge erkundigen",
+    "ru": "осведомляться о положении дел",
+    "example_de": "Ich möchte mich gerne nach dem Stand der Dinge erkundigen.",
+    "example_ru": "Я бы хотел узнать текущую ситуацию."
+  },
+  {
+    "de": "sich für einen Bewerber entscheiden",
+    "ru": "выбрать определенного кандидата",
+    "example_de": "Wir haben uns für einen Bewerber entschieden, der unseren Anforderungen am besten entspricht.",
+    "example_ru": "Мы выбрали кандидата, который наилучшим образом соответствует нашим требованиям."
+  },
+  {
+    "de": "eine Stelle antreten",
+    "ru": "заступить на должность",
+    "example_de": "Ich werde nächste Woche eine neue Stelle antreten.",
+    "example_ru": "Я начну работу на новой должности на следующей неделе. Arbeitsvertrag"
+  },
+  {
+    "de": "das Arbeitsverhältnis",
+    "ru": "рабочие отношения",
+    "example_de": "Das Arbeitsverhältnis zwischen mir und meinem Arbeitgeber ist sehr gut.",
+    "example_ru": "Рабочие отношения между мной и моим работодателем очень хорошие."
+  },
+  {
+    "de": "das Betriebsgeheimnis",
+    "ru": "коммерческая тайна",
+    "example_de": "Ich habe das Betriebsgeheimnis meines Arbeitgebers streng vertraulich behandelt.",
+    "example_ru": "Я строго соблюдал конфиденциальность коммерческой тайны моего работодателя."
+  },
+  {
+    "de": "das Gehalt",
+    "ru": "зарплата",
+    "example_de": "Mein Gehalt wird am Ende des Monats überwiesen.",
+    "example_ru": "Моя зарплата будет перечислена в конце месяца."
+  },
+  {
+    "de": "die Krankmeldung",
+    "ru": "сообщение о заболевании",
+    "example_de": "Ich brauche eine Krankmeldung vom Arzt.",
+    "example_ru": "Мне нужен больничный лист от врача."
+  },
+  {
+    "de": "die Kündigungsfrist",
+    "ru": "срок уведомления об увольнении",
+    "example_de": "Die Kündigungsfrist beträgt drei Monate.",
+    "example_ru": "Срок уведомления об увольнении составляет три месяца."
+  },
+  {
+    "de": "die Lohnfortzahlung",
+    "ru": "сохранение заработной платы",
+    "example_de": "Während der Krankheit hat man Anspruch auf Lohnfortzahlung.",
+    "example_ru": "Во время болезни у вас есть право на выплату зарплаты."
+  },
+  {
+    "de": "die Probezeit",
+    "ru": "испытательный срок",
+    "example_de": "Die Probezeit beträgt in der Regel sechs Monate.",
+    "example_ru": "Срок испытательного срока обычно составляет шесть месяцев."
+  },
+  {
+    "de": "die Überstunde",
+    "ru": "сверхурочные часы",
+    "example_de": "Ich habe gestern zwei Überstunden gemacht.",
+    "example_ru": "Вчера я поработал два часа сверхурочно."
+  },
+  {
+    "de": "der Verdienst",
+    "ru": "заработная плата",
+    "example_de": "Mein Verdienst ist höher als der Durchschnitt.",
+    "example_ru": "Моя заработная плата выше средней."
+  },
+  {
+    "de": "die Vergütung",
+    "ru": "оплата",
+    "example_de": "Die Vergütung für Überstunden wird extra ausgezahlt.",
+    "example_ru": "Оплата за сверхурочную работу выплачивается отдельно."
+  },
+  {
+    "de": "die Verschwiegenheitspflicht",
+    "ru": "обязанность по соблюдению конфиденциальности",
+    "example_de": "Die Mitarbeiter sind zur Verschwiegenheitspflicht verpflichtet.",
+    "example_ru": "Сотрудники обязаны соблюдать конфиденциальность. Arbeitsschutz"
+  },
+  {
+    "de": "die Anweisung",
+    "ru": "указание",
+    "example_de": "Ich habe die Anweisung bekommen, das Projekt bis nächste Woche abzuschließen.",
+    "example_ru": "Мне было дано указание завершить проект до следующей недели."
+  },
+  {
+    "de": "die Gefahrenstelle",
+    "ru": "опасное место",
+    "example_de": "Bitte melden Sie jede Gefahrenstelle sofort an Ihren Vorgesetzten.",
+    "example_ru": "Пожалуйста, незамедлительно сообщайте о любых опасных местах своему руководителю."
+  },
+  {
+    "de": "das Schild",
+    "ru": "табличка",
+    "example_de": "Das Schild weist auf die Gefahrenstelle hin.",
+    "example_ru": "Табличка указывает на опасное место."
+  },
+  {
+    "de": "der Verbesserungsvorschlag",
+    "ru": "предложение по усовершенствованию",
+    "example_de": "Ich habe einen Verbesserungsvorschlag für die Arbeitsprozesse im Unternehmen.",
+    "example_ru": "У меня есть предложение по улучшению рабочих процессов в компании."
+  },
+  {
+    "de": "das Zeichen",
+    "ru": "знак",
+    "example_de": "Das rote Dreieck ist ein Zeichen für Gefahr.",
+    "example_ru": "Красный треугольник является знаком опасности."
+  },
+  {
+    "de": "die Alarmanlage einschalten",
+    "ru": "включать сигнализацию",
+    "example_de": "Ich muss die Alarmanlage einschalten, bevor ich das Haus verlasse.",
+    "example_ru": "Мне нужно включить сигнализацию, прежде чем я выйду из дома."
+  },
+  {
+    "de": "die ätzende Säure",
+    "ru": "коррозионная кислота",
+    "example_de": "Die ätzende Säure hat das Metall vollständig aufgelöst.",
+    "example_ru": "Коррозионная кислота полностью растворила металл."
+  },
+  {
+    "de": "das Berichtsheft führen",
+    "ru": "вести производственный дневник",
+    "example_de": "Auszubildende müssen regelmäßig das Berichtsheft führen, um ihre Ausbildung nachzuweisen.",
+    "example_ru": "Ученики должны регулярно вести отчетную книжку, чтобы подтвердить свое обучение."
+  },
+  {
+    "de": "das brennende Material",
+    "ru": "горючий материал",
+    "example_de": "Das brennende Material muss schnell gelöscht werden, um ein Feuer zu verhindern.",
+    "example_ru": "Горящий материал должен быть быстро потушен, чтобы предотвратить возгорание."
+  },
+  {
+    "de": "ein Dokument in der Firma auslegen",
+    "ru": "представить документ фирме",
+    "example_de": "Ich werde das Dokument in der Firma auslegen, damit es von allen Mitarbeitern eingesehen werden kann.",
+    "example_ru": "Я размещу документ в офисе, чтобы все сотрудники могли его просмотреть."
+  },
+  {
+    "de": "die elektrische Spannung",
+    "ru": "электрическое напряжение",
+    "example_de": "Die elektrische Spannung beträgt 220 Volt.",
+    "example_ru": "Электрическое напряжение составляет 220 вольт."
+  },
+  {
+    "de": "das explosive Material",
+    "ru": "взрывоопасный материал",
+    "example_de": "Das explosive Material muss vorsichtig gelagert werden, um Unfälle zu vermeiden.",
+    "example_ru": "Взрывчатый материал должен быть осторожно храниться, чтобы избежать несчастных случаев."
+  },
+  {
+    "de": "das giftige Material",
+    "ru": "ядовитый материал",
+    "example_de": "Das giftige Material muss sicher gelagert werden, um die Gesundheit der Menschen zu schützen.",
+    "example_ru": "Ядовитый материал должен быть безопасно храниться, чтобы защитить здоровье людей."
+  },
+  {
+    "de": "auf Hygiene achten",
+    "ru": "следить за гигиеной",
+    "example_de": "In der Küche müssen wir immer auf Hygiene achten, um die Gesundheit unserer Kunden zu schützen.",
+    "example_ru": "В кухне мы всегда должны следить за гигиеной, чтобы защитить здоровье наших клиентов."
+  },
+  {
+    "de": "den Kunden zur Kasse begleiten",
+    "ru": "проводить клиента до кассы",
+    "example_de": "Als Verkäufer muss ich den Kunden zur Kasse begleiten und ihm beim Bezahlen helfen.",
+    "example_ru": "Как продавец, я должен сопровождать клиента до кассы и помочь ему с оплатой."
+  },
+  {
+    "de": "die Kundin zur Kasse begleiten",
+    "ru": "проводить клиентку до кассы",
+    "example_de": "Ich werde die Kundin zur Kasse begleiten.",
+    "example_ru": "Я провожу покупательницу к кассе."
+  },
+  {
+    "de": "keine Zeit verlieren",
+    "ru": "не терять времени",
+    "example_de": "Wir müssen jetzt handeln und keine Zeit verlieren.",
+    "example_ru": "Мы должны действовать сейчас и не терять времени."
+  },
+  {
+    "de": "die Papiere dabeihaben",
+    "ru": "иметь бумаги при себе",
+    "example_de": "Ich muss sicherstellen, dass ich alle meine Papiere dabeihabe.",
+    "example_ru": "Я должен убедиться, что у меня все документы с собой."
+  },
+  {
+    "de": "Quittungen aufheben",
+    "ru": "сохранять квитанции",
+    "example_de": "Es ist wichtig, alle Quittungen aufzuheben, um später nachweisen zu können, was gekauft wurde.",
+    "example_ru": "Важно сохранять все квитанции, чтобы в дальнейшем можно было доказать, что было куплено."
+  },
+  {
+    "de": "rechtzeitig Bescheid geben",
+    "ru": "вовремя уведомлять",
+    "example_de": "Bitte gib uns rechtzeitig Bescheid, wenn du nicht kommen kannst.",
+    "example_ru": "Пожалуйста, дай нам знать заранее, если ты не сможешь прийти."
+  },
+  {
+    "de": "einen Termin absagen",
+    "ru": "отменить прием",
+    "example_de": "Ich muss meinen Termin leider absagen, da ich krank geworden bin.",
+    "example_ru": "К сожалению, мне нужно отменить мою встречу, так как я заболел."
+  },
+  {
+    "de": "einen Termin verlegen",
+    "ru": "перенести прием",
+    "example_de": "Können wir den Termin auf nächste Woche verlegen?",
+    "example_ru": "Можем ли мы перенести встречу на следующую неделю?"
+  },
+  {
+    "de": "einen Termin übernehmen",
+    "ru": "брать прием на себя",
+    "example_de": "Ich kann den Termin für dich übernehmen, wenn du ihn nicht wahrnehmen kannst.",
+    "example_ru": "Я могу взять на себя твою встречу, если ты не можешь ее посетить."
+  },
+  {
+    "de": "Überstunden berechnen",
+    "ru": "рассчитать сверхурочные",
+    "example_de": "Ich muss meine Überstunden berechnen, um sicherzustellen, dass ich die zusätzliche Arbeit bezahlt bekomme.",
+    "example_ru": "Мне нужно посчитать свои часы переработки, чтобы убедиться, что мне оплатят дополнительную работу."
+  }
+]

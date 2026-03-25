@@ -21,7 +21,9 @@
             </div>
             <nav class="top-nav">
                 <button class="nav-tab active" data-module="lesen">Lesen</button>
+                <button class="nav-tab" data-module="sprachbausteine">Sprachbausteine</button>
                 <button class="nav-tab" data-module="hoeren">Hören</button>
+                <button class="nav-tab" data-module="trainer">Wörter</button>
             </nav>
         </header>
 
@@ -56,6 +58,44 @@
                 </div>
             </div>
         </main>
+
+        <main id="trainer-view" class="view">
+        <div class="test-header">
+            <h2 id="trainer-title">Wörter Training</h2>
+        </div>
+
+        <div class="trainer-content glass-panel">
+            <div class="trainer-settings">
+                <label><input type="radio" name="trainer-dir" value="de-ru" checked> Deutsch &rarr; Russisch</label>
+                <label><input type="radio" name="trainer-dir" value="ru-de"> Russisch &rarr; Deutsch</label>
+            </div>
+
+            <div class="flashcard-container" id="flashcard-container">
+                <div class="flashcard" id="flashcard">
+                    <div class="flashcard-inner" id="flashcard-inner">
+                        <div class="flashcard-front">
+                            <div class="fc-word" id="fc-word-front">Wort</div>
+                            <div class="hint-container hidden" id="fc-hint-container">
+                                <button id="btn-fc-hint" class="secondary-btn">💡 Hinweis</button>
+                                <p id="fc-hint-text" class="hidden"></p>
+                            </div>
+                        </div>
+                        <div class="flashcard-back">
+                            <div class="fc-word" id="fc-word-back">Слово</div>
+                            <div class="fc-example">
+                                <p class="ex-de" id="fc-ex-de">Beispiel</p>
+                                <p class="ex-ru" id="fc-ex-ru">Пример</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="trainer-controls">
+                <button id="btn-next-word" class="primary-btn">Nächstes Wort</button>
+            </div>
+        </div>
+    </main>
     </div>
 
     <div id="tooltip" class="word-tooltip hidden">
@@ -67,7 +107,7 @@
         <div class="tooltip-synonyms"></div>
     </div>
 
-    <script src="app.js"></script>
+    <script src="app.js?v=8"></script>
 </body>
 
 </html>

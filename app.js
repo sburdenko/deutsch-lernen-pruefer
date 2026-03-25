@@ -8,23 +8,52 @@ document.addEventListener('DOMContentLoaded', () => {
     const navTabs = document.querySelectorAll('.nav-tab');
 
     let allData = null;
+    let woerterData = null;
     let currentTest = null;
     let currentModule = "lesen"; // Default module
+    
+    // Trainer state
+    let currentWoerterList = [];
+    let currentTrainerIndex = 0;
 
     // UI state preservation
     let menuState = { scrollY: 0, expandedParts: {} };
 
     // Load JSON data
-    fetch('data.json')
-        .then(response => response.json())
-        .then(data => {
-            allData = data;
-            initMenu();
+    Promise.all([
+        fetch('data.json').then(response => {
+            if (!response.ok) throw new Error('data.json fetch failed');
+            return response.json();
+        }).catch(err => {
+            console.error('Data not found:', err);
+            return null;
+        }),
+        fetch('woerter.json').then(response => {
+            if (!response.ok) throw new Error('woerter.json fetch failed');
+            return response.json();
+        }).catch(err => {
+            console.error('Woerter not found:', err);
+            return null;
+        }),
+        fetch('sprachbausteine.json').then(response => {
+            if (!response.ok) throw new Error('sprachbausteine.json fetch failed');
+            return response.json();
+        }).catch(err => {
+            console.error('Sprachbausteine not found:', err);
+            return null;
         })
-        .catch(error => {
-            console.error('Error loading data:', error);
+    ]).then(([r1, r2, r3]) => {
+        allData = r1;
+        woerterData = r2;
+        if (allData && allData.tests && r3) {
+            allData.tests = allData.tests.concat(r3);
+        }
+        if (!allData) {
             document.getElementById('test-list').innerHTML = '<p class="error">Fehler beim Laden der Daten.</p>';
-        });
+        } else {
+            initMenu();
+        }
+    });
 
     // Top Navigation Listeners
     navTabs.forEach(tab => {
@@ -32,7 +61,19 @@ document.addEventListener('DOMContentLoaded', () => {
             navTabs.forEach(t => t.classList.remove('active'));
             e.currentTarget.classList.add('active');
             currentModule = e.currentTarget.getAttribute('data-module');
-            initMenu();
+            
+            const trainerView = document.getElementById('trainer-view');
+            if (currentModule === 'trainer') {
+                mainMenu.classList.remove('active');
+                testView.classList.remove('active');
+                if (trainerView) trainerView.classList.add('active');
+                initTrainer();
+            } else {
+                if (trainerView) trainerView.classList.remove('active');
+                testView.classList.remove('active');
+                mainMenu.classList.add('active');
+                initMenu();
+            }
         });
     });
 
@@ -150,6 +191,20 @@ document.addEventListener('DOMContentLoaded', () => {
         testTitle.textContent = `${formatPartName(currentTest.part)} - ${currentTest.test_title}`;
         dynamicTestContainer.innerHTML = ''; // Clear container
 
+        if (currentTest.module === 'sprachbausteine') {
+            dynamicTestContainer.innerHTML = `
+                <section class="sprachbausteine-section glass-panel" style="width: 100%;">
+                    <h3>Sprachbausteine</h3>
+                    <p class="instruction">Wählen Sie für jede Lücke das richtige Wort direkt im Text aus.</p>
+                    <div id="inline-text-container" class="inline-text-box"></div>
+                </section>
+            `;
+            renderSprachbausteine();
+            attachTooltipListeners();
+            initExamControls();
+            return;
+        }
+
         if (currentTest.part === 'teil_1' || currentTest.part === 'teil_3') {
             const isTeil3 = currentTest.part === 'teil_3';
             const instructions = isTeil3
@@ -200,7 +255,9 @@ document.addEventListener('DOMContentLoaded', () => {
         const textsContainer = document.getElementById('texts-container');
 
         const isTeil3 = currentTest.part === 'teil_3';
-        const optionsList = isTeil3 ? ['a', 'b', 'c', 'd', 'e', 'f', 'x'] : ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'];
+        let optionsList = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'];
+        if (isTeil3) optionsList = ['a', 'b', 'c', 'd', 'e', 'f', 'x'];
+        else if (currentTest.module === 'sprachbausteine') optionsList = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j'];
 
         statementsContainer.innerHTML = currentTest.statements.map(stmt => `
             <div class="statement-item" id="stmt-${stmt.id}">
@@ -274,6 +331,43 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `;
         }).join('');
+    }
+
+    function renderSprachbausteine() {
+        const container = document.getElementById('inline-text-container');
+        let content = currentTest.texts[0].content;
+
+        // Sort statements by id descending so replacing 51 before 5
+        const sortedStmts = [...currentTest.statements].sort((a, b) => b.id - a.id);
+
+        sortedStmts.forEach(stmt => {
+            // Find pattern like "46 (" in content, then find closing ")"
+            const searchStart = String(stmt.id) + ' (';
+            const searchStart2 = String(stmt.id) + '(';
+            let idx = content.indexOf(searchStart);
+            if (idx === -1) idx = content.indexOf(searchStart2);
+            if (idx === -1) return;
+
+            // Find the closing parenthesis
+            const closeIdx = content.indexOf(')', idx);
+            if (closeIdx === -1) return;
+
+            const fullMatch = content.substring(idx, closeIdx + 1);
+
+            let optionsHtml = '<option value="">- ' + stmt.id + ' -</option>';
+            Object.keys(stmt.options).sort().forEach(key => {
+                optionsHtml += '<option value="' + key + '">' + key + ') ' + stmt.options[key] + '</option>';
+            });
+
+            const selectHtml = '<span class="statement-item inline-statement" id="stmt-' + stmt.id + '">' +
+                '<select class="answer-select inline-select" data-id="' + stmt.id + '">' +
+                optionsHtml +
+                '</select></span>';
+
+            content = content.replace(fullMatch, selectHtml);
+        });
+
+        container.innerHTML = '<div class="text-content large-text">' + content + '</div>';
     }
 
     // Function to highlight vocabulary words in text (Fixed single-pass regex algorithm)
@@ -423,4 +517,88 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     }
+
+    // --- Trainer Logic ---
+    function shuffleArray(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]];
+        }
+    }
+
+    function initTrainer() {
+        if (!woerterData || woerterData.length === 0) return;
+        
+        // Setup listeners if not already done
+        if (!document.getElementById('flashcard').hasAttribute('data-bound')) {
+            document.getElementById('flashcard').setAttribute('data-bound', 'true');
+            
+            document.getElementById('flashcard').addEventListener('click', (e) => {
+                if(e.target.id === 'btn-fc-hint') return;
+                document.getElementById('flashcard').classList.toggle('flipped');
+            });
+
+            document.getElementById('btn-next-word').addEventListener('click', () => {
+                currentTrainerIndex++;
+                showTrainerWord();
+            });
+
+            document.getElementById('btn-fc-hint').addEventListener('click', (e) => {
+                e.stopPropagation();
+                document.getElementById('btn-fc-hint').classList.add('hidden');
+                document.getElementById('fc-hint-text').classList.remove('hidden');
+            });
+
+            const dirRadios = document.querySelectorAll('input[name="trainer-dir"]');
+            dirRadios.forEach(radio => {
+                radio.addEventListener('change', () => showTrainerWord());
+            });
+        }
+        
+        currentWoerterList = [...woerterData];
+        shuffleArray(currentWoerterList);
+        currentTrainerIndex = 0;
+        
+        showTrainerWord();
+    }
+
+    function showTrainerWord() {
+        if (!currentWoerterList.length) return;
+
+        if (currentTrainerIndex >= currentWoerterList.length) {
+            shuffleArray(currentWoerterList);
+            currentTrainerIndex = 0;
+        }
+        
+        const wordObj = currentWoerterList[currentTrainerIndex];
+        const direction = document.querySelector('input[name="trainer-dir"]:checked').value;
+        
+        const fcFrontWord = document.getElementById('fc-word-front');
+        const fcBackWord = document.getElementById('fc-word-back');
+        const fcExDe = document.getElementById('fc-ex-de');
+        const fcExRu = document.getElementById('fc-ex-ru');
+        const hintContainer = document.getElementById('fc-hint-container');
+        const hintText = document.getElementById('fc-hint-text');
+        const btnHint = document.getElementById('btn-fc-hint');
+        
+        document.getElementById('flashcard').classList.remove('flipped');
+        
+        if (direction === 'de-ru') {
+            fcFrontWord.textContent = wordObj.de;
+            fcBackWord.textContent = wordObj.ru;
+            hintContainer.classList.remove('hidden');
+            btnHint.classList.remove('hidden');
+            hintText.classList.add('hidden');
+            hintText.textContent = wordObj.example_de;
+        } else {
+            fcFrontWord.textContent = wordObj.ru;
+            fcBackWord.textContent = wordObj.de;
+            hintContainer.classList.add('hidden');
+            btnHint.classList.add('hidden');
+        }
+        
+        fcExDe.textContent = wordObj.example_de;
+        fcExRu.textContent = wordObj.example_ru;
+    }
+
 });

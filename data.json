@@ -2247,6 +2247,242 @@
           "content": "Als Arbeitnehmer musst du dafür sorgen, zum Job zu kommen. Wenn das nicht darfst du aber keine Abmahnung bekommen. Ob du ein Taxi nehmen muss, achte darauf an, ob die Kosten dafür über deinem Arbeitslohn fair einen Tag sind diese Kosten für dich nicht zumutbar."
         }
       ]
+    },
+    {
+      "id": "t1_teil_1_var8_new",
+      "module": "lesen",
+      "part": "teil_1",
+      "test_title": "Teil 1 (вариант №8)(тест №160201, 160221)",
+      "statements": [
+        {
+          "id": 1,
+          "text": "Barbara braucht beruflich Grundkenntnisse in Spanisch.",
+          "answer": "f"
+        },
+        {
+          "id": 2,
+          "text": "Frank denkt, dass sein Gehalt nicht branchenüblich ist.",
+          "answer": "d"
+        },
+        {
+          "id": 3,
+          "text": "Petra fühlt sich am Arbeitsplatz gemobbt.",
+          "answer": "g"
+        },
+        {
+          "id": 4,
+          "text": "Sandra möchte im Ausland berufliche Erfahrungen sammeln.",
+          "answer": "h"
+        },
+        {
+          "id": 5,
+          "text": "Felix möchte sich beruflich verändern.",
+          "answer": "b"
+        }
+      ],
+      "texts": [
+        {
+          "id": "a",
+          "title": "Internationale Fachkräfte gesucht",
+          "content": "Im Ausland zu arbeiten, kann eine hervorragende Chance fur Menschen in aller Welt sein. Erfahren Sie als Arbeitgeber, mit welchen Strategien Sie dringend benötigte Arbeitskräfte aus dem Ausland für sich gewinnen, um lhr Unternehmen wettbewerbsfahiger zu machen."
+        },
+        {
+          "id": "b",
+          "title": "Auf zu neuen Ufern!",
+          "content": "Im Job ist es nie zu spät, mit etwas Neuem zu beginnen, um sich weiterzuentwickeln. Manchmal fehlen nur ein bisschen Mut und Unterstützung. Oder man weiß erst gar nicht, welche Möglichkeiten es gibt. Eine gute Beratung ist darum wichtig. Wo Sie die bekommen, erfahren Sie hier."
+        },
+        {
+          "id": "c",
+          "title": "Zufriedene Mitarbeiter",
+          "content": "Viele Firmen überlegen, wie sie ihren Angestellten das Arbeitsleben abwechslungsreicher gestalten können. Manche schicken ihre Mitarbeitenden auf Dienstreisen ins Ausland, andere finanzieren ihnen Sprachkurse oder verteilen großzügig Prämien. Was noch möglich ist und wie sich das steuerlich auswirkt, erklärt der Steuerberater Michael Hahne."
+        },
+        {
+          "id": "d",
+          "title": "Dschungel in der Arbeitswelt",
+          "content": "Wie viel Urlaub steht einem zu? Wie viel sollte man in seinem Beruf verdienen? Wie viele Stunden arbeitet man üblicherweise? Bekommt man einen Zuschuss für Sprachkurse? Mit vielen gesetzlichen Dingen muss man sich auskennen, wenn man im Arbeitsleben steht. Die wichtigsten Informationen finden Sie hier zusammengefasst."
+        },
+        {
+          "id": "e",
+          "title": "Chefsache",
+          "content": "Ein erfolgreiches Unternehmen gibt es nur mit einem motivierten Team. Aber wie motiviert man seine Mitarbeiter? Hören Sie ihnen aufmerksam zu! Kontrollieren Sie nicht jeden Arbeitsschritt, sondern delegieren Sie! Nehmen Sie Mobbing ernst! Zahlen Sie faire Gehälter! Diese und noch viele andere Ratschläge lesen Sie hier."
+        },
+        {
+          "id": "f",
+          "title": "Vielseitig qualifiziert!",
+          "content": "Von Arbeitnehmer*innen wird immer mehr verlangt. Nicht nur die aktuellen fachlichen Kenntnisse und die souveräne Arbeit mit dem PC sind eine Selbstverständlichkeit,sondern auch die sprachlichen Kompetenzen werden immer wichtiger. Hier findet jeder den richtigen Kurs für sich, von Englisch über Japanisch bis Suaheli."
+        },
+        {
+          "id": "g",
+          "title": "Lassen Sie sich von Kolleg*innen den Arbeitsalltag nicht schwermachen",
+          "content": "Sie erfahren von der Sitzung zuletzt? In der Kantine sitzen Sie allein? Es passiert immer häufiger in deutschen Unternehmen, dass manche Kollegen anderen das Leben aus unklaren Gründen schwermachen. Lesen Sie in diesem Ratgeber, wo Sie Hilfe bekommen können."
+        },
+        {
+          "id": "h",
+          "title": "Den Horizont erweitern",
+          "content": "Manche zieht die Liebe in ein anderes Land. Andere sehen dort interessantere berufliche Möglichkeiten. Manchmal ist das die reine Abenteuerlust. Auslandsaufenthalte können 17"
+        }
+      ]
+    },
+    {
+      "id": "t3_teil_3_var7_new",
+      "module": "lesen",
+      "part": "teil_3",
+      "test_title": "Teil 3 (вариант №7)(тест №140321)",
+      "statements": [
+        {
+          "id": 10,
+          "text": "Torsten\\nWir hatten neulich im Büro eine Diskussion darüber, ab wann man in Rente gehen kann. Ich dachte immer, man muss bis 67 arbeiten. Aber meine Kollegin meinte, dass sie zwei Jahre früher in Rente gehen wird. Geht das überhaupt?",
+          "answer": "e"
+        },
+        {
+          "id": 11,
+          "text": "Hella\\nMeine Rente wird ja nicht so berauschend sein, vor allem, weil ich wegen meiner zwei Kinder einige Jahre nicht oder nur Teilzeit gearbeitet habe. Es ist ja wohl schon so, dass ich dafür jetzt irgendwie bestraft werde, oder?",
+          "answer": "x"
+        },
+        {
+          "id": 12,
+          "text": "Petra\\nMein Mann geht in zwei Jahren in Rente. Ich müsste noch vier Jahre arbeiten. Wir haben uns überlegt, dass wir zusammen in Rente gehen und noch viele gemeinsame Jahre mit verschiedenen Aktivitäten erleben wollen. Welche Folgen hätte das?",
+          "answer": "d"
+        },
+        {
+          "id": 13,
+          "text": "Leni\\nIch bin ja noch jung und denke überhaupt noch nicht an die Rente. Aber es wird ja immer wieder gesagt, dass die normale Rente irgendwann nicht mehr ausreichen wird. Was kann ich denn jetzt schon für später tun? Forum: Rund um den Beruf",
+          "answer": "b"
+        }
+      ],
+      "texts": [
+        {
+          "id": "a",
+          "title": "Stefan, vor 4 Stunden",
+          "content": "Kaum jemandem gelingt es, 45 Jahre durchgehend so ein hohes Gehalt zu verdienen, dass er später die Höchstrente bekommt Das liegt schon allein daran, dass man während der Ausbildung und in den ersten Berufsjahren weniger verdient."
+        },
+        {
+          "id": "b",
+          "title": "Jana, vor 34 Minuten",
+          "content": "Auch Firmen helfen, für die Zukunft vorzusorgen, denn man kann gar nicht früh genug damit anfangen. Erkundige dich bei deinem Arbeitgeber, ob eine betriebliche Altersvorsorge angeboten wird. Wenn man dann später Rentner ist, bekommt man eine zusätzliche Rente."
+        },
+        {
+          "id": "c",
+          "title": "Antje, vor 7 Stunden",
+          "content": "Wenn man mindestens fünf Jahre versicherungspflichtig beschäftigt war, hat man Anspruch auf die gesetzliche Rente. Dabei spielt es keine Rolle, ob man Teiltzeit oder Vollzeit gearbeitet hat. Es gibt aber noch Unterschiede zwischen Ost und West."
+        },
+        {
+          "id": "d",
+          "title": "Jonas, vor 2 Stunden",
+          "content": "Man hat das Recht, früher als mit 67 Jahren in Rente zu gehen, aber man muss Abschläge in Kauf nehmen. Im Moment sind das für jeden Monat, den man weniger arbeitet, 0,3 Prozent weniger. Man muss sich das genau ausrechnen, ob man sich das leisten kann."
+        },
+        {
+          "id": "e",
+          "title": "Jörg, vor 5 Stunden",
+          "content": "Für alle, die nach 1964 geboren sind, gilt dass sie bis 67 Jahre arbeiten müssen. Außer, wenn man mit 65 schon 45 Beitragsjahre nachweisen kann, also Jahre, in denen man in die Rentenversicherung eingezahlt hat."
+        },
+        {
+          "id": "f",
+          "title": "Lia, vor 12 Stunden",
+          "content": "Wenn man jung ist, sollte mạn sein Leben doch erst einmal genießen. Über Alter und Krankheit kann man sich immer noch Gedanken machen. Wer weiß, ob es später, wenn wir so weit sind, überhaupt noch eine Rente geben wird. 40"
+        }
+      ]
+    },
+    {
+      "id": "t4_teil_4_var8_new",
+      "module": "lesen",
+      "part": "teil_4",
+      "test_title": "Teil 4 (вариант №8)(тест №160201, 160221)",
+      "statements": [
+        {
+          "id": 1,
+          "text": "Begrüßung und Genehmigung der Tagesordnungspunkte",
+          "options": {},
+          "answer": "UNKNOWN"
+        },
+        {
+          "id": 2,
+          "text": "Marketingmaßnahmen",
+          "options": {},
+          "answer": "UNKNOWN"
+        },
+        {
+          "id": 3,
+          "text": "Berichte",
+          "options": {},
+          "answer": "UNKNOWN"
+        },
+        {
+          "id": 4,
+          "text": "Erweiterte Überstundenregelung",
+          "options": {},
+          "answer": "UNKNOWN"
+        },
+        {
+          "id": 5,
+          "text": "Einführung Jobticket",
+          "options": {},
+          "answer": "UNKNOWN"
+        },
+        {
+          "id": 6,
+          "text": "Sonstiges",
+          "options": {},
+          "answer": "UNKNOWN"
+        },
+        {
+          "id": 14,
+          "text": "Die Besprechung",
+          "options": {
+            "a": "beginnt zu festgelegten Uhrzeit.",
+            "b": "soll auf den 25.06. verlegt werden.",
+            "c": "wird durch Änderungen ergänzt."
+          },
+          "answer": "UNKNOWN"
+        },
+        {
+          "id": 15,
+          "text": "Die Umsatzsteigerung",
+          "options": {
+            "a": "beträgt 350.000 Euro.",
+            "b": "liegt bei 38 %.",
+            "c": "wird sich fortsetzen."
+          },
+          "answer": "UNKNOWN"
+        },
+        {
+          "id": 16,
+          "text": "Die Überstundenregelung",
+          "options": {
+            "a": "bleibt genauso bestehen.",
+            "b": "erhält eine Ergänzung.",
+            "c": "gilt ab 100 Überstunden."
+          },
+          "answer": "UNKNOWN"
+        },
+        {
+          "id": 17,
+          "text": "Das Jobticket",
+          "options": {
+            "a": "ist eine preislich unattraktive Variante.",
+            "b": "können die Mitarbeiter beim ÖPNV kaufen.",
+            "c": "soll den Arbeitsweg stressfreier machen."
+          },
+          "answer": "UNKNOWN"
+        },
+        {
+          "id": 18,
+          "text": "Sportliche Aktivitäten",
+          "options": {
+            "a": "finden in dem Unternehmen statt.",
+            "b": "sollen in den Abteilungen stattfinden.",
+            "c": "werden von der Firma gefördert."
+          },
+          "answer": "UNKNOWN"
+        }
+      ],
+      "texts": [
+        {
+          "id": "main_text",
+          "title": "Missing Text",
+          "content": "Text zur Aufgabe fehlt im PDF."
+        }
+      ]
     }
   ],
   "vocabulary": {
