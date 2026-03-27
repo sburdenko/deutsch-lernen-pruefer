@@ -41,12 +41,20 @@ document.addEventListener('DOMContentLoaded', () => {
         }).catch(err => {
             console.error('Sprachbausteine not found:', err);
             return null;
+        }),
+        fetch('hoeren.json').then(response => {
+            if (!response.ok) throw new Error('hoeren.json fetch failed');
+            return response.json();
+        }).catch(err => {
+            console.error('Hoeren not found:', err);
+            return null;
         })
-    ]).then(([r1, r2, r3]) => {
+    ]).then(([r1, r2, r3, r4]) => {
         allData = r1;
         woerterData = r2;
-        if (allData && allData.tests && r3) {
-            allData.tests = allData.tests.concat(r3);
+        if (allData && allData.tests) {
+            if (r3) allData.tests = allData.tests.concat(r3);
+            if (r4) allData.tests = allData.tests.concat(r4);
         }
         if (!allData) {
             document.getElementById('test-list').innerHTML = '<p class="error">Fehler beim Laden der Daten.</p>';
@@ -205,6 +213,75 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
+        if (currentTest.module === 'hoeren') {
+            let audioHtml = '';
+            if (currentTest.audio_url) {
+                audioHtml = `
+                    <section class="glass-panel" style="margin-bottom: 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap;">
+                        <span style="font-weight: 500;">🎧 Hören Sie den Audio-Clip:</span>
+                        <a href="${currentTest.audio_url}" target="_blank" class="primary-btn" style="text-decoration: none;">🔊 Audio in neuem Tab öffnen</a>
+                    </section>
+                `;
+            }
+
+            let normalTextsHtml = '';
+            if (currentTest.texts) {
+                const normalTexts = currentTest.texts.filter(t => t.title !== 'Transkript');
+                if (normalTexts.length > 0) {
+                    normalTextsHtml = `
+                        <section class="texts-section glass-panel" style="margin-bottom: 1.5rem;">
+                            <h3>Informationen zur Aufgabe</h3>
+                            ${normalTexts.map(t => `<div class="text-content large-text">${highlightVocab(t.content)}</div>`).join('')}
+                        </section>
+                    `;
+                }
+            }
+
+            let transcriptHtml = '';
+            if (currentTest.texts) {
+                const transcriptData = currentTest.texts.find(t => t.title === 'Transkript');
+                if (transcriptData) {
+                    transcriptHtml = `
+                        <section class="glass-panel transcript-section" style="margin-bottom: 1.5rem;">
+                            <button id="btn-toggle-transcript" class="secondary-btn" style="margin-bottom: 1rem;">Transkript anzeigen</button>
+                            <div id="transcript-content" class="hidden text-content" style="border-top: 1px solid var(--border-color); padding-top: 1rem; line-height: 1.6;">
+                                ${highlightVocab(transcriptData.content)}
+                            </div>
+                        </section>
+                    `;
+                }
+            }
+
+            dynamicTestContainer.innerHTML = `
+                ${audioHtml}
+                ${normalTextsHtml}
+                ${transcriptHtml}
+                <section class="statements-section glass-panel teil-2-statements" style="width: 100%;">
+                    <h3>Höraufgaben</h3>
+                    <div id="statements-container" class="statements-col"></div>
+                </section>
+            `;
+            renderHoeren();
+
+            const btnTranscript = document.getElementById('btn-toggle-transcript');
+            if (btnTranscript) {
+                btnTranscript.addEventListener('click', () => {
+                    const content = document.getElementById('transcript-content');
+                    if (content.classList.contains('hidden')) {
+                        content.classList.remove('hidden');
+                        btnTranscript.textContent = 'Transkript ausblenden';
+                    } else {
+                        content.classList.add('hidden');
+                        btnTranscript.textContent = 'Transkript anzeigen';
+                    }
+                });
+            }
+
+            attachTooltipListeners();
+            initExamControls();
+            return;
+        }
+
         if (currentTest.part === 'teil_1' || currentTest.part === 'teil_3') {
             const isTeil3 = currentTest.part === 'teil_3';
             const instructions = isTeil3
@@ -326,6 +403,49 @@ document.addEventListener('DOMContentLoaded', () => {
                     <div class="statement-header">
                         <span class="statement-id">${stmt.id}.</span>
                         <div class="statement-text">${highlightVocab(stmt.text)}</div>
+                    </div>
+                    ${optionsHtml}
+                </div>
+            `;
+        }).join('');
+    }
+
+    function renderHoeren() {
+        const statementsContainer = document.getElementById('statements-container');
+        statementsContainer.innerHTML = currentTest.statements.map(stmt => {
+            let selectHtml = '';
+            let optionsHtml = '';
+
+            if (stmt.type === 'richtig_falsch') {
+                selectHtml = `
+                    <select class="answer-select" data-id="${stmt.id}" style="margin-left: 0.5rem; width: auto; display: inline-block; vertical-align: middle; padding: 0.2rem 0.5rem;">
+                        <option value="">- Wählen -</option>
+                        <option value="richtig">richtig</option>
+                        <option value="falsch">falsch</option>
+                    </select>
+                `;
+            } else if (stmt.type === 'multiple_choice' || stmt.type === 'abc') {
+                selectHtml = `
+                    <select class="answer-select" data-id="${stmt.id}" style="margin-left: 0.5rem; width: auto; display: inline-block; vertical-align: middle; padding: 0.2rem 0.5rem;">
+                        <option value="">- Wählen -</option>
+                        ${stmt.options ? Object.keys(stmt.options).map(key => `<option value="${key}">${key}</option>`).join('') : ''}
+                    </select>
+                `;
+                optionsHtml = `
+                    <div class="mc-options" style="margin-top: 0.5rem; margin-left: 2rem;">
+                        ${stmt.options ? Object.entries(stmt.options).map(([key, val]) => `
+                            <div><strong>${key})</strong> ${highlightVocab(val)}</div>
+                        `).join('') : ''}
+                    </div>
+                `;
+            }
+
+            return `
+                <div class="statement-item statement-col-item" id="stmt-${stmt.id}" style="display: block;">
+                    <div class="statement-text" style="display: inline; line-height: 2;">
+                        <span class="statement-id" style="font-weight: bold; margin-right: 0.5rem; color: var(--accent);">${stmt.id}.</span>
+                        <span style="display: inline; vertical-align: middle;">${highlightVocab(stmt.text)}</span>
+                        ${selectHtml}
                     </div>
                     ${optionsHtml}
                 </div>
