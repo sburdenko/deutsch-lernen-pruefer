@@ -48,13 +48,29 @@ document.addEventListener('DOMContentLoaded', () => {
         }).catch(err => {
             console.error('Hoeren not found:', err);
             return null;
+        }),
+        fetch('sprechen.json').then(response => {
+            if (!response.ok) throw new Error('sprechen.json fetch failed');
+            return response.json();
+        }).catch(err => {
+            console.error('Sprechen not found:', err);
+            return null;
+        }),
+        fetch('schreiben.json').then(response => {
+            if (!response.ok) throw new Error('schreiben.json fetch failed');
+            return response.json();
+        }).catch(err => {
+            console.error('Schreiben not found:', err);
+            return null;
         })
-    ]).then(([r1, r2, r3, r4]) => {
+    ]).then(([r1, r2, r3, r4, r5, r6]) => {
         allData = r1;
         woerterData = r2;
         if (allData && allData.tests) {
             if (r3) allData.tests = allData.tests.concat(r3);
             if (r4) allData.tests = allData.tests.concat(r4);
+            if (r5) allData.tests = allData.tests.concat(r5);
+            if (r6) allData.tests = allData.tests.concat(r6);
         }
         if (!allData) {
             document.getElementById('test-list').innerHTML = '<p class="error">Fehler beim Laden der Daten.</p>';
@@ -95,11 +111,21 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     function formatPartName(part) {
+        if (currentModule === 'schreiben') {
+            if (part === "teil_1") return "Überblick";
+            if (part === "teil_2") return "Beschwerde";
+            if (part === "teil_3") return "Telefonnotiz";
+            if (part === "teil_4") return "Forumsbeitrag";
+        }
         if (part === "teil_1") return "Teil 1";
         if (part === "teil_2") return "Teil 2";
         if (part === "teil_3") return "Teil 3";
         if (part === "teil_4") return "Teil 4";
         return part;
+    }
+
+    function isReferenceCard(test) {
+        return Boolean(test && test.display_mode === 'notes');
     }
 
     function initMenu() {
@@ -123,8 +149,14 @@ document.addEventListener('DOMContentLoaded', () => {
             parts[t.part].push(t);
         });
 
+        const sortedParts = Object.entries(parts).sort(([partA], [partB]) => {
+            const orderA = parseInt(partA.replace('teil_', ''), 10);
+            const orderB = parseInt(partB.replace('teil_', ''), 10);
+            return orderA - orderB;
+        });
+
         // Render sections for each part
-        for (const [part, tests] of Object.entries(parts)) {
+        for (const [part, tests] of sortedParts) {
             if (menuState.expandedParts[part] === undefined) {
                 menuState.expandedParts[part] = false; // Default collapsed
             }
@@ -177,10 +209,16 @@ document.addEventListener('DOMContentLoaded', () => {
         testView.classList.add('active');
         window.scrollTo(0, 0);
 
-        // Reset score display Context
+        const testControls = document.querySelector('.test-controls');
         const scoreDisplay = document.getElementById('score-display');
-        scoreDisplay.textContent = `Punkte: - / ${currentTest.statements.length}`;
-        scoreDisplay.style.color = 'var(--text-primary)';
+        if (currentTest.module === 'sprechen' || currentTest.module === 'schreiben' || isReferenceCard(currentTest)) {
+            testControls.classList.add('hidden');
+            scoreDisplay.textContent = '';
+        } else {
+            testControls.classList.remove('hidden');
+            scoreDisplay.textContent = `Punkte: - / ${currentTest.statements.length}`;
+            scoreDisplay.style.color = 'var(--text-primary)';
+        }
 
         initTestUI();
     }
@@ -199,6 +237,12 @@ document.addEventListener('DOMContentLoaded', () => {
         testTitle.textContent = `${formatPartName(currentTest.part)} - ${currentTest.test_title}`;
         dynamicTestContainer.innerHTML = ''; // Clear container
 
+        if (isReferenceCard(currentTest)) {
+            renderReferenceCard();
+            attachTooltipListeners();
+            return;
+        }
+
         if (currentTest.module === 'sprachbausteine') {
             dynamicTestContainer.innerHTML = `
                 <section class="sprachbausteine-section glass-panel" style="width: 100%;">
@@ -210,6 +254,18 @@ document.addEventListener('DOMContentLoaded', () => {
             renderSprachbausteine();
             attachTooltipListeners();
             initExamControls();
+            return;
+        }
+
+        if (currentTest.module === 'sprechen') {
+            renderSprechen();
+            attachTooltipListeners();
+            return;
+        }
+
+        if (currentTest.module === 'schreiben') {
+            renderSchreiben();
+            attachTooltipListeners();
             return;
         }
 
@@ -451,6 +507,332 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `;
         }).join('');
+    }
+
+    function renderReferenceCard() {
+        const resourcesHtml = currentTest.resource_groups && currentTest.resource_groups.length > 0
+            ? `
+                <section class="glass-panel schreiben-panel">
+                    <h3>Materialien & Links</h3>
+                    <div class="schreiben-resource-groups">
+                        ${currentTest.resource_groups.map(group => `
+                            <div class="schreiben-resource-group">
+                                <h4>${group.title}</h4>
+                                <div class="schreiben-link-grid">
+                                    ${group.links.map(link => `
+                                        <a href="${link.url}" target="_blank" class="secondary-btn schreiben-link-btn">${link.label}</a>
+                                    `).join('')}
+                                </div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </section>
+            `
+            : '';
+
+        const sectionsHtml = currentTest.sections && currentTest.sections.length > 0
+            ? currentTest.sections.map(section => `
+                <section class="glass-panel schreiben-panel">
+                    <h3>${section.title}</h3>
+                    ${section.lead ? `<p class="instruction">${highlightVocab(section.lead)}</p>` : ''}
+                    ${section.paragraphs && section.paragraphs.length > 0 ? `
+                        <div class="schreiben-subsection">
+                            ${section.paragraphs.map(paragraph => `<p class="instruction">${highlightVocab(paragraph)}</p>`).join('')}
+                        </div>
+                    ` : ''}
+                    ${section.bullets && section.bullets.length > 0 ? `
+                        <ul class="schreiben-bullet-list">
+                            ${section.bullets.map(item => `<li>${highlightVocab(item)}</li>`).join('')}
+                        </ul>
+                    ` : ''}
+                    ${section.links && section.links.length > 0 ? `
+                        <div class="schreiben-link-grid">
+                            ${section.links.map(link => `
+                                <a href="${link.url}" target="_blank" class="secondary-btn schreiben-link-btn">${link.label}</a>
+                            `).join('')}
+                        </div>
+                    ` : ''}
+                </section>
+            `).join('')
+            : '';
+
+        const notesHtml = currentTest.notes && currentTest.notes.length > 0
+            ? `
+                <section class="glass-panel schreiben-panel">
+                    <h3>Notizen aus dem PDF</h3>
+                    <ul class="schreiben-bullet-list">
+                        ${currentTest.notes.map(note => `<li>${highlightVocab(note)}</li>`).join('')}
+                    </ul>
+                </section>
+            `
+            : '';
+
+        dynamicTestContainer.innerHTML = `
+            <section class="glass-panel schreiben-panel">
+                <h3>${currentTest.test_title}</h3>
+                <p class="instruction">${highlightVocab(currentTest.intro || '')}</p>
+            </section>
+            ${resourcesHtml}
+            ${sectionsHtml}
+            ${notesHtml}
+        `;
+    }
+
+    function renderSprechen() {
+        const statsHtml = currentTest.stats && currentTest.stats.length > 0
+            ? `
+                <section class="glass-panel sprechen-panel">
+                    <h3>Punkte & Zeit</h3>
+                    <div class="sprechen-stats-grid">
+                        ${currentTest.stats.map(stat => `
+                            <div class="sprechen-stat-card">
+                                <div class="sprechen-stat-label">${stat.label}</div>
+                                <div class="sprechen-stat-value">${stat.value}</div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </section>
+            `
+            : '';
+
+        const resourcesHtml = currentTest.resource_groups && currentTest.resource_groups.length > 0
+            ? `
+                <section class="glass-panel sprechen-panel">
+                    <h3>Materialien & Links</h3>
+                    <div class="sprechen-resource-groups">
+                        ${currentTest.resource_groups.map(group => `
+                            <div class="sprechen-resource-group">
+                                <h4>${group.title}</h4>
+                                <div class="sprechen-link-grid">
+                                    ${group.links.map(link => `
+                                        <a href="${link.url}" target="_blank" class="secondary-btn sprechen-link-btn">${link.label}</a>
+                                    `).join('')}
+                                </div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </section>
+            `
+            : '';
+
+        const situationsHtml = currentTest.situations && currentTest.situations.length > 0
+            ? `
+                <section class="glass-panel sprechen-panel">
+                    <h3>Situationen</h3>
+                    <div class="sprechen-situations">
+                        ${currentTest.situations.map(situation => `
+                            <details class="sprechen-situation">
+                                <summary>${situation.title}</summary>
+                                <div class="sprechen-situation-body">
+                                    <p class="instruction" style="margin-bottom: 1rem;">${highlightVocab(situation.description)}</p>
+                                    <ul class="sprechen-bullet-list">
+                                        ${situation.prompts.map(prompt => `<li>${highlightVocab(prompt)}</li>`).join('')}
+                                    </ul>
+                                </div>
+                            </details>
+                        `).join('')}
+                    </div>
+                </section>
+            `
+            : '';
+
+        const notesHtml = currentTest.notes && currentTest.notes.length > 0
+            ? `
+                <section class="glass-panel sprechen-panel">
+                    <h3>Notizen aus dem PDF</h3>
+                    <ul class="sprechen-bullet-list">
+                        ${currentTest.notes.map(note => `<li>${highlightVocab(note)}</li>`).join('')}
+                    </ul>
+                </section>
+            `
+            : '';
+
+        dynamicTestContainer.innerHTML = `
+            <section class="glass-panel sprechen-panel">
+                <h3>${currentTest.test_title}</h3>
+                <p class="instruction">${highlightVocab(currentTest.intro || '')}</p>
+            </section>
+            ${statsHtml}
+            ${resourcesHtml}
+            ${situationsHtml}
+            ${notesHtml}
+        `;
+    }
+
+    function renderSchreiben() {
+        const statsHtml = currentTest.stats && currentTest.stats.length > 0
+            ? `
+                <section class="glass-panel schreiben-panel">
+                    <h3>Punkte & Zeit</h3>
+                    <div class="schreiben-stats-grid">
+                        ${currentTest.stats.map(stat => `
+                            <div class="schreiben-stat-card">
+                                <div class="schreiben-stat-label">${stat.label}</div>
+                                <div class="schreiben-stat-value">${stat.value}</div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </section>
+            `
+            : '';
+
+        const resourcesHtml = currentTest.resource_groups && currentTest.resource_groups.length > 0
+            ? `
+                <section class="glass-panel schreiben-panel">
+                    <h3>Materialien & Links</h3>
+                    <div class="schreiben-resource-groups">
+                        ${currentTest.resource_groups.map(group => `
+                            <div class="schreiben-resource-group">
+                                <h4>${group.title}</h4>
+                                <div class="schreiben-link-grid">
+                                    ${group.links.map(link => `
+                                        <a href="${link.url}" target="_blank" class="secondary-btn schreiben-link-btn">${link.label}</a>
+                                    `).join('')}
+                                </div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </section>
+            `
+            : '';
+
+        const variantsHtml = currentTest.variants && currentTest.variants.length > 0
+            ? `
+                <section class="glass-panel schreiben-panel">
+                    <h3>Varianten</h3>
+                    <div class="schreiben-variants">
+                        ${currentTest.variants.map(variant => `
+                            <details class="schreiben-variant">
+                                <summary>${variant.title}</summary>
+                                <div class="schreiben-variant-body">
+                                    ${variant.question_points && variant.question_points.length > 0 ? `
+                                        <div class="schreiben-subsection">
+                                            <h4>Aufgaben / Hinweise</h4>
+                                            <ul class="schreiben-bullet-list">
+                                                ${variant.question_points.map(point => `<li>${highlightVocab(point)}</li>`).join('')}
+                                            </ul>
+                                        </div>
+                                    ` : ''}
+                                    ${variant.situation_points && variant.situation_points.length > 0 ? `
+                                        <div class="schreiben-subsection">
+                                            <h4>Situation aus dem PDF</h4>
+                                            <ul class="schreiben-bullet-list">
+                                                ${variant.situation_points.map(point => `<li>${highlightVocab(point)}</li>`).join('')}
+                                            </ul>
+                                        </div>
+                                    ` : ''}
+                                    ${variant.data_points && variant.data_points.length > 0 ? `
+                                        <div class="schreiben-subsection">
+                                            <h4>Wichtige Notizfelder</h4>
+                                            <ul class="schreiben-bullet-list">
+                                                ${variant.data_points.map(point => `<li>${highlightVocab(point)}</li>`).join('')}
+                                            </ul>
+                                        </div>
+                                    ` : ''}
+                                    ${variant.reply_points && variant.reply_points.length > 0 ? `
+                                        <div class="schreiben-subsection">
+                                            <h4>Was in die Antwort muss</h4>
+                                            <ul class="schreiben-bullet-list">
+                                                ${variant.reply_points.map(point => `<li>${highlightVocab(point)}</li>`).join('')}
+                                            </ul>
+                                        </div>
+                                    ` : ''}
+                                    ${variant.todo ? `
+                                        <div class="schreiben-subsection">
+                                            <h4>Zu erledigen</h4>
+                                            <p class="instruction">${highlightVocab(variant.todo)}</p>
+                                        </div>
+                                    ` : ''}
+                                    ${variant.links && variant.links.length > 0 ? `
+                                        <div class="schreiben-subsection">
+                                            <h4>Links</h4>
+                                            <div class="schreiben-link-grid">
+                                                ${variant.links.map(link => `
+                                                    <a href="${link.url}" target="_blank" class="secondary-btn schreiben-link-btn">${link.label}</a>
+                                                `).join('')}
+                                            </div>
+                                        </div>
+                                    ` : ''}
+                                </div>
+                            </details>
+                        `).join('')}
+                    </div>
+                </section>
+            `
+            : '';
+
+        const recentTopicsHtml = currentTest.recent_topics && currentTest.recent_topics.length > 0
+            ? `
+                <section class="glass-panel schreiben-panel">
+                    <h3>Letzte Themen aus dem PDF</h3>
+                    <div class="schreiben-topic-grid">
+                        ${currentTest.recent_topics.map(topic => `
+                            <div class="schreiben-topic-card">
+                                <div class="schreiben-topic-meta">${topic.exam} · ${topic.label}</div>
+                                <div class="schreiben-topic-text">${highlightVocab(topic.text)}</div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </section>
+            `
+            : '';
+
+        const themesHtml = currentTest.themes && currentTest.themes.length > 0
+            ? `
+                <section class="glass-panel schreiben-panel">
+                    <h3>Themenpool</h3>
+                    <div class="schreiben-theme-grid">
+                        ${currentTest.themes.map((theme, index) => `
+                            <div class="schreiben-theme-card">
+                                <div class="schreiben-theme-index">${index + 1}</div>
+                                <div class="schreiben-theme-text">${highlightVocab(theme)}</div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </section>
+            `
+            : '';
+
+        const historicalTopicsHtml = currentTest.historical_topics && currentTest.historical_topics.length > 0
+            ? `
+                <section class="glass-panel schreiben-panel">
+                    <h3>Bereits gelaufene Forum-Themen</h3>
+                    <div class="schreiben-theme-grid">
+                        ${currentTest.historical_topics.map((theme, index) => `
+                            <div class="schreiben-theme-card">
+                                <div class="schreiben-theme-index">${index + 1}</div>
+                                <div class="schreiben-theme-text">${highlightVocab(theme)}</div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </section>
+            `
+            : '';
+
+        const notesHtml = currentTest.notes && currentTest.notes.length > 0
+            ? `
+                <section class="glass-panel schreiben-panel">
+                    <h3>Notizen aus dem PDF</h3>
+                    <ul class="schreiben-bullet-list">
+                        ${currentTest.notes.map(note => `<li>${highlightVocab(note)}</li>`).join('')}
+                    </ul>
+                </section>
+            `
+            : '';
+
+        dynamicTestContainer.innerHTML = `
+            <section class="glass-panel schreiben-panel">
+                <h3>${currentTest.test_title}</h3>
+                <p class="instruction">${highlightVocab(currentTest.intro || '')}</p>
+            </section>
+            ${statsHtml}
+            ${resourcesHtml}
+            ${variantsHtml}
+            ${recentTopicsHtml}
+            ${themesHtml}
+            ${historicalTopicsHtml}
+            ${notesHtml}
+        `;
     }
 
     function renderSprachbausteine() {

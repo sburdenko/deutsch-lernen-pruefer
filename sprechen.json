@@ -1,0 +1,375 @@
+[
+  {
+    "id": "sprechen_1",
+    "module": "sprechen",
+    "part": "teil_1",
+    "test_title": "Überblick, Präsentation & Bewertung",
+    "intro": "Aus dem PDF: Punkteverteilung und die wichtigsten Materialien für Sprechen Teil 1.",
+    "stats": [
+      {
+        "label": "Teil 1 (Präsentation + Fragen)",
+        "value": "12 Punkte · 2+2 Minuten"
+      },
+      {
+        "label": "Teil 2 (Smalltalk)",
+        "value": "8 Punkte · 3 Minuten"
+      },
+      {
+        "label": "Teil 3 (Lösungswege diskutieren)",
+        "value": "10 Punkte · 4 Minuten"
+      },
+      {
+        "label": "Grammatik, Wortschatz usw.",
+        "value": "30 Punkte"
+      },
+      {
+        "label": "Gesamt",
+        "value": "60 Punkte"
+      }
+    ],
+    "resource_groups": [
+      {
+        "title": "Teil 1: Themen, Tipps, Beispiele",
+        "links": [
+          {
+            "label": "Sprechen Teil 1 (8 Themen)",
+            "url": "https://t.me/B2_C2_Deutsch/65534/174721"
+          },
+          {
+            "label": "Sprechen Teil 1 (8 Themen Tipps)",
+            "url": "https://t.me/B2_C2_Deutsch/65534/183159"
+          },
+          {
+            "label": "Sprechen Teil 1 (Beispiele)",
+            "url": "https://t.me/B2_C2_Deutsch/65534/183157"
+          }
+        ]
+      },
+      {
+        "title": "Bewertung & Redemittel",
+        "links": [
+          {
+            "label": "Sprechen Bewertung 1",
+            "url": "https://t.me/B2_C2_Deutsch/65534/176433"
+          },
+          {
+            "label": "Sprechen Bewertung 2",
+            "url": "https://t.me/B2_C2_Deutsch/65534/73816?single"
+          },
+          {
+            "label": "Sprechen Bewertung Schreiben",
+            "url": "https://t.me/B2_C2_Deutsch/65534/183034?single"
+          },
+          {
+            "label": "Sprechen Redemittel",
+            "url": "https://t.me/B2_C2_Deutsch/65534/192536?single"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Im PDF sind fuer Teil 1 vor allem Link-Sammlungen zu Themen, Tipps, Beispielen und Bewertung enthalten.",
+      "Diese Karte ist als schneller Einstieg gedacht: erst Punkteverteilung ansehen, dann direkt zu Themen und Beispielantworten springen."
+    ]
+  },
+  {
+    "id": "sprechen_2",
+    "module": "sprechen",
+    "part": "teil_2",
+    "test_title": "Smalltalk: Materialien, Dialoge & Uebersichten",
+    "intro": "Alle im PDF aufgefuehrten Materialien fuer Sprechen Teil 2 (Smalltalk).",
+    "resource_groups": [
+      {
+        "title": "Themen & Sammlungen",
+        "links": [
+          {
+            "label": "Sprechen Teil 2 (77 Themen)",
+            "url": "https://t.me/B2_C2_Deutsch/65534/132742"
+          },
+          {
+            "label": "Sprechen Teil 2 (77 Themen) - weitere Sammlung",
+            "url": "https://t.me/B2_C2_Deutsch/65534/181568"
+          },
+          {
+            "label": "Smalltalk (1)",
+            "url": "https://t.me/B2_C2_Deutsch/65534/180997"
+          },
+          {
+            "label": "Smalltalk Teil 2",
+            "url": "https://t.me/B2_C2_Deutsch/65534/209268"
+          }
+        ]
+      },
+      {
+        "title": "Dialoge & Uebersetzung",
+        "links": [
+          {
+            "label": "Sprechen Teil 2 (Dialoge) - 77 Themen",
+            "url": "https://t.me/B2_C2_Deutsch/65534/215175"
+          },
+          {
+            "label": "Sprechen Teil 2 (77 Themen mit Uebersetzung)",
+            "url": "https://t.me/B2_C2_Deutsch/65534/164337"
+          }
+        ]
+      },
+      {
+        "title": "Zusatzmaterial",
+        "links": [
+          {
+            "label": "Muendliche Teile 2 und 3",
+            "url": "https://t.me/B2_C2_Deutsch/65534/101684"
+          },
+          {
+            "label": "Sprechen Redemittel",
+            "url": "https://t.me/B2_C2_Deutsch/65534/192536?single"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Fuer Smalltalk gibt es im PDF vor allem Link-Sammlungen, keine lange Liste ausformulierter Situationen direkt im Dokument.",
+      "Am bequemsten ist meistens die Reihenfolge: Themenliste, dann Dialoge, dann Redemittel."
+    ]
+  },
+  {
+    "id": "sprechen_3",
+    "module": "sprechen",
+    "part": "teil_3",
+    "test_title": "Loesungswege diskutieren: 17 Situationen",
+    "intro": "Aus dem PDF komplett uebernommen: Ressourcen fuer Teil 3 und die 17 ausformulierten Situationen mit Stichpunkten.",
+    "resource_groups": [
+      {
+        "title": "Allgemeine Materialien",
+        "links": [
+          {
+            "label": "Muendliche Teile 2 und 3",
+            "url": "https://t.me/B2_C2_Deutsch/65534/101684"
+          },
+          {
+            "label": "37 Situationen",
+            "url": "https://t.me/B2_C2_Deutsch/65534/149758"
+          },
+          {
+            "label": "37 Situationen mit Loesungen",
+            "url": "https://t.me/B2_C2_Deutsch/65534/160497"
+          },
+          {
+            "label": "37 Situationen mit Loesungen - weitere Sammlung",
+            "url": "https://t.me/B2_C2_Deutsch/65534/140875"
+          }
+        ]
+      },
+      {
+        "title": "Redemittel & Ideen",
+        "links": [
+          {
+            "label": "Allgemeine Phrasen und Ideen fuer Teil 3",
+            "url": "https://t.me/B2_C2_Deutsch/65534/101686"
+          },
+          {
+            "label": "Redemittel 3",
+            "url": "https://t.me/B2_C2_Deutsch/65534/101685"
+          },
+          {
+            "label": "Redemittel 3 - Sammlung 2",
+            "url": "https://t.me/B2_C2_Deutsch/65534/185909"
+          },
+          {
+            "label": "Redemittel 3 - Sammlung 3",
+            "url": "https://t.me/B2_C2_Deutsch/65534/192536?single"
+          }
+        ]
+      }
+    ],
+    "situations": [
+      {
+        "title": "1. Situation: Tierchen im Mehl in einer Konditorei",
+        "description": "Sie arbeiten in einer Konditorei. Sie haben heute Morgen im Lager kleine Tierchen im Mehl entdeckt. Jetzt koennen Sie damit nicht backen, aber Sie haben wie immer viele Vorbestellungen fuer Kuchen.",
+        "prompts": [
+          "Chef*in: Wie kontaktieren?",
+          "Kund*innen: Wie informieren? Was anbieten?",
+          "Lager: Was tun?",
+          "Neues Mehl: Woher nehmen? Wo lagern?"
+        ]
+      },
+      {
+        "title": "2. Situation: Aufenthalt eines wichtigen auslaendischen Kunden organisieren",
+        "description": "Sie sind in einem grossen Produktionsbetrieb taetig. Ein bedeutender auslaendischer Kunde plant naechsten Monat einen viertaegigen Aufenthalt in Ihrer Stadt. Ihr Vorgesetzter hat Sie beauftragt, die Organisation dieses Aufenthalts zu uebernehmen.",
+        "prompts": [
+          "Uebernachtungsmoeglichkeiten?",
+          "Wie abholen?",
+          "Wen treffen?",
+          "Was zeigen? Abendprogramm?"
+        ]
+      },
+      {
+        "title": "3. Situation: Kollegin in der Baeckerei kommt immer zu spaet",
+        "description": "Sie arbeiten zusammen in einer Baeckerei, und einer Ihrer Kolleginnen kommt morgens immer wieder zu spaet, obwohl Sie sie bereits mehrmals darauf hingewiesen haben. Die Arbeit zu zweit zu bewaeltigen, wird dadurch zu einer Herausforderung.",
+        "prompts": [
+          "Kollegin: Was tun?",
+          "Chef*in: Wie Problem ansprechen?",
+          "Kurzfristig: Wie reagieren?",
+          "Arbeitsablauf: Was umorganisieren?",
+          "Langfristig: Was aendern?"
+        ]
+      },
+      {
+        "title": "4. Situation: Personalmangel im Kaufhaus vor Weihnachten",
+        "description": "Sie arbeiten in einem grossen Kaufhaus. Aufgrund von Krankheitsfaellen stehen in den einzelnen Abteilungen zu wenig Mitarbeiterinnen und Mitarbeiter zur Verfuegung, besonders in der beliebten Vorweihnachtszeit.",
+        "prompts": [
+          "Wie Personal bekommen?",
+          "Oeffnungszeiten aendern?",
+          "Ueberstunden aendern?",
+          "Urlaubssperre?",
+          "Abteilung schliessen?",
+          "Danke fuer Mitarbeiter?"
+        ]
+      },
+      {
+        "title": "5. Situation: Umzugsunternehmen ist insolvent",
+        "description": "Ihre Firma plant, im naechsten Monat umzuziehen. Bedauerlicherweise ist das beauftragte Umzugsunternehmen insolvent und kann den Umzug nicht durchfuehren.",
+        "prompts": [
+          "Andere Umzugsfirmen?",
+          "Umzug anders organisieren?",
+          "Wer koennte helfen?",
+          "Vermieter kontaktieren?",
+          "Schadenersatz?"
+        ]
+      },
+      {
+        "title": "6. Situation: Kuehlraum in der Grosskueche kaputt",
+        "description": "Sie arbeiten in einer Grosskueche. Der Kuehlraum funktioniert nicht. Weil es heiss ist, sind einige Lebensmittel schon schlecht geworden und der Rest muss schnell gekuehlt werden.",
+        "prompts": [
+          "Kuehlraum: Was tun? Wen kontaktieren?",
+          "Schlecht gewordene Lebensmittel: Woher Ersatz?",
+          "Andere Lebensmittel: Wie verwenden?",
+          "Langfristig: Welche Kuehlalternativen moeglich?"
+        ]
+      },
+      {
+        "title": "7. Situation: Backofen in der Baeckerei funktioniert nicht",
+        "description": "Sie arbeiten in einer Baeckerei. Der Backofen funktioniert nicht und Sie koennen nicht backen.",
+        "prompts": [
+          "Was tun?",
+          "Laden heute oeffnen?",
+          "Wen anrufen?",
+          "Was verkaufen?",
+          "Preise?",
+          "Langfristig: Welche andere Handwerksfirma?"
+        ]
+      },
+      {
+        "title": "8. Situation: Falsches Produkt bei einer Moebelspedition geliefert",
+        "description": "Sie arbeiten bei einer Moebelspedition und stellen beim Kunden fest, dass ein falsches Produkt geliefert wurde.",
+        "prompts": [
+          "Wer verantwortlich?",
+          "Wen informieren?",
+          "Wann richtige Lieferung moeglich? Was Kunden anbieten?",
+          "Kosten fuer die zweite Lieferung?"
+        ]
+      },
+      {
+        "title": "9. Situation: Wasserschaden vor einer Grossveranstaltung im Restaurant",
+        "description": "Sie arbeiten in einem Restaurant, und am Abend ist eine Grossveranstaltung geplant. Leider gibt es einen Wasserschaden, weshalb die Veranstaltung abgesagt werden muss.",
+        "prompts": [
+          "Handwerker: Wie finden?",
+          "Gaeste: Wie informieren? Was anbieten?",
+          "Eingekaufte Lebensmittel: Was damit tun?",
+          "Aushilfskraefte: Wie kontaktieren?"
+        ]
+      },
+      {
+        "title": "10. Situation: Mittagessen im Altenheim kommt zu spaet und kalt",
+        "description": "Sie arbeiten in einem Altenheim, und der Essenslieferant bringt das Mittagessen fuer die Bewohner regelmaessig verspaetet und kalt. Die Bewohner beschweren sich darueber.",
+        "prompts": [
+          "Lieferzeit: Wie aendern?",
+          "Essen: Wie aufwaermen?",
+          "Lieferanten: Wie kontaktieren? Was fordern?",
+          "Langfristig: Wie neuen Lieferanten finden?"
+        ]
+      },
+      {
+        "title": "11. Situation: Salben und Oele im Krankenhaus nicht geliefert",
+        "description": "Sie arbeiten in der Physiotherapie-Abteilung eines Krankenhauses. Fuer die anstehenden Anwendungen sind verschiedene Salben und Oele erforderlich, die jedoch nicht geliefert wurden. Aber der Terminkalender ist voll.",
+        "prompts": [
+          "Kurzfristige Loesung: Wo Produkte kaufen?",
+          "Termine: Wie Patienten erreichen?",
+          "Lieferanten: Wie kontaktieren? Was fordern?",
+          "Langfristig: Wie neuen Lieferanten finden?"
+        ]
+      },
+      {
+        "title": "12. Situation: Doppelbuchungen im Hotel",
+        "description": "Sie arbeiten in einem Hotel, und es kommt haeufig vor, dass mehrere Buchungen fuer dasselbe Zimmer im gleichen Zeitraum vorgenommen werden.",
+        "prompts": [
+          "Doppelbuchungen: Was tun?",
+          "Gaeste: Was anbieten?",
+          "Sofortmassnahmen: Wie Ersatz organisieren?",
+          "Wie die naechsten Buchungen kontrollieren?",
+          "Langfristig: Wie in Zukunft vermeiden?"
+        ]
+      },
+      {
+        "title": "13. Situation: Schoko-Hasen fuer Ostern zerbrochen",
+        "description": "Sie arbeiten in einem Supermarkt, und Ihre Kunden freuen sich jedes Jahr vor Ostern auf Schoko-Hasen, die Sie anbieten. Die Lieferung ist heute eingetroffen, aber leider sind alle Schoko-Hasen waehrend des Transports zerbrochen.",
+        "prompts": [
+          "Schoko-Hasen: Was tun?",
+          "Kunden: Wie kommunizieren? Was anbieten?",
+          "Lieferanten: Wie kontaktieren? Was fordern?",
+          "Langfristig: Schoko-Hasen fuers naechste Jahr? Anderer Lieferant?"
+        ]
+      },
+      {
+        "title": "14. Situation: Schreibwaren zum Schulanfang nicht geliefert",
+        "description": "Sie arbeiten in einem Supermarkt. Es ist Montagmorgen, und laut Prospekt sollten ab heute guenstige Schreibwaren zum Schulanfang erhaeltlich sein. Leider sind diese nicht geliefert worden, obwohl viele Kunden bereits danach fragen.",
+        "prompts": [
+          "Kunden: Wie beruhigen? Was anbieten?",
+          "Lieferant: Wie kontaktieren? Was verlangen?",
+          "Langfristig: Lieferanten wechseln?"
+        ]
+      },
+      {
+        "title": "15. Situation: Eisglatter Parkplatz vor einem Moebelgeschaeft",
+        "description": "Sie arbeiten in einem grossen Moebelgeschaeft am Stadtrand. Draussen hat es starken Eisregen gegeben, wodurch der Parkplatz so rutschig ist, dass die Kund*innen nicht mehr wegfahren koennen.",
+        "prompts": [
+          "Winterdienst informieren?",
+          "Wie Kund*innen beruhigen?",
+          "Was Kund*innen anbieten?",
+          "Was selbst tun?",
+          "Erste-Hilfe noetig?"
+        ]
+      },
+      {
+        "title": "16. Situation: Neue Transportboxen beim Pizzaservice taugen nichts",
+        "description": "Sie arbeiten in einem Pizzaservice und haben seit einiger Zeit neue Transportboxen im Einsatz. Leider gehen diese waehrend des Transports leicht auf, sodass das Essen kalt bei den Kunden ankommt.",
+        "prompts": [
+          "Kurzfristig: Wie Ware transportieren?",
+          "Kund*innen: Wie kontaktieren? Was anbieten?",
+          "Hersteller: Was verlangen?",
+          "Langfristig: Andere Transportboxen?"
+        ]
+      },
+      {
+        "title": "17. Situation: Obst und Gemuese kommen zu spaet ins Restaurant",
+        "description": "Sie arbeiten als Koch in einem Restaurant. Sie arbeiten seit Kurzem mit einem regionalen Bauernhof und bekommen frisches Obst und Gemuese. Leider werden in der letzten Zeit die Lieferzeiten oefter nicht eingehalten, was regelmaessig zu Problemen fuehrt.",
+        "prompts": [
+          "Obst/Gemuese heute nicht geliefert: Was machen?",
+          "Heute: Wie Ersatz anschaffen?",
+          "Lieferant: Wie kontaktieren? Was fordern?",
+          "Langfristig: Welcher Lieferant?"
+        ]
+      }
+    ],
+    "notes": [
+      "Weitere im PDF notierte Themenfragmente: Drucker oder Backofen ist kaputt.",
+      "Weitere im PDF notierte Themenfragmente: Vermieter hat Miete erhoeht.",
+      "Weitere im PDF notierte Themenfragmente: In allen Wohnungen funktioniert die Batterie nicht.",
+      "Weitere im PDF notierte Themenfragmente: Mit dem Koch ueber neue Gerichte und Produktsuche sprechen.",
+      "Weitere im PDF notierte Themenfragmente: Schulsaison steht vor der Tuer und der Lieferant verzoegert die Lieferung von Schreibwaren.",
+      "Weitere im PDF notierte Themenfragmente: Sie arbeiten in einem Restaurant und haben verdorbenes Essen erhalten.",
+      "Weitere im PDF notierte Themenfragmente: Ein Gast aus dem Ausland soll fuer eine Rast oder Uebernachtung organisiert werden.",
+      "Weitere im PDF notierte Themenfragmente: Sie arbeiten in einem Krankenhaus, Patienten beschweren sich ueber einen Kollegen."
+    ]
+  }
+]

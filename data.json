@@ -2483,6 +2483,67 @@
           "content": "Text zur Aufgabe fehlt im PDF."
         }
       ]
+    },
+    {
+      "id": "lesen_teil_2_var8_notes",
+      "module": "lesen",
+      "part": "teil_2",
+      "display_mode": "notes",
+      "test_title": "Teil 2 (вариант №8)(тест №160201, 160221) · Notizen",
+      "intro": "Аккуратно вынесенные заметки из Prüfungsversion 160201/160221. В PDF этот вариант сохранился не полностью, поэтому здесь не фейковый тест, а удобная карточка с тем, что удалось восстановить.",
+      "sections": [
+        {
+          "title": "Text 1",
+          "bullets": [
+            "Willkommensmappe für neue Mitarbeiterinnen und Mitarbeiter.",
+            "В PDF осталась только пометка: было что-то про Organigramm."
+          ]
+        },
+        {
+          "title": "Text 2",
+          "lead": "В PDF прямо указано, что второй текст совпадал с уже известным материалом по теме Arbeitsunfälle.",
+          "bullets": [
+            "Titel: Willkommensmappe für neue Mitarbeiterinnen und Mitarbeiter - Arbeitsunfälle.",
+            "Пометка в PDF: Neuer вариант №030321 / 100221 / 160201 - 100 %.",
+            "8. Im Falle eines Arbeitsunfalls muss man sofort einen Bericht beim Arbeitgeber einreichen.",
+            "9. Nach einem Arbeitsunfall: a) bezahlt die Berufsgenossenschaft sofort Verletztengeld. b) erhalten Arbeitnehmer sechs Wochen volles Gehalt. c) trägt der Arbeitgeber die Kosten für die medizinische Versorgung."
+          ]
+        }
+      ],
+      "notes": [
+        "Для этого хвоста в PDF не сохранились точные пометки с ответами на 8 и 9, поэтому я не стал превращать карточку в обычный интерактивный тест.",
+        "Если позже найдётся полный текст или ответы, эту карточку можно будет быстро перевести в нормальный Teil-2-Test."
+      ]
+    },
+    {
+      "id": "lesen_teil_3_var8_notes",
+      "module": "lesen",
+      "part": "teil_3",
+      "display_mode": "notes",
+      "test_title": "Teil 3 (вариант №8)(тест №160201, 160221) · Notizen",
+      "intro": "Реконструкция из PDF-заметок по теме Mutterschutz / Schwangerschaft. Формулировки частично сохранены только в виде конспекта, поэтому карточка оформлена как справочный блок.",
+      "sections": [
+        {
+          "title": "Thema",
+          "bullets": [
+            "Mutterschutz / Schwangerschaft.",
+            "Вариант помечен в PDF как 100 %, но сами формулировки были записаны не полностью."
+          ]
+        },
+        {
+          "title": "Fragen 10-13",
+          "bullets": [
+            "10. Женщина спрашивала, могут ли оба родителя брать Elternzeit и как это делится: один год, три года или иначе. В заметках зафиксировано, что ответ был в духе beides nicht so, Elternzeit можно делить между собой.",
+            "11. Беременную сотрудницу ставили на поздние смены до 21:00. В последнем совете было объяснение про работу примерно с 20:00 до 22:00 и что работодатель не может просто так требовать такие смены.",
+            "12. X - Azubis, которые ждут ребёнка, хотят продолжить обучение, а за ребёнком будет смотреть бабушка. Вопрос: могут ли они позже начать Elternzeit.",
+            "13. После рождения ребёнка женщина хочет получать Elterngeld и параллельно работать. В заметках сохранён смысл ответа: можно подать заявку и работать до 30 часов в неделю, но работодатель может отказать."
+          ]
+        }
+      ],
+      "notes": [
+        "Точно зафиксирован только ответ 12 = X.",
+        "Для остальных пунктов в PDF сохранились скорее смысловые подсказки, чем полный набор форум-ответов a-f."
+      ]
     }
   ],
   "vocabulary": {

@@ -2309,5 +2309,729 @@
         }
       }
     ]
+  },
+  {
+    "id": "hoeren_45",
+    "module": "hoeren",
+    "part": "teil_2",
+    "test_title": "Hören Teil 2 (вариант №1)",
+    "audio_url": "https://t.me/B2_C2_Deutsch/65534/153245",
+    "texts": [
+      {
+        "id": 1,
+        "title": "Aufgabe",
+        "content": "Sie hören vier Gespräche. Welcher der Sätze a-f passt am besten zu welchem Gespräch? Markieren Sie Ihre Lösungen für die Aufgaben 28-31 auf dem Antwortbogen. Lesen Sie jetzt die Sätze a-f. Dazu haben Sie eine Minute Zeit. Danach hören Sie die Gespräche einmal."
+      },
+      {
+        "id": 2,
+        "title": "Transkript",
+        "content": "Nummer 28<br><br>Frau 1: Habt ihr auch schon davon gehört, dass wir uns alle ein Diensthandy bekommen sollen?<br><br>Herr: Wirklich? Wie toll. Dann können wir endlich, wenn wir für die Firma unterwegs sind, das Firmenhandy benutzen und müssen nicht ständig auf unsere Kosten mit unseren privaten Geräten telefonieren.<br><br>Frau 2: Müssen wir dann auch in der Freizeit erreichbar sein? Das finde ich nämlich nicht so gut.<br><br>Herr: Wir können es doch einfach am Ende des Arbeitstages und am Wochenende ausschalten. Da sehe ich kein Problem.<br><br>Frau 1: Hoffentlich erwartet der Chef nicht, dass er uns dann immer erreichen kann. Darauf habe ich keine Lust.<br><br>Herr: Das geht natürlich nicht. Es muss klar geregelt sein, dass wir nur während der Arbeitszeit erreichbar sein müssen. Aber dann finde ich es praktisch.<br><br>Frau 2: Dann lasst uns doch mal mit dem Chef darüber sprechen, wie er sich das vorstellt.<br><br>Nummer 29<br><br>Frau: Hallo Max, schön dich wiederzusehen. Wie war dein Urlaub?<br><br>Max: Der war eigentlich schön, aber ich habe zu viele E-Mails aus dem Büro bekommen. Ich kann gar nicht richtig entspannen, wenn ich immer wieder an die Arbeit denken muss.<br><br>Frau: Warum schaust du dir deine geschäftlichen Mails überhaupt im Urlaub an? Das würde ich ja nicht machen.<br><br>Max: Mache ich eigentlich auch nicht. Aber wir waren mitten im Projekt, und deshalb habe ich mein Diensthandy mitgenommen. Für den Fall, dass etwas Wichtiges geklärt werden muss. Dass auch noch andere Mails kommen könnten, habe ich nicht bedacht.<br><br>Frau: Naja, dann darfst du dich aber nicht beschweren. Selbst schuld, wer im Urlaub auch noch an die Arbeit denkt.<br><br>Max: Das war eine besondere Situation. Das nächste Mal lasse ich das Diensthandy lieber zu Hause.<br><br>Nummer 30<br><br>Frau: Sag mal Thomas, hast du meine Nachricht denn gestern nicht bekommen?<br><br>Thomas: Wie? Hast du mir geschrieben? Worum ging's denn?<br><br>Frau: Ach Thomas, warum hast du die Nachricht denn nicht gelesen? Ich wollte etwas wegen des Angebots für unseren Kunden mit dir besprechen und es dann auch ausschicken.<br><br>Thomas: Du weißt doch, dass ich abends mein Handy immer ausschalte. Wir hätten doch im Büro deine Fragen klären können. Ich war schließlich den ganzen Tag da.<br><br>Frau: Ich habe es vorher nicht geschafft, deshalb bin ich erst abends dazu gekommen. Und weil der Kunde wichtig ist, wollte ich es noch erledigen.<br><br>Thomas: Das kann ich verstehen, aber ich war schon um 7 Uhr im Büro und dann habe ich wie immer um 17 Uhr Feierabend gemacht und das Handy ausgeschaltet. Aber komm, lass uns das Angebot jetzt schnell zusammen fertig machen.<br><br>Nummer 31<br><br>Frau 1: Kommt ihr auch? Gleich fängt das Meeting mit dem Chef an.<br><br>Herr: Ja, wir kommen. Wisst ihr, worum es heute geht?<br><br>Frau 2: Ich habe gehört, um einen Bereitschaftsdienst am Wochenende. Ich bin mal gespannt, was das bedeuten soll.<br><br>Frau 1: Ich denke, dass an jedem Wochenende immer einer aus dem Team erreichbar sein soll.<br><br>Frau 2: Wieso soll das denn? Wir sind doch eh jeden Tag unter der Woche von morgens bis abends erreichbar. Ist das nicht genug?<br><br>Frau 1: Ja, aber unsere Kunden brauchen vielleicht auch am Wochenende einen Ansprechpartner, und wenn wir samstags arbeiten, dann sollten wir auch ansprechbar sein.<br><br>Herr: Naja. Wenn es nur um eine telefonische Erreichbarkeit geht, ist es ja nicht so schlimm, solange wir nicht ins Büro kommen müssen.<br><br>Frau 2: Kundenservice ist schon wichtig. Aber irgendwo ist auch mal eine Grenze. Jetzt hören wir erstmal, was der Chef sagt."
+      }
+    ],
+    "statements": [
+      {
+        "id": 28,
+        "text": "Aussage zu Gespräch 28",
+        "answer": "a",
+        "type": "multiple_choice",
+        "options": {
+          "a": "Mitarbeiter sollten ihr Diensthandy nach der Arbeit ausschalten.",
+          "b": "Im Urlaub sollte man sich nicht mit Arbeitsangelegenheiten beschäftigen.",
+          "c": "Arbeit und Freizeit sollten klar getrennt sein, um das Privatleben zu schützen.",
+          "d": "Für manche Kunden ist es wichtig, dass der Kundenservice auch am Wochenende verfügbar ist.",
+          "e": "Man sollte das Privatleben respektieren und Arbeitsanfragen außerhalb der Arbeitszeit vermeiden.",
+          "f": "Manche Mitarbeiter sind bereit, für den Kundenservice am Wochenende erreichbar zu sein."
+        }
+      },
+      {
+        "id": 29,
+        "text": "Aussage zu Gespräch 29",
+        "answer": "b",
+        "type": "multiple_choice",
+        "options": {
+          "a": "Mitarbeiter sollten ihr Diensthandy nach der Arbeit ausschalten.",
+          "b": "Im Urlaub sollte man sich nicht mit Arbeitsangelegenheiten beschäftigen.",
+          "c": "Arbeit und Freizeit sollten klar getrennt sein, um das Privatleben zu schützen.",
+          "d": "Für manche Kunden ist es wichtig, dass der Kundenservice auch am Wochenende verfügbar ist.",
+          "e": "Man sollte das Privatleben respektieren und Arbeitsanfragen außerhalb der Arbeitszeit vermeiden.",
+          "f": "Manche Mitarbeiter sind bereit, für den Kundenservice am Wochenende erreichbar zu sein."
+        }
+      },
+      {
+        "id": 30,
+        "text": "Aussage zu Gespräch 30",
+        "answer": "e",
+        "type": "multiple_choice",
+        "options": {
+          "a": "Mitarbeiter sollten ihr Diensthandy nach der Arbeit ausschalten.",
+          "b": "Im Urlaub sollte man sich nicht mit Arbeitsangelegenheiten beschäftigen.",
+          "c": "Arbeit und Freizeit sollten klar getrennt sein, um das Privatleben zu schützen.",
+          "d": "Für manche Kunden ist es wichtig, dass der Kundenservice auch am Wochenende verfügbar ist.",
+          "e": "Man sollte das Privatleben respektieren und Arbeitsanfragen außerhalb der Arbeitszeit vermeiden.",
+          "f": "Manche Mitarbeiter sind bereit, für den Kundenservice am Wochenende erreichbar zu sein."
+        }
+      },
+      {
+        "id": 31,
+        "text": "Aussage zu Gespräch 31",
+        "answer": "d",
+        "type": "multiple_choice",
+        "options": {
+          "a": "Mitarbeiter sollten ihr Diensthandy nach der Arbeit ausschalten.",
+          "b": "Im Urlaub sollte man sich nicht mit Arbeitsangelegenheiten beschäftigen.",
+          "c": "Arbeit und Freizeit sollten klar getrennt sein, um das Privatleben zu schützen.",
+          "d": "Für manche Kunden ist es wichtig, dass der Kundenservice auch am Wochenende verfügbar ist.",
+          "e": "Man sollte das Privatleben respektieren und Arbeitsanfragen außerhalb der Arbeitszeit vermeiden.",
+          "f": "Manche Mitarbeiter sind bereit, für den Kundenservice am Wochenende erreichbar zu sein."
+        }
+      }
+    ]
+  },
+  {
+    "id": "hoeren_46",
+    "module": "hoeren",
+    "part": "teil_2",
+    "test_title": "Hören Teil 2 (вариант №2)",
+    "audio_url": "https://t.me/B2_C2_Deutsch/65534/195149",
+    "texts": [
+      {
+        "id": 1,
+        "title": "Aufgabe",
+        "content": "Sie hören vier Gespräche. Welcher der Sätze a-f passt am besten zu welchem Gespräch? Markieren Sie Ihre Lösungen für die Aufgaben 28-31 auf dem Antwortbogen. Lesen Sie jetzt die Sätze a-f. Dazu haben Sie eine Minute Zeit. Danach hören Sie die Gespräche einmal."
+      },
+      {
+        "id": 2,
+        "title": "Transkript",
+        "content": "Nummer 28<br><br>Herr: Jana, ich habe gehört, dass du im nächsten Monat an einem Spanischkurs teilnimmst. Das ist ja toll. Fliegst du dann nach Spanien?<br><br>Frau: Das wäre wirklich super. Aber ich fliege nicht weg, sondern lerne zwei Wochen lang in einem Intensivkurs in einer Sprachschule hier in der Stadt.<br><br>Herr: Nimmst du dafür Urlaubstage?<br><br>Frau: Nein, das brauche ich nicht. Ich habe nämlich Bildungsurlaub.<br><br>Herr: Bildungsurlaub?<br><br>Frau: Ja. Den können wir doch jedes Jahr nehmen. Im letzten Jahr hatte ich keinen. Und nun stehen mir dieses Jahr sogar zwei Wochen für so eine Weiterbildung zu. Dafür brauche ich keine Urlaubstage zu nehmen.<br><br>Herr: Und warum hast du dich für einen Spanischkurs entschieden?<br><br>Frau: Ich spreche diese Sprache schon ganz gut und betreue deshalb unsere Kunden in Lateinamerika. Aber E-Mails auf Spanisch zu schreiben fällt mir immer noch schwer.<br><br>Herr: Dann wünsche ich dir viel Spaß und viel Erfolg.<br><br>Nummer 29<br><br>Frau: Stimmt das eigentlich, dass unsere Firma keine professionellen Übersetzer mehr bezahlen will? Habt ihr etwas über diesen Plan gehört?<br><br>Herr 1: Das kann ich mir nicht vorstellen. Wir müssen doch oft etwas in anderen Sprachen schreiben.<br><br>Herr 2: Ja, erst gestern habe ich eine Information über das neue Produkt für den französischen Markt geschrieben. Das konnte ich auf Deutsch machen. Zum Glück. Die Übersetzer können das natürlich viel besser auf Französisch ausdrücken als ich.<br><br>Frau: Ich spreche überhaupt kein Französisch. Das kann doch auch keiner von uns verlangen.<br><br>Herr 1: Unser Team ist ja ziemlich international. Vielleicht haben wir genug Mitarbeiter, die Präsentationen und E-Mails in anderen Sprachen schreiben können.<br><br>Frau: Aber professionell ist das nicht.<br><br>Herr 2: Ich sehe das auch so wie Julia. Wir brauchen den Übersetzerservice. Hoffentlich behalten wir ihn.<br><br>Nummer 30<br><br>Frau: Hallo, Ahmed. Ich brauche deine Hilfe. Hast du einen Moment Zeit?<br><br>Herr: Natürlich, Gina. Worum geht es denn?<br><br>Frau: Ich bediene gerade einen Kunden, der ein neues Handy kaufen will. Er spricht zwar ganz gut Deutsch, aber wir wollen jetzt über den Vertrag sprechen. Das ist ein bisschen schwierig. Könntest du ihm das wohl auf Arabisch erklären? Der Kunde spricht Arabisch.<br><br>Herr: Ja, das kann ich machen. Am besten übernehme ich den Kunden. Und du machst hier weiter mit den Bestellungen.<br><br>Frau: Eigentlich habe ich ihm schon ziemlich viele Handymodelle gezeigt und würde gerne den Verkauf auch abschließen.<br><br>Herr: Und jetzt möchtest du nicht auf deine Verkaufsprovision verzichten? Das kann ich ja auch verstehen. In Ordnung, gehen wir zusammen zu ihm.<br><br>Frau: Danke, Ahmed. Wenn ich dich nicht hätte.<br><br>Nummer 31<br><br>Frau 1: Nächste Woche fangen doch unsere Englischkurse an. Habt ihr euch schon für einen entschieden?<br><br>Herr: Also ich bin Anfänger. Seit mindestens 20 Jahren habe ich kein Englisch mehr gesprochen, und ich werde es in meinem Alter auch bestimmt nicht mehr lernen.<br><br>Frau 2: Ich weiß gar nicht, wie gut mein Englisch ist. Die Lehrer werden uns sicherlich beraten, welcher Kurs der richtige ist, oder? Vielleicht machen die ja auch einen Einstufungstest mit uns.<br><br>Herr: Einen Test? Das wird ja immer schlimmer. Ich arbeite seit Jahren hier, ohne dass sich jemand für meine Englischkenntnisse interessiert. Und jetzt soll ich plötzlich in einen Kurs gehen und Tests schreiben? Das gefällt mir gar nicht.<br><br>Frau 1: Na ja, Hans, weil du kein Englisch sprichst, muss immer ich mit unseren internationalen Partnern telefonieren. Du sollst das ja auch mal machen.<br><br>Frau 2: Miriam hat recht. Wir arbeiten mit immer mehr Partnern in verschiedenen Ländern zusammen. Ich finde es gut, dass unsere Firma jetzt Englischkurse für uns anbietet."
+      }
+    ],
+    "statements": [
+      {
+        "id": 28,
+        "text": "Aussage zu Gespräch 28",
+        "answer": "b",
+        "type": "multiple_choice",
+        "options": {
+          "a": "Die Firma möchte, dass alle Mitarbeiter ihre Englischkenntnisse verbessern.",
+          "b": "Ein Mitarbeiter nutzt eine besondere Urlaubsregelung, um seine Sprachkenntnisse zu verbessern.",
+          "c": "Ein Mitarbeiter hilft einem Kollegen bei einem Kundengespräch auf einer fremden Sprache.",
+          "d": "Die Firma überlegt, ob sie weiterhin Übersetzungsdienste benötigt.",
+          "e": "Ein Mitarbeiter plant, an einem Intensivsprachkurs teilzunehmen.",
+          "f": "Ein Kollege übernimmt einen Teil der Arbeit, um einem Team zu helfen."
+        }
+      },
+      {
+        "id": 29,
+        "text": "Aussage zu Gespräch 29",
+        "answer": "d",
+        "type": "multiple_choice",
+        "options": {
+          "a": "Die Firma möchte, dass alle Mitarbeiter ihre Englischkenntnisse verbessern.",
+          "b": "Ein Mitarbeiter nutzt eine besondere Urlaubsregelung, um seine Sprachkenntnisse zu verbessern.",
+          "c": "Ein Mitarbeiter hilft einem Kollegen bei einem Kundengespräch auf einer fremden Sprache.",
+          "d": "Die Firma überlegt, ob sie weiterhin Übersetzungsdienste benötigt.",
+          "e": "Ein Mitarbeiter plant, an einem Intensivsprachkurs teilzunehmen.",
+          "f": "Ein Kollege übernimmt einen Teil der Arbeit, um einem Team zu helfen."
+        }
+      },
+      {
+        "id": 30,
+        "text": "Aussage zu Gespräch 30",
+        "answer": "c",
+        "type": "multiple_choice",
+        "options": {
+          "a": "Die Firma möchte, dass alle Mitarbeiter ihre Englischkenntnisse verbessern.",
+          "b": "Ein Mitarbeiter nutzt eine besondere Urlaubsregelung, um seine Sprachkenntnisse zu verbessern.",
+          "c": "Ein Mitarbeiter hilft einem Kollegen bei einem Kundengespräch auf einer fremden Sprache.",
+          "d": "Die Firma überlegt, ob sie weiterhin Übersetzungsdienste benötigt.",
+          "e": "Ein Mitarbeiter plant, an einem Intensivsprachkurs teilzunehmen.",
+          "f": "Ein Kollege übernimmt einen Teil der Arbeit, um einem Team zu helfen."
+        }
+      },
+      {
+        "id": 31,
+        "text": "Aussage zu Gespräch 31",
+        "answer": "a",
+        "type": "multiple_choice",
+        "options": {
+          "a": "Die Firma möchte, dass alle Mitarbeiter ihre Englischkenntnisse verbessern.",
+          "b": "Ein Mitarbeiter nutzt eine besondere Urlaubsregelung, um seine Sprachkenntnisse zu verbessern.",
+          "c": "Ein Mitarbeiter hilft einem Kollegen bei einem Kundengespräch auf einer fremden Sprache.",
+          "d": "Die Firma überlegt, ob sie weiterhin Übersetzungsdienste benötigt.",
+          "e": "Ein Mitarbeiter plant, an einem Intensivsprachkurs teilzunehmen.",
+          "f": "Ein Kollege übernimmt einen Teil der Arbeit, um einem Team zu helfen."
+        }
+      }
+    ]
+  },
+  {
+    "id": "hoeren_47",
+    "module": "hoeren",
+    "part": "teil_2",
+    "test_title": "Hören Teil 2 (вариант №3)",
+    "audio_url": "https://t.me/B2_C2_Deutsch/65534/195151",
+    "texts": [
+      {
+        "id": 1,
+        "title": "Aufgabe",
+        "content": "Sie hören vier Gespräche. Welcher der Sätze a-f passt am besten zu welchem Gespräch? Markieren Sie Ihre Lösungen für die Aufgaben 28-31 auf dem Antwortbogen. Lesen Sie jetzt die Sätze a-f. Dazu haben Sie eine Minute Zeit. Danach hören Sie die Gespräche einmal."
+      },
+      {
+        "id": 2,
+        "title": "Transkript",
+        "content": "Nummer 28<br><br>Herr Schmidt: Hallo Mia. Ich suche Kollegen, die Lust haben, beim Firmenlauf mitzumachen. Du bist doch sportlich. Wie sieht das bei dir aus?<br><br>Mia: Firmenlauf? Muss man denn da joggen? Oder kann man da auch walken?<br><br>Herr Schmidt: Natürlich kannst du beides machen. Aber je schneller, desto besser. Die Läufer des besten Teams gewinnen nämlich einen tollen Preis.<br><br>Mia: Oh, das klingt ja gut. Wann findet das Ganze denn statt?<br><br>Herr Schmidt: In einem Monat. Das ist aber wenig Zeit, um für so einen Lauf zu trainieren.<br><br>Mia: Ich bin mir nicht sicher, ob ich das schaffe. Wie viele Kilometer muss man denn laufen?<br><br>Herr Schmidt: Man läuft nur 6 Kilometer. Aber wir müssen fünf Kollegen sein, die teilnehmen.<br><br>Mia: Und was kann man gewinnen?<br><br>Herr Schmidt: Eine Jahresmitgliedschaft im Fitnessstudio.<br><br>Mia: Das ist super. Okay, du hast mich überzeugt. Ich mache mit.<br><br>Herr Schmidt: Toll. Dann müssen wir jetzt nur noch drei andere Personen finden.<br><br>Nummer 29<br><br>Herr 1: Wow, im nächsten Jahr wird unsere Firma 50. Ich habe gehört, das soll groß gefeiert werden.<br><br>Emilia: Ja, und für unsere Kunden sind jede Menge Aktionen geplant. Davon bin ich nicht so begeistert.<br><br>Herr 1: Warum denn? Ich finde es toll, dass unsere Firma schon so viele Jahre existiert und wir das feiern.<br><br>Emilia: Naja, aber für uns bedeutet das vor allem mehr Arbeit, oder?<br><br>Herr 2: Ach, Emilia, sei doch nicht so negativ. Wenn alle so denken würden, könnten wir nichts auf die Beine stellen. Das ist doch mal was anderes. Also, mir gefällt die Idee.<br><br>Emilia: Ja, schon. Aber wir arbeiten sowieso schon so viel. Da habe ich keine Lust auf Extraaktionen.<br><br>Herr 1: Aber diese Extraaktionen machen uns doch auch Spaß und finden in der Arbeitszeit statt.<br><br>Herr 2: Ich finde diese Abwechslung auch gut.<br><br>Emilia: Ja, ihr habt recht. Und das große Fest am Ende des Jubiläumsjahres wird bestimmt schön.<br><br>Nummer 30<br><br>Michael: Ich freue mich schon auf unseren Mitarbeiterausflug übermorgen. Dass wir diesmal in den Klettergarten gehen, finde ich richtig super.<br><br>Sabine: Hm, Klettern ist nicht so meins, ehrlich gesagt.<br><br>Michael: Warum, hast du etwa Höhenangst?<br><br>Sabine: Ja, habe ich. Ich wäre schon nervös, wenn ich nur auf einen Stuhl steige. Da soll ich auf Bäume klettern?<br><br>Michael: Ah ja, das kann ich gut verstehen. Aber kommst du trotzdem mit, oder gehst du lieber ins Büro? Zuhause bleiben dürfen wir nicht.<br><br>Sabine: Nee, nee, ich komme schon mit. Julia ist ja auch dabei, obwohl sie aufgrund ihrer Schwangerschaft nicht klettern kann.<br><br>Michael: Ja, stimmt. Und nach dem Klettern wird ja auch noch zusammen gegrillt. Da sind wir dann alle dabei.<br><br>Sabine: Auf das Grillen und das gemeinsame Essen freue ich mich auch schon. Und euch beim Klettern zuzugucken, das wird bestimmt auch ganz witzig.<br><br>Nummer 31<br><br>Lena: Diesen Freitag ist ja schon die Weihnachtsfeier. Ich freue mich drauf und ich finde es toll, dass der Chef uns alle dazu einlädt.<br><br>Ella: An sich finde ich das auch gut, aber in der Weihnachtszeit haben die meisten Leute viele private Verpflichtungen.<br><br>Tom: Meine Frau und ich haben auch einen Termin nach dem anderen, aber die Weihnachtsfeier der Firma gehört auch dazu. Zieht man da eigentlich etwas Besonderes an? Ich bin ja das erste Mal dabei.<br><br>Lena: Also, ich habe mir extra ein neues Kleid gekauft, aber man kann anziehen, was man will.<br><br>Ella: Ich glaube, ich ziehe mich an wie immer. Mir ist die Kleidung nicht so wichtig, aber ich habe mich noch nicht entschieden.<br><br>Tom: Das klingt ja entspannt. Dann werde ich auch was finden."
+      }
+    ],
+    "statements": [
+      {
+        "id": 28,
+        "text": "Aussage zu Gespräch 28",
+        "answer": "f",
+        "type": "multiple_choice",
+        "options": {
+          "a": "Kleidung für die Feier sollte schick aussehen.",
+          "b": "Auf der Firmenfeier gibt es keine Kleiderordnung.",
+          "c": "Beim Firmenlauf sollen möglichst viele Mitarbeiter teilnehmen.",
+          "d": "Die Firma plant aus besonderem Anlass eine Kundenkampagne.",
+          "e": "Es gibt verschiedene Programmpunkte beim Betriebsausflug.",
+          "f": "Für den Lauf werden sportliche Mitarbeiter gesucht."
+        }
+      },
+      {
+        "id": 29,
+        "text": "Aussage zu Gespräch 29",
+        "answer": "d",
+        "type": "multiple_choice",
+        "options": {
+          "a": "Kleidung für die Feier sollte schick aussehen.",
+          "b": "Auf der Firmenfeier gibt es keine Kleiderordnung.",
+          "c": "Beim Firmenlauf sollen möglichst viele Mitarbeiter teilnehmen.",
+          "d": "Die Firma plant aus besonderem Anlass eine Kundenkampagne.",
+          "e": "Es gibt verschiedene Programmpunkte beim Betriebsausflug.",
+          "f": "Für den Lauf werden sportliche Mitarbeiter gesucht."
+        }
+      },
+      {
+        "id": 30,
+        "text": "Aussage zu Gespräch 30",
+        "answer": "e",
+        "type": "multiple_choice",
+        "options": {
+          "a": "Kleidung für die Feier sollte schick aussehen.",
+          "b": "Auf der Firmenfeier gibt es keine Kleiderordnung.",
+          "c": "Beim Firmenlauf sollen möglichst viele Mitarbeiter teilnehmen.",
+          "d": "Die Firma plant aus besonderem Anlass eine Kundenkampagne.",
+          "e": "Es gibt verschiedene Programmpunkte beim Betriebsausflug.",
+          "f": "Für den Lauf werden sportliche Mitarbeiter gesucht."
+        }
+      },
+      {
+        "id": 31,
+        "text": "Aussage zu Gespräch 31",
+        "answer": "b",
+        "type": "multiple_choice",
+        "options": {
+          "a": "Kleidung für die Feier sollte schick aussehen.",
+          "b": "Auf der Firmenfeier gibt es keine Kleiderordnung.",
+          "c": "Beim Firmenlauf sollen möglichst viele Mitarbeiter teilnehmen.",
+          "d": "Die Firma plant aus besonderem Anlass eine Kundenkampagne.",
+          "e": "Es gibt verschiedene Programmpunkte beim Betriebsausflug.",
+          "f": "Für den Lauf werden sportliche Mitarbeiter gesucht."
+        }
+      }
+    ]
+  },
+  {
+    "id": "hoeren_48",
+    "module": "hoeren",
+    "part": "teil_2",
+    "test_title": "Hören Teil 2 (вариант №4)",
+    "texts": [
+      {
+        "id": 1,
+        "title": "Aufgabe",
+        "content": "Sie hören vier Gespräche. Welcher der Sätze a-f passt am besten zu welchem Gespräch? Markieren Sie Ihre Lösungen für die Aufgaben 28-31 auf dem Antwortbogen. Lesen Sie jetzt die Sätze a-f. Dazu haben Sie eine Minute Zeit. Danach hören Sie die Gespräche einmal."
+      },
+      {
+        "id": 2,
+        "title": "Transkript",
+        "content": "Nummer 28<br><br>Herr: Hallo, Lisa-Vera. Wie gut, dass ich dich jetzt noch treffe. Ich wollte vor meinem Urlaub noch etwas mit dir besprechen.<br><br>Frau: Ach, du machst Urlaub? Wohin geht’s denn?<br><br>Herr: Ja, nächste Woche bin ich mit der Familie in Südfrankreich. Du weißt ja, unser Projekt muss bald fertig sein. Und leider habe ich es nicht mehr geschafft, die Informationen über den Kreis einzuholen. Könntest du das bitte für mich machen?<br><br>Frau: Eigentlich habe ich überhaupt keine Zeit dafür. Sag mir bitte das nächste Mal früher Bescheid. Aber gut, wer hat denn die Informationen?<br><br>Herr: Franka Pater. Die ist allerdings heute nicht mehr im Haus, aber morgen ist sie wieder da.<br><br>Frau: In Ordnung, dann rufe ich sie morgen an. Und dir wünsche ich einen schönen Urlaub.<br><br>Herr: Danke, du bist super.<br><br>Nummer 29<br><br>Herr: Wisst ihr eigentlich, bis wann wir unseren Jahresurlaub einreichen müssen?<br><br>Frau 1: Ich denke, wie immer bis Ende Januar. Aber je früher, desto besser, damit wir uns noch absprechen können. Hast du dir denn schon überlegt, wann du Urlaub machen willst?<br><br>Herr: Am liebsten im August. Da hat meine Familie in der Türkei auch Urlaub. Dann können wir alle zusammen den Sommer genießen.<br><br>Frau 2: Das klingt super. Aber du weißt ja, ich bin wegen der Kinder auch auf die Schulferien angewiesen. Wir sollten uns da absprechen.<br><br>Herr: Ja, klar sprechen wir uns mal. Was hältst du davon, wenn ich die erste Augusthälfte freinehme und du die letzten beiden Wochen?<br><br>Frau 2: Das klingt super. Dann bin ich einverstanden. Jetzt warten wir mal, was der Chef dazu sagt.<br><br>Nummer 30<br><br>Frau: Hallo Jens. Wie war dein Urlaub? Bist du gut erholt?<br><br>Herr: Nein, gar nicht. Mich hat schon gleich am ersten Urlaubstag eine dicke Erkältung erwischt. Ich lag die meiste Zeit im Bett, statt am Strand in der Sonne.<br><br>Frau: Ach du Armer, das tut mir aber leid. Hast du dir wenigstens ein Attest vom Arzt besorgt, damit du dir die Urlaubstage zurückholen kannst?<br><br>Herr: Nee, ich war doch im Ausland. Und da wollte ich nicht zum Arzt gehen. Aber wenigstens für die letzten vier Tage habe ich von meinem Hausarzt hier noch eine Krankschreibung bekommen.<br><br>Frau: Na, immerhin. Dann hast du noch ein paar Urlaubstage, die du später nehmen kannst.<br><br>Herr: Genau. Aber jetzt fange ich erstmal wieder mit der Arbeit an.<br><br>Frau: Sei ein guter Start.<br><br>Nummer 31<br><br>Frau: Ich habe gehört, dass du vor Kurzem umgezogen bist. Wusstest du, dass bei mir demnächst auch ein Umzug ansteht?<br><br>Herr: Ach ja? Na dann viel Spaß. Das ist echt viel Arbeit. Wir haben zwei Tage nur Müll geschleppt. Zum Glück gibt es dafür einen Antrag auf Sonderurlaub.<br><br>Frau: Sonderurlaub? Das wusste ich gar nicht. Was muss man denn dafür machen?<br><br>Herr: Einfach einen Antrag stellen. Und später musst du natürlich nachweisen, dass du umgezogen bist.<br><br>Frau: Guter Tipp. Reicht da ein einfaches Schreiben oder muss ich ein Antragsformular ausfüllen?<br><br>Herr: Es gibt ein Formular dafür. Geh einfach mal zu Frau Heilmann ins Sekretariat. Die kann dir genau sagen, was du brauchst. Aber geh rechtzeitig. Die Firma muss mindestens eine Woche vorher wissen, dass du nicht da bist.<br><br>Frau: Okay. Dann erledige ich das mal sofort. Danke dir."
+      }
+    ],
+    "statements": [
+      {
+        "id": 28,
+        "text": "Aussage zu Gespräch 28",
+        "answer": "c",
+        "type": "multiple_choice",
+        "options": {
+          "a": "Arbeitnehmer bekommen zu besonderen Anlässen frei.",
+          "b": "Einige Kollegen können nur zu bestimmten Zeiten Urlaub nehmen.",
+          "c": "Manchmal müssen Kollegen auch die Aufgaben von anderen übernehmen.",
+          "d": "Unter gewissen Umständen gehen Urlaubstage nicht verloren.",
+          "e": "Viele Menschen träumen während der Arbeitszeit vom Sommerurlaub.",
+          "f": "Wer im Urlaub krank wird, kann Sonderurlaub beantragen."
+        }
+      },
+      {
+        "id": 29,
+        "text": "Aussage zu Gespräch 29",
+        "answer": "b",
+        "type": "multiple_choice",
+        "options": {
+          "a": "Arbeitnehmer bekommen zu besonderen Anlässen frei.",
+          "b": "Einige Kollegen können nur zu bestimmten Zeiten Urlaub nehmen.",
+          "c": "Manchmal müssen Kollegen auch die Aufgaben von anderen übernehmen.",
+          "d": "Unter gewissen Umständen gehen Urlaubstage nicht verloren.",
+          "e": "Viele Menschen träumen während der Arbeitszeit vom Sommerurlaub.",
+          "f": "Wer im Urlaub krank wird, kann Sonderurlaub beantragen."
+        }
+      },
+      {
+        "id": 30,
+        "text": "Aussage zu Gespräch 30",
+        "answer": "d",
+        "type": "multiple_choice",
+        "options": {
+          "a": "Arbeitnehmer bekommen zu besonderen Anlässen frei.",
+          "b": "Einige Kollegen können nur zu bestimmten Zeiten Urlaub nehmen.",
+          "c": "Manchmal müssen Kollegen auch die Aufgaben von anderen übernehmen.",
+          "d": "Unter gewissen Umständen gehen Urlaubstage nicht verloren.",
+          "e": "Viele Menschen träumen während der Arbeitszeit vom Sommerurlaub.",
+          "f": "Wer im Urlaub krank wird, kann Sonderurlaub beantragen."
+        }
+      },
+      {
+        "id": 31,
+        "text": "Aussage zu Gespräch 31",
+        "answer": "a",
+        "type": "multiple_choice",
+        "options": {
+          "a": "Arbeitnehmer bekommen zu besonderen Anlässen frei.",
+          "b": "Einige Kollegen können nur zu bestimmten Zeiten Urlaub nehmen.",
+          "c": "Manchmal müssen Kollegen auch die Aufgaben von anderen übernehmen.",
+          "d": "Unter gewissen Umständen gehen Urlaubstage nicht verloren.",
+          "e": "Viele Menschen träumen während der Arbeitszeit vom Sommerurlaub.",
+          "f": "Wer im Urlaub krank wird, kann Sonderurlaub beantragen."
+        }
+      }
+    ]
+  },
+  {
+    "id": "hoeren_49",
+    "module": "hoeren",
+    "part": "teil_2",
+    "test_title": "Hören Teil 2 (вариант №5)",
+    "audio_url": "https://t.me/B2_C2_Deutsch/65534/158139?single",
+    "texts": [
+      {
+        "id": 1,
+        "title": "Aufgabe",
+        "content": "Sie hören vier Gespräche. Welcher der Sätze a-f passt am besten zu welchem Gespräch? Markieren Sie Ihre Lösungen für die Aufgaben 28-31 auf dem Antwortbogen. Lesen Sie jetzt die Sätze a-f. Dazu haben Sie eine Minute Zeit. Danach hören Sie die Gespräche einmal."
+      },
+      {
+        "id": 2,
+        "title": "Transkript",
+        "content": "Nummer 28<br><br>Frau 1: Wie ist das eigentlich? Könnt ihr mir sagen, was ich machen muss, wenn ich mal krank sein sollte? Ich habe noch gar nicht gefragt, wie das hier gehandhabt wird.<br><br>Herr: Ich bin auch erst kurz hier und weiß das nicht genau. Melanie, was sagst du denn dazu?<br><br>Melanie: Wenn man krank ist, soll man morgens so früh wie möglich anrufen und im Büro bei Frau Gumpel Bescheid sagen. Das ist wichtig, sich direkt bei ihr krank zu melden.<br><br>Herr: Ach stimmt, so war das. Frau Gumpel ist auch immer schon früh im Büro.<br><br>Frau 1: In meiner letzten Firma musste ich immer direkt am ersten Krankheitstag ein Attest bringen. Wie ist das hier?<br><br>Melanie: Keine Sorge, hier ist es nicht so streng. Zwei Tage darf man fehlen, aber wenn du länger krank bist, musst du eine Krankmeldung vorlegen.<br><br>Frau 1: Ah. Danke für die Tipps.<br><br>Nummer 29<br><br>Herr: Hast du auch die Information im Pausenraum gesehen? Ich frage mich ja, was das soll. Ich halte sowieso nichts von Grippeschutzimpfungen. Aber warum muss jetzt auch noch ein Arzt in die Firma kommen?<br><br>Frau: Also ich finde, das ist ein tolles Angebot. Ich lasse mich auf jeden Fall impfen.<br><br>Herr: Aber du bist doch jung und gesund. Nur Personen über 60 Jahren wird eine Impfung empfohlen.<br><br>Frau: Das kann nicht schaden. Außerdem ist es doch wirklich bequem für uns, wenn der Arzt schon extra in die Firma kommt. Dann nehme ich auf jeden Fall das Angebot an.<br><br>Herr: Jeder kann das selbst entscheiden. Ich habe keine Angst vor der Grippe und lasse mich auch nicht impfen.<br><br>Frau: Du hast doch nur Angst vor der Spritze. Komm, gib's zu.<br><br>Nummer 30<br><br>Herr 1: Monika, hängt bei euch Damen in der Toilette auch ein Infoblatt zum richtigen Händewaschen? Oder wollen sie uns Männern etwas damit sagen?<br><br>Frau: Nee, nee, das hängt bei uns auch. Aber ich frage mich, ob das nicht Allgemeinwissen sein sollte.<br><br>Herr 2: Jetzt in der kalten Jahreszeit, in der so viele krank sind, ist eine Erinnerung immer gut. Das macht bestimmt nicht jeder.<br><br>Herr 1: Schön und gut. Aber was sollen wir denn machen, wenn die Seife immer leer ist? Desinfektionsmittel wäre auch keine schlechte Idee.<br><br>Frau: Das stimmt. Ich finde es auch lästig, dass man immer dran erinnern muss. Kann man die Seife nicht jeden Morgen einfach auffüllen?<br><br>Herr 2: Ja, aber auch mit Seife muss man wissen, wie man sich richtig die Hände wäscht. Es gibt genug Leute, die das falsch machen.<br><br>Nummer 31<br><br>Herr: Hallo Isabel. Wurde dein Arbeitsplatz schon geprüft?<br><br>Frau: Nein, noch nicht. Was soll da überhaupt passieren?<br><br>Herr: Der Experte kontrolliert, ob du in der richtigen Haltung am Schreibtisch sitzen kannst.<br><br>Frau: Aha. Und wie macht er das?<br><br>Herr: Naja, er schaut, wie weit du vom Computer entfernt sitzt und ob der Stuhl richtig eingestellt ist.<br><br>Frau: Das klingt ja merkwürdig. Ich arbeite doch schon seit Jahren an meinem Schreibtisch. Und plötzlich soll kontrolliert werden, ob das gesund ist?<br><br>Herr: Wie du weißt, haben viele Kollegen Rückenschmerzen und fallen dadurch bei der Arbeit aus.<br><br>Frau: Und was kam bei dir dabei heraus? Hat dein Stuhl die richtige Höhe?<br><br>Herr: Ja, das schon. Aber der Computer steht jetzt tatsächlich anders, damit ich besser davor sitze.<br><br>Frau: Na, ich bin gespannt, was er zu mir sagt."
+      }
+    ],
+    "statements": [
+      {
+        "id": 28,
+        "text": "Aussage zu Gespräch 28",
+        "answer": "a",
+        "type": "multiple_choice",
+        "options": {
+          "a": "Regelungen zur Arbeitsunfähigkeit unterscheiden sich von Unternehmen zu Unternehmen.",
+          "b": "Die Arbeitsplatzgestaltung hat einen Einfluss auf die Gesundheit der Mitarbeiter.",
+          "c": "Arbeitgeber sollten mehr für die Hygiene im Betrieb tun.",
+          "d": "Manche Arbeitgeber bieten Maßnahmen für die Gesundheitsvorsorge an.",
+          "e": "Das Wohlbefinden der Mitarbeiter sollte ein wichtiges Anliegen sein.",
+          "f": "Bei Krankheit braucht man ab dem ersten Tag ein Attest vom Arzt."
+        }
+      },
+      {
+        "id": 29,
+        "text": "Aussage zu Gespräch 29",
+        "answer": "d",
+        "type": "multiple_choice",
+        "options": {
+          "a": "Regelungen zur Arbeitsunfähigkeit unterscheiden sich von Unternehmen zu Unternehmen.",
+          "b": "Die Arbeitsplatzgestaltung hat einen Einfluss auf die Gesundheit der Mitarbeiter.",
+          "c": "Arbeitgeber sollten mehr für die Hygiene im Betrieb tun.",
+          "d": "Manche Arbeitgeber bieten Maßnahmen für die Gesundheitsvorsorge an.",
+          "e": "Das Wohlbefinden der Mitarbeiter sollte ein wichtiges Anliegen sein.",
+          "f": "Bei Krankheit braucht man ab dem ersten Tag ein Attest vom Arzt."
+        }
+      },
+      {
+        "id": 30,
+        "text": "Aussage zu Gespräch 30",
+        "answer": "c",
+        "type": "multiple_choice",
+        "options": {
+          "a": "Regelungen zur Arbeitsunfähigkeit unterscheiden sich von Unternehmen zu Unternehmen.",
+          "b": "Die Arbeitsplatzgestaltung hat einen Einfluss auf die Gesundheit der Mitarbeiter.",
+          "c": "Arbeitgeber sollten mehr für die Hygiene im Betrieb tun.",
+          "d": "Manche Arbeitgeber bieten Maßnahmen für die Gesundheitsvorsorge an.",
+          "e": "Das Wohlbefinden der Mitarbeiter sollte ein wichtiges Anliegen sein.",
+          "f": "Bei Krankheit braucht man ab dem ersten Tag ein Attest vom Arzt."
+        }
+      },
+      {
+        "id": 31,
+        "text": "Aussage zu Gespräch 31",
+        "answer": "b",
+        "type": "multiple_choice",
+        "options": {
+          "a": "Regelungen zur Arbeitsunfähigkeit unterscheiden sich von Unternehmen zu Unternehmen.",
+          "b": "Die Arbeitsplatzgestaltung hat einen Einfluss auf die Gesundheit der Mitarbeiter.",
+          "c": "Arbeitgeber sollten mehr für die Hygiene im Betrieb tun.",
+          "d": "Manche Arbeitgeber bieten Maßnahmen für die Gesundheitsvorsorge an.",
+          "e": "Das Wohlbefinden der Mitarbeiter sollte ein wichtiges Anliegen sein.",
+          "f": "Bei Krankheit braucht man ab dem ersten Tag ein Attest vom Arzt."
+        }
+      }
+    ]
+  },
+  {
+    "id": "hoeren_50",
+    "module": "hoeren",
+    "part": "teil_2",
+    "test_title": "Hören Teil 2 - Selbstständigkeit",
+    "texts": [
+      {
+        "id": 1,
+        "title": "Aufgabe",
+        "content": "Sie hören vier Gespräche. Welcher der Sätze a-f passt am besten zu welchem Gespräch? Markieren Sie Ihre Lösungen für die Aufgaben 28-31 auf dem Antwortbogen. Lesen Sie jetzt die Sätze a-f. Dazu haben Sie eine Minute Zeit. Danach hören Sie die Gespräche einmal."
+      },
+      {
+        "id": 2,
+        "title": "Transkript",
+        "content": "Nummer 28<br><br>Anja: Hallo Agnes, wie läuft's mit deinem Friseursalon?<br><br>Agnes: Gut, danke. Endlich kann ich mal richtig Geld verdienen. Und ich habe auch keinen Chef, der mir immer reinredet, was ich tun und lassen soll.<br><br>Anja: Aber ist das nicht alles zu unsicher? Was, wenn mal keine Kunden kommen? Es gibt doch so viel Konkurrenz.<br><br>Agnes: Weißt du, diese Diskussion über später, klar macht mir das Sorgen. Aber darüber denke ich nicht mehr viel nach. Wenn ich angestellt bin, kann ich meinen Job genauso verlieren. Kein Arbeitsplatz ist hundertprozentig sicher.<br><br>Anja: Da hast du schon recht, aber für mich wäre das nichts. Aber ich muss mir mal wieder die Haare schneiden lassen.<br><br>Agnes: Kein Problem, dann komm morgen Vormittag. Da habe ich noch einen Termin frei.<br><br>Nummer 29<br><br>Erik: Guten Morgen, Jens. Ich habe Brötchen mitgebracht.<br><br>Jens: Hallo, Erik. Lecker, warte mal, ich muss mir noch die Haare föhnen.<br><br>Erik: Hast du jetzt erst geduscht? Ich dachte, du hast so viel zu tun.<br><br>Jens: Habe ich auch. Aber seit ich selbstständig bin, kann ich mir meine Zeit einteilen, wie ich will. Und dazu gehört halt auch, schon lange zu schlafen.<br><br>Erik: Dann arbeitest du wahrscheinlich immer bis spät in die Nacht.<br><br>Jens: Genau. Ich bin ein Nachtmensch, mir kommt das sehr entgegen.<br><br>Erik: Zu Hause arbeiten fände ich schwierig. Da muss man sehr diszipliniert sein.<br><br>Jens: Klar, es ist anstrengend, auch, weil man nie weiß, wann der nächste Auftrag kommt. Die Unsicherheit ist nicht einfach. Aber ich finde es toll, über meine Zeit frei bestimmen zu können.<br><br>Nummer 30<br><br>Denis: Hallo, Maja.<br><br>Maja: Grüß dich, Denis. Komm rein. Wir haben uns ja lange nicht gesehen. Geht's dir gut?<br><br>Denis: Ja, danke. Du Maja, du hast mir doch gesagt, dass es in dem Gebäude, in dem du arbeitest, freie Büroräume gibt. Ich überlege, ob ich mir nicht etwas mieten soll.<br><br>Maja: Hast du zu Hause zu wenig Ruhe?<br><br>Denis: Nein, das geht eigentlich, aber ich brauche eine feste Arbeitsstruktur. Wenn ich zu Hause arbeite, finde ich oft kein Ende. Manchmal bekomme ich spät in der Nacht oder am Wochenende Anrufe, weil jemand ganz dringend eine Übersetzung braucht. Ich kann nie abschalten. Das geht auf die Gesundheit.<br><br>Maja: Das stimmt. Und in einem eigenen Büro kannst du die Tür zumachen, wenn du mit der Arbeit fertig bist und dann zu Hause nicht mehr daran denken.<br><br>Denis: Genau, dann kann ich versuchen, wieder zu festen Zeiten zu arbeiten. Obwohl es auch schade wäre, nicht mehr so viel zu Hause zu sein.<br><br>Nummer 31<br><br>Leo: Hallo, Karsten, ich habe gehört, dass CompuData nicht mehr existiert.<br><br>Karsten: Ja, stimmt, meine Firma gibt es nicht mehr. Sie haben nur noch Verluste gemacht und ich habe meine Arbeit verloren.<br><br>Leo: Und jetzt bist du beim Jobcenter?<br><br>Karsten: Nein, ich dachte mir, mit meinen Qualifikationen kann ich doch versuchen, mich als IT- und EDV-Berater selbstständig zu machen. Weißt du, in meinem Alter, ich bin ja auch schon über 50, hätte ich wahrscheinlich sowieso keine feste Stelle mehr gefunden. Und die Selbstständigkeit ist ja auch ganz attraktiv: mehr Geld, selbstbestimmtes Arbeiten. Das habe ich zumindest gedacht.<br><br>Leo: Zumindest? Das heißt ...<br><br>Karsten: Ja, weißt du, im Moment habe ich wirklich viel Arbeit. Ich arbeite für verschiedene Kunden, bei denen ich laufend sehr komplizierte EDV-Probleme lösen muss. Letztendlich bestimmen sie meine Arbeit und meine Arbeitszeit. Aber ich bin natürlich froh, dass ich überhaupt Aufträge habe."
+      }
+    ],
+    "statements": [
+      {
+        "id": 28,
+        "text": "Aussage zu Gespräch 28",
+        "answer": "e",
+        "type": "multiple_choice",
+        "options": {
+          "a": "Wenn man Familie hat, sollte man nicht zu Hause arbeiten.",
+          "b": "Trotz aller Probleme bei selbstständiger Tätigkeit sollte man die Vorteile genießen.",
+          "c": "Man muss darauf achten, klare Grenzen zwischen Arbeit und Privatleben zu ziehen.",
+          "d": "Auch Selbstständige sind nicht immer ihr eigener Chef.",
+          "e": "Existenzängste haben heute nicht nur Selbstständige.",
+          "f": "Wenn man älter ist, sollte man sich den Schritt in die Selbstständigkeit gut überlegen."
+        }
+      },
+      {
+        "id": 29,
+        "text": "Aussage zu Gespräch 29",
+        "answer": "b",
+        "type": "multiple_choice",
+        "options": {
+          "a": "Wenn man Familie hat, sollte man nicht zu Hause arbeiten.",
+          "b": "Trotz aller Probleme bei selbstständiger Tätigkeit sollte man die Vorteile genießen.",
+          "c": "Man muss darauf achten, klare Grenzen zwischen Arbeit und Privatleben zu ziehen.",
+          "d": "Auch Selbstständige sind nicht immer ihr eigener Chef.",
+          "e": "Existenzängste haben heute nicht nur Selbstständige.",
+          "f": "Wenn man älter ist, sollte man sich den Schritt in die Selbstständigkeit gut überlegen."
+        }
+      },
+      {
+        "id": 30,
+        "text": "Aussage zu Gespräch 30",
+        "answer": "c",
+        "type": "multiple_choice",
+        "options": {
+          "a": "Wenn man Familie hat, sollte man nicht zu Hause arbeiten.",
+          "b": "Trotz aller Probleme bei selbstständiger Tätigkeit sollte man die Vorteile genießen.",
+          "c": "Man muss darauf achten, klare Grenzen zwischen Arbeit und Privatleben zu ziehen.",
+          "d": "Auch Selbstständige sind nicht immer ihr eigener Chef.",
+          "e": "Existenzängste haben heute nicht nur Selbstständige.",
+          "f": "Wenn man älter ist, sollte man sich den Schritt in die Selbstständigkeit gut überlegen."
+        }
+      },
+      {
+        "id": 31,
+        "text": "Aussage zu Gespräch 31",
+        "answer": "d",
+        "type": "multiple_choice",
+        "options": {
+          "a": "Wenn man Familie hat, sollte man nicht zu Hause arbeiten.",
+          "b": "Trotz aller Probleme bei selbstständiger Tätigkeit sollte man die Vorteile genießen.",
+          "c": "Man muss darauf achten, klare Grenzen zwischen Arbeit und Privatleben zu ziehen.",
+          "d": "Auch Selbstständige sind nicht immer ihr eigener Chef.",
+          "e": "Existenzängste haben heute nicht nur Selbstständige.",
+          "f": "Wenn man älter ist, sollte man sich den Schritt in die Selbstständigkeit gut überlegen."
+        }
+      }
+    ]
+  },
+  {
+    "id": "hoeren_51",
+    "module": "hoeren",
+    "part": "teil_2",
+    "test_title": "Hören Teil 2 - Teilzeitarbeit",
+    "texts": [
+      {
+        "id": 1,
+        "title": "Aufgabe",
+        "content": "Sie hören vier Gespräche. Welcher der Sätze a-f passt am besten zu welchem Gespräch? Markieren Sie Ihre Lösungen für die Aufgaben 28-31 auf dem Antwortbogen. Lesen Sie jetzt die Sätze a-f. Dazu haben Sie eine Minute Zeit. Danach hören Sie die Gespräche einmal."
+      },
+      {
+        "id": 2,
+        "title": "Transkript",
+        "content": "Nummer 28<br><br>Chefin: Hallo Frau Gerber, erst einmal herzlichen Glückwunsch. Wie alt ist die Kleine jetzt?<br><br>Gerber: Danke, Maja ist 13 Monate. Sie macht viel Spaß. Jeden Tag lernt sie etwas Neues, ich übrigens auch. Aber ich habe völlig unterschätzt, wie anstrengend das ist, Arbeit und Kleinkind.<br><br>Chefin: Ja, das habe ich damals auch. Ich habe erst versucht, so weiterzuarbeiten wie bisher, dann habe ich meine Arbeitszeit reduziert.<br><br>Gerber: Deshalb bin ich hier. Ich wollte einen Antrag auf Teilzeit stellen.<br><br>Chefin: Das können Sie gerne machen, der Teilzeitantrag wird auch genehmigt. Aber denken Sie daran, dass Sie dann später auch weniger Rente bekommen.<br><br>Gerber: Oh, ich habe gar nicht gewusst, dass sich Teilzeit auf die Rente auswirkt. Dann werde ich erstmal nur sechs Monate auf 30 Stunden reduzieren.<br><br>Nummer 29<br><br>MA1: Hast du gehört? Daniel wird Teamleiter.<br><br>MA2: Wirklich? Der ist doch gar nicht so gut. Ich finde, Katja wäre eine bessere Teamleiterin.<br><br>MA3: Das sehe ich genauso. Aber du weißt ja: Katja hat drei Kinder und arbeitet Teilzeit. Da haben die bestimmt gedacht, dass sie mit ihrer 28-Stunden-Woche nicht genug Zeit für die Firma hat. Und wenn ein Kind krank wird, fällt sie aus.<br><br>MA1: Das kann gut sein. Aber Daniel hat doch auch Kinder.<br><br>MA2: Stimmt, aber er arbeitet nicht Teilzeit. Das macht seine Frau.<br><br>MA1: Ja, ja, die übliche Rollenverteilung. Frauen sind da echt im Nachteil. Teilzeit ist eine echte Karrierebremse.<br><br>Nummer 30<br><br>MA1: Ich habe mir überlegt, meine Arbeitszeit zu reduzieren. Ich will nicht mehr acht oder neun Stunden hier in der Firma sein. Momentan fahre ich um sieben Uhr von zu Hause los und bin selten vor halb sechs wieder zu Hause. Was habe ich denn da von meinem schönen Haus und dem Garten? Nichts.<br><br>MA2: Das habe ich schon vor ein paar Jahren gemerkt. Ich arbeite jetzt nur noch fünfeinhalb Stunden pro Tag. Mir geht es seitdem viel besser. Ich habe zwar weniger Geld, aber viel mehr vom Leben.<br><br>MA3: Aber wie soll das gehen, wenn alle nur noch Teilzeit arbeiten? Dann ist am Nachmittag niemand mehr in der Firma.<br><br>MA1: Nur theoretisch. Es will ja nicht jeder Teilzeit arbeiten.<br><br>Nummer 31<br><br>Grapentin: Herr Hänninen, könnten Sie die nächste Tour bitte übernehmen? Herr Schael ist krank geworden, er musste nach Hause gehen. Die Ware muss heute noch schnell zum Supermarkt in der Lindenstraße. Sie warten schon darauf.<br><br>Hänninen: Aber ich habe gleich Feierabend.<br><br>Grapentin: Ach, stimmt ja, Sie arbeiten ja seit letzter Woche Teilzeit, das hatte ich ganz vergessen. Was machen wir denn nun? Könnten Sie nicht ausnahmsweise, ich meine, in diesem Fall mal ...<br><br>Hänninen: Leider nicht, Herr Grapentin, so gerne ich auch helfen würde. Aber ich muss meine Tochter um vier vom Kindergarten abholen. Das würde ich nicht schaffen.<br><br>Grapentin: Klar, verstehe. Dann muss ich halt mal wieder in den Lieferwagen steigen."
+      }
+    ],
+    "statements": [
+      {
+        "id": 28,
+        "text": "Aussage zu Gespräch 28",
+        "answer": "f",
+        "type": "multiple_choice",
+        "options": {
+          "a": "Beschäftigte in Teilzeit sind zeitlich weniger flexibel als Vollzeitkräfte.",
+          "b": "Meistens arbeiten immer noch die Frauen wegen der Kinder Teilzeit.",
+          "c": "Teilzeitarbeit kann sich negativ auf die Karriere auswirken.",
+          "d": "Beschäftigte in Teilzeit arbeiten oft konzentrierter und effizienter.",
+          "e": "Das Leben lässt sich bei Teilzeitarbeit besser genießen.",
+          "f": "Die Rente wird durch Teilzeitarbeit geringer."
+        }
+      },
+      {
+        "id": 29,
+        "text": "Aussage zu Gespräch 29",
+        "answer": "c",
+        "type": "multiple_choice",
+        "options": {
+          "a": "Beschäftigte in Teilzeit sind zeitlich weniger flexibel als Vollzeitkräfte.",
+          "b": "Meistens arbeiten immer noch die Frauen wegen der Kinder Teilzeit.",
+          "c": "Teilzeitarbeit kann sich negativ auf die Karriere auswirken.",
+          "d": "Beschäftigte in Teilzeit arbeiten oft konzentrierter und effizienter.",
+          "e": "Das Leben lässt sich bei Teilzeitarbeit besser genießen.",
+          "f": "Die Rente wird durch Teilzeitarbeit geringer."
+        }
+      },
+      {
+        "id": 30,
+        "text": "Aussage zu Gespräch 30",
+        "answer": "e",
+        "type": "multiple_choice",
+        "options": {
+          "a": "Beschäftigte in Teilzeit sind zeitlich weniger flexibel als Vollzeitkräfte.",
+          "b": "Meistens arbeiten immer noch die Frauen wegen der Kinder Teilzeit.",
+          "c": "Teilzeitarbeit kann sich negativ auf die Karriere auswirken.",
+          "d": "Beschäftigte in Teilzeit arbeiten oft konzentrierter und effizienter.",
+          "e": "Das Leben lässt sich bei Teilzeitarbeit besser genießen.",
+          "f": "Die Rente wird durch Teilzeitarbeit geringer."
+        }
+      },
+      {
+        "id": 31,
+        "text": "Aussage zu Gespräch 31",
+        "answer": "a",
+        "type": "multiple_choice",
+        "options": {
+          "a": "Beschäftigte in Teilzeit sind zeitlich weniger flexibel als Vollzeitkräfte.",
+          "b": "Meistens arbeiten immer noch die Frauen wegen der Kinder Teilzeit.",
+          "c": "Teilzeitarbeit kann sich negativ auf die Karriere auswirken.",
+          "d": "Beschäftigte in Teilzeit arbeiten oft konzentrierter und effizienter.",
+          "e": "Das Leben lässt sich bei Teilzeitarbeit besser genießen.",
+          "f": "Die Rente wird durch Teilzeitarbeit geringer."
+        }
+      }
+    ]
+  },
+  {
+    "id": "hoeren_52",
+    "module": "hoeren",
+    "part": "teil_2",
+    "test_title": "Hören Teil 2 - Home-Office",
+    "texts": [
+      {
+        "id": 1,
+        "title": "Aufgabe",
+        "content": "Sie hören vier Gespräche. Welcher der Sätze a-f passt am besten zu welchem Gespräch? Markieren Sie Ihre Lösungen für die Aufgaben 28-31 auf dem Antwortbogen. Lesen Sie jetzt die Sätze a-f. Dazu haben Sie eine Minute Zeit. Danach hören Sie die Gespräche einmal."
+      },
+      {
+        "id": 2,
+        "title": "Transkript",
+        "content": "Nummer 28<br><br>Andreas: Marina! Hi, seh ich dich auch mal wieder! Wie geht es dir im Home-Office?<br><br>Marina: Hallo, Andreas! Super, zu Hause arbeiten liegt mir.<br><br>Andreas: Ich würde ja ständig etwas anderes machen wollen. Wirst du gar nicht abgelenkt?<br><br>Marina: Man muss halt diszipliniert sein und ein Arbeitszimmer haben. Mein privates Handy bleibt draußen und mein Mann und die Katze dürfen auch nicht rein.<br><br>Andreas: Klingt, als ob du richtig produktiv arbeiten könntest. Gar keine Nachteile?<br><br>Marina: Doch, ganz klar. Mit den Kollegen mal telefonieren ist nett, aber es ersetzt mir nicht die gemeinsamen Mittagessen und die Gespräche in der Kaffeeküche. Das vermisse ich schon sehr.<br><br>Nummer 29<br><br>Alina: Na, Martin, sieht man dich auch mal wieder arbeiten?<br><br>Martin: Hallo Alina, na, arbeiten sieht man mich zu Hause immer. Aber du hast recht: Für die Besprechung mit dem Kunden bin ich heute im Büro zu sehen, wie übrigens jeden Mittwoch. Nur letzte Woche hatte ich Urlaub.<br><br>Meike: Urlaub, Arbeiten zu Hause ... bei euch Kollegen im Home-Office weiß man das ja nie so genau. Letzten Donnerstag habe ich dich um halb sechs angerufen, aber du bist nicht drangegangen.<br><br>Martin: Um halb sechs arbeite ich auch nicht mehr, weder im Home-Office noch im Büro. Meine Arbeitszeiten sind hier wie dort immer von 8 bis 17 Uhr und um 13 Uhr mache ich Mittagspause.<br><br>Nummer 30<br><br>Marta: Sag mal, Federico, wie hast du dich mit dem Home-Office entschieden? Nimmst du das Angebot vom Chef an und arbeitest drei Tage die Woche von zu Hause?<br><br>Federico: Auf jeden Fall. Ich wohne ja so weit draußen. Ich fahre über eine Stunde ins Geschäft und dann abends wieder über eine Stunde zurück, da wäre ich ja schön blöd, wenn ich das Angebot nicht annehmen würde. Und du?<br><br>Marta: Ich bin noch unentschlossen.<br><br>Federico: Warum? Du hast doch auch eine lange Anfahrt.<br><br>Marta: Ach, das macht mir nichts aus. Ich habe zu Hause kein Arbeitszimmer, und irgendwie gehe ich gerne morgens aus dem Haus und zur Arbeit. Und die Kollegen würde ich auch vermissen.<br><br>Nummer 31<br><br>Ernesto: Ansgar, bist du zur Konferenz hier?<br><br>Ansgar: Ja, und ich freue mich echt, mal wieder unter Kollegen zu sein. Immer so alleine vor sich hinzuarbeiten ...<br><br>Ernesto: Kann ich mir vorstellen. Aber hier kommt alle Nase lang jemand ins Büro und der Müller telefoniert immer noch so laut, dass alle mithören können und sich keiner gut konzentrieren kann.<br><br>Ansgar: So gesehen. Aber zu Hause gibt's auch genug Nachteile. Die Zwillinge schreien oft, mehr brauche ich wohl nicht zu sagen. Das bringt mich sehr oft von der Arbeit ab.<br><br>Ernesto: Aber ganz zurück ins Büro würdest du auch nicht wollen, oder?<br><br>Ansgar: Nein, das ist schon gut für mich, so wie es geregelt ist."
+      }
+    ],
+    "statements": [
+      {
+        "id": 28,
+        "text": "Aussage zu Gespräch 28",
+        "answer": "f",
+        "type": "multiple_choice",
+        "options": {
+          "a": "Ablenkung gibt es im Home-Office und auch im Büro.",
+          "b": "Im Home-Office hat man weniger Stress als bei der Arbeit im Büro.",
+          "c": "Im Home-Office zu arbeiten erspart den Arbeitsweg.",
+          "d": "Konzentriertes Arbeiten ist im Home-Office oft nicht möglich.",
+          "e": "Mitarbeitern im Home-Office wird manchmal misstraut.",
+          "f": "Oft fehlt im Home-Office der Austausch mit Kolleginnen und Kollegen."
+        }
+      },
+      {
+        "id": 29,
+        "text": "Aussage zu Gespräch 29",
+        "answer": "e",
+        "type": "multiple_choice",
+        "options": {
+          "a": "Ablenkung gibt es im Home-Office und auch im Büro.",
+          "b": "Im Home-Office hat man weniger Stress als bei der Arbeit im Büro.",
+          "c": "Im Home-Office zu arbeiten erspart den Arbeitsweg.",
+          "d": "Konzentriertes Arbeiten ist im Home-Office oft nicht möglich.",
+          "e": "Mitarbeitern im Home-Office wird manchmal misstraut.",
+          "f": "Oft fehlt im Home-Office der Austausch mit Kolleginnen und Kollegen."
+        }
+      },
+      {
+        "id": 30,
+        "text": "Aussage zu Gespräch 30",
+        "answer": "c",
+        "type": "multiple_choice",
+        "options": {
+          "a": "Ablenkung gibt es im Home-Office und auch im Büro.",
+          "b": "Im Home-Office hat man weniger Stress als bei der Arbeit im Büro.",
+          "c": "Im Home-Office zu arbeiten erspart den Arbeitsweg.",
+          "d": "Konzentriertes Arbeiten ist im Home-Office oft nicht möglich.",
+          "e": "Mitarbeitern im Home-Office wird manchmal misstraut.",
+          "f": "Oft fehlt im Home-Office der Austausch mit Kolleginnen und Kollegen."
+        }
+      },
+      {
+        "id": 31,
+        "text": "Aussage zu Gespräch 31",
+        "answer": "a",
+        "type": "multiple_choice",
+        "options": {
+          "a": "Ablenkung gibt es im Home-Office und auch im Büro.",
+          "b": "Im Home-Office hat man weniger Stress als bei der Arbeit im Büro.",
+          "c": "Im Home-Office zu arbeiten erspart den Arbeitsweg.",
+          "d": "Konzentriertes Arbeiten ist im Home-Office oft nicht möglich.",
+          "e": "Mitarbeitern im Home-Office wird manchmal misstraut.",
+          "f": "Oft fehlt im Home-Office der Austausch mit Kolleginnen und Kollegen."
+        }
+      }
+    ]
+  },
+  {
+    "id": "hoeren_53",
+    "module": "hoeren",
+    "part": "teil_1",
+    "display_mode": "notes",
+    "test_title": "Hören Teil 1 (тест №160201, 160221) · Notizen",
+    "intro": "Справочная карточка по хвостам из Prüfungsversion 160201/160221. В PDF для Teil 1 сохранились только смысловые заметки и отдельные варианты ответов.",
+    "sections": [
+      {
+        "title": "Aufgabe 1",
+        "bullets": [
+          "Новому работнику объясняют Arbeitsschritte.",
+          "Формат: richtig / falsch."
+        ]
+      },
+      {
+        "title": "Aufgabe 2",
+        "bullets": [
+          "Речь шла про Sicherheitskleidung / Schutzausrüstung.",
+          "В заметках зафиксировано: одежду выдают каждые 2 года и использовать её нужно только в определённой части, а не везде.",
+          "Сохранившиеся варианты: a) не со всеми машинами она должна работать. b) каждый год выдают одежду. c) носить überall Schutzausrüstung."
+        ]
+      },
+      {
+        "title": "Aufgabe 3",
+        "bullets": [
+          "В кафе делят обязанности, похоже, перед обустройством террасы.",
+          "Коллега сказала, что у неё что-то болит, но на больничный она не уйдёт.",
+          "Сохранившийся ориентир по ответам: один вариант был про krankgemeldet, другой про viel zu tun."
+        ]
+      },
+      {
+        "title": "Aufgabe 4",
+        "bullets": [
+          "Заказали Möbel fürs Büro плюс сборку.",
+          "Сначала обсуждали доставку в среду, но сборка занимает 2 дня и офис нельзя закрыть на 2 дня.",
+          "В итоге, по заметкам, договорились о доставке через 2 недели в пятницу, а сборка идёт в пятницу и субботу.",
+          "Вопрос был в духе: Frau und Lieferant sprechen einen Termin ab.",
+          "Сохранившийся вариант ответа: b) на сбор мебели надо 2 дня."
+        ]
+      }
+    ],
+    "notes": [
+      "Это именно реконструкция по памяти из PDF, а не полный скрипт аудио.",
+      "Точные финальные ответы для всех четырёх заданий в этом хвосте не сохранились."
+    ]
+  },
+  {
+    "id": "hoeren_54",
+    "module": "hoeren",
+    "part": "teil_2",
+    "display_mode": "notes",
+    "test_title": "Hören Teil 2 (вариант №7)(тест №160201, 160221) · Notizen",
+    "intro": "В PDF для этого задания сохранились тема, четыре правильных ответа и большая часть вариантов a-f. Там, где формулировки были неполными, я оставил это как заметку, а не как обычный тест.",
+    "sections": [
+      {
+        "title": "Thema",
+        "bullets": [
+          "Fortbildung / Weiterbildung.",
+          "Зафиксированные ответы: 28 = f, 29 = a, 30 = b, 31 = c."
+        ]
+      },
+      {
+        "title": "Gesicherte Aussagen",
+        "bullets": [
+          "a) Das Lernen hört im Arbeitsleben nie auf.",
+          "b) Die Firma sollte regelmäßig arbeitsplatzbezogene Schulungen organisieren.",
+          "c) Es ist sinnvoll, Fortbildungen an unterschiedlichen Tagen anzubieten.",
+          "f) Nicht alle Schulungen müssen im Betrieb stattfinden."
+        ]
+      },
+      {
+        "title": "Unvollständig erhaltene Aussagen",
+        "bullets": [
+          "d) В PDF не сохранилась формулировка.",
+          "e) По заметкам смысл был примерно такой: Fortbildung verschwendet nur Zeit. Эта формулировка никуда не подходила."
+        ]
+      },
+      {
+        "title": "Смысловые подсказки из PDF",
+        "bullets": [
+          "К одному разговору была пометка: одну коллегу поздравляли с экзаменом, а потом звучала мысль, что в рабочей жизни нужно учиться постоянно.",
+          "В другом разговоре жаловались на боль в спине и говорили, что фирме стоило бы организовывать arbeitsplatzbezogene Schulungen, например Rückenkurse.",
+          "Ещё один диалог был про выбор дней для Fortbildungen: женщине подходили выходные, мужчине нет.",
+          "В последнем фрагменте обсуждали, что Schulungen могут проходить и не в самом Betrieb."
+        ]
+      }
+    ],
+    "notes": [
+      "Для этого варианта в PDF не осталось полного набора точных формулировок a-f, поэтому интерактивный режим был бы вводящим в заблуждение.",
+      "Зато ответы 28-31 и основная логика упражнения теперь сохранены отдельно и не потеряются."
+    ]
+  },
+  {
+    "id": "hoeren_55",
+    "module": "hoeren",
+    "part": "teil_4",
+    "display_mode": "notes",
+    "test_title": "Hören Teil 4 (вариант №8)(тест №160201, 160221) · Notizen",
+    "intro": "По этому хвосту в PDF сохранилась только одна точка привязки, поэтому я вынес её отдельно, чтобы она не терялась в мусорных фрагментах.",
+    "sections": [
+      {
+        "title": "Gesicherter Hinweis",
+        "bullets": [
+          "Одно из имён в задании было Viktor, но оно не стояло первым."
+        ]
+      }
+    ],
+    "notes": [
+      "Остальные формулировки и ответы для этого Teil-4-Varianten в PDF не сохранились."
+    ]
   }
 ]

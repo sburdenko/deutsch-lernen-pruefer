@@ -1,0 +1,737 @@
+[
+  {
+    "id": "schreiben_1",
+    "module": "schreiben",
+    "part": "teil_1",
+    "test_title": "Überblick, Struktur & Links",
+    "intro": "Kompletter Überblick aus dem PDF für Schreiben: Punkte, Zeit, Struktur und die wichtigsten Materialien zu Beschwerde, Telefonnotiz und Forumsbeitrag.",
+    "stats": [
+      {
+        "label": "Beschwerde",
+        "value": "Nr. 21 · 7 Punkte · 20 Minuten"
+      },
+      {
+        "label": "Telefonnotiz",
+        "value": "Nr. 42-45 · 6 Punkte · 5 Minuten"
+      },
+      {
+        "label": "Forumsbeitrag",
+        "value": "Nr. 58 · 14 Punkte"
+      },
+      {
+        "label": "Grammatik",
+        "value": "27 Punkte"
+      },
+      {
+        "label": "Gesamt",
+        "value": "60 Punkte"
+      }
+    ],
+    "resource_groups": [
+      {
+        "title": "Allgemeine Materialien",
+        "links": [
+          {
+            "label": "Antwortbögen",
+            "url": "https://t.me/B2_C2_Deutsch/65534/73423"
+          },
+          {
+            "label": "Struktur",
+            "url": "https://t.me/B2_C2_Deutsch/65534/95215"
+          },
+          {
+            "label": "Bewertung Schreiben",
+            "url": "https://t.me/B2_C2_Deutsch/65534/191189"
+          },
+          {
+            "label": "Bewertung Schreiben 2",
+            "url": "https://t.me/B2_C2_Deutsch/65534/183034?single"
+          }
+        ]
+      },
+      {
+        "title": "Schreiben: Beschwerde & Forum",
+        "links": [
+          {
+            "label": "Schreiben Beschwerde",
+            "url": "https://t.me/B2_C2_Deutsch/65534/103164"
+          },
+          {
+            "label": "Schreiben Forumbeitrag",
+            "url": "https://t.me/B2_C2_Deutsch/65534/103165"
+          },
+          {
+            "label": "Schreiben Redemittel 1",
+            "url": "https://t.me/B2_C2_Deutsch/65534/101704"
+          },
+          {
+            "label": "Schreiben Redemittel 2",
+            "url": "https://t.me/B2_C2_Deutsch/65534/154960"
+          },
+          {
+            "label": "Schreiben Redemittel 3",
+            "url": "https://t.me/B2_C2_Deutsch/65534/196091?single"
+          }
+        ]
+      },
+      {
+        "title": "Telefonnotiz",
+        "links": [
+          {
+            "label": "Notizen Spickzettel",
+            "url": "https://t.me/B2_C2_Deutsch/65534/234615"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Im PDF steht Schreiben unter Teil 2; Sprachbausteine 1 und 2 sind im Projekt bereits als eigenes Modul vorhanden.",
+      "Bei der Telefonnotiz werden oft Name, Telefonnummer, Farbe, Menge oder Preis verändert. Der Grundsinn bleibt laut PDF meist gleich.",
+      "Diese Karte ist als Startpunkt gedacht: erst Struktur und Bewertung ansehen, dann in Beschwerde, Telefonnotiz oder Forumsbeitrag springen."
+    ]
+  },
+  {
+    "id": "schreiben_2",
+    "module": "schreiben",
+    "part": "teil_2",
+    "test_title": "Beschwerde: 9 Varianten aus dem PDF",
+    "intro": "Alle Beschwerde-Varianten, die im PDF gesammelt wurden. Pro Variante findest du Thema, die Kernpunkte aus Aufgabe/Kundenmail und was in die Antwort hineinmuss.",
+    "variants": [
+      {
+        "title": "Variante 1: Putzdienst / Reinigung",
+        "question_points": [
+          "19: Herr Lassner ist mit der Sauberkeit bzw. dem Reinigungsservice unzufrieden.",
+          "20: Der Putzdienst hält die vereinbarte Arbeitszeit nicht korrekt ein."
+        ],
+        "situation_points": [
+          "Großkunde beschwert sich: Im Vertrag stehen täglich 3 Stunden Reinigung von 6 bis 9 Uhr.",
+          "In den letzten zwei Wochen war vor 9 Uhr mehrfach niemand vom Putzdienst mehr im Büro.",
+          "Der Kunde will eine Stellungnahme und eine Angleichung der Rechnung an die tatsächlich geleisteten Stunden."
+        ],
+        "reply_points": [
+          "Mit dem Team sprechen und Ursache nennen: Dienstfahrzeug in Inspektion, deshalb mussten die Mitarbeitenden 15 Minuten früher los.",
+          "Sich entschuldigen und zusagen, dass so etwas nicht wieder vorkommt.",
+          "20 % Rabatt auf die nächste Rechnung anbieten, damit der Großkunde bleibt."
+        ]
+      },
+      {
+        "title": "Variante 2: Tischlampen / Lieferschwierigkeiten",
+        "question_points": [
+          "19: Kundin hat die bestellten Tischlampen noch nicht erhalten.",
+          "20: Die Renovierungsarbeiten sollen am Wochenende abgeschlossen werden."
+        ],
+        "situation_points": [
+          "Für neue Büroräume wurden 15 bzw. 25 Tischlampen Modell TS 13 150 07 bestellt.",
+          "Telefonisch wurde Lieferung noch in derselben Woche zugesagt, am Freitag ist aber noch nichts angekommen.",
+          "Wenn die Lampen bis Montagmittag nicht eintreffen, will die Kundin den Auftrag stornieren."
+        ],
+        "reply_points": [
+          "Lieferschwierigkeiten beim Hersteller erklären und um Geduld bis nächste Woche bitten.",
+          "Versuchen, die Stornierung zu vermeiden.",
+          "Ähnliches Modell aus Lagerbestand als Alternative anbieten."
+        ]
+      },
+      {
+        "title": "Variante 3: Webseite / Korrekturen",
+        "question_points": [
+          "19: Herr Stiller ist mit Teilen des Entwurfs nicht einverstanden.",
+          "20: Die Agentur will weitere Änderungen nur gegen Aufpreis machen."
+        ],
+        "situation_points": [
+          "Kunde bemängelt zwei Punkte: Farbschema sollte grau-orange statt blau-orange sein und Mitarbeiternamen wurden vertauscht.",
+          "Intern heißt es: Die vertauschten Namen sind unser Fehler, aber es ist bereits die fünfte Korrekturrunde.",
+          "Weitere Änderungen seien nicht mehr vom vereinbarten Umfang gedeckt."
+        ],
+        "reply_points": [
+          "Namensfehler schnell bestätigen und korrigieren.",
+          "Auf die vertraglich vereinbarte Farbversion hinweisen.",
+          "Zusätzliche Farbkorrektur nur gegen Aufpreis von etwa 200-300 Euro anbieten und vorheriges Okay einholen."
+        ]
+      },
+      {
+        "title": "Variante 4: Spülmaschine / Wasserschaden",
+        "question_points": [
+          "19: Der Kunde meldet eine defekte neue Spülmaschine und einen Wasserschaden.",
+          "20: Die Firma soll schnell einen Techniker organisieren und die Forderungen prüfen."
+        ],
+        "situation_points": [
+          "Eine Woche nach Kauf läuft beim Spülen Wasser aus, das Parkett der Teeküche ist beschädigt.",
+          "Der Kunde braucht die Maschine spätestens übermorgen wegen eines großen Meetings.",
+          "Er fordert Technikertermin und Bestätigung, dass die Kosten für das Parkett übernommen werden."
+        ],
+        "reply_points": [
+          "Für die Unannehmlichkeiten entschuldigen.",
+          "Schnellen Prüftermin nennen: Techniker schaut Maschine und Parkett an.",
+          "Darauf hinweisen, dass eine sofortige Reparatur eventuell nicht möglich ist, falls Ersatzteile bestellt werden müssen."
+        ]
+      },
+      {
+        "title": "Variante 5: Umzug / verspätetes Team und Schäden",
+        "question_points": [
+          "19: Beim Umzug kam es zu Verzögerungen und Problemen.",
+          "20: Der Kunde verlangt Nachbesserung und Schadensübernahme."
+        ],
+        "situation_points": [
+          "Beim Büroumzug kamen die Mitarbeitenden 30 Minuten zu spät und nur zu dritt statt zu viert.",
+          "Nicht alle Möbel wurden aufgebaut, Glasplatten gingen kaputt, Schränke wurden verkratzt.",
+          "Der Kunde fordert für Mittwochmorgen noch zwei Leute sowie Erstattung der Schäden."
+        ],
+        "reply_points": [
+          "Die Gründe offen nennen: Autopanne und Personalmangel wegen Krankmeldungen.",
+          "Für Mittwochmorgen pünktlich zwei Mitarbeitende zur Fertigstellung zusagen.",
+          "Verantwortung für die entstandenen Schäden übernehmen."
+        ]
+      },
+      {
+        "title": "Variante 6: Drucker / Bedienfehler statt technischer Defekt",
+        "question_points": [
+          "19: Das Gerät wurde mehrfach geprüft, die Probleme tauchen aber erneut auf.",
+          "20: Die Firma soll freundlich klarstellen, dass sie nicht für falsche Bedienung verantwortlich ist."
+        ],
+        "situation_points": [
+          "Neuer Drucker, Kopierer oder Fax-Kombi wurde bereits mehrfach geprüft, weil Papierstaus oder Fehler beim Faxen auftraten.",
+          "Der Kunde fordert Austauschgerät und will frühere Rechnungen nicht bezahlen.",
+          "Laut internem Hinweis liegt der Fehler erneut nicht an der Technik, sondern an falscher Bedienung im Unternehmen."
+        ],
+        "reply_points": [
+          "Höflich erklären, dass kein technischer Defekt festgestellt wurde.",
+          "Kostenlose Einweisung der Mitarbeitenden in die Bedienung anbieten.",
+          "Prüfkosten beim Kunden belassen und kostenlosen Austausch ablehnen."
+        ]
+      },
+      {
+        "title": "Variante 7: Rechnung / falsche Positionen und fehlender Rabatt",
+        "question_points": [
+          "19: Der Kunde meldet Unstimmigkeiten in der Rechnung, nicht in der Lieferung.",
+          "20: Die Rechnung muss korrigiert und neu geschickt werden."
+        ],
+        "situation_points": [
+          "Gelieferte Ware ist in Ordnung, aber auf der Rechnung stehen zu viele Pinsel und die falsche Farbe.",
+          "Außerdem fehlt der übliche Rabatt von 10 %.",
+          "Es handelt sich um einen langjährigen Kunden, den man nicht verlieren will."
+        ],
+        "reply_points": [
+          "Computerproblem als Ursache nennen und erklären, dass es behoben wurde.",
+          "Neue, korrigierte Rechnung zusenden.",
+          "Den gewohnten Rabatt selbstverständlich gewähren."
+        ]
+      },
+      {
+        "title": "Variante 8: Mangelhafte Lieferung / verschmutzte Hosen und fehlende T-Shirts",
+        "question_points": [
+          "19: Der Kunde bemängelt Qualität und Menge der Lieferung.",
+          "20: Die fehlende Nachlieferung ist erst zu einem späteren Termin möglich."
+        ],
+        "situation_points": [
+          "Verpackungen von Hosen wurden beschädigt, der Inhalt ist verschmutzt.",
+          "Von 100 bezahlten T-Shirts mit Aufdruck wurde nur die Hälfte geliefert.",
+          "Der Kunde fordert schnellen Ersatz bis zur Sommersaison und einen Preisnachlass von 60 %."
+        ],
+        "reply_points": [
+          "Für die verschmutzte Ware entschuldigen und eine fairere Lösung als 60 % Rabatt anbieten.",
+          "Rücksendung mit Ersatzlieferung oder moderaten Preisnachlass vorschlagen.",
+          "Nachlieferung der fehlenden T-Shirts erst bis 12.05. wegen Personalmangel bzw. hoher Auslastung zusagen."
+        ]
+      },
+      {
+        "title": "Variante 9: Pflanzenlieferung / unpassend zum Ausstellungsthema",
+        "question_points": [
+          "19: Die Blumenauswahl passte nicht zum Thema der Veranstaltung.",
+          "20: Der Veranstalter musste kurzfristig Ersatz beschaffen und will eine Lösung."
+        ],
+        "situation_points": [
+          "Thema der Ausstellung war 'Nachhaltigkeit & Umweltverträglichkeit im Gartenbau – Lokal und Regional'.",
+          "Geliefert wurden aber exotische Pflanzen und Orchideen, was zu Beschwerden führte.",
+          "Der Kunde musste kurzfristig Ersatzsträuße bei einem Aussteller beschaffen und erwartet Vorschläge für die weitere Zusammenarbeit."
+        ],
+        "reply_points": [
+          "Fehler beim Bestellprozess erklären, etwa vertauschte Artikelnummern.",
+          "Sich für die unpassende Auswahl und die Zusatzkosten entschuldigen.",
+          "Entschädigung, Gutschrift oder Kostenübernahme anbieten und bessere Abstimmung für künftige Aufträge zusagen."
+        ]
+      }
+    ],
+    "notes": [
+      "Im PDF tauchen mehrere neue Namens- und Datumsvarianten derselben Grundsituationen auf. Für die Prüfung ist wichtiger, die Logik der Antwort zu beherrschen als einzelne Namen auswendig zu lernen.",
+      "Fast jede gute Beschwerde-Antwort deckt vier Punkte ab: Entschuldigung, Grund/Erklärung, konkrete Lösung, positiver Abschlusssatz."
+    ]
+  },
+  {
+    "id": "schreiben_3",
+    "module": "schreiben",
+    "part": "teil_3",
+    "test_title": "Telefonnotiz: 9 Varianten",
+    "intro": "Die Telefonnotiz aus dem PDF in einer sauberen Übersicht. Jede Karte zeigt dir die typischen Notizfelder, mögliche Varianten und was am Ende zu erledigen ist.",
+    "resource_groups": [
+      {
+        "title": "Schnellhilfe",
+        "links": [
+          {
+            "label": "Notizen Spickzettel",
+            "url": "https://t.me/B2_C2_Deutsch/65534/234615"
+          }
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "title": "Variante 1: Autovermietung / Angebot",
+        "question_points": [
+          "Typ: Angebot",
+          "Im PDF wechseln vor allem Name, Fahrzeugklasse, Preis und Telefonnummer."
+        ],
+        "data_points": [
+          "Name: Schmitt / Schmidt / Adriane Schmid / Roman Schmitz",
+          "Telefon: 0171 88 45 545 / 0173 721 572 6 / 0173 916 94 42",
+          "Fahrzeug: kleiner Wagen, kleines Fahrzeug oder Mittelklassewagen",
+          "Preis: 55 €, 75 €, 80 € oder 99 € pro Tag",
+          "Hinweise: vollgetankt zurückgeben oder kostenpflichtige Regelung, große Fahrzeuge nicht verfügbar, Versicherung klären"
+        ],
+        "todo": "Zurückrufen und sagen, ob das Angebot angenommen wird; Versicherungsdetails klären.",
+        "links": [
+          {
+            "label": "Audio 1",
+            "url": "https://t.me/B2_C2_Deutsch/65534/108835?single"
+          },
+          {
+            "label": "Audio 2",
+            "url": "https://t.me/B2_C2_Deutsch/65534/123640"
+          },
+          {
+            "label": "Audio 3",
+            "url": "https://t.me/B2_C2_Deutsch/65534/195107"
+          }
+        ]
+      },
+      {
+        "title": "Variante 2: Praxis / Geschäft streichen",
+        "question_points": [
+          "Typ: Beschwerde",
+          "Kernaussage: Maler sind trotz Vereinbarung gar nicht erschienen."
+        ],
+        "data_points": [
+          "Name: Dr. Mayer / Meyer / Meier / Maier / Schröder",
+          "Telefon: 05123 72 85 618 oder ähnliche Schreibweise",
+          "Ort: Praxis, Geschäft oder Friseursalon",
+          "Farbe: weiß und grün, weiß und blau oder weiß und pink",
+          "Frist: bis morgen Mittag bzw. bis 13 Uhr fertig"
+        ],
+        "todo": "Dringend zurückrufen und weiteres Vorgehen klären.",
+        "links": [
+          {
+            "label": "Audio",
+            "url": "https://t.me/B2_C2_Deutsch/65534/109520"
+          }
+        ]
+      },
+      {
+        "title": "Variante 3: Fehlende Prospekte / Prospekthüllen / Schnellhefter",
+        "question_points": [
+          "Typ: Beschwerde",
+          "Kernaussage: Bestellte Menge stimmt nicht mit der Lieferung überein."
+        ],
+        "data_points": [
+          "Name: Städtler / Hoffmann / Becker / Brandt / Hofmann",
+          "Telefon: 0173 536 47 15 / 0175 933 797 6 / 0173 715 720 3",
+          "Artikel: Prospekte, Prospekthüllen oder Schnellhefter",
+          "Bestellt/Geliefert: z. B. 180 statt 100, 200 statt 120 oder 200 statt 150",
+          "Frist: fehlende Ware bis morgen, übermorgen oder sofort losschicken"
+        ],
+        "todo": "Zurückrufen und die Nachlieferung bestätigen.",
+        "links": [
+          {
+            "label": "Audio 1",
+            "url": "https://t.me/B2_C2_Deutsch/65534/125046"
+          },
+          {
+            "label": "Audio 2",
+            "url": "https://t.me/B2_C2_Deutsch/65534/125047"
+          },
+          {
+            "label": "Audio 3",
+            "url": "https://t.me/B2_C2_Deutsch/65534/158143"
+          },
+          {
+            "label": "Audio 4",
+            "url": "https://t.me/B2_C2_Deutsch/65534/158144?single"
+          }
+        ]
+      },
+      {
+        "title": "Variante 4: Visitenkarten oder Kopierpapier / Angebot",
+        "question_points": [
+          "Typ: Angebot",
+          "Im PDF gibt es zwei Untervarianten: Visitenkarten sowie Kopierpapier."
+        ],
+        "data_points": [
+          "Name: Kienzle / Strauß / Strauss / Walter / Walther",
+          "Telefon: 0179 335 36 37 / 0174 113 806 6 / 01734174737",
+          "Produkt: Visitenkarten auf Premiumpapier oder Kopierpapier in Premiumqualität",
+          "Preis: z. B. 60,99 für 100 Stück, 4,49 oder 7,89 für 500 Blatt",
+          "Lieferung: Express innerhalb von zwei Tagen, eines Tages oder bis morgen; Bestellung bis 18:00 Uhr bzw. 15:00 Uhr"
+        ],
+        "todo": "Zurückrufen und die gewünschte Papiersorte bestätigen.",
+        "links": [
+          {
+            "label": "Audio 1",
+            "url": "https://t.me/B2_C2_Deutsch/65534/125091"
+          },
+          {
+            "label": "Audio 2",
+            "url": "https://t.me/B2_C2_Deutsch/65534/219642"
+          }
+        ]
+      },
+      {
+        "title": "Variante 5: Tischreservierung / Geschäftsessen",
+        "question_points": [
+          "Typ: Buchung",
+          "Kernaussage: Tisch reservieren, Menü vorbereiten, Parkplatz klären."
+        ],
+        "data_points": [
+          "Name: Messner / Meßner / Herrmann / Lorenz / Möller / Müller",
+          "Telefon: 04133 784 30 09 / 0172 439 378 6 / 0151 130 686 4",
+          "Personenzahl: 2, 5 oder 6 Personen",
+          "Zeit: Freitag 19:30, Donnerstag 18:30, Mittwoch 18:00 oder Freitag 12:30",
+          "Zusatz: Menü 1, 2, 3 oder 4 vorbereiten; Parkplatz für Gäste erfragen"
+        ],
+        "todo": "Zurückrufen und Reservierung sowie Parkplätze bestätigen.",
+        "links": [
+          {
+            "label": "Audio 1",
+            "url": "https://t.me/B2_C2_Deutsch/65534/114261"
+          },
+          {
+            "label": "Audio 2",
+            "url": "https://t.me/B2_C2_Deutsch/65534/120162"
+          },
+          {
+            "label": "Audio 3",
+            "url": "https://t.me/B2_C2_Deutsch/65534/125035"
+          }
+        ]
+      },
+      {
+        "title": "Variante 6: Getränkelieferung für Veranstaltung",
+        "question_points": [
+          "Typ: Beschwerde",
+          "Kernaussage: Bestellung für heute ist um 11 Uhr noch nicht angekommen."
+        ],
+        "data_points": [
+          "Name: Wolff / Knopper / Knooper",
+          "Telefon: 0162 744 642 8",
+          "Lieferung: Getränke für Veranstaltung mit über 200 oder 100 Personen",
+          "Menge: 50 Kästen Wasser und 15 gemischte Saftkisten oder ähnliche Zahlen",
+          "Fristen: bis 14:30 Uhr da sein, bis 12 Uhr Rückruf sonst anderer Getränkemarkt"
+        ],
+        "todo": "Lieferung sofort losschicken oder bis 12 Uhr Rückmeldung geben.",
+        "links": [
+          {
+            "label": "Audio",
+            "url": "https://t.me/B2_C2_Deutsch/65534/153235"
+          }
+        ]
+      },
+      {
+        "title": "Variante 7: Defekter Kopierer / Reparatur oder Austausch",
+        "question_points": [
+          "Typ: Angebot / Entscheidung",
+          "Kernaussage: Elektronikproblem, Entscheidung zwischen Reparatur und Austausch nötig."
+        ],
+        "data_points": [
+          "Name: Schulze / Scholtz",
+          "Telefon: 0160 335 101 8 / 01740254831",
+          "Problem: größerer Elektronikfehler, nur in Werkstatt reparierbar",
+          "Austausch: etwa 3 bis 4 Wochen wegen Lieferproblemen",
+          "Reparatur: Ersatzteil nötig, etwa 2 Werktage oder 5 Tage",
+          "Zusatz: derzeit kein Leihgerät verfügbar"
+        ],
+        "todo": "Bis morgen zurückrufen und entscheiden: Reparatur oder Austausch."
+      },
+      {
+        "title": "Variante 8: Wein- und Saftlieferung / falsche Mengen",
+        "question_points": [
+          "Typ: Beschwerde",
+          "Kernaussage: Rotwein und Weißwein vertauscht bzw. in falscher Menge geliefert."
+        ],
+        "data_points": [
+          "Name: Günther / Günter / Guenther",
+          "Telefon: im PDF teils offen, einmal 0135 821 76 49",
+          "Beispiele: statt 30 Kartons Rotwein nur 25, statt 15 Kartons Weißwein 30",
+          "Zusatz: zwei Flaschen Saft oder Wein kaputt",
+          "Aktion: Rotwein schnell nachliefern, teils neue Rechnung erstellen"
+        ],
+        "todo": "Zurückrufen, Korrektur bestätigen und fehlende Ware schnell nachliefern."
+      },
+      {
+        "title": "Variante 9: Geschirrsets / Teller beschädigt",
+        "question_points": [
+          "Typ: Beschwerde",
+          "Kernaussage: Bei der Lieferung ist ein Karton mit Tellern beschädigt angekommen."
+        ],
+        "data_points": [
+          "Name: Schweizer / Schwietzler / Schwalzer",
+          "Telefon: im PDF nicht vollständig notiert",
+          "Schaden: 7 Teller zerbrochen",
+          "Dringlichkeit: nächste Woche große Familienfeier mit über 20 Personen",
+          "Wunsch: möglichst schnelle Nachlieferung"
+        ],
+        "todo": "Zurückrufen und schnelle Ersatzlieferung organisieren."
+      }
+    ],
+    "notes": [
+      "In der Telefonnotiz reichen oft wenige sauber notierte Kernpunkte: Wer? Telefonnummer? Was ist passiert? Welche Zahlen? Was ist zu tun?",
+      "Gerade bei Varianten 1 bis 5 lohnt es sich, die austauschbaren Felder getrennt zu trainieren: Name, Zahl, Uhrzeit, Farbe, Fahrzeug, Menü, Preis."
+    ]
+  },
+  {
+    "id": "schreiben_4",
+    "module": "schreiben",
+    "part": "teil_4",
+    "test_title": "Forumsbeitrag: Themen, Ressourcen & letzte Prüfungen",
+    "intro": "Große Themensammlung aus dem PDF für den Forumsbeitrag: Links, komplette Themenliste, bereits gelaufene Themen und die jüngsten Themen aus 160201/160221.",
+    "resource_groups": [
+      {
+        "title": "Forum: Links aus dem PDF",
+        "links": [
+          {
+            "label": "Schreiben Forumbeitrag",
+            "url": "https://t.me/B2_C2_Deutsch/65534/103165"
+          },
+          {
+            "label": "Schreiben Redemittel 1",
+            "url": "https://t.me/B2_C2_Deutsch/65534/101704"
+          },
+          {
+            "label": "Schreiben Redemittel 2",
+            "url": "https://t.me/B2_C2_Deutsch/65534/154960"
+          },
+          {
+            "label": "Schreiben Redemittel 3",
+            "url": "https://t.me/B2_C2_Deutsch/65534/196091?single"
+          },
+          {
+            "label": "Bewertung Schreiben",
+            "url": "https://t.me/B2_C2_Deutsch/65534/191189"
+          }
+        ]
+      },
+      {
+        "title": "Themensammlungen & Beispiele",
+        "links": [
+          {
+            "label": "Alle Themen",
+            "url": "https://t.me/B2_C2_Deutsch/65534/147549"
+          },
+          {
+            "label": "Themen Forumsbeitrag plus neue",
+            "url": "https://t.me/B2_C2_Deutsch/65534/186839"
+          },
+          {
+            "label": "Forumsbeiträge Beispiele",
+            "url": "https://t.me/B2_C2_Deutsch/65534/99517"
+          },
+          {
+            "label": "Forumsbeiträge Beispiele 1",
+            "url": "https://t.me/B2_C2_Deutsch/65534/103903"
+          },
+          {
+            "label": "Forumsbeiträge Beispiele 2",
+            "url": "https://t.me/B2_C2_Deutsch/65534/145209"
+          }
+        ]
+      },
+      {
+        "title": "Pro / Contra, Sortierung, Statistik",
+        "links": [
+          {
+            "label": "Vor- und Nachteile 1",
+            "url": "https://t.me/B2_C2_Deutsch/65534/141194"
+          },
+          {
+            "label": "Vor- und Nachteile 2",
+            "url": "https://t.me/B2_C2_Deutsch/65534/159358"
+          },
+          {
+            "label": "Pro und Contra",
+            "url": "https://t.me/B2_C2_Deutsch/65534/186194"
+          },
+          {
+            "label": "Sortirovka online",
+            "url": "https://t.me/B2_C2_Deutsch/65534/175061"
+          },
+          {
+            "label": "Sortirovka neu",
+            "url": "https://t.me/B2_C2_Deutsch/65534/240993?single"
+          },
+          {
+            "label": "Statistik",
+            "url": "https://t.me/B2_C2_Deutsch/65534/240994?single"
+          },
+          {
+            "label": "Grammatik aktiv",
+            "url": "https://t.me/B2_C2_Deutsch/65534/165601"
+          }
+        ]
+      }
+    ],
+    "recent_topics": [
+      {
+        "exam": "160201",
+        "label": "Thema A",
+        "text": "Homeoffice 2 Tage pro Woche mit privatem Laptop."
+      },
+      {
+        "exam": "160201",
+        "label": "Thema B",
+        "text": "Betriebsausflug am Samstag. Man darf aber einen Tag frei nehmen."
+      },
+      {
+        "exam": "160221",
+        "label": "Thema A",
+        "text": "Urlaubssperre im August und September wegen des Großauftrags. Als Ausgleich wurde eine Geldprämie von 500 Euro vorgeschlagen."
+      },
+      {
+        "exam": "160221",
+        "label": "Thema B",
+        "text": "Bei Online-Konferenzen soll die Kamera zwingend eingeschaltet sein."
+      }
+    ],
+    "themes": [
+      "Papierlose Lohn- oder Gehaltsabrechnung im Intranet statt Papierform.",
+      "Urlaub während der dreiwöchigen Betriebsferien im August.",
+      "Nur vegetarische oder vegane Gerichte in der Kantine, dafür teurer oder mit Bioqualität.",
+      "Keine Frühstückspause mehr, dafür eine ganze Stunde Mittagspause.",
+      "Regelmäßige Arbeit an Wochenenden und Feiertagen gegen zusätzliche Urlaubstage.",
+      "Kostenloses Mittagessen nur für Mitarbeitende, die sonntags arbeiten.",
+      "Jobticket für den ÖPNV, dafür Parken auf dem Firmenparkplatz kostenpflichtig.",
+      "Firmenlaptop wird gestellt, Versicherung müssen Mitarbeitende selbst zahlen.",
+      "Firmenhandy ist kostenlos, dafür 24 Stunden erreichbar sein.",
+      "Handys in der Großküche während der Arbeitszeit verboten.",
+      "Weiterbildung mehrmals pro Jahr, aber selbst bezahlen.",
+      "Alle arbeiten künftig im Großraumbüro, keine Einzelbüros mehr.",
+      "Überstunden werden gar nicht mehr erlaubt.",
+      "Vier Tage Homeoffice pro Woche, nur ein Tag in der Firma.",
+      "Kostenlose Mahlzeit am Samstag oder an Feiertagen.",
+      "Firmengarten in den Pausen nutzen, aber Mitarbeitende helfen in der Freizeit mit.",
+      "Mitarbeitende sollen öfter in anderen Firmen arbeiten.",
+      "Homeoffice und Büro ohne feste Arbeitsplätze.",
+      "Kita 24/7 für Schichtdienst.",
+      "Rückenfreundliche Bürostühle, aber Mitarbeitende zahlen die Hälfte mit.",
+      "Putzdienst in den Pausenräumen im Wechsel.",
+      "Klimaanlage in allen Büroräumen, dafür kein kostenloses Mineralwasser mehr.",
+      "Zweimal pro Jahr verpflichtende Weiterbildung, Themen werden von der Firma vorgegeben.",
+      "Nachtschicht in der Produktion gegen zwei Tage mehr Urlaub.",
+      "Sommerurlaub in den Ferien nur für Mitarbeitende mit schulpflichtigen Kindern.",
+      "Fitness- und Gesundheitskurse mit Kostenbeteiligung.",
+      "Jobticket nur gegen Gehaltsverzicht.",
+      "Workshop für Zeitmanagement für alle Mitarbeitenden.",
+      "Bonus von 50 Euro bei Weiterbildung außerhalb der Arbeitszeit.",
+      "Verpflichtender Spanischkurs wegen neuem Standort in Spanien.",
+      "Aus Umweltschutzgründen kostenloses Jahresabo für Bus und Bahn statt Autofahren.",
+      "Eine Person aus der Abteilung soll für sechs Monate nach Italien gehen.",
+      "Sozialer Tag statt Betriebsausflug, zählt als Arbeitszeit.",
+      "Zusätzliche Urlaubstage statt Bonuszahlungen.",
+      "Zuschuss für Fahrradreparaturen und Wartung.",
+      "Für Fortbildungen muss künftig ein Urlaubstag genommen werden.",
+      "Ärztliches Attest schon ab dem ersten Krankheitstag.",
+      "Firmen-Kita ist freitags geschlossen, private Betreuung muss organisiert werden.",
+      "Kostenlose Freizeitbadkarte gegen Stress.",
+      "Firmenausflug, Essen muss selbst zubereitet und mitgebracht werden.",
+      "Fahrgemeinschaften bekommen Zuschuss fürs Benzingeld.",
+      "Keine Überstunden mehr, automatische Abmeldung vom Computer nach 8 Stunden.",
+      "Während der Arbeitszeit soll nur noch Englisch gesprochen werden.",
+      "Monatlicher Beitrag für Geburtstagsgeschenke.",
+      "Urlaubswünsche fürs nächste Jahr nur bis Ende Oktober möglich.",
+      "Dienstkleidung in den Firmenfarben Weiß und Rot auf eigene Kosten.",
+      "Private Geräte dürfen in der Firma weder benutzt noch geladen werden.",
+      "Innenhof als Aufenthaltsbereich gestalten und in der Freizeit pflegen.",
+      "Sammelaktion für Kinderkleidung, Erlös wird gespendet.",
+      "Papierverbrauch pro Person und Tag begrenzen.",
+      "Alle sollen aktiv in die Betreuung der Auszubildenden eingebunden werden.",
+      "Pausenhof statt Parkplatz im Innenhof.",
+      "Hunde im Büro sind erlaubt, solange sie niemanden stören.",
+      "Privattelefonate nur in den Pausen, Handy im Aufenthaltsraum.",
+      "35 Euro weniger Gehalt, dafür Fitnessstudio-Mitgliedschaft.",
+      "Standortwechsel mit Unterstützung und einem zusätzlichen Urlaubstag.",
+      "Keine Festanstellungen mehr, nur geliehene Mitarbeitende von externen Firmen.",
+      "Energiesparen im Winter, notfalls mit Fleecejacke der Firma im Büro.",
+      "Kantine wird geschlossen, stattdessen Essensmarken für Restaurants in der Nähe.",
+      "Heizen erst ab Oktober und Raumtemperatur maximal 19 Grad.",
+      "Einzelbüros werden durch Büros mit Glaswänden ersetzt.",
+      "Kostenfreies Obst kostet künftig 5 Euro monatlich.",
+      "Im August drei Wochen Urlaub für alle, Rest frei planbar.",
+      "Urlaubssperre im August und September wegen eines Großauftrags, dafür 500 Euro Geldprämie.",
+      "Während der Elternzeit Teilnahme an Teambesprechungen oder Weiterbildungen.",
+      "Mitarbeitende sollen das Unternehmen in Schulen vorstellen, um Azubis zu gewinnen.",
+      "Rauchende Mitarbeitende müssen 15 Minuten länger arbeiten.",
+      "Baumpflanz-Aktion im Stadtwald am Wochenende.",
+      "Zwei Urlaubstage abgeben, damit Betriebsferien zwischen Weihnachten und Neujahr abgedeckt sind.",
+      "Vier-Tage-Woche mit 10 Stunden pro Tag.",
+      "Essen am Arbeitsplatz ist verboten, außer Schokolade.",
+      "Für Weiterbildung werden nur noch Online-Kurse berücksichtigt.",
+      "Bei Online-Konferenzen soll die Kamera verpflichtend eingeschaltet sein."
+    ],
+    "historical_topics": [
+      "Jobticket.",
+      "Workshop für Zeitmanagement.",
+      "Privathandy nur in der Pause.",
+      "Urlaubsplanung im Sommer nur für Mitarbeitende mit Kindern.",
+      "Weiterbildung zweimal pro Jahr am Wochenende, außerhalb der Arbeitszeit.",
+      "Parkplatz gegen 50 Euro Gebühr.",
+      "Keine Frühstückspause, dafür 1 Stunde Mittagspause.",
+      "Nur Vegan-Menü bzw. nur fleischlose Gerichte gegen höheren Preis.",
+      "Großraumbüro.",
+      "Office-Umzug.",
+      "Kita 24/7.",
+      "Samstagsarbeit mit kostenlosem Essen in der Kantine.",
+      "Fortbildung am Wochenende, dafür 1 Extra-Urlaubstag.",
+      "Jeder Mitarbeitende bekommt zusätzliche Urlaubstage.",
+      "Firmenhandy.",
+      "Arbeit am Wochenende plus 4 Urlaubstage.",
+      "Weiterbildung während der Arbeitszeit, aber selbst bezahlen.",
+      "Homeoffice.",
+      "Samstagsarbeit mit 120 % Gehalt.",
+      "Firmenlaptop, Versicherung selbst bezahlen.",
+      "Homeoffice und Büro ohne feste Arbeitsplätze.",
+      "Firmenraum mit Küche kostenlos für Privatevents nutzen.",
+      "Verpflichtende Konfliktmanagementseminare.",
+      "Fahrrad-Zuschuss für Reparaturen.",
+      "Überstunden werden durch Freizeit ausgeglichen.",
+      "Kurzarbeit.",
+      "Für Fortbildung muss Urlaub genommen werden, sie bleibt aber bezahlt.",
+      "Firmenausflug, bei dem jeder eigenes Essen mitbringen soll.",
+      "Eintrittskarte für ein Freibad gegen Stress.",
+      "Handys in der Großküche verboten.",
+      "Fahrgemeinschaften mit Benzinzuschuss.",
+      "Spanischkurs.",
+      "Hunde im Büro erlaubt.",
+      "Handy in der Firma verboten.",
+      "Attest ab dem ersten Tag.",
+      "Überstunden nicht mehr bezahlt, sondern durch Freizeit ausgeglichen.",
+      "Rauchende müssen 15 Minuten länger arbeiten.",
+      "Unternehmen in der Schule für künftige Azubis vorstellen.",
+      "Dresscode bzw. formelle Kleidung.",
+      "Firmenchat.",
+      "Standortwechsel und Nutzung von 5 Urlaubstagen.",
+      "Homeoffice 2 Tage pro Woche mit privatem Laptop.",
+      "Urlaubssperre im August und September wegen des Großauftrags plus 500 Euro Geldprämie.",
+      "Jährlicher Gesundheitscheck.",
+      "Neue Büromöbel über eingesparte Überstunden finanzieren.",
+      "Umweltschutzmaßnahme.",
+      "Büro selbst putzen.",
+      "Betriebsausflug am Samstag, dafür ein Tag frei.",
+      "Bei Online-Konferenzen soll die Kamera zwingend eingeschaltet sein.",
+      "Auf zwei Urlaubstage verzichten, damit Betriebsferien abgedeckt sind.",
+      "Energie sparen plus Fleecejacke von der Firma.",
+      "Teambildungs-Event am Wochenende in einer anderen Stadt.",
+      "Gleitzeit wird abgeschafft, alle arbeiten von 8:30 bis 17:00 Uhr.",
+      "Keine persönlichen Kundentreffen, nur noch online."
+    ],
+    "notes": [
+      "Die Liste 'historical_topics' enthält die Themen, die laut PDF bereits auf Prüfungen vorkamen.",
+      "Die große Liste 'themes' ist der breitere Pool für das Training. Viele Punkte überschneiden sich, sind aber im PDF in unterschiedlichen Formulierungen notiert.",
+      "Für den Forumsbeitrag lohnt es sich, Themen in Gruppen zu lernen: Geld, Urlaub, Arbeitszeit, Ausstattung, Digitalisierung, Umwelt und Gesundheit."
+    ]
+  }
+]
