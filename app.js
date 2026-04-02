@@ -660,6 +660,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function renderSchreiben() {
+        const isTelefonnotiz = currentTest.part === 'teil_3';
+
         const statsHtml = currentTest.stats && currentTest.stats.length > 0
             ? `
                 <section class="glass-panel schreiben-panel">
@@ -702,59 +704,104 @@ document.addEventListener('DOMContentLoaded', () => {
                     <h3>Varianten</h3>
                     <div class="schreiben-variants">
                         ${currentTest.variants.map(variant => `
-                            <details class="schreiben-variant">
-                                <summary>${variant.title}</summary>
-                                <div class="schreiben-variant-body">
-                                    ${variant.question_points && variant.question_points.length > 0 ? `
-                                        <div class="schreiben-subsection">
-                                            <h4>Aufgaben / Hinweise</h4>
-                                            <ul class="schreiben-bullet-list">
-                                                ${variant.question_points.map(point => `<li>${highlightVocab(point)}</li>`).join('')}
-                                            </ul>
-                                        </div>
-                                    ` : ''}
-                                    ${variant.situation_points && variant.situation_points.length > 0 ? `
-                                        <div class="schreiben-subsection">
-                                            <h4>Situation aus dem PDF</h4>
-                                            <ul class="schreiben-bullet-list">
-                                                ${variant.situation_points.map(point => `<li>${highlightVocab(point)}</li>`).join('')}
-                                            </ul>
-                                        </div>
-                                    ` : ''}
-                                    ${variant.data_points && variant.data_points.length > 0 ? `
-                                        <div class="schreiben-subsection">
-                                            <h4>Wichtige Notizfelder</h4>
-                                            <ul class="schreiben-bullet-list">
-                                                ${variant.data_points.map(point => `<li>${highlightVocab(point)}</li>`).join('')}
-                                            </ul>
-                                        </div>
-                                    ` : ''}
-                                    ${variant.reply_points && variant.reply_points.length > 0 ? `
-                                        <div class="schreiben-subsection">
-                                            <h4>Was in die Antwort muss</h4>
-                                            <ul class="schreiben-bullet-list">
-                                                ${variant.reply_points.map(point => `<li>${highlightVocab(point)}</li>`).join('')}
-                                            </ul>
-                                        </div>
-                                    ` : ''}
-                                    ${variant.todo ? `
-                                        <div class="schreiben-subsection">
-                                            <h4>Zu erledigen</h4>
-                                            <p class="instruction">${highlightVocab(variant.todo)}</p>
-                                        </div>
-                                    ` : ''}
-                                    ${variant.links && variant.links.length > 0 ? `
-                                        <div class="schreiben-subsection">
-                                            <h4>Links</h4>
-                                            <div class="schreiben-link-grid">
-                                                ${variant.links.map(link => `
-                                                    <a href="${link.url}" target="_blank" class="secondary-btn schreiben-link-btn">${link.label}</a>
-                                                `).join('')}
+                            ${isTelefonnotiz ? `
+                                <div class="schreiben-variant schreiben-variant-static">
+                                    <div class="schreiben-variant-body">
+                                        <h4 class="schreiben-variant-title">${variant.title}</h4>
+                                        ${variant.links && variant.links.length > 0 ? `
+                                            <div class="schreiben-subsection">
+                                                <h4>Audio</h4>
+                                                <div class="schreiben-link-grid">
+                                                    ${variant.links.map(link => `
+                                                        <a href="${link.url}" target="_blank" class="secondary-btn schreiben-link-btn">${link.label}</a>
+                                                    `).join('')}
+                                                </div>
                                             </div>
-                                        </div>
-                                    ` : ''}
+                                        ` : ''}
+                                        <details class="schreiben-hint">
+                                            <summary>Подсказка</summary>
+                                            <div class="schreiben-hint-body">
+                                                ${variant.question_points && variant.question_points.length > 0 ? `
+                                                    <div class="schreiben-subsection">
+                                                        <h4>Aufgaben / Hinweise</h4>
+                                                        <ul class="schreiben-bullet-list">
+                                                            ${variant.question_points.map(point => `<li>${highlightVocab(point)}</li>`).join('')}
+                                                        </ul>
+                                                    </div>
+                                                ` : ''}
+                                                ${variant.data_points && variant.data_points.length > 0 ? `
+                                                    <div class="schreiben-subsection">
+                                                        <h4>Wichtige Notizfelder</h4>
+                                                        <ul class="schreiben-bullet-list">
+                                                            ${variant.data_points.map(point => `<li>${highlightVocab(point)}</li>`).join('')}
+                                                        </ul>
+                                                    </div>
+                                                ` : ''}
+                                                ${variant.todo ? `
+                                                    <div class="schreiben-subsection">
+                                                        <h4>Zu erledigen</h4>
+                                                        <p class="instruction">${highlightVocab(variant.todo)}</p>
+                                                    </div>
+                                                ` : ''}
+                                            </div>
+                                        </details>
+                                    </div>
                                 </div>
-                            </details>
+                            ` : `
+                                <details class="schreiben-variant">
+                                    <summary>${variant.title}</summary>
+                                    <div class="schreiben-variant-body">
+                                        ${variant.question_points && variant.question_points.length > 0 ? `
+                                            <div class="schreiben-subsection">
+                                                <h4>Aufgaben / Hinweise</h4>
+                                                <ul class="schreiben-bullet-list">
+                                                    ${variant.question_points.map(point => `<li>${highlightVocab(point)}</li>`).join('')}
+                                                </ul>
+                                            </div>
+                                        ` : ''}
+                                        ${variant.situation_points && variant.situation_points.length > 0 ? `
+                                            <div class="schreiben-subsection">
+                                                <h4>Situation aus dem PDF</h4>
+                                                <ul class="schreiben-bullet-list">
+                                                    ${variant.situation_points.map(point => `<li>${highlightVocab(point)}</li>`).join('')}
+                                                </ul>
+                                            </div>
+                                        ` : ''}
+                                        ${variant.data_points && variant.data_points.length > 0 ? `
+                                            <div class="schreiben-subsection">
+                                                <h4>Wichtige Notizfelder</h4>
+                                                <ul class="schreiben-bullet-list">
+                                                    ${variant.data_points.map(point => `<li>${highlightVocab(point)}</li>`).join('')}
+                                                </ul>
+                                            </div>
+                                        ` : ''}
+                                        ${variant.reply_points && variant.reply_points.length > 0 ? `
+                                            <div class="schreiben-subsection">
+                                                <h4>Was in die Antwort muss</h4>
+                                                <ul class="schreiben-bullet-list">
+                                                    ${variant.reply_points.map(point => `<li>${highlightVocab(point)}</li>`).join('')}
+                                                </ul>
+                                            </div>
+                                        ` : ''}
+                                        ${variant.todo ? `
+                                            <div class="schreiben-subsection">
+                                                <h4>Zu erledigen</h4>
+                                                <p class="instruction">${highlightVocab(variant.todo)}</p>
+                                            </div>
+                                        ` : ''}
+                                        ${variant.links && variant.links.length > 0 ? `
+                                            <div class="schreiben-subsection">
+                                                <h4>Links</h4>
+                                                <div class="schreiben-link-grid">
+                                                    ${variant.links.map(link => `
+                                                        <a href="${link.url}" target="_blank" class="secondary-btn schreiben-link-btn">${link.label}</a>
+                                                    `).join('')}
+                                                </div>
+                                            </div>
+                                        ` : ''}
+                                    </div>
+                                </details>
+                            `}
                         `).join('')}
                     </div>
                 </section>
