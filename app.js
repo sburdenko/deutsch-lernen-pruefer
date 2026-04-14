@@ -19,6 +19,24 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // UI state preservation
     let menuState = { scrollY: 0, expandedParts: {} };
+    const cacheToken = `${Date.now()}`;
+
+    function withCacheBust(file) {
+        const separator = file.includes('?') ? '&' : '?';
+        return `${file}${separator}v=${cacheToken}`;
+    }
+
+    function fetchJson(file, errorLabel) {
+        return fetch(withCacheBust(file), {
+            cache: 'no-store'
+        }).then(response => {
+            if (!response.ok) throw new Error(`${file} fetch failed`);
+            return response.json();
+        }).catch(err => {
+            console.error(`${errorLabel} not found:`, err);
+            return null;
+        });
+    }
 
     async function updateVersionLabel() {
         if (!versionLabel) return;
@@ -37,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const responses = await Promise.allSettled(
             trackedFiles.map(file =>
-                fetch(file, {
+                fetch(withCacheBust(file), {
                     method: 'HEAD',
                     cache: 'no-store'
                 })
@@ -69,48 +87,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Load JSON data
     Promise.all([
-        fetch('data.json').then(response => {
-            if (!response.ok) throw new Error('data.json fetch failed');
-            return response.json();
-        }).catch(err => {
-            console.error('Data not found:', err);
-            return null;
-        }),
-        fetch('woerter.json').then(response => {
-            if (!response.ok) throw new Error('woerter.json fetch failed');
-            return response.json();
-        }).catch(err => {
-            console.error('Woerter not found:', err);
-            return null;
-        }),
-        fetch('sprachbausteine.json').then(response => {
-            if (!response.ok) throw new Error('sprachbausteine.json fetch failed');
-            return response.json();
-        }).catch(err => {
-            console.error('Sprachbausteine not found:', err);
-            return null;
-        }),
-        fetch('hoeren.json').then(response => {
-            if (!response.ok) throw new Error('hoeren.json fetch failed');
-            return response.json();
-        }).catch(err => {
-            console.error('Hoeren not found:', err);
-            return null;
-        }),
-        fetch('sprechen.json').then(response => {
-            if (!response.ok) throw new Error('sprechen.json fetch failed');
-            return response.json();
-        }).catch(err => {
-            console.error('Sprechen not found:', err);
-            return null;
-        }),
-        fetch('schreiben.json').then(response => {
-            if (!response.ok) throw new Error('schreiben.json fetch failed');
-            return response.json();
-        }).catch(err => {
-            console.error('Schreiben not found:', err);
-            return null;
-        })
+        fetchJson('data.json', 'Data'),
+        fetchJson('woerter.json', 'Woerter'),
+        fetchJson('sprachbausteine.json', 'Sprachbausteine'),
+        fetchJson('hoeren.json', 'Hoeren'),
+        fetchJson('sprechen.json', 'Sprechen'),
+        fetchJson('schreiben.json', 'Schreiben')
     ]).then(([r1, r2, r3, r4, r5, r6]) => {
         allData = r1;
         woerterData = r2;
