@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const testTitle = document.getElementById('test-title');
     const tooltip = document.getElementById('tooltip');
     const navTabs = document.querySelectorAll('.nav-tab');
+    const versionLabel = document.getElementById('app-version');
 
     let allData = null;
     let woerterData = null;
@@ -18,6 +19,53 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // UI state preservation
     let menuState = { scrollY: 0, expandedParts: {} };
+
+    async function updateVersionLabel() {
+        if (!versionLabel) return;
+
+        const trackedFiles = [
+            'index.html',
+            'app.js',
+            'style.css',
+            'data.json',
+            'hoeren.json',
+            'sprachbausteine.json',
+            'sprechen.json',
+            'schreiben.json',
+            'woerter.json'
+        ];
+
+        const responses = await Promise.allSettled(
+            trackedFiles.map(file =>
+                fetch(file, {
+                    method: 'HEAD',
+                    cache: 'no-store'
+                })
+            )
+        );
+
+        const timestamps = responses
+            .filter(result => result.status === 'fulfilled' && result.value.ok)
+            .map(result => result.value.headers.get('last-modified'))
+            .filter(Boolean)
+            .map(value => new Date(value))
+            .filter(date => !Number.isNaN(date.getTime()))
+            .map(date => date.getTime());
+
+        const versionDate = timestamps.length > 0
+            ? new Date(Math.max(...timestamps))
+            : new Date(document.lastModified);
+
+        const year = versionDate.getFullYear();
+        const month = String(versionDate.getMonth() + 1).padStart(2, '0');
+        const day = String(versionDate.getDate()).padStart(2, '0');
+        const hours = String(versionDate.getHours()).padStart(2, '0');
+        const minutes = String(versionDate.getMinutes()).padStart(2, '0');
+
+        versionLabel.textContent = `Version ${year}.${month}.${day} ${hours}:${minutes}`;
+    }
+
+    updateVersionLabel();
 
     // Load JSON data
     Promise.all([
