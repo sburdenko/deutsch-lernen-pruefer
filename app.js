@@ -124,6 +124,13 @@ document.addEventListener('DOMContentLoaded', () => {
         return part;
     }
 
+    function formatTranscriptContent(content) {
+        if (!content) return '';
+        return content
+            .replace(/(?:<br\s*\/?>\s*){2,}/gi, '<br>')
+            .trim();
+    }
+
     function isReferenceCard(test) {
         return Boolean(test && test.display_mode === 'notes');
     }
@@ -294,18 +301,23 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             let transcriptHtml = '';
-            if (currentTest.texts) {
-                const transcriptData = currentTest.texts.find(t => t.title === 'Transkript');
-                if (transcriptData) {
-                    transcriptHtml = `
-                        <section class="glass-panel transcript-section" style="margin-bottom: 1.5rem;">
-                            <button id="btn-toggle-transcript" class="secondary-btn" style="margin-bottom: 1rem;">Transkript anzeigen</button>
-                            <div id="transcript-content" class="hidden text-content" style="border-top: 1px solid var(--border-color); padding-top: 1rem; line-height: 1.6;">
-                                ${highlightVocab(transcriptData.content)}
-                            </div>
-                        </section>
-                    `;
-                }
+            const transcriptData = currentTest.texts ? currentTest.texts.find(t => t.title === 'Transkript') : null;
+            const transcriptContent = transcriptData ? formatTranscriptContent(transcriptData.content) : '';
+            if (transcriptContent) {
+                transcriptHtml = `
+                    <section class="glass-panel transcript-section" style="margin-bottom: 1.5rem;">
+                        <button id="btn-toggle-transcript" class="secondary-btn" style="margin-bottom: 1rem;">Transkript anzeigen</button>
+                        <div id="transcript-content" class="hidden text-content transcript-content" style="border-top: 1px solid var(--border-color); padding-top: 1rem;">
+                            ${highlightVocab(transcriptContent)}
+                        </div>
+                    </section>
+                `;
+            } else {
+                transcriptHtml = `
+                    <section class="glass-panel transcript-section" style="margin-bottom: 1.5rem;">
+                        <p class="transcript-missing">Für diese Aufgabe ist im PDF kein vollständiges Transkript erhalten.</p>
+                    </section>
+                `;
             }
 
             dynamicTestContainer.innerHTML = `

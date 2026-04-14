@@ -664,6 +664,15 @@ button {
     white-space: pre-line;
 }
 
+.transcript-content {
+    line-height: 1.45;
+}
+
+.transcript-missing {
+    color: var(--text-secondary);
+    margin: 0;
+}
+
 /* ===== Tooltip ===== */
 .vocab-word {
     color: var(--accent);
