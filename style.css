@@ -290,6 +290,13 @@ header p {
     min-height: 48px;
 }
 
+.part-header-main,
+.part-header-actions {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+}
+
 .part-header:hover {
     background: rgba(255, 255, 255, 0.05);
     border-color: var(--surface-border-hover);
@@ -307,6 +314,16 @@ header p {
     font-weight: 700;
     color: var(--text-primary);
     margin: 0;
+}
+
+.part-progress {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+.part-reset-btn {
+    min-height: 36px;
+    padding: var(--space-1) var(--space-3);
 }
 
 .toggle-icon {
@@ -373,6 +390,36 @@ button {
 .primary-btn:active {
     transform: translateY(0);
     box-shadow: 0 2px 8px rgba(79, 70, 229, 0.3);
+}
+
+.test-btn {
+    justify-content: space-between;
+}
+
+.test-btn-content {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    min-width: 0;
+    flex: 1;
+}
+
+.test-btn-label {
+    min-width: 0;
+    overflow-wrap: anywhere;
+    text-align: left;
+}
+
+.test-complete-check {
+    color: #22C55E;
+    font-size: 1.15rem;
+    font-weight: 900;
+    opacity: 0;
+    transition: opacity var(--transition-fast);
+}
+
+.test-complete-check.visible {
+    opacity: 1;
 }
 
 .secondary-btn {
@@ -808,6 +855,24 @@ button {
     margin-top: var(--space-4);
     gap: var(--space-4);
     flex-wrap: wrap;
+}
+
+.test-controls-actions {
+    display: flex;
+    gap: var(--space-3);
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.test-controls-actions .primary-btn,
+.test-controls-actions .secondary-btn {
+    width: auto;
+}
+
+#btn-complete-toggle.is-completed {
+    color: #22C55E;
+    border-color: rgba(34, 197, 94, 0.55);
+    background: rgba(34, 197, 94, 0.08);
 }
 
 .score-display {
@@ -1397,6 +1462,16 @@ button {
         gap: var(--space-3);
     }
 
+    .test-controls-actions {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .test-controls-actions .primary-btn,
+    .test-controls-actions .secondary-btn {
+        width: 100%;
+    }
+
     .score-display {
         text-align: center;
     }
@@ -1409,6 +1484,16 @@ button {
         width: 100%;
         justify-content: center;
         display: flex;
+    }
+
+    .part-header {
+        align-items: flex-start;
+    }
+
+    .part-header-main,
+    .part-header-actions {
+        flex-direction: column;
+        align-items: flex-start;
     }
 
     .sprechen-stats-grid,

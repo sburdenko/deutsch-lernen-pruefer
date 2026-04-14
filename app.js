@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const tooltip = document.getElementById('tooltip');
     const navTabs = document.querySelectorAll('.nav-tab');
     const versionLabel = document.getElementById('app-version');
+    const COMPLETED_TESTS_KEY = 'pruefer_completed_tests_v1';
 
     let allData = null;
     let woerterData = null;
@@ -19,6 +20,65 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // UI state preservation
     let menuState = { scrollY: 0, expandedParts: {} };
+    let completedTests = loadCompletedTests();
+
+    function loadCompletedTests() {
+        try {
+            const raw = localStorage.getItem(COMPLETED_TESTS_KEY);
+            const parsed = raw ? JSON.parse(raw) : [];
+            return new Set(Array.isArray(parsed) ? parsed : []);
+        } catch (error) {
+            console.error('Completed tests state not available:', error);
+            return new Set();
+        }
+    }
+
+    function saveCompletedTests() {
+        try {
+            localStorage.setItem(COMPLETED_TESTS_KEY, JSON.stringify([...completedTests]));
+        } catch (error) {
+            console.error('Completed tests state could not be saved:', error);
+        }
+    }
+
+    function isTestCompleted(testId) {
+        return completedTests.has(testId);
+    }
+
+    function setTestCompleted(testId, completed) {
+        if (!testId) return;
+
+        if (completed) completedTests.add(testId);
+        else completedTests.delete(testId);
+
+        saveCompletedTests();
+        updateCompleteButtonState();
+        initMenu();
+    }
+
+    function resetPartCompletedTests(module, part) {
+        if (!allData || !allData.tests) return;
+
+        allData.tests
+            .filter(test => test.module === module && test.part === part)
+            .forEach(test => completedTests.delete(test.id));
+
+        saveCompletedTests();
+        initMenu();
+    }
+
+    function updateCompleteButtonState() {
+        const btnCompleteToggle = document.getElementById('btn-complete-toggle');
+        if (!btnCompleteToggle || !currentTest) return;
+
+        if (isTestCompleted(currentTest.id)) {
+            btnCompleteToggle.textContent = 'Markierung entfernen';
+            btnCompleteToggle.classList.add('is-completed');
+        } else {
+            btnCompleteToggle.textContent = 'Als bestanden markieren';
+            btnCompleteToggle.classList.remove('is-completed');
+        }
+    }
     const cacheToken = `${Date.now()}`;
 
     function withCacheBust(file) {
@@ -223,19 +283,29 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             const isExpanded = menuState.expandedParts[part];
+            const completedCount = tests.filter(test => isTestCompleted(test.id)).length;
             const section = document.createElement('div');
             section.className = 'part-section';
 
             section.innerHTML = `
                 <div class="part-header ${isExpanded ? 'active' : ''}" data-part="${part}">
-                    <h3 class="part-title">${formatPartName(part)}</h3>
-                    <span class="toggle-icon">${isExpanded ? '▼' : '▶'}</span>
+                    <div class="part-header-main">
+                        <h3 class="part-title">${formatPartName(part)}</h3>
+                        <span class="part-progress">${completedCount}/${tests.length}</span>
+                    </div>
+                    <div class="part-header-actions">
+                        <button class="secondary-btn part-reset-btn" type="button" data-part="${part}">Сбросить</button>
+                        <span class="toggle-icon">${isExpanded ? '▼' : '▶'}</span>
+                    </div>
                 </div>
                 <div class="part-grid ${isExpanded ? 'expanded' : 'collapsed'}">
                     ${tests.map(test => `
                         <button class="primary-btn test-btn" data-id="${test.id}">
-                            <span class="icon">📖</span>
-                            ${test.test_title}
+                            <span class="test-btn-content">
+                                <span class="icon">📖</span>
+                                <span class="test-btn-label">${test.test_title}</span>
+                            </span>
+                            <span class="test-complete-check ${isTestCompleted(test.id) ? 'visible' : ''}" aria-hidden="true">✓</span>
                         </button>
                     `).join('')}
                 </div>
@@ -251,6 +321,15 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Record scroll exactly where we are to prevent jump upon re-render
                 menuState.scrollY = window.scrollY;
                 initMenu();
+                window.scrollTo(0, menuState.scrollY);
+            });
+        });
+
+        document.querySelectorAll('.part-reset-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                menuState.scrollY = window.scrollY;
+                resetPartCompletedTests(currentModule, e.currentTarget.getAttribute('data-part'));
                 window.scrollTo(0, menuState.scrollY);
             });
         });
@@ -279,6 +358,7 @@ document.addEventListener('DOMContentLoaded', () => {
             testControls.classList.remove('hidden');
             scoreDisplay.textContent = `Punkte: - / ${currentTest.statements.length}`;
             scoreDisplay.style.color = 'var(--text-primary)';
+            updateCompleteButtonState();
         }
 
         initTestUI();
@@ -1087,6 +1167,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Exam Mode Logic
     function initExamControls() {
         const btnSubmit = document.getElementById('btn-submit');
+        const btnCompleteToggle = document.getElementById('btn-complete-toggle');
         const scoreDisplay = document.getElementById('score-display');
         const hintTooltip = document.getElementById('hint-tooltip');
 
@@ -1099,12 +1180,20 @@ document.addEventListener('DOMContentLoaded', () => {
         // Clone and replace to fix duplicate listener
         const newBtnSubmit = btnSubmit.cloneNode(true);
         btnSubmit.parentNode.replaceChild(newBtnSubmit, btnSubmit);
+        const newBtnCompleteToggle = btnCompleteToggle.cloneNode(true);
+        btnCompleteToggle.parentNode.replaceChild(newBtnCompleteToggle, btnCompleteToggle);
         const newHintWrapper = document.querySelector('.hint-wrapper').cloneNode(true);
         document.querySelector('.hint-wrapper').parentNode.replaceChild(newHintWrapper, document.querySelector('.hint-wrapper'));
         const updatedHintTooltip = newHintWrapper.querySelector('.hint-tooltip');
 
+        updateCompleteButtonState();
+
         newHintWrapper.addEventListener('mouseenter', () => updatedHintTooltip.classList.remove('hidden'));
         newHintWrapper.addEventListener('mouseleave', () => updatedHintTooltip.classList.add('hidden'));
+
+        newBtnCompleteToggle.addEventListener('click', () => {
+            setTestCompleted(currentTest.id, !isTestCompleted(currentTest.id));
+        });
 
         newBtnSubmit.addEventListener('click', () => {
             let score = 0;

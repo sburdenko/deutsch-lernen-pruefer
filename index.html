@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deutsch Lernen - Lesen Teil 1</title>
-    <link rel="stylesheet" href="style.css?v=4">
+    <link rel="stylesheet" href="style.css?v=5">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&family=Nunito:wght@700;800;900&display=swap" rel="stylesheet">
 </head>
 
@@ -50,7 +50,10 @@
 
                 <div class="test-controls glass-panel">
                     <div class="score-display" id="score-display">Punkte: - / 5</div>
-                    <button id="btn-submit" class="primary-btn">Test Auswerten</button>
+                    <div class="test-controls-actions">
+                        <button id="btn-submit" class="primary-btn">Test Auswerten</button>
+                        <button id="btn-complete-toggle" class="secondary-btn">Als bestanden markieren</button>
+                    </div>
                     <div class="hint-wrapper">
                         <button id="btn-hint" class="secondary-btn">💡 Antworten-Tipp</button>
                         <div id="hint-tooltip" class="hint-tooltip hidden">
@@ -109,7 +112,7 @@
         <div class="tooltip-synonyms"></div>
     </div>
 
-    <script src="app.js?v=12"></script>
+    <script src="app.js?v=14"></script>
 </body>
 
 </html>
