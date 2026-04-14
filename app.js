@@ -294,7 +294,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <span class="part-progress">${completedCount}/${tests.length}</span>
                     </div>
                     <div class="part-header-actions">
-                        <button class="secondary-btn part-reset-btn" type="button" data-part="${part}">Сбросить</button>
+                        <button class="secondary-btn part-reset-btn" type="button" data-part="${part}">Zurücksetzen</button>
                         <span class="toggle-icon">${isExpanded ? '▼' : '▶'}</span>
                     </div>
                 </div>
