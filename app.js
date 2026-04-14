@@ -156,9 +156,33 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function formatTranscriptContent(content) {
         if (!content) return '';
-        return content
-            .replace(/(?:<br\s*\/?>\s*){2,}/gi, '<br>')
-            .trim();
+
+        const rawLines = content
+            .split(/<br\s*\/?>/i)
+            .map(line => line.replace(/\s+/g, ' ').trim())
+            .filter(Boolean);
+
+        const paragraphs = [];
+
+        function startsNewParagraph(line) {
+            return /^Nummer \d+/.test(line) ||
+                /^(?:TN ?\d+|MA ?\d+|TL ?\d+|Frau ?\d+|Herr ?\d+)\s*[:-]/.test(line) ||
+                /^[A-ZÄÖÜ][^:]{0,40}:/.test(line) ||
+                /^(?:Name|Telefonnummer|Weiteren Informationen|Zu erledigen):/.test(line) ||
+                /^•/.test(line) ||
+                /^(?:Beschwerde|Telefonnotiz)/.test(line);
+        }
+
+        rawLines.forEach(line => {
+            if (paragraphs.length === 0 || startsNewParagraph(line)) {
+                paragraphs.push(line);
+                return;
+            }
+
+            paragraphs[paragraphs.length - 1] += ` ${line}`;
+        });
+
+        return paragraphs.join('<br>').trim();
     }
 
     function isReferenceCard(test) {
