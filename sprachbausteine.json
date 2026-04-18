@@ -253,6 +253,60 @@
     ],
     "statements": [
       {
+        "id": 46,
+        "text": "Lücke 46",
+        "options": {
+          "a": "AUFGRUND",
+          "b": "DA",
+          "c": "DABEI",
+          "d": "Damit",
+          "e": "DASS",
+          "f": "DENNOCH",
+          "g": "Indem",
+          "h": "Ob",
+          "i": "Obwohl",
+          "j": "SOBALD"
+        },
+        "answer": "c",
+        "type": "abc"
+      },
+      {
+        "id": 47,
+        "text": "Lücke 47",
+        "options": {
+          "a": "AUFGRUND",
+          "b": "DA",
+          "c": "DABEI",
+          "d": "Damit",
+          "e": "DASS",
+          "f": "DENNOCH",
+          "g": "Indem",
+          "h": "Ob",
+          "i": "Obwohl",
+          "j": "SOBALD"
+        },
+        "answer": "f",
+        "type": "abc"
+      },
+      {
+        "id": 48,
+        "text": "Lücke 48",
+        "options": {
+          "a": "AUFGRUND",
+          "b": "DA",
+          "c": "DABEI",
+          "d": "Damit",
+          "e": "DASS",
+          "f": "DENNOCH",
+          "g": "Indem",
+          "h": "Ob",
+          "i": "Obwohl",
+          "j": "SOBALD"
+        },
+        "answer": "e",
+        "type": "abc"
+      },
+      {
         "id": 49,
         "text": "Lücke 49",
         "options": {
@@ -265,7 +319,7 @@
           "g": "Indem",
           "h": "Ob",
           "i": "Obwohl",
-          "j": "SOBALD – 51"
+          "j": "SOBALD"
         },
         "answer": "a",
         "type": "abc"
@@ -283,14 +337,14 @@
           "g": "Indem",
           "h": "Ob",
           "i": "Obwohl",
-          "j": "SOBALD – 51"
+          "j": "SOBALD"
         },
         "answer": "b",
         "type": "abc"
       },
       {
-        "id": 46,
-        "text": "Lücke 46",
+        "id": 51,
+        "text": "Lücke 51",
         "options": {
           "a": "AUFGRUND",
           "b": "DA",
@@ -301,45 +355,9 @@
           "g": "Indem",
           "h": "Ob",
           "i": "Obwohl",
-          "j": "SOBALD – 51"
+          "j": "SOBALD"
         },
-        "answer": "c",
-        "type": "abc"
-      },
-      {
-        "id": 48,
-        "text": "Lücke 48",
-        "options": {
-          "a": "AUFGRUND",
-          "b": "DA",
-          "c": "DABEI",
-          "d": "Damit",
-          "e": "DASS",
-          "f": "DENNOCH",
-          "g": "Indem",
-          "h": "Ob",
-          "i": "Obwohl",
-          "j": "SOBALD – 51"
-        },
-        "answer": "e",
-        "type": "abc"
-      },
-      {
-        "id": 47,
-        "text": "Lücke 47",
-        "options": {
-          "a": "AUFGRUND",
-          "b": "DA",
-          "c": "DABEI",
-          "d": "Damit",
-          "e": "DASS",
-          "f": "DENNOCH",
-          "g": "Indem",
-          "h": "Ob",
-          "i": "Obwohl",
-          "j": "SOBALD – 51"
-        },
-        "answer": "f",
+        "answer": "j",
         "type": "abc"
       }
     ]
@@ -481,8 +499,8 @@
     ],
     "statements": [
       {
-        "id": 50,
-        "text": "Lücke 50",
+        "id": 46,
+        "text": "Lücke 46",
         "options": {
           "a": "Ansonsten",
           "b": "DAFÜR",
@@ -492,10 +510,10 @@
           "f": "Dessen",
           "g": "ZURÜCK",
           "h": "Was",
-          "i": "WIE – 51",
+          "i": "WIE",
           "j": "Anbei"
         },
-        "answer": "b",
+        "answer": "g",
         "type": "abc"
       },
       {
@@ -510,28 +528,10 @@
           "f": "Dessen",
           "g": "ZURÜCK",
           "h": "Was",
-          "i": "WIE – 51",
+          "i": "WIE",
           "j": "Anbei"
         },
         "answer": "c",
-        "type": "abc"
-      },
-      {
-        "id": 49,
-        "text": "Lücke 49",
-        "options": {
-          "a": "Ansonsten",
-          "b": "DAFÜR",
-          "c": "DAHIN",
-          "d": "DAVON",
-          "e": "DEREN",
-          "f": "Dessen",
-          "g": "ZURÜCK",
-          "h": "Was",
-          "i": "WIE – 51",
-          "j": "Anbei"
-        },
-        "answer": "d",
         "type": "abc"
       },
       {
@@ -546,15 +546,15 @@
           "f": "Dessen",
           "g": "ZURÜCK",
           "h": "Was",
-          "i": "WIE – 51",
+          "i": "WIE",
           "j": "Anbei"
         },
         "answer": "e",
         "type": "abc"
       },
       {
-        "id": 46,
-        "text": "Lücke 46",
+        "id": 49,
+        "text": "Lücke 49",
         "options": {
           "a": "Ansonsten",
           "b": "DAFÜR",
@@ -564,10 +564,46 @@
           "f": "Dessen",
           "g": "ZURÜCK",
           "h": "Was",
-          "i": "WIE – 51",
+          "i": "WIE",
           "j": "Anbei"
         },
-        "answer": "g",
+        "answer": "d",
+        "type": "abc"
+      },
+      {
+        "id": 50,
+        "text": "Lücke 50",
+        "options": {
+          "a": "Ansonsten",
+          "b": "DAFÜR",
+          "c": "DAHIN",
+          "d": "DAVON",
+          "e": "DEREN",
+          "f": "Dessen",
+          "g": "ZURÜCK",
+          "h": "Was",
+          "i": "WIE",
+          "j": "Anbei"
+        },
+        "answer": "b",
+        "type": "abc"
+      },
+      {
+        "id": 51,
+        "text": "Lücke 51",
+        "options": {
+          "a": "Ansonsten",
+          "b": "DAFÜR",
+          "c": "DAHIN",
+          "d": "DAVON",
+          "e": "DEREN",
+          "f": "Dessen",
+          "g": "ZURÜCK",
+          "h": "Was",
+          "i": "WIE",
+          "j": "Anbei"
+        },
+        "answer": "i",
         "type": "abc"
       }
     ]
@@ -586,21 +622,111 @@
     ],
     "statements": [
       {
+        "id": 46,
+        "text": "Lücke 46",
+        "options": {
+          "a": "Anbei",
+          "b": "Ansonsten",
+          "c": "DAFÜR",
+          "d": "DAHIN",
+          "e": "DAVON",
+          "f": "DEREN",
+          "g": "Dessen",
+          "h": "Was",
+          "i": "WIE",
+          "j": "ZURÜCK"
+        },
+        "answer": "j",
+        "type": "abc"
+      },
+      {
+        "id": 47,
+        "text": "Lücke 47",
+        "options": {
+          "a": "Anbei",
+          "b": "Ansonsten",
+          "c": "DAFÜR",
+          "d": "DAHIN",
+          "e": "DAVON",
+          "f": "DEREN",
+          "g": "Dessen",
+          "h": "Was",
+          "i": "WIE",
+          "j": "ZURÜCK"
+        },
+        "answer": "d",
+        "type": "abc"
+      },
+      {
+        "id": 48,
+        "text": "Lücke 48",
+        "options": {
+          "a": "Anbei",
+          "b": "Ansonsten",
+          "c": "DAFÜR",
+          "d": "DAHIN",
+          "e": "DAVON",
+          "f": "DEREN",
+          "g": "Dessen",
+          "h": "Was",
+          "i": "WIE",
+          "j": "ZURÜCK"
+        },
+        "answer": "f",
+        "type": "abc"
+      },
+      {
+        "id": 49,
+        "text": "Lücke 49",
+        "options": {
+          "a": "Anbei",
+          "b": "Ansonsten",
+          "c": "DAFÜR",
+          "d": "DAHIN",
+          "e": "DAVON",
+          "f": "DEREN",
+          "g": "Dessen",
+          "h": "Was",
+          "i": "WIE",
+          "j": "ZURÜCK"
+        },
+        "answer": "e",
+        "type": "abc"
+      },
+      {
         "id": 50,
         "text": "Lücke 50",
         "options": {
           "a": "Anbei",
           "b": "Ansonsten",
           "c": "DAFÜR",
-          "d": "DAHIN – 47",
-          "e": "DAVON – 49",
-          "f": "DEREN – 48",
+          "d": "DAHIN",
+          "e": "DAVON",
+          "f": "DEREN",
           "g": "Dessen",
           "h": "Was",
-          "i": "WIE – 51",
-          "j": "ZURÜCK – 46"
+          "i": "WIE",
+          "j": "ZURÜCK"
         },
         "answer": "c",
+        "type": "abc"
+      },
+      {
+        "id": 51,
+        "text": "Lücke 51",
+        "options": {
+          "a": "Anbei",
+          "b": "Ansonsten",
+          "c": "DAFÜR",
+          "d": "DAHIN",
+          "e": "DAVON",
+          "f": "DEREN",
+          "g": "Dessen",
+          "h": "Was",
+          "i": "WIE",
+          "j": "ZURÜCK"
+        },
+        "answer": "i",
         "type": "abc"
       }
     ]
@@ -619,8 +745,8 @@
     ],
     "statements": [
       {
-        "id": 50,
-        "text": "Lücke 50",
+        "id": 46,
+        "text": "Lücke 46",
         "options": {
           "a": "ANHALTENDE",
           "b": "AUSDRÜCKLICH",
@@ -631,27 +757,9 @@
           "g": "Spätere",
           "h": "VORZEITIGE",
           "i": "Wegen",
-          "j": "ZUM – 46"
+          "j": "ZUM"
         },
-        "answer": "a",
-        "type": "abc"
-      },
-      {
-        "id": 49,
-        "text": "Lücke 49",
-        "options": {
-          "a": "ANHALTENDE",
-          "b": "AUSDRÜCKLICH",
-          "c": "WIE",
-          "d": "Nötig",
-          "e": "Nur",
-          "f": "SOWIE",
-          "g": "Spätere",
-          "h": "VORZEITIGE",
-          "i": "Wegen",
-          "j": "ZUM – 46"
-        },
-        "answer": "b",
+        "answer": "j",
         "type": "abc"
       },
       {
@@ -667,27 +775,9 @@
           "g": "Spätere",
           "h": "VORZEITIGE",
           "i": "Wegen",
-          "j": "ZUM – 46"
+          "j": "ZUM"
         },
         "answer": "c",
-        "type": "abc"
-      },
-      {
-        "id": 51,
-        "text": "Lücke 51",
-        "options": {
-          "a": "ANHALTENDE",
-          "b": "AUSDRÜCKLICH",
-          "c": "WIE",
-          "d": "Nötig",
-          "e": "Nur",
-          "f": "SOWIE",
-          "g": "Spätere",
-          "h": "VORZEITIGE",
-          "i": "Wegen",
-          "j": "ZUM – 46"
-        },
-        "answer": "f",
         "type": "abc"
       },
       {
@@ -703,9 +793,63 @@
           "g": "Spätere",
           "h": "VORZEITIGE",
           "i": "Wegen",
-          "j": "ZUM – 46"
+          "j": "ZUM"
         },
         "answer": "h",
+        "type": "abc"
+      },
+      {
+        "id": 49,
+        "text": "Lücke 49",
+        "options": {
+          "a": "ANHALTENDE",
+          "b": "AUSDRÜCKLICH",
+          "c": "WIE",
+          "d": "Nötig",
+          "e": "Nur",
+          "f": "SOWIE",
+          "g": "Spätere",
+          "h": "VORZEITIGE",
+          "i": "Wegen",
+          "j": "ZUM"
+        },
+        "answer": "b",
+        "type": "abc"
+      },
+      {
+        "id": 50,
+        "text": "Lücke 50",
+        "options": {
+          "a": "ANHALTENDE",
+          "b": "AUSDRÜCKLICH",
+          "c": "WIE",
+          "d": "Nötig",
+          "e": "Nur",
+          "f": "SOWIE",
+          "g": "Spätere",
+          "h": "VORZEITIGE",
+          "i": "Wegen",
+          "j": "ZUM"
+        },
+        "answer": "a",
+        "type": "abc"
+      },
+      {
+        "id": 51,
+        "text": "Lücke 51",
+        "options": {
+          "a": "ANHALTENDE",
+          "b": "AUSDRÜCKLICH",
+          "c": "WIE",
+          "d": "Nötig",
+          "e": "Nur",
+          "f": "SOWIE",
+          "g": "Spätere",
+          "h": "VORZEITIGE",
+          "i": "Wegen",
+          "j": "ZUM"
+        },
+        "answer": "f",
         "type": "abc"
       }
     ]
@@ -724,11 +868,11 @@
     ],
     "statements": [
       {
-        "id": 49,
-        "text": "Lücke 49",
+        "id": 46,
+        "text": "Lücke 46",
         "options": {
           "a": "Worüber",
-          "b": "BEREITS - 49 / SCHON",
+          "b": "BEREITS / SCHON",
           "c": "EVENTUELL",
           "d": "In",
           "e": "Manchmal",
@@ -736,45 +880,9 @@
           "g": "UNTER",
           "h": "WAS",
           "i": "Noch",
-          "j": "ZUM – 46"
+          "j": "ZUM"
         },
-        "answer": "b",
-        "type": "abc"
-      },
-      {
-        "id": 51,
-        "text": "Lücke 51",
-        "options": {
-          "a": "Worüber",
-          "b": "BEREITS - 49 / SCHON",
-          "c": "EVENTUELL",
-          "d": "In",
-          "e": "Manchmal",
-          "f": "DARAUF",
-          "g": "UNTER",
-          "h": "WAS",
-          "i": "Noch",
-          "j": "ZUM – 46"
-        },
-        "answer": "c",
-        "type": "abc"
-      },
-      {
-        "id": 48,
-        "text": "Lücke 48",
-        "options": {
-          "a": "Worüber",
-          "b": "BEREITS - 49 / SCHON",
-          "c": "EVENTUELL",
-          "d": "In",
-          "e": "Manchmal",
-          "f": "DARAUF",
-          "g": "UNTER",
-          "h": "WAS",
-          "i": "Noch",
-          "j": "ZUM – 46"
-        },
-        "answer": "f",
+        "answer": "j",
         "type": "abc"
       },
       {
@@ -782,7 +890,7 @@
         "text": "Lücke 47",
         "options": {
           "a": "Worüber",
-          "b": "BEREITS - 49 / SCHON",
+          "b": "BEREITS / SCHON",
           "c": "EVENTUELL",
           "d": "In",
           "e": "Manchmal",
@@ -790,9 +898,45 @@
           "g": "UNTER",
           "h": "WAS",
           "i": "Noch",
-          "j": "ZUM – 46"
+          "j": "ZUM"
         },
         "answer": "g",
+        "type": "abc"
+      },
+      {
+        "id": 48,
+        "text": "Lücke 48",
+        "options": {
+          "a": "Worüber",
+          "b": "BEREITS / SCHON",
+          "c": "EVENTUELL",
+          "d": "In",
+          "e": "Manchmal",
+          "f": "DARAUF",
+          "g": "UNTER",
+          "h": "WAS",
+          "i": "Noch",
+          "j": "ZUM"
+        },
+        "answer": "f",
+        "type": "abc"
+      },
+      {
+        "id": 49,
+        "text": "Lücke 49",
+        "options": {
+          "a": "Worüber",
+          "b": "BEREITS / SCHON",
+          "c": "EVENTUELL",
+          "d": "In",
+          "e": "Manchmal",
+          "f": "DARAUF",
+          "g": "UNTER",
+          "h": "WAS",
+          "i": "Noch",
+          "j": "ZUM"
+        },
+        "answer": "b",
         "type": "abc"
       },
       {
@@ -800,7 +944,7 @@
         "text": "Lücke 50",
         "options": {
           "a": "Worüber",
-          "b": "BEREITS - 49 / SCHON",
+          "b": "BEREITS / SCHON",
           "c": "EVENTUELL",
           "d": "In",
           "e": "Manchmal",
@@ -808,9 +952,27 @@
           "g": "UNTER",
           "h": "WAS",
           "i": "Noch",
-          "j": "ZUM – 46"
+          "j": "ZUM"
         },
         "answer": "h",
+        "type": "abc"
+      },
+      {
+        "id": 51,
+        "text": "Lücke 51",
+        "options": {
+          "a": "Worüber",
+          "b": "BEREITS / SCHON",
+          "c": "EVENTUELL",
+          "d": "In",
+          "e": "Manchmal",
+          "f": "DARAUF",
+          "g": "UNTER",
+          "h": "WAS",
+          "i": "Noch",
+          "j": "ZUM"
+        },
+        "answer": "c",
         "type": "abc"
       }
     ]
@@ -829,8 +991,8 @@
     ],
     "statements": [
       {
-        "id": 49,
-        "text": "Lücke 49",
+        "id": 46,
+        "text": "Lücke 46",
         "options": {
           "a": "Dass",
           "b": "DESHALB",
@@ -840,43 +1002,10 @@
           "f": "Weil",
           "g": "WIE",
           "h": "Zu",
-          "j": "ZUM"
+          "j": "ZUM",
+          "k": "ZUR"
         },
-        "answer": "b",
-        "type": "abc"
-      },
-      {
-        "id": 50,
-        "text": "Lücke 50",
-        "options": {
-          "a": "Dass",
-          "b": "DESHALB",
-          "c": "Innerhalb",
-          "d": "OB",
-          "e": "WÄHREND",
-          "f": "Weil",
-          "g": "WIE",
-          "h": "Zu",
-          "j": "ZUM"
-        },
-        "answer": "d",
-        "type": "abc"
-      },
-      {
-        "id": 51,
-        "text": "Lücke 51",
-        "options": {
-          "a": "Dass",
-          "b": "DESHALB",
-          "c": "Innerhalb",
-          "d": "OB",
-          "e": "WÄHREND",
-          "f": "Weil",
-          "g": "WIE",
-          "h": "Zu",
-          "j": "ZUM"
-        },
-        "answer": "e",
+        "answer": "k",
         "type": "abc"
       },
       {
@@ -891,7 +1020,8 @@
           "f": "Weil",
           "g": "WIE",
           "h": "Zu",
-          "j": "ZUM"
+          "j": "ZUM",
+          "k": "ZUR"
         },
         "answer": "g",
         "type": "abc"
@@ -908,9 +1038,64 @@
           "f": "Weil",
           "g": "WIE",
           "h": "Zu",
-          "j": "ZUM"
+          "j": "ZUM",
+          "k": "ZUR"
         },
         "answer": "j",
+        "type": "abc"
+      },
+      {
+        "id": 49,
+        "text": "Lücke 49",
+        "options": {
+          "a": "Dass",
+          "b": "DESHALB",
+          "c": "Innerhalb",
+          "d": "OB",
+          "e": "WÄHREND",
+          "f": "Weil",
+          "g": "WIE",
+          "h": "Zu",
+          "j": "ZUM",
+          "k": "ZUR"
+        },
+        "answer": "b",
+        "type": "abc"
+      },
+      {
+        "id": 50,
+        "text": "Lücke 50",
+        "options": {
+          "a": "Dass",
+          "b": "DESHALB",
+          "c": "Innerhalb",
+          "d": "OB",
+          "e": "WÄHREND",
+          "f": "Weil",
+          "g": "WIE",
+          "h": "Zu",
+          "j": "ZUM",
+          "k": "ZUR"
+        },
+        "answer": "d",
+        "type": "abc"
+      },
+      {
+        "id": 51,
+        "text": "Lücke 51",
+        "options": {
+          "a": "Dass",
+          "b": "DESHALB",
+          "c": "Innerhalb",
+          "d": "OB",
+          "e": "WÄHREND",
+          "f": "Weil",
+          "g": "WIE",
+          "h": "Zu",
+          "j": "ZUM",
+          "k": "ZUR"
+        },
+        "answer": "e",
         "type": "abc"
       }
     ]
@@ -929,60 +1114,6 @@
     ],
     "statements": [
       {
-        "id": 49,
-        "text": "Lücke 49",
-        "options": {
-          "a": "am",
-          "b": "AUßERDEM",
-          "c": "bis",
-          "d": "deshalb",
-          "e": "Ihnen",
-          "f": "IM",
-          "g": "MICH",
-          "h": "MIT",
-          "i": "NÄMLICH",
-          "j": "ZU – 48"
-        },
-        "answer": "b",
-        "type": "abc"
-      },
-      {
-        "id": 50,
-        "text": "Lücke 50",
-        "options": {
-          "a": "am",
-          "b": "AUßERDEM",
-          "c": "bis",
-          "d": "deshalb",
-          "e": "Ihnen",
-          "f": "IM",
-          "g": "MICH",
-          "h": "MIT",
-          "i": "NÄMLICH",
-          "j": "ZU – 48"
-        },
-        "answer": "f",
-        "type": "abc"
-      },
-      {
-        "id": 51,
-        "text": "Lücke 51",
-        "options": {
-          "a": "am",
-          "b": "AUßERDEM",
-          "c": "bis",
-          "d": "deshalb",
-          "e": "Ihnen",
-          "f": "IM",
-          "g": "MICH",
-          "h": "MIT",
-          "i": "NÄMLICH",
-          "j": "ZU – 48"
-        },
-        "answer": "g",
-        "type": "abc"
-      },
-      {
         "id": 46,
         "text": "Lücke 46",
         "options": {
@@ -995,7 +1126,7 @@
           "g": "MICH",
           "h": "MIT",
           "i": "NÄMLICH",
-          "j": "ZU – 48"
+          "j": "ZU"
         },
         "answer": "h",
         "type": "abc"
@@ -1013,9 +1144,81 @@
           "g": "MICH",
           "h": "MIT",
           "i": "NÄMLICH",
-          "j": "ZU – 48"
+          "j": "ZU"
         },
         "answer": "i",
+        "type": "abc"
+      },
+      {
+        "id": 48,
+        "text": "Lücke 48",
+        "options": {
+          "a": "am",
+          "b": "AUßERDEM",
+          "c": "bis",
+          "d": "deshalb",
+          "e": "Ihnen",
+          "f": "IM",
+          "g": "MICH",
+          "h": "MIT",
+          "i": "NÄMLICH",
+          "j": "ZU"
+        },
+        "answer": "j",
+        "type": "abc"
+      },
+      {
+        "id": 49,
+        "text": "Lücke 49",
+        "options": {
+          "a": "am",
+          "b": "AUßERDEM",
+          "c": "bis",
+          "d": "deshalb",
+          "e": "Ihnen",
+          "f": "IM",
+          "g": "MICH",
+          "h": "MIT",
+          "i": "NÄMLICH",
+          "j": "ZU"
+        },
+        "answer": "b",
+        "type": "abc"
+      },
+      {
+        "id": 50,
+        "text": "Lücke 50",
+        "options": {
+          "a": "am",
+          "b": "AUßERDEM",
+          "c": "bis",
+          "d": "deshalb",
+          "e": "Ihnen",
+          "f": "IM",
+          "g": "MICH",
+          "h": "MIT",
+          "i": "NÄMLICH",
+          "j": "ZU"
+        },
+        "answer": "f",
+        "type": "abc"
+      },
+      {
+        "id": 51,
+        "text": "Lücke 51",
+        "options": {
+          "a": "am",
+          "b": "AUßERDEM",
+          "c": "bis",
+          "d": "deshalb",
+          "e": "Ihnen",
+          "f": "IM",
+          "g": "MICH",
+          "h": "MIT",
+          "i": "NÄMLICH",
+          "j": "ZU"
+        },
+        "answer": "g",
         "type": "abc"
       }
     ]
