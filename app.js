@@ -1031,27 +1031,21 @@ document.addEventListener('DOMContentLoaded', () => {
     function renderSprachbausteine() {
         const container = document.getElementById('inline-text-container');
         let content = currentTest.texts[0].content;
+        const optionCleanupPattern = /\s+[–-]\s*\d+\b/g;
 
         // Sort statements by id descending so replacing 51 before 5
         const sortedStmts = [...currentTest.statements].sort((a, b) => b.id - a.id);
 
         sortedStmts.forEach(stmt => {
-            // Find pattern like "46 (" in content, then find closing ")"
-            const searchStart = String(stmt.id) + ' (';
-            const searchStart2 = String(stmt.id) + '(';
-            let idx = content.indexOf(searchStart);
-            if (idx === -1) idx = content.indexOf(searchStart2);
-            if (idx === -1) return;
-
-            // Find the closing parenthesis
-            const closeIdx = content.indexOf(')', idx);
-            if (closeIdx === -1) return;
-
-            const fullMatch = content.substring(idx, closeIdx + 1);
+            const placeholderRegex = new RegExp(`\\b${stmt.id}\\s*[\\(（][^\\)）]*[\\)）]`);
 
             let optionsHtml = '<option value="">- ' + stmt.id + ' -</option>';
             Object.keys(stmt.options).sort().forEach(key => {
-                optionsHtml += '<option value="' + key + '">' + key + ') ' + stmt.options[key] + '</option>';
+                const optionText = stmt.options[key]
+                    .replace(optionCleanupPattern, '')
+                    .replace(/\s*\/\s*/g, ' / ')
+                    .trim();
+                optionsHtml += '<option value="' + key + '">' + key + ') ' + optionText + '</option>';
             });
 
             const selectHtml = '<span class="statement-item inline-statement" id="stmt-' + stmt.id + '">' +
@@ -1059,7 +1053,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 optionsHtml +
                 '</select></span>';
 
-            content = content.replace(fullMatch, selectHtml);
+            content = content.replace(placeholderRegex, selectHtml);
         });
 
         container.innerHTML = '<div class="text-content large-text">' + content + '</div>';
