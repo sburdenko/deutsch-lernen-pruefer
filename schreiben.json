@@ -3,8 +3,8 @@
     "id": "schreiben_1",
     "module": "schreiben",
     "part": "teil_1",
-    "test_title": "Überblick, Struktur & Links",
-    "intro": "Kompletter Überblick aus dem PDF für Schreiben: Punkte, Zeit, Struktur und die wichtigsten Materialien zu Beschwerde, Telefonnotiz und Forumsbeitrag.",
+    "test_title": "Überblick, Struktur & Links · 2026",
+    "intro": "Aktualisiert nach Alle Information vom 27.04.2026: Punkte, Zeit, Struktur, neue Antwortbogen-/Bewertungslinks und die wichtigsten Materialien zu Beschwerde, Telefonnotiz und Forumsbeitrag.",
     "stats": [
       {
         "label": "Beschwerde",
@@ -46,6 +46,10 @@
           {
             "label": "Bewertung Schreiben 2",
             "url": "https://t.me/B2_C2_Deutsch/65534/183034?single"
+          },
+          {
+            "label": "Antwortbögen 2026",
+            "url": "https://t.me/B2_C2_Deutsch/65534/272726"
           }
         ]
       },
@@ -88,13 +92,57 @@
       "Im PDF steht Schreiben unter Teil 2; Sprachbausteine 1 und 2 sind im Projekt bereits als eigenes Modul vorhanden.",
       "Bei der Telefonnotiz werden oft Name, Telefonnummer, Farbe, Menge oder Preis verändert. Der Grundsinn bleibt laut PDF meist gleich.",
       "Diese Karte ist als Startpunkt gedacht: erst Struktur und Bewertung ansehen, dann in Beschwerde, Telefonnotiz oder Forumsbeitrag springen."
+    ],
+    "sections": [
+      {
+        "title": "Punkteverteilung Schreiben · 2026",
+        "bullets": [
+          "Lesen und Schreiben Teil 2, Aufgabe 21: 7 Punkte.",
+          "Hören und Schreiben Teil 2, Aufgaben 42-45: 6 Punkte.",
+          "Sprachbausteine Teil 1 und 2, Aufgaben 46-57: 6 Punkte.",
+          "Schreiben, Aufgabe 58: 14 Punkte.",
+          "Aufgabenübergreifende Bewertung Kriterien II-IV: 27 Punkte.",
+          "Gesamt: 60 Punkte."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "schreiben_2026_bewertung",
+    "module": "schreiben",
+    "part": "teil_1",
+    "display_mode": "notes",
+    "test_title": "Bewertung Schreiben · 2026",
+    "intro": "Neue Bewertungs- und Punkteübersicht aus Alle Information vom 27.04.2026.",
+    "sections": [
+      {
+        "title": "Aufgaben mit direkten Punkten",
+        "bullets": [
+          "Aufgabe 21: Kriterium I bis 7 Punkte.",
+          "Aufgabe 58: Kriterium I bis 14 Punkte.",
+          "Hören und Schreiben 42-43: je 0,5 Punkte, Aufgabe 44: 4 Punkte, Aufgabe 45: 1 Punkt.",
+          "Sprachbausteine 46-57: 12 Items je 0,5 Punkte, gesamt 6 Punkte."
+        ]
+      },
+      {
+        "title": "Aufgabenübergreifende Bewertung",
+        "bullets": [
+          "Kriterium II: maximal 9 Punkte.",
+          "Kriterium III: maximal 9 Punkte.",
+          "Kriterium IV: maximal 9 Punkte.",
+          "Unter B1 in einem Kriterium ergibt 0 Punkte für dieses Kriterium."
+        ]
+      }
+    ],
+    "notes": [
+      "Diese Karte ist als schnelle Prüfungsvorbereitung gedacht, damit die Gewichtung nicht in den langen PDF-Seiten untergeht."
     ]
   },
   {
     "id": "schreiben_2",
     "module": "schreiben",
     "part": "teil_2",
-    "test_title": "Beschwerde: 9 Varianten aus dem PDF",
+    "test_title": "Beschwerde: 9 Varianten + Universalvorlage · 2026",
     "intro": "Alle Beschwerde-Varianten, die im PDF gesammelt wurden. Pro Variante findest du Thema, die Kernpunkte aus Aufgabe/Kundenmail und was in die Antwort hineinmuss.",
     "variants": [
       {
@@ -254,14 +302,44 @@
     "notes": [
       "Im PDF tauchen mehrere neue Namens- und Datumsvarianten derselben Grundsituationen auf. Für die Prüfung ist wichtiger, die Logik der Antwort zu beherrschen als einzelne Namen auswendig zu lernen.",
       "Fast jede gute Beschwerde-Antwort deckt vier Punkte ab: Entschuldigung, Grund/Erklärung, konkrete Lösung, positiver Abschlusssatz."
+    ],
+    "sections": [
+      {
+        "title": "Universalaufbau Beschwerde · 2026",
+        "lead": "Neue Vorlage aus dem PDF: nicht auswendig kopieren, sondern als Reihenfolge und Formulierungsvorrat nutzen.",
+        "bullets": [
+          "Anrede: Sehr geehrte Frau / Sehr geehrter Herr + Name.",
+          "Dank und Bezugnahme: Vielen Dank für Ihre Nachricht, in der Sie uns über Probleme mit unserem Service / der Lieferung / dem Gerät / der Rechnung informiert haben.",
+          "Entschuldigung: Wir bedauern die entstandenen Unannehmlichkeiten sehr und bitten Sie um Entschuldigung.",
+          "Erklärung: Nach interner Prüfung wurde festgestellt, dass es wegen organisatorischer Probleme, personeller Engpässe, eines technischen Defekts, eines Computerproblems, Lieferschwierigkeiten oder einer Verwechslung zu dem Vorfall gekommen ist.",
+          "Verständnis zeigen: Wir verstehen, wie wichtig eine schnelle Lösung für Ihr Unternehmen ist.",
+          "Konkrete Lösung passend zum Thema nennen.",
+          "Entgegenkommen nur verwenden, wenn Rabatt oder Ausgleich im Chefbrief steht.",
+          "Abschluss: Für Rückfragen stehen wir Ihnen jederzeit gerne zur Verfügung. Mit freundlichen Grüßen."
+        ]
+      },
+      {
+        "title": "Themenspezifische Lösungen · 2026",
+        "bullets": [
+          "Putzdienst / Lassner: Mitarbeitende sprechen, Wiederholung ausschließen, gegebenenfalls Rabatt auf nächsten Auftrag anbieten.",
+          "Tischlampe / Berger & Lutz: bis nächste Woche Montag um Geduld bitten, sonst vergleichbares Modell aus Lagerbestand anbieten.",
+          "Webseite / Stiller: Namensfehler kostenlos korrigieren, Farbschema nur gegen Aufpreis ändern, wenn es laut Vertrag korrekt umgesetzt wurde.",
+          "Spülmaschine / Krüger: Technikertermin anbieten und darauf hinweisen, dass Ersatzteile eine sofortige Reparatur verhindern können.",
+          "Umzug / Zaun & Lozano: zwei Mitarbeitende pünktlich schicken und beschädigte Gegenstände übernehmen.",
+          "Drucker / Schmidt & Zeller: bei Bedienfehler kostenlose Einweisung anbieten, aber Verantwortungsbereich klar abgrenzen.",
+          "Rechnung / Schmidt: Auftrag prüfen, Fehler korrigieren, üblichen Rabatt berücksichtigen und korrigierte Rechnung senden.",
+          "Mangelhafte Lieferung / Schramm: Preisnachlass oder Ersatzlieferung anbieten, fehlende T-Shirts nachliefern und Versandkosten übernehmen.",
+          "Pflanzenlieferung / Talheim: Zusatzkosten übernehmen und Belege anfordern."
+        ]
+      }
     ]
   },
   {
     "id": "schreiben_3",
     "module": "schreiben",
     "part": "teil_3",
-    "test_title": "Telefonnotiz: 9 Varianten",
-    "intro": "Die Telefonnotiz aus dem PDF in einer sauberen Übersicht. Jede Karte zeigt dir die typischen Notizfelder, mögliche Varianten und was am Ende zu erledigen ist.",
+    "test_title": "Telefonnotiz: 9 Varianten + 2026-Updates",
+    "intro": "Aktualisiert nach Alle Information vom 27.04.2026: die Telefonnotiz-Varianten, neue 2026-Audios und austauschbare Felder sind sauber zusammengefasst.",
     "resource_groups": [
       {
         "title": "Schnellhilfe",
@@ -325,17 +403,17 @@
         ]
       },
       {
-        "title": "Variante 3: Fehlende Prospekte / Prospekthüllen / Schnellhefter",
+        "title": "Variante 3: Fehlende Prospekte / Hüllen / Umschläge · 2026",
         "question_points": [
           "Typ: Beschwerde",
           "Kernaussage: Bestellte Menge stimmt nicht mit der Lieferung überein."
         ],
         "data_points": [
-          "Name: Städtler / Hoffmann / Becker / Brandt / Hofmann",
-          "Telefon: 0173 536 47 15 / 0175 933 797 6 / 0173 715 720 3",
-          "Artikel: Prospekte, Prospekthüllen oder Schnellhefter",
-          "Bestellt/Geliefert: z. B. 180 statt 100, 200 statt 120 oder 200 statt 150",
-          "Frist: fehlende Ware bis morgen, übermorgen oder sofort losschicken"
+          "Name: Städtler / Hoffmann / Hofmann / Becker / Brandt / Brand",
+          "Telefon: 0173 536 47 15 / 0175 933 797 6 / 0173 715 720 3 / 017996512356",
+          "Artikel: Prospekte, Prospekthüllen, Schnellhefter oder Umschläge in DIN A4",
+          "Bestellt/Geliefert: z. B. 180 statt 100, 200 statt 120, 200 statt 150 oder 200 Umschläge statt 80",
+          "Frist: fehlende Ware unbedingt morgen / übermorgen; sofort losschicken oder abschicken"
         ],
         "todo": "Zurückrufen und die Nachlieferung bestätigen.",
         "links": [
@@ -353,6 +431,10 @@
           },
           {
             "label": "Audio 4",
+            "url": "https://t.me/B2_C2_Deutsch/65534/158144?single"
+          },
+          {
+            "label": "Audio 2026: Umschläge DIN A4",
             "url": "https://t.me/B2_C2_Deutsch/65534/158144?single"
           }
         ]
@@ -446,7 +528,17 @@
           "Reparatur: Ersatzteil nötig, etwa 2 Werktage oder 5 Tage",
           "Zusatz: derzeit kein Leihgerät verfügbar"
         ],
-        "todo": "Bis morgen zurückrufen und entscheiden: Reparatur oder Austausch."
+        "todo": "Bis morgen zurückrufen und entscheiden: Reparatur oder Austausch.",
+        "links": [
+          {
+            "label": "Audio 2026: Schulze",
+            "url": "https://t.me/B2_C2_Deutsch/65534/246295"
+          },
+          {
+            "label": "Audio 2026: Scholtz",
+            "url": "https://t.me/B2_C2_Deutsch/65534/254562"
+          }
+        ]
       },
       {
         "title": "Variante 8: Wein- und Saftlieferung / falsche Mengen",
@@ -461,7 +553,13 @@
           "Zusatz: zwei Flaschen Saft oder Wein kaputt",
           "Aktion: Rotwein schnell nachliefern, teils neue Rechnung erstellen"
         ],
-        "todo": "Zurückrufen, Korrektur bestätigen und fehlende Ware schnell nachliefern."
+        "todo": "Zurückrufen, Korrektur bestätigen und fehlende Ware schnell nachliefern.",
+        "links": [
+          {
+            "label": "Audio 2026: Guenther",
+            "url": "https://t.me/B2_C2_Deutsch/65534/246297"
+          }
+        ]
       },
       {
         "title": "Variante 9: Geschirrsets / Teller beschädigt",
@@ -476,19 +574,36 @@
           "Dringlichkeit: nächste Woche große Familienfeier mit über 20 Personen",
           "Wunsch: möglichst schnelle Nachlieferung"
         ],
-        "todo": "Zurückrufen und schnelle Ersatzlieferung organisieren."
+        "todo": "Zurückrufen und schnelle Ersatzlieferung organisieren.",
+        "links": [
+          {
+            "label": "Audio 2026: Geschirrsets",
+            "url": "https://t.me/B2_C2_Deutsch/65534/246298"
+          }
+        ]
       }
     ],
     "notes": [
       "In der Telefonnotiz reichen oft wenige sauber notierte Kernpunkte: Wer? Telefonnummer? Was ist passiert? Welche Zahlen? Was ist zu tun?",
       "Gerade bei Varianten 1 bis 5 lohnt es sich, die austauschbaren Felder getrennt zu trainieren: Name, Zahl, Uhrzeit, Farbe, Fahrzeug, Menü, Preis."
+    ],
+    "sections": [
+      {
+        "title": "Telefonnotiz-Spickzettel · 2026",
+        "bullets": [
+          "Typen im PDF: Angebot, Beschwerde und Buchung.",
+          "Immer zuerst Name und Telefonnummer sichern; danach Thema, Zahlen, Fristen und Zu erledigen notieren.",
+          "2026 neu sichtbar: Umschläge DIN A4 bei Variante 3/1, Kopierer-Audio vom 19.02.2026, Geschirrsets und Guenther-Audio vom 19.01.2026.",
+          "Die PDF-Hinweise sagen ausdrücklich: Name, Nummer, Farbe, Preis und Menge wechseln oft; der Grundsinn bleibt meist gleich."
+        ]
+      }
     ]
   },
   {
     "id": "schreiben_4",
     "module": "schreiben",
     "part": "teil_4",
-    "test_title": "Forumsbeitrag: Themen, Ressourcen & letzte Prüfungen",
+    "test_title": "Forumsbeitrag: Themen, Ressourcen & Universalvorlage · 2026",
     "intro": "Große Themensammlung aus dem PDF für den Forumsbeitrag: Links, komplette Themenliste, bereits gelaufene Themen und die jüngsten Themen aus 160201/160221.",
     "resource_groups": [
       {
@@ -513,6 +628,14 @@
           {
             "label": "Bewertung Schreiben",
             "url": "https://t.me/B2_C2_Deutsch/65534/191189"
+          },
+          {
+            "label": "Häufigkeit der Themen 2026",
+            "url": "https://t.me/B2_C2_Deutsch/65534/269918"
+          },
+          {
+            "label": "Forumsbeitrag Argumente 2026",
+            "url": "https://t.me/B2_C2_Deutsch/65534/274941?single"
           }
         ]
       },
@@ -732,6 +855,32 @@
       "Die Liste 'historical_topics' enthält die Themen, die laut PDF bereits auf Prüfungen vorkamen.",
       "Die große Liste 'themes' ist der breitere Pool für das Training. Viele Punkte überschneiden sich, sind aber im PDF in unterschiedlichen Formulierungen notiert.",
       "Für den Forumsbeitrag lohnt es sich, Themen in Gruppen zu lernen: Geld, Urlaub, Arbeitszeit, Ausstattung, Digitalisierung, Umwelt und Gesundheit."
+    ],
+    "sections": [
+      {
+        "title": "Forumsbeitrag Universalvorlage · 2026",
+        "lead": "Neue Vorlage aus dem PDF: einen Stil wählen, nicht Siezen und Duzen mischen.",
+        "bullets": [
+          "Anrede informell: Hallo zusammen / Hallo Leute. Formal: Liebe Kolleginnen und Kollegen / Sehr geehrte Damen und Herren.",
+          "Einleitung: Ich habe gehört/gelesen, dass ... Dazu möchte ich meine Meinung äußern.",
+          "Eigene Meinung: Ich bin dafür/dagegen, weil ... oder Ich bin geteilter Meinung: Einerseits ..., andererseits ...",
+          "Vorteil: Einerseits hat diese Idee einige Vorteile. Zum Beispiel ... Ein weiterer Vorteil ist, dass ...",
+          "Nachteil: Andererseits gibt es auch Nachteile. Besonders problematisch ist, dass ... Das könnte dazu führen, dass ...",
+          "Vorschlag/Kompromiss: Deshalb schlage ich vor, dass ... Es wäre sinnvoll, die Meinungen aller Mitarbeitenden zuerst zu erfragen.",
+          "Schlusssatz: Was haltet ihr / halten Sie davon? Ich freue mich auf eure / Ihre Rückmeldungen.",
+          "Grußformel: Liebe Grüße / Viele Grüße oder Mit freundlichen Grüßen / Freundliche Grüße."
+        ]
+      },
+      {
+        "title": "Redemittel · 2026",
+        "bullets": [
+          "Einerseits ... Andererseits ...",
+          "Zum Beispiel ... Außerdem ...",
+          "Ein weiterer Vorteil / Nachteil ist, dass ...",
+          "Meiner Meinung nach ... Ich persönlich finde, dass ...",
+          "Es wäre sinnvoll, ... Vielleicht könnte man ... Deshalb schlage ich vor, dass ..."
+        ]
+      }
     ]
   }
 ]

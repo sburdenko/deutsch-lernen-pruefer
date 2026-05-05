@@ -772,10 +772,40 @@ document.addEventListener('DOMContentLoaded', () => {
                                 <div class="sprechen-situation-body">
                                     <p class="instruction" style="margin-bottom: 1rem;">${highlightVocab(situation.description)}</p>
                                     <ul class="sprechen-bullet-list">
-                                        ${situation.prompts.map(prompt => `<li>${highlightVocab(prompt)}</li>`).join('')}
+                                        ${(situation.prompts || []).map(prompt => `<li>${highlightVocab(prompt)}</li>`).join('')}
                                     </ul>
                                 </div>
                             </details>
+                        `).join('')}
+                    </div>
+                </section>
+            `
+            : '';
+
+        const sectionsHtml = currentTest.sections && currentTest.sections.length > 0
+            ? currentTest.sections.map(section => `
+                <section class="glass-panel sprechen-panel">
+                    <h3>${section.title}</h3>
+                    ${section.lead ? `<p class="instruction">${highlightVocab(section.lead)}</p>` : ''}
+                    ${section.bullets && section.bullets.length > 0 ? `
+                        <ul class="sprechen-bullet-list">
+                            ${section.bullets.map(item => `<li>${highlightVocab(item)}</li>`).join('')}
+                        </ul>
+                    ` : ''}
+                </section>
+            `).join('')
+            : '';
+
+        const topicsHtml = currentTest.topics && currentTest.topics.length > 0
+            ? `
+                <section class="glass-panel sprechen-panel">
+                    <h3>Themen</h3>
+                    <div class="sprechen-topic-grid">
+                        ${currentTest.topics.map((topic, index) => `
+                            <div class="sprechen-topic-card">
+                                <div class="sprechen-topic-index">${index + 1}</div>
+                                <div class="sprechen-topic-text">${highlightVocab(topic)}</div>
+                            </div>
                         `).join('')}
                     </div>
                 </section>
@@ -799,7 +829,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p class="instruction">${highlightVocab(currentTest.intro || '')}</p>
             </section>
             ${statsHtml}
+            ${sectionsHtml}
             ${resourcesHtml}
+            ${topicsHtml}
             ${situationsHtml}
             ${notesHtml}
         `;
@@ -954,6 +986,32 @@ document.addEventListener('DOMContentLoaded', () => {
             `
             : '';
 
+        const sectionsHtml = currentTest.sections && currentTest.sections.length > 0
+            ? currentTest.sections.map(section => `
+                <section class="glass-panel schreiben-panel">
+                    <h3>${section.title}</h3>
+                    ${section.lead ? `<p class="instruction">${highlightVocab(section.lead)}</p>` : ''}
+                    ${section.paragraphs && section.paragraphs.length > 0 ? `
+                        <div class="schreiben-subsection">
+                            ${section.paragraphs.map(paragraph => `<p class="instruction">${highlightVocab(paragraph)}</p>`).join('')}
+                        </div>
+                    ` : ''}
+                    ${section.bullets && section.bullets.length > 0 ? `
+                        <ul class="schreiben-bullet-list">
+                            ${section.bullets.map(item => `<li>${highlightVocab(item)}</li>`).join('')}
+                        </ul>
+                    ` : ''}
+                    ${section.links && section.links.length > 0 ? `
+                        <div class="schreiben-link-grid">
+                            ${section.links.map(link => `
+                                <a href="${link.url}" target="_blank" class="secondary-btn schreiben-link-btn">${link.label}</a>
+                            `).join('')}
+                        </div>
+                    ` : ''}
+                </section>
+            `).join('')
+            : '';
+
         const recentTopicsHtml = currentTest.recent_topics && currentTest.recent_topics.length > 0
             ? `
                 <section class="glass-panel schreiben-panel">
@@ -1020,6 +1078,7 @@ document.addEventListener('DOMContentLoaded', () => {
             </section>
             ${statsHtml}
             ${resourcesHtml}
+            ${sectionsHtml}
             ${variantsHtml}
             ${recentTopicsHtml}
             ${themesHtml}

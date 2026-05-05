@@ -3,38 +3,75 @@
     "id": "sprechen_1",
     "module": "sprechen",
     "part": "teil_1",
-    "test_title": "Überblick, Präsentation & Bewertung",
-    "intro": "Aus dem PDF: Punkteverteilung und die wichtigsten Materialien für Sprechen Teil 1.",
+    "test_title": "Überblick, Präsentation & Bewertung · 2026",
+    "intro": "Aktualisiert nach Alle Information vom 27.04.2026: Punkteverteilung, acht Präsentationsthemen, Prüferfragen, Erläuterung eines Aspekts und die wichtigsten Links.",
     "stats": [
       {
-        "label": "Teil 1 (Präsentation + Fragen)",
-        "value": "12 Punkte · 2+2 Minuten"
+        "label": "Teil 1A: Präsentation",
+        "value": "5 Punkte · ca. 2 Minuten"
       },
       {
-        "label": "Teil 2 (Smalltalk)",
-        "value": "8 Punkte · 3 Minuten"
+        "label": "Teil 1B: Prüferfragen",
+        "value": "5 Punkte · ca. 2 Minuten"
       },
       {
-        "label": "Teil 3 (Lösungswege diskutieren)",
-        "value": "10 Punkte · 4 Minuten"
+        "label": "Teil 1C: Aspekt erläutern",
+        "value": "2 Punkte · ca. 30 Sekunden"
       },
       {
-        "label": "Grammatik, Wortschatz usw.",
-        "value": "30 Punkte"
+        "label": "Teil 2: Smalltalk",
+        "value": "8 Punkte · ca. 3 Minuten"
+      },
+      {
+        "label": "Teil 3: Lösungswege",
+        "value": "10 Punkte · ca. 4 Minuten"
+      },
+      {
+        "label": "Kriterien II-IV",
+        "value": "30 Punkte für Sprache, Struktur, Wortschatz"
       },
       {
         "label": "Gesamt",
         "value": "60 Punkte"
       }
     ],
+    "sections": [
+      {
+        "title": "Teil 1A: Präsentationsthemen · 2026",
+        "lead": "In der Prüfung werden jeweils zwei dieser acht Themen angeboten. Ein Thema auswählen und ungefähr zwei Minuten sprechen.",
+        "bullets": [
+          "Beschreiben Sie einen Arbeitgeber, für den Sie gearbeitet haben oder arbeiten möchten (z. B. Branche, Produkte und Dienstleistungen, Abteilungen und ihre Aufgaben, Besonderheiten).",
+          "Beschreiben Sie, wie Sie sich ein gutes Arbeitsumfeld vorstellen (z. B. Jobsicherheit, Lohn / Gehalt, Karrierechancen, Kommunikation in der Firma, Beispiele aus Ihrer Berufserfahrung).",
+          "Beschreiben Sie Ereignisse und Erfahrungen, die Ihre Berufswahl beeinflusst haben (z. B. Stationen, wichtige Personen, Motivation, Folgen).",
+          "Beschreiben Sie eine Person aus Ihrem Umfeld, die für Sie ein berufliches Vorbild ist (z. B. Beziehung zu dieser Person, Eigenschaften, Einfluss auf Sie).",
+          "Beschreiben Sie das Vorgehen bei der Arbeitssuche für ein Land Ihrer Wahl (z. B. Angebote finden, Erstkontakt, Bewerbungsunterlagen oder -gespräch).",
+          "Beschreiben Sie, worauf es bei einem Bewerbungsgespräch ankommt. Sprechen Sie über ein Land Ihrer Wahl (z. B. Berufsfeld, Vorbereitung, Kleidung, typische Fragen).",
+          "Beschreiben Sie ein Produkt/eine Dienstleistung Ihrer Wahl (z.B. Merkmale, Nutzen für Kunden, Vor- und Nachteile, Erfolg).",
+          "Sie möchten sich selbstständig machen. Beschreiben Sie Ihre Geschäftsidee (z. B. welches Produkt/welche Dienstleistung, Besonderheiten, Zielgruppe)."
+        ]
+      },
+      {
+        "title": "Teil 1B und 1C · 2026",
+        "bullets": [
+          "Teil 1B: Nach deiner Präsentation stellt die Prüferin oder der Prüfer Rückfragen zu deinen Ausführungen.",
+          "Während du sprichst, macht sich dein Gesprächspartner bzw. deine Gesprächspartnerin Notizen.",
+          "Teil 1C: Die zweite prüfende Person bittet den Partner, einen Aspekt aus deiner Antwort noch einmal zu erläutern.",
+          "Typische Formulierung: TN A/B hat über ein Thema gesprochen; das wurde nicht ganz verstanden und soll noch einmal erklärt werden."
+        ]
+      },
+      {
+        "title": "Bestehenslogik · 2026",
+        "bullets": [
+          "Für die Gesamtprüfung braucht man 144 von 240 Punkten.",
+          "Mindestens drei der vier Subtests Lesen, Hören, Schreiben und Sprechen müssen über 60 Prozent liegen, also über 36 Punkte.",
+          "Ein schwächerer Subtest kann ausgeglichen werden, wenn er im Bereich zwischen 40 und 60 Prozent liegt."
+        ]
+      }
+    ],
     "resource_groups": [
       {
-        "title": "Teil 1: Themen, Tipps, Beispiele",
+        "title": "Teil 1: Tipps, Beispiele, Bewertung",
         "links": [
-          {
-            "label": "Sprechen Teil 1 (8 Themen)",
-            "url": "https://t.me/B2_C2_Deutsch/65534/174721"
-          },
           {
             "label": "Sprechen Teil 1 (8 Themen Tipps)",
             "url": "https://t.me/B2_C2_Deutsch/65534/183159"
@@ -42,18 +79,13 @@
           {
             "label": "Sprechen Teil 1 (Beispiele)",
             "url": "https://t.me/B2_C2_Deutsch/65534/183157"
-          }
-        ]
-      },
-      {
-        "title": "Bewertung & Redemittel",
-        "links": [
-          {
-            "label": "Sprechen Bewertung 1",
-            "url": "https://t.me/B2_C2_Deutsch/65534/176433"
           },
           {
-            "label": "Sprechen Bewertung 2",
+            "label": "Präsentation Beispiele",
+            "url": "https://t.me/B2_C2_Deutsch/65534/273628?single"
+          },
+          {
+            "label": "Sprechen Bewertung",
             "url": "https://t.me/B2_C2_Deutsch/65534/73816?single"
           },
           {
@@ -68,26 +100,22 @@
       }
     ],
     "notes": [
-      "Im PDF sind fuer Teil 1 vor allem Link-Sammlungen zu Themen, Tipps, Beispielen und Bewertung enthalten.",
-      "Diese Karte ist als schneller Einstieg gedacht: erst Punkteverteilung ansehen, dann direkt zu Themen und Beispielantworten springen."
+      "Die alte Karte war nur eine Linksammlung; die 2026-Version enthält jetzt die acht offiziellen Präsentationsthemen direkt im Website-Inhalt.",
+      "Für Teil 1 lohnt sich ein eigener kurzer Plan pro Thema: Einleitung, zwei bis drei Hauptpunkte, Beispiel, Abschluss."
     ]
   },
   {
     "id": "sprechen_2",
     "module": "sprechen",
     "part": "teil_2",
-    "test_title": "Smalltalk: Materialien, Dialoge & Uebersichten",
-    "intro": "Alle im PDF aufgefuehrten Materialien fuer Sprechen Teil 2 (Smalltalk).",
+    "test_title": "Smalltalk Teil 2 · 86 Themen · 2026",
+    "intro": "Neu aus Alle Information vom 27.04.2026: die Smalltalk-Liste steht jetzt direkt im Site-Training, nicht nur als Linkliste.",
     "resource_groups": [
       {
-        "title": "Themen & Sammlungen",
+        "title": "Themen & Dialoge · 2026",
         "links": [
           {
             "label": "Sprechen Teil 2 (77 Themen)",
-            "url": "https://t.me/B2_C2_Deutsch/65534/132742"
-          },
-          {
-            "label": "Sprechen Teil 2 (77 Themen) - weitere Sammlung",
             "url": "https://t.me/B2_C2_Deutsch/65534/181568"
           },
           {
@@ -97,53 +125,123 @@
           {
             "label": "Smalltalk Teil 2",
             "url": "https://t.me/B2_C2_Deutsch/65534/209268"
-          }
-        ]
-      },
-      {
-        "title": "Dialoge & Uebersetzung",
-        "links": [
+          },
           {
             "label": "Sprechen Teil 2 (Dialoge) - 77 Themen",
             "url": "https://t.me/B2_C2_Deutsch/65534/215175"
           },
           {
-            "label": "Sprechen Teil 2 (77 Themen mit Uebersetzung)",
-            "url": "https://t.me/B2_C2_Deutsch/65534/164337"
-          }
-        ]
-      },
-      {
-        "title": "Zusatzmaterial",
-        "links": [
-          {
-            "label": "Muendliche Teile 2 und 3",
-            "url": "https://t.me/B2_C2_Deutsch/65534/101684"
-          },
-          {
-            "label": "Sprechen Redemittel",
-            "url": "https://t.me/B2_C2_Deutsch/65534/192536?single"
+            "label": "Sprechen Teil 2 (Dialoge) - 43 Themen",
+            "url": "https://t.me/B2_C2_Deutsch/65534/279614"
           }
         ]
       }
     ],
+    "topics": [
+      "Ich finde, wir als Praktikant*innen sollten eigentlich keine Überstunden machen. Was meinst du? (Я считаю, что мы, как стажёры, не должны работать сверхурочно. Что ты думаешь?)",
+      "Ich gehe in der Mittagspause meist zum Imbiss um die Ecke. Wo isst du? (Я обычно хожу в закусочную за углом во время обеденного перерыва. А ты где ешь?)",
+      "Der Chef möchte, dass ich einen Computerkurs mache. Weißt du, wie ich das organisieren kann? (Шеф хочет, чтобы я прошел курс по компьютеру. Ты знаешь, как это организовать?)",
+      "Im Sommer fahre ich gerne an einen See zum Baden. Du auch oder magst du Freibäder lieber? (Летом я люблю ездить на озеро купаться. А ты? Или ты предпочитаешь бассейны под открытым небом?)",
+      "Wie und wann buchst du deinen Urlaub? (Как и когда ты бронируешь свой отпуск?)",
+      "Ich habe noch fünf Tage Resturlaub. Was passiert mit diesen Tagen? (У меня осталось пять дней неиспользованного отпуска. Что с ними будет?) / Ich habe vom Urlaub in diesem Jahr noch 5 Tage übrig. Was passiert eigentlich mit dem Resturlaub?",
+      "Ich arbeite im Homeoffice. Ich habe kein Diensthandy bekommen. Denkst du, dass ich mein Privathandy benutzen soll? (Я работаю из дома и не получил служебный телефон. Как думаешь, стоит ли использовать личный телефон?)",
+      "Der Chef möchte von Mitarbeitern die Arbeitsunfähigkeitsbescheinigung ab dem ersten Tag und nicht am dritten Tag. Was hältst du davon? (Шеф хочет, чтобы сотрудники приносили больничный с первого дня, а не с третьего. Что ты думаешь об этом?)",
+      "Am Samstag ist der Tag der offenen Tür im Unternehmen. Wir können unsere Kinder mitbringen. Bist du dabei? (В субботу в компании день открытых дверей. Мы можем привести детей. Ты пойдешь?)",
+      "Das Unternehmen gewährt keine Boni für dieses Jahr. Was hältst du davon? (Компания в этом году не выплачивает бонусы. Что ты об этом думаешь?)",
+      "80% der Mitarbeiter kommen mit dem Fahrrad zur Arbeit. Findest du es auch toll? (80% сотрудников приезжают на работу на велосипеде. Ты тоже считаешь это классным?)",
+      "Im Dezember gibt es Urlaubsperre. Findest du das fair? (В декабре запрещено брать отпуск. Ты считаешь это справедливым?)",
+      "Wo verbringst du am liebsten deine Mittagspause? Ich verbringe sie gerne außerhalb des Betriebs. (Где ты предпочитаешь проводить обеденный перерыв? Я люблю обедать вне офиса.)",
+      "Arbeitest du bevorzugt im Büro oder lieber von zu Hause aus? (Ты предпочитаешь работать в офисе или из дома?)",
+      "Ich bevorzuge im Herbst Urlaub zu nehmen, weil es viele Vorteile hat. Und du? Wann machst du Urlaub? (Я предпочитаю брать отпуск осенью, потому что это имеет много преимуществ. А ты? Когда ты берешь отпуск?)",
+      "Ich würde gerne in meiner Freizeit ehrenamtlich arbeiten. Hast du eine Idee, was man machen könnte? (Я бы хотел заниматься волонтерской работой в свободное время. У тебя есть идеи, чем можно заняться?)",
+      "Ich habe nächste Woche meine erste Nachtschicht. Was machst du, um wach zu bleiben? (На следующей неделе у меня первая ночная смена. Что ты делаешь, чтобы не уснуть?)",
+      "Bist du auch produktiver in der Frühschicht? Das trifft auf mich zu. (Ты тоже продуктивнее в утреннюю смену? Это про меня.)",
+      "Brauchst du nach der Arbeit auch erstmal Ruhe, wie ich? (Тебе тоже нужно немного отдыха после работы, как и мне?) / Wie entspannst du dich am besten nach der Arbeit?",
+      "Sollen wir mittags etwas bestellen? Wie wäre es mit einem gemeinsamen Mittagessen? (Может, закажем что-то на обед? Как насчет совместного обеда?)",
+      "Nächsten Monat kann ich leider keine Überstunden machen. Denkst du, dass es geht? (В следующем месяце я, к сожалению, не могу работать сверхурочно. Как думаешь, это возможно?)",
+      "Meine neue Kollegin ist unfreundlich. Hast du vielleicht Ratschläge, wie ich damit umgehen könnte? (Моя новая коллега недружелюбна. У тебя есть советы, как с этим справиться?)",
+      "Ich soll am Samstag für eine Kollegin einspringen. Weißt du, ob ich dafür nächste Woche einen anderen Tag frei bekomme? (Мне нужно заменить коллегу в субботу. Знаешь, получу ли я за это выходной на следующей неделе?)",
+      "Mein Kind weint in der Kita. Hast du Erfahrungen damit und Tipps, was ich tun könnte? (Мой ребенок плачет в детском саду. У тебя есть опыт в этом и советы, что делать?)",
+      "Ich möchte meine Kollegen besser kennenlernen. Hast du eine Idee, wie ich das machen könnte? (Я хочу лучше узнать своих коллег. У тебя есть идеи, как это сделать?)",
+      "Ich möchte gerne mal im Sommer Urlaub machen. Leider dürfen das nur Kolleg*innen mit Kindern. Findest du das fair? (Я бы хотел взять отпуск летом, но это разрешено только сотрудникам с детьми. Ты считаешь это справедливым?) / Nur Mitarbeitende mit schulpflichtigen Kindern dürfen Urlaub in den Sommerferien machen. Findest du das fair?",
+      "Bei uns in der Firma haben wir eine dreimonatige Kündigungsfrist. Ist das nicht zu viel? (У нас в компании срок увольнения — три месяца. Это не слишком долго?) / Findest du dreimonatige Kündigungsfrist fair?",
+      "Ich würde am Wochenende mit Freunden bei mir im Garten grillen. Magst du auch kommen? (Я собираюсь на выходных устроить барбекю в саду с друзьями. Хочешь присоединиться?)",
+      "Eine Freundin von mir sagt, dass in ihrer Firma freitags schon um 14 Uhr Feierabend ist. Was hältst du davon? (Моя подруга говорит, что в её компании в пятницу рабочий день заканчивается в 14:00. Что ты об этом думаешь?)",
+      "Im Unternehmen findet ein Seminar zur Stressbewältigung statt. Ich würde es gerne besuchen. Bist du auch dabei? (В компании проводится семинар по управлению стрессом. Я бы хотел его посетить. Ты тоже?)",
+      "Ich arbeite schon lange hier und würde mich gerne weiterentwickeln. Hast du Ideen, was ich machen könnte? (Я уже давно работаю здесь и хочу развиваться. У тебя есть идеи, что мне можно сделать?)",
+      "Ich brauche ein zusätzliches Einkommen. Denkst du es ist eine gute Idee, einen Nebenjob anzunehmen? (Мне нужен дополнительный доход. Ты думаешь, подработка – это хорошая идея?)",
+      "In der Firma soll es Maßnahmen zur betrieblichen Gesundheitsförderung geben. Wie findest du das? (В компании должны внедрить меры по укреплению здоровья сотрудников. Как ты к этому относишься?)",
+      "Findest du es auch super, dass in unserer Kantine mehr vegane und vegetarische Gerichte angeboten werden? (Ты тоже считаешь классным, что в нашей столовой стало больше веганских и вегетарианских блюд?)",
+      "Spielst du ein Musikinstrument? Ich würde gerne eins lernen. Kennst du hier gute Lehrmöglichkeiten? (Ты играешь на музыкальном инструменте? Я бы хотел научиться. Знаешь хорошие курсы?)",
+      "Diesen Sommer fahren wir im Urlaub nicht in die Heimat, sondern bleiben hier. Wollen wir mal etwas zusammen unternehmen? (Этим летом мы не поедем в отпуск на родину, а останемся здесь. Давай что-нибудь вместе организуем?)",
+      "Die Firma plant, ab diesem Jahr nur noch ein Sommerfest zu veranstalten. Die Weihnachtsfeier wird gestrichen. Wie findest du das? (Компания планирует теперь проводить только летний праздник, а рождественскую вечеринку отменить. Как тебе это?)",
+      "Weißt du, wie das in der Firma eigentlich mit der Krankmeldung geregelt ist? (Ты знаешь, как у нас в компании оформляют больничный?)",
+      "Hast du von dem Zuschuss der Firma für den Kauf eines E-Bikes gehört? Was denkst du darüber? (Ты слышал, что компания дает субсидию на покупку электровелосипеда? Что думаешь об этом?)",
+      "Verbringst du wichtige Feiertage eher mit der Familie oder mit Freunden? (Ты важные праздники проводишь с семьей или с друзьями?)",
+      "Was hältst du von Fahrgemeinschaften auf dem Weg zur Arbeit? Auf diese Weise könnte man Fahrtkosten sparen. (Что ты думаешь о совместных поездках на работу? Так можно сэкономить на проезде.) / Hast du Lust, eine Fahrgemeinschaft zu bilden?",
+      "Bevorzugst du bargeldlose Zahlungen oder zahlst du lieber bar? (Ты предпочитаешь безналичную оплату или платишь наличными?)",
+      "Denkst du, es ist eine gute Idee, sich selbstständig zu machen? (Ты считаешь хорошей идеей открыть собственное дело?)",
+      "Hast du auch mitbekommen, unsere Kantine wird für zwei Monate geschlossen, weil sie umgebaut wird? Was sagst du dazu? (Ты слышал, что нашу столовую закроют на два месяца из-за ремонта? Что ты думаешь об этом?)",
+      "Meinst du, dass man wirklich alle zwei Jahre ein neues Handy benötigt? (Ты считаешь, что действительно нужно менять телефон каждые два года?)",
+      "Nächsten Monat muss ich in eine Wohnung umziehen. Könntest du mir mit der Renovierung helfen? (В следующем месяце я переезжаю в новую квартиру. Ты мог бы помочь с ремонтом?)",
+      "Findest du eine Betriebsfeier mit oder ohne Partner besser? (Как ты считаешь, корпоратив лучше проводить с партнерами или без них?)",
+      "Ich mache gerne Überstunden. Du auch? (Мне нравится работать сверхурочно. А тебе?)",
+      "Hast du gehört, dass es in der Firma bald kostenlose Sportkurse geben soll? Ich würde gerne dran teilnehmen. Und du? (Ты слышал, что скоро в компании будут бесплатные спортивные занятия? Я хочу участвовать. А ты?)",
+      "Für mich wäre Schichtarbeit kein Problem. Wie siehst du das? (Мне было бы несложно работать посменно. А как ты к этому относишься?)",
+      "Wollen wir mal an einem Abend (morgen Abend) etwas mit Kolleg*innen unternehmen? (Может, как-нибудь вечером(завтрв вечером) организуем что-то с коллегами?)",
+      "Arbeitest du lieber im Team oder alleine? Ich persönlich bevorzuge, im Team zu arbeiten. (Ты предпочитаешь работать в команде или самостоятельно? Лично я предпочитаю работать в команде.)",
+      "Unser Betriebsausflug findet am Samstag statt. Was hältst du davon? (Наш корпоративный выезд состоится в субботу. Как ты к этому относишься?)",
+      "Ich nehme an Brückentagen immer frei. Und du? (Я всегда беру выходной на стыке праздников. А ты?)",
+      "Ich finde einen Tag extra Urlaub für einen Umzug sehr wenig. Was denkst du darüber? (Я считаю, что один день отпуска на переезд – это мало. Что ты думаешь?)",
+      "Alle Fortbildungen sollen dieses Jahr an Wochenenden stattfinden. Was hältst du davon? (Все курсы повышения квалификации в этом году будут проводиться по выходным. Как тебе это?)",
+      "Du arbeitest doch Vollzeit, oder? Wie schaffst du das denn mit deinem Kind? (Ты же работаешь полный день, верно? Как ты справляешься с этим и с ребенком?)",
+      "Dieses Jahr fällt unser Betriebsausflug aus. Was hältst du davon? (В этом году наш корпоративный выезд отменили. Как ты к этому относишься?)",
+      "Was wäre eine gute Idee für unseren nächsten Betriebsausflug? (Какая идея для следующего корпоративного выезда была бы хорошей?)",
+      "Bald ziehen wir um. Im neuen Gebäude arbeiten wir im Großraumbüro. Freust du dich auch darauf? (Скоро мы переезжаем. В новом здании у нас будет офис открытого типа. Ты этому рад?)",
+      "Ich wünsche, es gäbe mehr vegetarische Gerichte in der Kantine. Was denkst du darüber? (Я бы хотел, чтобы в столовой было больше вегетарианских блюд. Что ты об этом думаешь?) / Ich fände es gut, wenn es mehr vegetarische Gerichte in der Kantine geben würde. Was denkst du darüber?",
+      "Ich finde es gut, wenn wir uns einmal im Monat abends zu einem Stammtisch treffen würden. Und du? Machst du mit? (Я думаю, было бы здорово встречаться раз в месяц вечером за неформальным столом. А ты? Присоединишься?) / Hast du etwas dagegen, wenn wir einen Stammtisch organisieren?",
+      "Ich überlege, meine Stunden zu reduzieren und in Teilzeit zu arbeiten. Was denkst du? Ist das gut? (Я думаю о том, чтобы сократить рабочие часы и работать на полставки. Как ты считаешь, это хорошая идея?) / Ich möchte meine Stunden reduziere. Hast du darüber auch nachgedacht?",
+      "Mein Zug kommt jeden Morgen spät. Ich habe Angst, ich bekomme bald Ärger vom Chef. Was soll ich machen? (Мой поезд каждое утро опаздывает. Боюсь, что начальник начнет ругаться. Что мне делать?)",
+      "Ich möchte gerne mal einen Bildungsurlaub machen. Weißt du, wie das bei uns in der Firma geregelt ist? (Я хочу взять учебный отпуск. Ты знаешь, как это устроено в нашей компании?)",
+      "Unsere Abteilung plant, in ein Kochstudio zu gehen, um gemeinsam zu kochen. Mir gefällt diese Idee. Wie findest du sie? (Наш отдел планирует сходить в кулинарную студию и приготовить что-то вместе. Мне нравится эта идея. А тебе?)",
+      "Weißt du schon, wohin du in den Urlaub fährst? Bist du auf die Schulferien angewiesen? (Ты уже знаешь, куда поедешь в отпуск? Ты зависишь от школьных каникул?)",
+      "In der Kantine kann man nur noch abgepackte Brötchen kaufen. Ich würde gerne eine warme Mahlzeit essen. Wie ist das bei dir? (В столовой теперь можно купить только упакованные булочки. Я бы хотел есть теплую еду. А ты?)",
+      "Als neues Angebot für eine aktive Pause gibt es jetzt Tischtennis. Wollen wir mal in der Pause spielen? (Теперь в качестве активного отдыха на работе есть настольный теннис. Может, поиграем в перерыв?)",
+      "Die Firma plant einen Betriebsausflug über das ganze Wochenende. Was hältst du davon? (Компания планирует корпоративный выезд на целый уик-энд. Как ты к этому относишься?)",
+      "Hast du eine Idee / weißt du, was man in den Ferien mit Kindern hier in der Stadt unternehmen kann? (У тебя есть идеи, чем можно заняться с детьми в городе во время каникул?)",
+      "Weißt du schon, was du für unsere Weihnachtsfeier anziehst? Sie findet schon nächste Woche statt. (Ты уже знаешь, что наденешь на нашу рождественскую вечеринку? Она уже на следующей неделе.)",
+      "Ich finde flexible Arbeitszeiten großartig. Wann fängst du morgens mit der Arbeit an? (Я считаю, что гибкий график работы – это здорово. Во сколько ты начинаешь работать по утрам?)",
+      "Ich finde die Uniform langweilig. Was ist deine Meinung? (Я считаю, что униформа скучная. Каково твое мнение?)",
+      "Findest du es fair, dass wir die Kosten für die Fortbildungen selbst tragen sollen? (Ты считаешь справедливым, что мы должны сами оплачивать курсы повышения квалификации?)",
+      "Ich finde die Gleitzeit sehr familienfreundlich. Und du auch? (Я считаю, что гибкий график работы удобен для семейных людей. Ты согласен?)",
+      "Was denkst du? Was könnte eine gute Idee für eine aktive Pause sein? (Как ты думаешь, какая идея для активного перерыва была бы хорошей?)",
+      "Was ist wichtiger? Familie oder Karriere? (Что важне? Семья или карьера?)",
+      "Ich habe so viele Überstunden. Ist es besser, diese abzubummeln oder sich diese auszahlen zu lassen? (У меня так много переработок. Лучше взять отгулы или получить за них деньги?)",
+      "Ich bin nach der Arbeit immer so müde. Hast du Idee, wie ich mich trotz Familie erholen kann? (Я всегда такой уставший после работы. У тебя есть идея, как я могу отдохнуть, несмотря на семью?)",
+      "Müssen wir eigentlich im Homeoffice unser privates Handy für die Arbeit benutzen? Ich habe nämlich kein Diensthandy bekommen. (Должны ли мы вообще в хоум-офисе использовать свой личный телефон для работы? Дело в том, что мне не выдали служебный телефон.)",
+      "Gibt es in deinem Heimatland auch so viele Formulare und Bürokratie wie hier in Deutschland? (В твоей родной стране тоже так много формуляров, как здесь, в Германии?)",
+      "In der Firma ist die Rede davon, dass wir an einer Spendeaktion teilnehmen sollen. Machst du mit? (В компании говорят о том, что мы должны принять участие в благотворительной акции. Ты будешь участвовать?)",
+      "Wir bekommen Zuschuss für das Mittagessen in der Kantine. Findest du das gut? (Мы получаем дотацию на обед в столовой. Ты считаешь это хорошим?)",
+      "Wäre ein Seminar für Konfliktmanagement für unsere Team nützlich? Was meinst du? (Был бы полезен семинар по управлению конфликтами для нашей команды? Как ты думаешь?)",
+      "Ich hätte gerne rückenfreundliche Bürostühle, aber die Firma bezahlt das nicht. (Я бы хотел удобные для спины офисные стулья, но компания за это не платит.)"
+    ],
     "notes": [
-      "Fuer Smalltalk gibt es im PDF vor allem Link-Sammlungen, keine lange Liste ausformulierter Situationen direkt im Dokument.",
-      "Am bequemsten ist meistens die Reihenfolge: Themenliste, dann Dialoge, dann Redemittel."
+      "Die neue PDF-Version erweitert Smalltalk von reiner Linkliste auf eine direkt nutzbare Themenliste.",
+      "Beim Training reicht pro Thema oft: kurz reagieren, eigene Erfahrung nennen, eine Rückfrage stellen."
     ]
   },
   {
     "id": "sprechen_3",
     "module": "sprechen",
     "part": "teil_3",
-    "test_title": "Loesungswege diskutieren: 17 Situationen",
-    "intro": "Aus dem PDF komplett uebernommen: Ressourcen fuer Teil 3 und die 17 ausformulierten Situationen mit Stichpunkten.",
+    "test_title": "Lösungswege diskutieren · 66 Situationen · 2026",
+    "intro": "Neu aus Alle Information vom 27.04.2026: die ausformulierten Teil-3-Situationen wurden von 17 auf 66 erweitert.",
     "resource_groups": [
       {
         "title": "Allgemeine Materialien",
         "links": [
           {
-            "label": "Muendliche Teile 2 und 3",
+            "label": "Mündliche Teile 2 und 3",
             "url": "https://t.me/B2_C2_Deutsch/65534/101684"
           },
           {
@@ -151,11 +249,11 @@
             "url": "https://t.me/B2_C2_Deutsch/65534/149758"
           },
           {
-            "label": "37 Situationen mit Loesungen",
+            "label": "37 Situationen mit Lösungen",
             "url": "https://t.me/B2_C2_Deutsch/65534/160497"
           },
           {
-            "label": "37 Situationen mit Loesungen - weitere Sammlung",
+            "label": "37 Situationen mit Lösungen - weitere Sammlung",
             "url": "https://t.me/B2_C2_Deutsch/65534/140875"
           }
         ]
@@ -164,7 +262,7 @@
         "title": "Redemittel & Ideen",
         "links": [
           {
-            "label": "Allgemeine Phrasen und Ideen fuer Teil 3",
+            "label": "Allgemeine Phrasen und Ideen für Teil 3",
             "url": "https://t.me/B2_C2_Deutsch/65534/101686"
           },
           {
@@ -184,145 +282,465 @@
     ],
     "situations": [
       {
-        "title": "1. Situation: Tierchen im Mehl in einer Konditorei",
-        "description": "Sie arbeiten in einer Konditorei. Sie haben heute Morgen im Lager kleine Tierchen im Mehl entdeckt. Jetzt koennen Sie damit nicht backen, aber Sie haben wie immer viele Vorbestellungen fuer Kuchen.",
+        "title": "1. 2026: Sie arbeiten in einer Konditorei",
+        "description": "Sie arbeiten in einer Konditorei. Heute haben Sie Würmer/ kleine Tierchen im Mehl im Lager gefunden. Es muss schnell eine Lösung gefunden werden. Jetzt können Sie damit nicht backen, aber Sie haben wie immer viele Vorbestellungen für Kuchen.",
         "prompts": [
-          "Chef*in: Wie kontaktieren?",
-          "Kund*innen: Wie informieren? Was anbieten?",
+          "Chef: Wie kontaktieren?",
+          "Kunden: Wie informieren? Was anbieten?",
           "Lager: Was tun?",
           "Neues Mehl: Woher nehmen? Wo lagern?"
         ]
       },
       {
-        "title": "2. Situation: Aufenthalt eines wichtigen auslaendischen Kunden organisieren",
-        "description": "Sie sind in einem grossen Produktionsbetrieb taetig. Ein bedeutender auslaendischer Kunde plant naechsten Monat einen viertaegigen Aufenthalt in Ihrer Stadt. Ihr Vorgesetzter hat Sie beauftragt, die Organisation dieses Aufenthalts zu uebernehmen.",
+        "title": "2. 2026: Sie arbeiten in einer Bäckerei",
+        "description": "Sie arbeiten in einer Bäckerei. Der Backofen ist kaputt, und Sie müssen entscheiden, wie der Betrieb fortgesetzt wird.",
         "prompts": [
-          "Uebernachtungsmoeglichkeiten?",
+          "Den Laden öffnen.",
+          "Wen anrufen?",
+          "Was verkaufen? Preise.",
+          "Langfristig: Welche andere Handwerksfirma?"
+        ]
+      },
+      {
+        "title": "3. 2026: Sie arbeiten in einem Produktionsunternehmen, und es gibt ständige Konflikte zwischen drei Mi...",
+        "description": "Sie arbeiten in einem Produktionsunternehmen, und es gibt ständige Konflikte zwischen drei Mitarbeiterinnen im Team. Dies beeinträchtigt das Arbeitsklima und die Arbeitsleistung.",
+        "prompts": [
+          "Mit wem Gespräche führen.",
+          "Jobrotation möglich.",
+          "Produktionsleiter ansprechen.",
+          "Wie Atmosphäre verbessern.",
+          "Gruppenaktivitäten."
+        ]
+      },
+      {
+        "title": "4. 2026: Sie arbeiten in einem Altenheim",
+        "description": "Sie arbeiten in einem Altenheim. Einige Bewohner beschweren sich über das (geschmackliche) Essen, was dazu führt, dass sie weniger essen und abnehmen.",
+        "prompts": [
+          "Gespräch mit dem Küchenchef.",
+          "Neue Rezeptideen.",
+          "Lieblingsgericht der Bewohner erfragen.",
+          "Lebensmittel: Wo einkaufen?",
+          "Vegetarische oder vegane Speisen."
+        ]
+      },
+      {
+        "title": "5. 2026: Sie arbeiten bei einem Fastfood-Service und nutzen neue Transportboxen",
+        "description": "Sie arbeiten bei einem Fastfood-Service und nutzen neue Transportboxen. Diese öffnen sich beim Transport, und das Essen kommt kalt bei den Kunden an. / Sie arbeiten in einem Pizzaservice und haben seit einiger Zeit neue Transportboxen im Einsatz. Leider gehen diese während des Transports leicht auf, sodass das Essen kalt bei den Kunden ankommt.",
+        "prompts": [
+          "Kurzfristig: Wie Ware transportieren?",
+          "Kunden: Wie kontaktieren und was anbieten?",
+          "Hersteller: Was verlangen (fordern)?",
+          "Langfristig: andere Transportboxen suchen."
+        ]
+      },
+      {
+        "title": "6. 2026: Sie arbeiten in einem Restaurant, und am Abend ist eine Großveranstaltung geplant",
+        "description": "Sie arbeiten in einem Restaurant, und am Abend ist eine Großveranstaltung geplant. Leider gibt es einen Wasserschaden, weshalb die Veranstaltung abgesagt werden muss.",
+        "prompts": [
+          "Wasserschaden: Was tun? Handwerker: Wie finden?",
+          "Kunden: Wie informieren und was anbieten?",
+          "Lebensmittel: Was damit tun?",
+          "Aushilfskräfte: Wie kontaktieren?",
+          "Langfristige Problemlösungen."
+        ]
+      },
+      {
+        "title": "7. 2026: Ein Mitarbeiter hat eine Heizung für einen Kunden installiert, aber sie funktioniert nicht ri...",
+        "description": "Ein Mitarbeiter hat eine Heizung für einen Kunden installiert, aber sie funktioniert nicht richtig. (In allen Wohnungen die Batterien nicht funktionieren)",
+        "prompts": [
+          "Was macht die Firma?",
+          "Was kann der Mitarbeiter anbieten?",
+          "Langfristige Lösung.",
+          "Was fordern?"
+        ]
+      },
+      {
+        "title": "8. 2026: Sie arbeiten in einem Möbelunternehmen und verarbeiten Online- Bestellungen",
+        "description": "Sie arbeiten in einem Möbelunternehmen und verarbeiten Online- Bestellungen. Die neu installierte Bestellsoftware hat technische Fehler, wodurch viele Aufträge verloren gegangen sind. ( Sie arbeiten zusammen in einem Möbelunternehmen und bearbeiten dort die eingegangene Online-Bestellungen. Vor Kurzem wurde eine neue Bestell-Software installiert. Diese hat technische Fehler, sodass viele Aufträge verloren gegangen sind.)",
+        "prompts": [
+          "Verlorene Bestellungen: Was tun?",
+          "Kunden: Wie informieren und was anbieten?",
+          "Software-Firma: Wie kontaktieren und was fordern?",
+          "Langfristig: andere Softwarelösungen in Betracht ziehen."
+        ]
+      },
+      {
+        "title": "9. 2026: Sie arbeiten in einem Krankenhaus, und es gibt eine Beschwerde von Patienten",
+        "description": "Sie arbeiten in einem Krankenhaus, und es gibt eine Beschwerde von Patienten. (Patienten beschweren sich über einen Kollegen.)",
+        "prompts": [
+          "Wo liegt die Beschwerde?",
+          "Was anbieten?",
+          "Kurzfristige Lösung.",
+          "Langfristige Lösung."
+        ]
+      },
+      {
+        "title": "10. 2026: Sie arbeiten in einer Reinigungsfirma, und ein wichtiges Reinigungsgerät ( ein Gerät für Tepp...",
+        "description": "Sie arbeiten in einer Reinigungsfirma, und ein wichtiges Reinigungsgerät ( ein Gerät für Teppichboden) ist kaputt. Es gibt jedoch dringende Aufträge.",
+        "prompts": [
+          "Kunden: Was anbieten?",
+          "Vorübergehende Lösung?",
+          "Alternative Geräte?",
+          "Langfristige Lösung."
+        ]
+      },
+      {
+        "title": "11. 2026: Sie arbeiten in einem Café, und Kunden beschweren sich über die Unfreundlichkeit eines Kolleg...",
+        "description": "Sie arbeiten in einem Café, und Kunden beschweren sich über die Unfreundlichkeit eines Kollegen oder einer Kollegin.",
+        "prompts": [
+          "Problem ansprechen.",
+          "Chef informieren.",
+          "Kunden die Situation erklären.",
+          "Unterstützung für den Kollegen oder die Kollegin."
+        ]
+      },
+      {
+        "title": "12. 2026: Sie leiten einen Supermarkt, und Kunden beschweren sich über fehlende oder falsch einsortiert...",
+        "description": "Sie leiten einen Supermarkt, und Kunden beschweren sich über fehlende oder falsch einsortierte Lebensmittel.",
+        "prompts": [
+          "Beschwerden: welche Regale betroffen?",
+          "Teambesprechung: Wie ist die Maßnahmen zur Verbesserung.",
+          "Kunden: Kommunikation."
+        ]
+      },
+      {
+        "title": "13. 2026: Sie arbeiten in einem Restaurant, und der Geschirrspüler ist defekt",
+        "description": "Sie arbeiten in einem Restaurant, und der Geschirrspüler ist defekt. Das Geschirr muss manuell nachgespült werden. / Sie arbeiten zusammen in einem Cafe. Meist hat das Geschirr nach der Reinigung mit dem Geschirrspüler noch Rückstände, sodass man es noch einmal mit der Hand spülen muss.",
+        "prompts": [
+          "Geschirrspüler defekt: Reparatur.",
+          "Neuen Geschirrspüler kaufen.",
+          "Alternatives Reinigungsmittel.",
+          "Aushilfen besser anlernen."
+        ]
+      },
+      {
+        "title": "14. 2026: Sie arbeiten bei einem Pizza-Lieferdienst, und Kunden beschweren sich über falsche oder kalte...",
+        "description": "Sie arbeiten bei einem Pizza-Lieferdienst, und Kunden beschweren sich über falsche oder kalte Lieferungen.",
+        "prompts": [
+          "Falsche oder späte Lieferungen: Was tun?",
+          "Kunden: Wie reagieren und was anbieten?",
+          "Langfristig: Was tun, damit Pizzen richtig und pünktlich geliefert werden?"
+        ]
+      },
+      {
+        "title": "15. 2026: Der Drucker in Ihrem Geschäft funktioniert nicht, und es gibt viele Kunden",
+        "description": "Der Drucker in Ihrem Geschäft funktioniert nicht, und es gibt viele Kunden.",
+        "prompts": [
+          "Kunden: Wie reagieren?",
+          "Kunden: Was anbieten?",
+          "Techniker kontaktieren."
+        ]
+      },
+      {
+        "title": "16. 2026: Sie arbeiten in einem großen Hotel",
+        "description": "Sie arbeiten in einem großen Hotel. Manche Gäste haben sich beschwert, dass der Zimmerservice seine Arbeit nicht gut macht. Im Badezimmer werden schmutzige Handtücher oft nicht ausgetauscht, und die Betten sind oft nicht ordentlich hergerichtet.",
+        "prompts": [
+          "Schlechter Zimmerservice: Was tun?",
+          "Gäste: Wie kontaktieren?",
+          "Entschädigung anbieten?",
+          "Langfristig: Was tun, damit Zimmer stets ordentlich geputzt und aufgeräumt werden?"
+        ]
+      },
+      {
+        "title": "17. 2026: Sie arbeiten in einem kleinen Lebensmittelgeschäft",
+        "description": "Sie arbeiten in einem kleinen Lebensmittelgeschäft. Manche Kunden und Kundinnen haben sich darüber beschwert, dass gekaufte Lebensmittel nicht mehr haltbar waren.",
+        "prompts": [
+          "Lebensmittel: Was tun?",
+          "Kunden und Kundinnen: Wie kontaktieren?",
+          "Entschädigung anbieten?",
+          "Langfristig: Was tun, damit Haltbarkeit stets gewährleistet ist?"
+        ]
+      },
+      {
+        "title": "18. 2026: Sie arbeiten bei einem Malerbetrieb und sollten das Wohnzimmer einer Kundin streichen",
+        "description": "Sie arbeiten bei einem Malerbetrieb und sollten das Wohnzimmer einer Kundin streichen. Die Kundin hat sich beschwert, dass die Arbeiten sehr schlecht ausgeführt wurden. Es gibt an einigen Stellen an der Wand Flecken. Außerdem ist bei den Malerarbeiten eine Lampe der Kundin kaputtgegangen.",
+        "prompts": [
+          "Schlecht ausgeführte Arbeit: Was tun?",
+          "Kaputte Lampe: Ersetzen?",
+          "Wie bei Kundin entschuldigen?",
+          "Langfristig: Wie Beschwerden vermeiden?"
+        ]
+      },
+      {
+        "title": "19. 2026: Sie arbeiten in einem kleinen Café",
+        "description": "Sie arbeiten in einem kleinen Café. Einige Gäste haben sich beschwert, dass der Kaffee dort in letzter Zeit überhaupt nicht mehr schmeckt. Sie möchten den Kaffee am Ende nicht bezahlen und sind sehr unzufrieden.",
+        "prompts": [
+          "Kaffee: Was tun?",
+          "Kaffeeautomaten kontrollieren?",
+          "Wie bei Gästen entschuldigen?",
+          "Langfristig: Wie Qualität gewährleisten?"
+        ]
+      },
+      {
+        "title": "20. 2026: Sie arbeiten bei einem städtischen Verkehrsbetrieb",
+        "description": "Sie arbeiten bei einem städtischen Verkehrsbetrieb. Einige Fahrgäste haben sich beschwert, dass die Busfahrer und Busfahrerinnen oft zu früh losfahren, manchmal schon 3 Minuten vor der angegebenen Zeit. Dadurch verpassen viele Fahrgäste ihren Bus.",
+        "prompts": [
+          "Zu frühe Abfahrtszeiten: Was tun?",
+          "Mit Busfahrern / -fahrerinnen sprechen?",
+          "Wie bei Fahrgästen entschuldigen?",
+          "Langfristig: Wie Zeiten einhalten?"
+        ]
+      },
+      {
+        "title": "21. 2026: Sie arbeiten bei einer Sprachschule",
+        "description": "Sie arbeiten bei einer Sprachschule. Einige Schüler und Schülerinnen haben sich beschwert, dass es oft sehr laut ist, weil es draußen eine Baustelle gibt. Deshalb können sie sich nicht gut konzentrieren.",
+        "prompts": [
+          "Lärm von Baustelle: Was tun?",
+          "Andere Räume?",
+          "Wie bei Schülern / Schülerinnen entschuldigen?",
+          "Langfristig: Wie Lärm / Störungen vermeiden?"
+        ]
+      },
+      {
+        "title": "22. 2026: Sie arbeiten bei einem Elektrofachgeschäft",
+        "description": "Sie arbeiten bei einem Elektrofachgeschäft. Einige Kunden und Kundinnen haben sich beschwert, dass sie oft keinen Verkäufer oder keine Verkäuferin finden, wenn sie Hilfe brauchen. Auch die Beratung sei oft schlecht.",
+        "prompts": [
+          "Zu wenig Verkäufer/innen: Was tun?",
+          "Schlechte Beratung: Was tun?",
+          "Wie bei Kund/innen entschuldigen?",
+          "Langfristig: Wie Service verbessern?"
+        ]
+      },
+      {
+        "title": "23. 2026: Sie arbeiten bei einem Kindergarten",
+        "description": "Sie arbeiten bei einem Kindergarten. Einige Eltern haben sich beschwert, dass ein neuer Erzieher sehr unfreundlich zu den Kindern ist. Die Kinder haben teilweise sogar Angst, in den Kindergarten zu gehen.",
+        "prompts": [
+          "Unfreundlicher Erzieher: Was tun?",
+          "Kündigung? / Neuen Erzieher einstellen?",
+          "Wie bei Eltern entschuldigen?",
+          "Wie mit Kindern umgehen?"
+        ]
+      },
+      {
+        "title": "24. 2026: Sie arbeiten in einer großen Firma",
+        "description": "Sie arbeiten in einer großen Firma. Einige Kunden und Kundinnen haben sich beschwert, dass der Kaffeeautomat nicht funktioniert. Außerdem funktioniert auch der Aufzug oft nicht.",
+        "prompts": [
+          "Kaffeeautomat: Was tun?",
+          "Aufzug: Techniker rufen?",
+          "Wie bei Kunden / Kundinnen entschuldigen?",
+          "Langfristig: Wie Probleme vermeiden?"
+        ]
+      },
+      {
+        "title": "25. 2026: Sie arbeiten in einem Hotel",
+        "description": "Sie arbeiten in einem Hotel. Einige Gäste haben sich beschwert, dass das Essen vom Buffet oft kalt ist. Außerdem gibt es auf den Zimmern manchmal kein WLAN und die Gäste können nicht im Internet surfen.",
+        "prompts": [
+          "Kaltes Essen: Was tun?",
+          "Kein WLAN: Welche Lösung?",
+          "Entschädigung / Rabatt für Gäste?",
+          "Langfristig: Wie Service verbessern?"
+        ]
+      },
+      {
+        "title": "26. 2026: Sie arbeiten in einem Altenheim",
+        "description": "Sie arbeiten in einem Altenheim. Einige Bewohner haben sich beschwert, dass das Essen immer gleich ist und oft nicht schmeckt.",
+        "prompts": [
+          "Essen: Was tun?",
+          "Bewohner: Umfragen? Wie kontaktieren?",
+          "Wie entschuldigen?",
+          "Langfristig: Menü ändern? Neue Rezepte finden?"
+        ]
+      },
+      {
+        "title": "27. 2026: Sie arbeiten zusammen für einen Onlineshop",
+        "description": "Sie arbeiten zusammen für einen Onlineshop. Einige Kunden und Kundinnen haben sich darüber beschwert, dass bestellte Ware schlecht verpackt oder in beschädigtem Zustand bei ihnen angekommen ist.",
+        "prompts": [
+          "Beschädigte Ware: Was tun?",
+          "Kunden und Kundinnen: Wie kontaktieren? Was als Entschädigung anbieten?",
+          "Langfristig: Was tun, damit Ware in einwandfreiem Zustand ankommt?"
+        ]
+      },
+      {
+        "title": "28. 2026: Sie arbeiten in einem kleinen Fitnessstudio",
+        "description": "Sie arbeiten in einem kleinen Fitnessstudio. Einige Kundinnen und Kunden haben sich beschwert, dass die Fitness-Geräte zu alt sind und schlechte Qualität haben. Außerdem findet man oft keine/n Trainer/in, wenn man eine Frage hat.",
+        "prompts": [
+          "Fitness-Geräte: Was tun?",
+          "Wie Service im Studio verbessern?",
+          "Wie entschuldigen? Entschädigung anbieten?",
+          "Langfristig: Was tun, damit Kundinnen und Kunden zufrieden sind?"
+        ]
+      },
+      {
+        "title": "29. 2026: Sie sind in einem großen Produktionsbetrieb tätig",
+        "description": "Sie sind in einem großen Produktionsbetrieb tätig. Ein bedeutender ausländischer Kunde plant nächsten Monat einen viertägigen Aufenthalt in Ihrer Stadt. Ihr Vorgesetzter hat Sie beauftragt, die Organisation dieses Aufenthalts zu übernehmen. / Ein Gast aus dem Ausland sollte für eine Rast arrangiert werden.",
+        "prompts": [
+          "Übernachtungsmöglichkeiten?",
           "Wie abholen?",
           "Wen treffen?",
           "Was zeigen? Abendprogramm?"
         ]
       },
       {
-        "title": "3. Situation: Kollegin in der Baeckerei kommt immer zu spaet",
-        "description": "Sie arbeiten zusammen in einer Baeckerei, und einer Ihrer Kolleginnen kommt morgens immer wieder zu spaet, obwohl Sie sie bereits mehrmals darauf hingewiesen haben. Die Arbeit zu zweit zu bewaeltigen, wird dadurch zu einer Herausforderung.",
+        "title": "30. 2026: Sie arbeiten zusammen in einer Bäckerei, und einer Ihrer Kolleginnen kommt morgens immer wied...",
+        "description": "Sie arbeiten zusammen in einer Bäckerei, und einer Ihrer Kolleginnen kommt morgens immer wieder zu spät, obwohl Sie sie bereits mehrmals darauf hingewiesen haben. Die Arbeit zu zweit zu bewältigen, wird dadurch zu einer Herausforderung.",
         "prompts": [
           "Kollegin: Was tun?",
           "Chef*in: Wie Problem ansprechen?",
           "Kurzfristig: Wie reagieren?",
           "Arbeitsablauf: Was umorganisieren?",
-          "Langfristig: Was aendern?"
+          "Langfristig: Was ändern?"
         ]
       },
       {
-        "title": "4. Situation: Personalmangel im Kaufhaus vor Weihnachten",
-        "description": "Sie arbeiten in einem grossen Kaufhaus. Aufgrund von Krankheitsfaellen stehen in den einzelnen Abteilungen zu wenig Mitarbeiterinnen und Mitarbeiter zur Verfuegung, besonders in der beliebten Vorweihnachtszeit.",
+        "title": "31. 2026: Sie arbeiten zusammen in einem großen Frisörsalon und benutzen seit einiger Zeit neue Produkt...",
+        "description": "Sie arbeiten zusammen in einem großen Frisörsalon und benutzen seit einiger Zeit neue Produkte (Haarfarben). Einige Kundinnen und Kunden haben sich beschwert, dass die Haarfarben nicht lange halten und schnell verblassen.",
+        "prompts": [
+          "Haarfarben: Was tun?",
+          "Kunden und Kundinnen: Wie kontaktieren?",
+          "Entschädigung anbieten?",
+          "Langfristig: Welche Produkte/Haarfarben im Salon."
+        ]
+      },
+      {
+        "title": "32. 2026: Sie arbeiten als Kellner/in in einem Restaurant",
+        "description": "Sie arbeiten als Kellner/in in einem Restaurant. Seit einiger Zeit steht eine neue Orangenlimonade auf der Getränkekarte, die den meisten Gästen nicht schmeckt.",
+        "prompts": [
+          "Limonade: Was tun?",
+          "Kunden: Wie reagieren? Was anbieten?",
+          "Lieferanten: Wie kontaktieren? Was fordern?",
+          "Langfristig: Welche Limonade?",
+          "Welcher Lieferant?"
+        ]
+      },
+      {
+        "title": "33. 2026: Sie arbeiten in einem Restaurant, das ein „All you can eat“-Buffet anbietet",
+        "description": "Sie arbeiten in einem Restaurant, das ein „All you can eat“-Buffet anbietet. Einige Kunden haben sich darüber beschwert, dass es zu wenig Auswahl gibt und fast alle Gerichte mit Fleisch sind.",
+        "prompts": [
+          "Buffet: Um welche Speisen erweitern?",
+          "Kunden: Wie Wünsche erfragen?",
+          "Koch: Alternativen besprechen?",
+          "Langfristig: Lieferant für Gemüse/Obst ansprechen?"
+        ]
+      },
+      {
+        "title": "34. 2026: Sie leiten einen Supermarkt und arbeiten oft mit Aushilfskräften",
+        "description": "Sie leiten einen Supermarkt und arbeiten oft mit Aushilfskräften. Kunden beschweren sich, dass in den Regalen oft Lebensmittel fehlen oder falsch eingeordnet sind.",
+        "prompts": [
+          "Beschwerden: Welche Regale?",
+          "Teambesprechung: Wie ist die Situation?",
+          "Maßnahmen/Verbesserungen: Welche? Wie?",
+          "Kunden: Situation erklären?"
+        ]
+      },
+      {
+        "title": "35. 2026: Sie arbeiten in einem Großraumbüro",
+        "description": "Sie arbeiten in einem Großraumbüro. In letzter Zeit gab es wegen der hohen Lautstärke oft Beschwerden von Kollegen, die sich nicht auf ihre Arbeit konzentrieren konnten.",
+        "prompts": [
+          "Kollegen: Was stört?",
+          "Andere Kollegen: Wie ansprechen? Was tun?",
+          "Büro: Alternative?",
+          "Langfristig: Wie Lärm reduzieren?",
+          "Wie konzentriert arbeiten?"
+        ]
+      },
+      {
+        "title": "36. 2026: Sie arbeiten in einem Kindergarten",
+        "description": "Sie arbeiten in einem Kindergarten. Einige Eltern haben sich über das Essen des neuen Lieferanten beschwert, weil immer eine ungesunde Süßspeise wie Pudding enthalten ist.",
+        "prompts": [
+          "Zu viel Zucker: Was tun?",
+          "Eltern: Wie ansprechen?",
+          "Einzeln oder zusammen?",
+          "Lieferanten: Was fordern?",
+          "Langfristig: Welcher Lieferant?"
+        ]
+      },
+      {
+        "title": "37. 2026: Sie arbeiten bei einem Pizza-Lieferdienst",
+        "description": "Sie arbeiten bei einem Pizza-Lieferdienst. In letzter Zeit haben sich Kunden beschwert, dass die falsche Pizza geliefert wurde oder die Pizza schon kalt war, als sie ankam.",
+        "prompts": [
+          "Falsche/zu späte Lieferung: Was tun?",
+          "Kunden: Wie beruhigen? Was anbieten?",
+          "Fahrer: Wie ansprechen? Was tun?",
+          "Langfristig: Neue Kartons? Besseres Bestellsystem?"
+        ]
+      },
+      {
+        "title": "38. 2026: Sie arbeiten in einem großen Kaufhaus",
+        "description": "Sie arbeiten in einem großen Kaufhaus. Aufgrund von Krankheitsfällen stehen in den einzelnen Abteilungen zu wenig Mitarbeiterinnen und Mitarbeiter zur Verfügung, besonders in der beliebten Vorweihnachtszeit.",
         "prompts": [
           "Wie Personal bekommen?",
-          "Oeffnungszeiten aendern?",
-          "Ueberstunden aendern?",
+          "Öffnungszeiten ändern?",
+          "Überstunden ändern?",
           "Urlaubssperre?",
-          "Abteilung schliessen?",
-          "Danke fuer Mitarbeiter?"
+          "Abteilung schließen?",
+          "Danke für Mitarbeiter?"
         ]
       },
       {
-        "title": "5. Situation: Umzugsunternehmen ist insolvent",
-        "description": "Ihre Firma plant, im naechsten Monat umzuziehen. Bedauerlicherweise ist das beauftragte Umzugsunternehmen insolvent und kann den Umzug nicht durchfuehren.",
+        "title": "39. 2026: Ihre Firma plant, im nächsten Monat umzuziehen",
+        "description": "Ihre Firma plant, im nächsten Monat umzuziehen. Bedauerlicherweise ist das beauftragte Umzugsunternehmen insolvent und kann den Umzug nicht durchführen.",
         "prompts": [
           "Andere Umzugsfirmen?",
           "Umzug anders organisieren?",
-          "Wer koennte helfen?",
+          "Wer könnte helfen?",
           "Vermieter kontaktieren?",
           "Schadenersatz?"
         ]
       },
       {
-        "title": "6. Situation: Kuehlraum in der Grosskueche kaputt",
-        "description": "Sie arbeiten in einer Grosskueche. Der Kuehlraum funktioniert nicht. Weil es heiss ist, sind einige Lebensmittel schon schlecht geworden und der Rest muss schnell gekuehlt werden.",
+        "title": "40. 2026: Sie arbeiten in einer Großküche",
+        "description": "Sie arbeiten in einer Großküche. Der Kühlraum funktioniert nicht. Weil es heiß ist, sind einige Lebensmittel schon schlecht geworden und der Rest muss schnell gekühlt werden.",
         "prompts": [
-          "Kuehlraum: Was tun? Wen kontaktieren?",
+          "Kühlraum: Was tun? Wen kontaktieren?",
           "Schlecht gewordene Lebensmittel: Woher Ersatz?",
           "Andere Lebensmittel: Wie verwenden?",
-          "Langfristig: Welche Kuehlalternativen moeglich?"
+          "Langfristig: Welche Kühlalternativen möglich?"
         ]
       },
       {
-        "title": "7. Situation: Backofen in der Baeckerei funktioniert nicht",
-        "description": "Sie arbeiten in einer Baeckerei. Der Backofen funktioniert nicht und Sie koennen nicht backen.",
-        "prompts": [
-          "Was tun?",
-          "Laden heute oeffnen?",
-          "Wen anrufen?",
-          "Was verkaufen?",
-          "Preise?",
-          "Langfristig: Welche andere Handwerksfirma?"
-        ]
-      },
-      {
-        "title": "8. Situation: Falsches Produkt bei einer Moebelspedition geliefert",
-        "description": "Sie arbeiten bei einer Moebelspedition und stellen beim Kunden fest, dass ein falsches Produkt geliefert wurde.",
+        "title": "41. 2026: Sie arbeiten bei einer Möbelspedition und stellen beim Kunden fest, dass ein falsches Produkt...",
+        "description": "Sie arbeiten bei einer Möbelspedition und stellen beim Kunden fest, dass ein falsches Produkt geliefert wurde.",
         "prompts": [
           "Wer verantwortlich?",
           "Wen informieren?",
-          "Wann richtige Lieferung moeglich? Was Kunden anbieten?",
-          "Kosten fuer die zweite Lieferung?"
+          "Wann richtige Lieferung möglich? Was Kunden anbieten?",
+          "Kosten für die zweite Lieferung?"
         ]
       },
       {
-        "title": "9. Situation: Wasserschaden vor einer Grossveranstaltung im Restaurant",
-        "description": "Sie arbeiten in einem Restaurant, und am Abend ist eine Grossveranstaltung geplant. Leider gibt es einen Wasserschaden, weshalb die Veranstaltung abgesagt werden muss.",
+        "title": "42. 2026: Sie arbeiten in einem Altenheim, und der Essenslieferant bringt das Mittagessen für die Bewoh...",
+        "description": "Sie arbeiten in einem Altenheim, und der Essenslieferant bringt das Mittagessen für die Bewohner regelmäßig verspätet und kalt. Die Bewohner beschweren sich darüber.",
         "prompts": [
-          "Handwerker: Wie finden?",
-          "Gaeste: Wie informieren? Was anbieten?",
-          "Eingekaufte Lebensmittel: Was damit tun?",
-          "Aushilfskraefte: Wie kontaktieren?"
-        ]
-      },
-      {
-        "title": "10. Situation: Mittagessen im Altenheim kommt zu spaet und kalt",
-        "description": "Sie arbeiten in einem Altenheim, und der Essenslieferant bringt das Mittagessen fuer die Bewohner regelmaessig verspaetet und kalt. Die Bewohner beschweren sich darueber.",
-        "prompts": [
-          "Lieferzeit: Wie aendern?",
-          "Essen: Wie aufwaermen?",
+          "Lieferzeit: Wie ändern?",
+          "Essen: Wie aufwärmen?",
           "Lieferanten: Wie kontaktieren? Was fordern?",
           "Langfristig: Wie neuen Lieferanten finden?"
         ]
       },
       {
-        "title": "11. Situation: Salben und Oele im Krankenhaus nicht geliefert",
-        "description": "Sie arbeiten in der Physiotherapie-Abteilung eines Krankenhauses. Fuer die anstehenden Anwendungen sind verschiedene Salben und Oele erforderlich, die jedoch nicht geliefert wurden. Aber der Terminkalender ist voll.",
+        "title": "43. 2026: Sie arbeiten in der Physiotherapie-Abteilung eines Krankenhauses",
+        "description": "Sie arbeiten in der Physiotherapie-Abteilung eines Krankenhauses. Für die anstehenden Anwendungen sind verschiedene Salben und Öle erforderlich, die jedoch nicht geliefert wurden. Aber der Terminkalender ist voll.",
         "prompts": [
-          "Kurzfristige Loesung: Wo Produkte kaufen?",
+          "Kurzfristige Lösung: Wo Produkte kaufen?",
           "Termine: Wie Patienten erreichen?",
           "Lieferanten: Wie kontaktieren? Was fordern?",
           "Langfristig: Wie neuen Lieferanten finden?"
         ]
       },
       {
-        "title": "12. Situation: Doppelbuchungen im Hotel",
-        "description": "Sie arbeiten in einem Hotel, und es kommt haeufig vor, dass mehrere Buchungen fuer dasselbe Zimmer im gleichen Zeitraum vorgenommen werden.",
+        "title": "44. 2026: Sie arbeiten in einem Hotel, und es kommt häufig vor, dass mehrere Buchungen für dasselbe Zim...",
+        "description": "Sie arbeiten in einem Hotel, und es kommt häufig vor, dass mehrere Buchungen für dasselbe Zimmer im gleichen Zeitraum vorgenommen werden.",
         "prompts": [
           "Doppelbuchungen: Was tun?",
-          "Gaeste: Was anbieten?",
-          "Sofortmassnahmen: Wie Ersatz organisieren?",
-          "Wie die naechsten Buchungen kontrollieren?",
+          "Gäste: Was anbieten?",
+          "Sofortmaßnahmen: Wie Ersatz organisieren?",
+          "Wie die nächsten Buchungen kontrollieren?",
           "Langfristig: Wie in Zukunft vermeiden?"
         ]
       },
       {
-        "title": "13. Situation: Schoko-Hasen fuer Ostern zerbrochen",
-        "description": "Sie arbeiten in einem Supermarkt, und Ihre Kunden freuen sich jedes Jahr vor Ostern auf Schoko-Hasen, die Sie anbieten. Die Lieferung ist heute eingetroffen, aber leider sind alle Schoko-Hasen waehrend des Transports zerbrochen.",
+        "title": "45. 2026: Sie arbeiten in einem Supermarkt, und Ihre Kunden freuen sich jedes Jahr vor Ostern auf Schok...",
+        "description": "Sie arbeiten in einem Supermarkt, und Ihre Kunden freuen sich jedes Jahr vor Ostern auf Schoko-Hasen( vor Weihnachten auf Schoko-Nikoläuse), die Sie anbieten. Die Lieferung ist heute eingetroffen, aber leider sind alle Schoko-Hasen (Schoko- Nikoläuse), während des Transports zerbrochen.",
         "prompts": [
-          "Schoko-Hasen: Was tun?",
+          "Schoko-Hasen (Schoko-Nikoläuse): Was tun?",
           "Kunden: Wie kommunizieren? Was anbieten?",
           "Lieferanten: Wie kontaktieren? Was fordern?",
-          "Langfristig: Schoko-Hasen fuers naechste Jahr? Anderer Lieferant?"
+          "Langfristig: Schoko-Hasen (Schoko-Nikoläuse), fürs nächste Jahr? Anderer Lieferant?"
         ]
       },
       {
-        "title": "14. Situation: Schreibwaren zum Schulanfang nicht geliefert",
-        "description": "Sie arbeiten in einem Supermarkt. Es ist Montagmorgen, und laut Prospekt sollten ab heute guenstige Schreibwaren zum Schulanfang erhaeltlich sein. Leider sind diese nicht geliefert worden, obwohl viele Kunden bereits danach fragen.",
+        "title": "46. 2026: Sie arbeiten in einem Supermarkt",
+        "description": "Sie arbeiten in einem Supermarkt. Es ist Montagmorgen, und laut Prospekt sollten ab heute günstige Schreibwaren zum Schulanfang erhältlich sein. Leider sind diese nicht geliefert worden, obwohl viele Kunden bereits danach fragen. / Die Schulsaison steht vor der Tür und der Lieferant verzögert die Lieferung von Schreibwaren.",
         "prompts": [
           "Kunden: Wie beruhigen? Was anbieten?",
           "Lieferant: Wie kontaktieren? Was verlangen?",
@@ -330,46 +748,207 @@
         ]
       },
       {
-        "title": "15. Situation: Eisglatter Parkplatz vor einem Moebelgeschaeft",
-        "description": "Sie arbeiten in einem grossen Moebelgeschaeft am Stadtrand. Draussen hat es starken Eisregen gegeben, wodurch der Parkplatz so rutschig ist, dass die Kund*innen nicht mehr wegfahren koennen.",
+        "title": "47. 2026: Sie arbeiten in einem großen Möbelgeschäft am Stadtrand",
+        "description": "Sie arbeiten in einem großen Möbelgeschäft am Stadtrand. Draußen hat es starken Eisregen gegeben, wodurch der Parkplatz so rutschig ist, dass die Kund*innen nicht mehr wegfahren können.",
         "prompts": [
           "Winterdienst informieren?",
           "Wie Kund*innen beruhigen?",
           "Was Kund*innen anbieten?",
           "Was selbst tun?",
-          "Erste-Hilfe noetig?"
+          "Erste-Hilfe nötig?"
         ]
       },
       {
-        "title": "16. Situation: Neue Transportboxen beim Pizzaservice taugen nichts",
-        "description": "Sie arbeiten in einem Pizzaservice und haben seit einiger Zeit neue Transportboxen im Einsatz. Leider gehen diese waehrend des Transports leicht auf, sodass das Essen kalt bei den Kunden ankommt.",
+        "title": "48. 2026: Sie arbeiten als Koch in einem Restaurant",
+        "description": "Sie arbeiten als Koch in einem Restaurant. Sie arbeiten seit Kurzem mit einem regionalen Bauernhof und bekommen frisches Obst und Gemüse. Leider werden in der letzten Zeit die Lieferzeiten öfter nicht eingehalten, was regelmäßig zu Problemen führt.",
         "prompts": [
-          "Kurzfristig: Wie Ware transportieren?",
-          "Kund*innen: Wie kontaktieren? Was anbieten?",
-          "Hersteller: Was verlangen?",
-          "Langfristig: Andere Transportboxen?"
-        ]
-      },
-      {
-        "title": "17. Situation: Obst und Gemuese kommen zu spaet ins Restaurant",
-        "description": "Sie arbeiten als Koch in einem Restaurant. Sie arbeiten seit Kurzem mit einem regionalen Bauernhof und bekommen frisches Obst und Gemuese. Leider werden in der letzten Zeit die Lieferzeiten oefter nicht eingehalten, was regelmaessig zu Problemen fuehrt.",
-        "prompts": [
-          "Obst/Gemuese heute nicht geliefert: Was machen?",
+          "Obst/Gemüse heute nicht geliefert: Was machen?",
           "Heute: Wie Ersatz anschaffen?",
           "Lieferant: Wie kontaktieren? Was fordern?",
           "Langfristig: Welcher Lieferant?"
         ]
+      },
+      {
+        "title": "49. 2026: Sie arbeiten in einem Restaurant für Fischspezialitäten",
+        "description": "Sie arbeiten in einem Restaurant für Fischspezialitäten. Für heute Abend hat sich eine größere Gesellschaft angesagt. Leider hat Ihr Lieferant verdorbene Ware geliefert. Sie können das geplante Menü nicht vorbereiten.",
+        "prompts": [
+          "Lieferant: Wie kontaktieren? Was fordern?",
+          "Fisch: Woanders kaufen?",
+          "Gäste: Wie informieren? Was als Entschädigung anbieten?",
+          "Langfristig: Weitere Zusammenarbeit mit Lieferanten möglich?"
+        ]
+      },
+      {
+        "title": "50. 2026: Sie arbeiten in einer Firma und bestellen regelmäßig vegetarisches Essen von der CateringFirma",
+        "description": "Sie arbeiten in einer Firma und bestellen regelmäßig vegetarisches Essen von der CateringFirma. Leider hat die Catering-Firma schon wieder mal nicht Vegetarier- Variante.",
+        "prompts": [
+          "Catering: was bitten?",
+          "Andere Catering: Wo finden? Wie kontaktieren?",
+          "Langfristig: Anderen Catering."
+        ]
+      },
+      {
+        "title": "51. 2026: Sie arbeiten in einer Metzgerei",
+        "description": "Sie arbeiten in einer Metzgerei. Heute morgen haben Sie gemerkt, dass die Kühlung in einer der Fleischtheken nicht richtig funktioniert.",
+        "prompts": [
+          "Fleisch: Was tun?",
+          "Techniker: Wen kontaktieren?",
+          "Gaste: Lösung?",
+          "Langfristig : neu kaufen oder reparieren?"
+        ]
+      },
+      {
+        "title": "52. 2026: Sie arbeiten für ein Umzugsunternehmen",
+        "description": "Sie arbeiten für ein Umzugsunternehmen. Beim Transport ist ein antiker Spiegel auf die Treppe gefallen und wurde beschädigt. Der Kunde ist sehr verärgert, der Spiegel ist nicht zu ersetzen.",
+        "prompts": [
+          "Wen informieren?",
+          "Kosten: Wer bezahlt den Schaden?",
+          "Kunde: Was anbieten?",
+          "Langfristig: Wie Schäden vermeiden?"
+        ]
+      },
+      {
+        "title": "53. 2026: Wir arbeiten in Buchhandlung, die Umsätze rückläufig sind wegen Online-Geschäften",
+        "description": "Wir arbeiten in Buchhandlung, die Umsätze rückläufig sind wegen Online-Geschäften. Der Chef hat uns mit einer Aufgabe beauftragt, um die Kunden zurückzugewinnen.",
+        "prompts": [
+          "Angebote: Wir erweitern? Verkaufsstrategie?",
+          "Internetpräze?",
+          "Das Geschäft verkleinern?"
+        ]
+      },
+      {
+        "title": "54. 2026: Sie sind zu zweit Inhaberinnen einer Konditorei, ihr Vermieter hat zum nächsten Monat die Mie...",
+        "description": "Sie sind zu zweit Inhaberinnen einer Konditorei, ihr Vermieter hat zum nächsten Monat die Miete stark erhöht. Die Nebenkosten sind auch gestiegen.",
+        "prompts": [
+          "Vermieter: Was vorschlagen?",
+          "Mehreinnahmen: Wie?",
+          "Einsparmöglichkeiten?",
+          "Langfristig: neues Geschäft suchen, wie und was?"
+        ]
+      },
+      {
+        "title": "55. 2026: Sie arbeiten gemeinsam in einer Firma",
+        "description": "Sie arbeiten gemeinsam in einer Firma. Ihr Abteilungsleiter ist in den letzten Wochen übellaunig: Man merkt, dass er sehr gereizt ist und lässt es leider an den Mitarbeitern aus. Dadurch ist die Arbeitsatmosphäre schlecht geworden.",
+        "prompts": [
+          "Problem: Wie der Teamleiter ansprechen beziehungsweise wie mit ihm umgehen?",
+          "Den Chef informieren?",
+          "Mitarbeiter: Wie motivieren?",
+          "Andere Ideen oder Vorschläge."
+        ]
+      },
+      {
+        "title": "56. 2026: Sie arbeiten in einer Computerfirma und haben vor Wochen einen Teambildung-Nachmittag vorgesc...",
+        "description": "Sie arbeiten in einer Computerfirma und haben vor Wochen einen Teambildung-Nachmittag vorgeschlagen, leider hat niemand darauf reagiert. Sie versteht nicht warum, dabei wäre es zu Verbesserung Ihrer Zusammenarbeit relevant.",
+        "prompts": [
+          "Persönlich ansprechen",
+          "Gründe: Zeitmangel?",
+          "Desinteresse?",
+          "Gegenvorschläge?"
+        ]
+      },
+      {
+        "title": "57. 2026: Einer von unseren Kollegen bringt seinen Hund zur Arbeit und wir mögen keine Tiere",
+        "description": "Einer von unseren Kollegen bringt seinen Hund zur Arbeit und wir mögen keine Tiere.",
+        "prompts": [
+          "Team Sitzung organisieren und sprechen",
+          "Vorschläge",
+          "Wie wir mit unseren Kollegen vorgehen",
+          "Lösung"
+        ]
+      },
+      {
+        "title": "58. 2026: Sie arbeiten gemeinsam in einer Restaurantküche",
+        "description": "Sie arbeiten gemeinsam in einer Restaurantküche. Einige Gäste haben sich darüber beschwert, dass die Portionsgrößen oft zu klein sind und das Essen manchmal versalzen ist.",
+        "prompts": [
+          "Portionsgrößen: Was tun?",
+          "Versalzenes Essen: Wie verhindern?",
+          "Was Gästen als Entschädigung anbieten?",
+          "Langfristig: Was tun, damit Gäste mit Essen zufrieden?"
+        ]
+      },
+      {
+        "title": "59. 2026: Sie sollen für eine Betriebsfeier das Essen liefern",
+        "description": "Sie sollen für eine Betriebsfeier das Essen liefern. Der Auftrag wurde vom Kunden kurzfristig ohne Begründung storniert. Die Speisen sind bereits zubereitet und das Team gebucht.",
+        "prompts": [
+          "Was mit dem Essen machen? 2.Wen informieren?",
+          "Kosten: wer bezahlt?",
+          "Kunde: was fordern?"
+        ]
+      },
+      {
+        "title": "60. 2026: Sie arbeiten in einer Werbefirma und müssen für Kunden bis morgen Werbematerialien wie Flyer,...",
+        "description": "Sie arbeiten in einer Werbefirma und müssen für Kunden bis morgen Werbematerialien wie Flyer, Visitenkarten ausdrucken. Trotz einer vorherigen Wartung des Druckers durch einen Techniker haben alle Ausdrucke einen unerwünschten Blaustich.",
+        "prompts": [
+          "Drucker: Was mit dem kaputten Drucker tun?",
+          "Kunden: Wie kontaktieren? Was anbieten?",
+          "Techniker: Wie kontaktieren? Was fordern?",
+          "Langfristig: Welche anderen Möglichkeiten?"
+        ]
+      },
+      {
+        "title": "61. 2026: Sie arbeiten in einem Reinigungsunternehmen",
+        "description": "Sie arbeiten in einem Reinigungsunternehmen. Ein teures Abendkleid ist verfärbt. Die Kundin ist sehr wütend, weil sie das Kleid am Abend braucht. Sie droht mit dem Anwalt.",
+        "prompts": [
+          "wen informieren?",
+          "Kosten: Schaden beheben.",
+          "Kundin: Was anbieten?",
+          "Langfristig: Wie solche Fälle vermeiden?"
+        ]
+      },
+      {
+        "title": "62. 2026: Sie arbeiten bei einem IT-Reparaturdienst",
+        "description": "Sie arbeiten bei einem IT-Reparaturdienst. Manche Kundinnen und Kunden haben sich beschwert, dass die Reparaturen oft sehr lange dauern oder Computer- Fehler erst gar nicht gefunden werden.",
+        "prompts": [
+          "Reparatur-Service: Wie verbessern?",
+          "Schulungen für Mitarbeitende?",
+          "Was Kunden und Kundinnen als Entschädigung anbieten?",
+          "Langfristig: Was tun, damit Kundschaft zufrieden ist?"
+        ]
+      },
+      {
+        "title": "63. 2026: Ihr Unternehmen feiert in 3 Monaten sein 25 jähriges Bestehen",
+        "description": "Ihr Unternehmen feiert in 3 Monaten sein 25 jähriges Bestehen. Und ihr Chef hat sie gebeten, die Feier zu organisieren.",
+        "prompts": [
+          "Datum: Was ist das Beste? Warum?",
+          "Seite: im eigenen Zimmer? Zimmervermietung?",
+          "Programmvorschläge und Ideen: selbst organisieren? jemanden einstellen?",
+          "Sonderaktionen für Kunden: Sonderangebote? Werbegeschenke?"
+        ]
+      },
+      {
+        "title": "64. 2026: Sie arbeiten für ein Taxi-Unternehmen",
+        "description": "Sie arbeiten für ein Taxi-Unternehmen. Einige Fahrgäste haben sich beschwert, dass manche Taxifahrer und -fahrerinnen nicht freundlich sind und zu lange brauchen, um eine Adresse zu finden.",
+        "prompts": [
+          "Freundlichkeit: Wie verbessern?",
+          "Wie Adressen schneller finden?",
+          "Was Fahrgästen als Entschädigung anbieten?",
+          "Langfristig: Was tun, damit Fahrgäste zufrieden sind?"
+        ]
+      },
+      {
+        "title": "65. 2026: Für Ihr Büro wurden neue Arbeitstische bestellt",
+        "description": "Für Ihr Büro wurden neue Arbeitstische bestellt. Die Lieferung ist gerade eingetroffen. Bei der Überprüfung stellen Sie fest, dass sie fehlerhaft ist. Geliefert wurden Arbeitstische einer anderen Marke. Außerdem stimmen die Maße der Tische mit der Bestellung nicht überein.",
+        "prompts": [
+          "Ware: Was wurde bestellt? Warum wird es dringend benötigt?",
+          "Lieferung: Welche Fehler? Wie können sie behoben werden? Ware abholen? Richtige Ware nachliefern? Bis wann?",
+          "Lieferant: Wen und wie kontaktieren? Was fordern?",
+          "Kaufvertrag kündigen: Bestellung stornieren, wenn nicht innerhalb der 5 Werktage richtige Ware geliefert wird."
+        ]
+      },
+      {
+        "title": "66. 2026: Sie arbeiten in einem Kindergarten",
+        "description": "Sie arbeiten in einem Kindergarten. Für die neu renovierten Toiletten wurden neue Waschbecken und Kindertoiletten bestellt. Bei der Überprüfung der Lieferung haben Sie festgestellt, dass sie fehlerhaft ist. Geliefert wurden Toiletten und Waschbecken für Erwachsene. Außerdem stimmt weder die Menge noch die Farbe mit der Bestellung überein.",
+        "prompts": [
+          "Ware: Was wurde bestellt? Was stimmt nicht?",
+          "Lieferung: Welche Fehler? Wie können sie behoben werden? Ware abholen? Richtige Ware nachliefern? Bis wann?",
+          "Lieferant: Wen und wie kontaktieren? Was fordern?",
+          "Preisnachlass: Vom Kaufvertrag zurücktreten?"
+        ]
       }
     ],
     "notes": [
-      "Weitere im PDF notierte Themenfragmente: Drucker oder Backofen ist kaputt.",
-      "Weitere im PDF notierte Themenfragmente: Vermieter hat Miete erhoeht.",
-      "Weitere im PDF notierte Themenfragmente: In allen Wohnungen funktioniert die Batterie nicht.",
-      "Weitere im PDF notierte Themenfragmente: Mit dem Koch ueber neue Gerichte und Produktsuche sprechen.",
-      "Weitere im PDF notierte Themenfragmente: Schulsaison steht vor der Tuer und der Lieferant verzoegert die Lieferung von Schreibwaren.",
-      "Weitere im PDF notierte Themenfragmente: Sie arbeiten in einem Restaurant und haben verdorbenes Essen erhalten.",
-      "Weitere im PDF notierte Themenfragmente: Ein Gast aus dem Ausland soll fuer eine Rast oder Uebernachtung organisiert werden.",
-      "Weitere im PDF notierte Themenfragmente: Sie arbeiten in einem Krankenhaus, Patienten beschweren sich ueber einen Kollegen."
+      "Die ersten 17 Situationen aus der alten Version bleiben inhaltlich enthalten, wurden aber durch viele neue 2026-Situationen ergänzt.",
+      "Für jede Situation zuerst Problem, Sofortlösung, Kunden-/Teamkommunikation und langfristige Lösung trainieren."
     ]
   }
 ]
